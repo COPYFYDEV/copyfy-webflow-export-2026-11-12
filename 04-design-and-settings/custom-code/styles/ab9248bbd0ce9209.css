@@ -1,0 +1,3 @@
+
+.section-v2.is-white.no-pad:has(>.wip-blog-footer-cta-5)+.section-wrapper{border-radius:0;background:#000}
+.section-v2.is-white.no-pad:has(>.wip-blog-footer-cta-5)+.section-wrapper>.section-v2.is-footer{border-radius:0;background-color:#000;background-image:linear-gradient(0deg,#000,#00042b 14%,#011f58 28%,#001d8a 42%,#003db7 56%,#0080f8 70%,#0080f8 84%,#5fbdf7);background-size:100% 416%;background-position:center bottom;background-repeat:no-repeat}

@@ -1,0 +1,1 @@
+(function(){var m=location.pathname.match(/^\/(?:((?:en|es|nl|de))\/)?author\/thomas-salic\/?$/);if(m){document.documentElement.classList.add("cfap-author-route");document.documentElement.dataset.cfapLocale=m[1]||"fr"}else{document.title="Not Found";var d=document.querySelectorAll("meta[name=description]");if(d.length)d[d.length-1].remove()}})();

@@ -1,0 +1,13 @@
+
+#wip-blog-design{width:100%;background:#f8f9fc;color:#0b0d14}
+#wip-blog-design .navbar_component{position:relative;background:transparent;border:0;max-width:1090.752px;width:calc(100% - 40px);margin:auto;padding:0}
+#wip-blog-design .navbar_container{max-width:none;width:100%;padding:0;min-height:96px}
+#wip-blog-design .navbar_logo-link img{width:112px;height:auto;max-height:40px;object-fit:contain}
+#wip-blog-design .navbar_menu,#wip-blog-design .navbar_menu-left{background:transparent}
+#wip-blog-design .navbar_link,#wip-blog-design .navbar_dropdown-toggle{color:#fff;font:500 14px/1.4 Inter,system-ui,sans-serif}
+#wip-blog-design .navbar_button-wrapper .button{border-radius:9999px;white-space:nowrap}
+#wip-blog-design .wip-blog-intro{max-width:100%;color:rgba(255,255,255,.7)}
+#wip-blog-design .wip-blog-intro p{font:inherit;color:inherit;margin:0}
+#wip-blog-design .wip-blog-div-018{align-items:center}
+#wip-blog-design .wip-blog-rich-text{padding-bottom:0}
+@media(max-width:991px){#wip-blog-design .navbar_container{min-height:80px}#wip-blog-design .navbar_menu.w--nav-menu-open{background:#0e0e0f}}

@@ -1,0 +1,188 @@
+- navigation "Navigation":
+  - link "home":
+    - /url: /?r=0
+  - list:
+    - link "Dashboard":
+      - /url: /dashboard?utm_source=dashboard
+    - button "Marketplace menu dropdown":
+      - generic: Marketplace
+    - link "Learn":
+      - /url: https://university.webflow.com/?utm_source=dashboard
+    - button "Resources menu dropdown":
+      - generic: Resources
+    - button "Search":
+    - button "Notifications":
+    - button "Account":
+      - generic: Thomas Salic
+      - generic: TS
+- navigation:
+  - link "All projects":
+    - /url: /dashboard?activeTab=all-projects&workspace=thomass-workspace-395ee9
+    - generic: All projects
+  - link "General":
+    - /url: /dashboard/sites/copyfy-624656/general
+    - generic: General
+  - link "Site access":
+    - /url: /dashboard/sites/copyfy-624656/site-access
+    - generic: Site access
+  - link "Publishing":
+    - /url: /dashboard/sites/copyfy-624656/publishing
+    - generic: Publishing
+  - link "Billing":
+    - /url: /dashboard/sites/copyfy-624656/billing?sp=project fonts tab
+    - generic: Billing
+  - link "Plans":
+    - /url: /dashboard/sites/copyfy-624656/plans?ref=plans_tab
+    - generic: Plans
+  - button "Usage":
+    - text: Usage
+  - link "SEO":
+    - /url: /dashboard/sites/copyfy-624656/seo
+    - generic: SEO
+  - link "Forms":
+    - /url: /dashboard/sites/copyfy-624656/forms
+    - generic: Forms
+  - link "Fonts" [active]:
+    - /url: /dashboard/sites/copyfy-624656/fonts
+    - generic: Fonts
+  - link "Backups":
+    - /url: /dashboard/sites/copyfy-624656/backups
+    - generic: Backups
+  - link "Apps & Integrations":
+    - /url: /dashboard/sites/copyfy-624656/integrations
+    - generic: Apps & Integrations
+  - link "Custom code":
+    - /url: /dashboard/sites/copyfy-624656/custom-code
+    - generic: Custom code
+  - link "Webflow Cloud":
+    - /url: /dashboard/sites/copyfy-624656/webflow-cloud
+    - generic: Webflow Cloud
+- main:
+  - heading "Copyfy Visit website" [level=1]:
+    - text: Copyfy
+    - link "Visit website":
+      - /url: https://copyfy-624656.webflow.io
+  - button "Transfer site":
+  - button "Archive site":
+  - button "Duplicate site":
+  - button "Unpublish site" [disabled]:
+  - button "Share":
+    - generic: Share
+  - link "Open site in Webflow":
+    - /url: /external/designer/copyfy-624656
+    - generic: Open site in Webflow
+  - button "Publish":
+    - generic: Publish
+  - note:
+    - generic: GDPR compliance
+    - text: Webflow's Google Fonts integration requires the use of the Google Fonts API, which sends End User IP addresses to Google servers and may not be GDPR-compliant. To keep from sending End User IP addresses to Google Servers, we recommend downloading fonts from Google and uploading them as custom fonts.
+    - link "Learn more":
+      - /url: https://help.webflow.com/hc/en-us/articles/33961364593043
+  - heading "Google Fonts" [level=2]
+  - generic: Choose font from list
+  - combobox "Choose font from list"
+  - generic: Select Google Font...
+  - button "Toggle options":
+  - text: Preview the fonts on
+  - link "Google Fonts":
+    - /url: https://fonts.google.com/
+  - text: . Once you add a font here, refresh your site to make it available in the fonts list.
+  - table:
+    - rowgroup:
+      - row "Select all rows Font":
+        - columnheader "Select all rows":
+          - checkbox "Select all rows"
+        - columnheader "Font":
+          - generic: Font
+        - columnheader
+    - rowgroup:
+      - row "Select row 1 Inter 100, 200, 300, 400, 500, 600, 700, 800, 900 latin Delete Inter":
+        - cell "Select row 1":
+          - checkbox "Select row 1"
+        - cell "Inter 100, 200, 300, 400, 500, 600, 700, 800, 900 latin":
+          - generic: Inter
+          - generic: 100, 200, 300, 400, 500, 600, 700, 800, 900
+          - separator
+          - generic: latin
+        - cell "Delete Inter":
+          - button "Delete Inter":
+            - generic: Delete
+      - row "Select row 2 Inter Tight 100, 200, 300, 400, 500, 600, 700, 800, 900 latin Delete Inter Tight":
+        - cell "Select row 2":
+          - checkbox "Select row 2"
+        - cell "Inter Tight 100, 200, 300, 400, 500, 600, 700, 800, 900 latin":
+          - generic: Inter Tight
+          - generic: 100, 200, 300, 400, 500, 600, 700, 800, 900
+          - separator
+          - generic: latin
+        - cell "Delete Inter Tight":
+          - button "Delete Inter Tight":
+            - generic: Delete
+  - separator
+  - heading "Custom fonts" [level=2]
+  - generic: Upload
+  - text: Add custom fonts to your font list. For maximum browser support, upload in TTF, OTF, EOT and WOFF formats.
+  - link "Learn more about custom fonts":
+    - /url: https://help.webflow.com/hc/en-us/articles/33961287058451
+  - generic: Installed fonts
+  - table:
+    - rowgroup:
+      - row "Select all rows Font":
+        - columnheader "Select all rows":
+          - checkbox "Select all rows"
+        - columnheader "Font":
+          - generic: Font
+        - columnheader
+    - rowgroup:
+      - 'row "Select row 1 3 Cda 462 F F 7 A 5 4146 9 A 99 3 A 7 Bf 962 F 498 400 (Normal) Style: Normal ttf 105.539 KiB Display: swap Edit Delete 3 Cda 462 F F 7 A 5 4146 9 A 99 3 A 7 Bf 962 F 498"':
+        - cell "Select row 1":
+          - checkbox "Select row 1"
+        - 'cell "3 Cda 462 F F 7 A 5 4146 9 A 99 3 A 7 Bf 962 F 498 400 (Normal) Style: Normal ttf 105.539 KiB Display: swap"':
+          - generic: 3 Cda 462 F F 7 A 5 4146 9 A 99 3 A 7 Bf 962 F 498
+          - generic: 400 (Normal)
+          - separator
+          - generic: "Style: Normal"
+          - separator
+          - generic: ttf
+          - separator
+          - generic: 105.539 KiB
+          - separator
+          - generic: "Display: swap"
+        - cell "Edit Delete 3 Cda 462 F F 7 A 5 4146 9 A 99 3 A 7 Bf 962 F 498":
+          - button "Edit":
+            - generic: Edit
+          - button "Delete 3 Cda 462 F F 7 A 5 4146 9 A 99 3 A 7 Bf 962 F 498":
+            - generic: Delete
+  - generic: Fallbacks for installed fonts
+  - generic: Define the fallback font to be used in case a user’s web browser fails to load your custom fonts.
+  - table:
+    - rowgroup:
+      - row "3 Cda 462 F F 7 A 5 4146 9 A 99 3 A 7 Bf 962 F 498 falls back to a sans-serif font Font family Edit":
+        - cell "3 Cda 462 F F 7 A 5 4146 9 A 99 3 A 7 Bf 962 F 498 falls back to a sans-serif font Font family":
+          - generic: 3 Cda 462 F F 7 A 5 4146 9 A 99 3 A 7 Bf 962 F 498 falls back to a sans-serif font
+          - generic: Font family
+        - cell "Edit":
+          - button "Edit":
+            - generic: Edit
+  - separator
+  - heading "Adobe Fonts" [level=2]
+  - button "Save" [disabled]:
+    - generic: Save
+  - text: Use Adobe Fonts in this Webflow site by adding the API token below. You can also add a token for all of your sites in Workspace settings >
+  - link "Integrations.":
+    - /url: /dashboard/workspace/6275a9df1f89d0b2007e8292/integrations
+  - generic: Adobe Fonts API token for this site
+  - textbox "Adobe Fonts API token for this site"
+  - button "Save token" [disabled]:
+    - generic: Save token
+  - text: Create and retrieve Adobe Fonts API tokens on your
+  - link "Adobe Fonts account page":
+    - /url: https://fonts.adobe.com/account/tokens
+  - text: .
+- region "Notifications Alt+T":
+  - status:
+    - note:
+      - paragraph: Your export of redirects for Copyfy is ready.
+      - link "Download":
+        - /url: [temporary signed download URL omitted; see redirects.csv]
+      - button "Close":

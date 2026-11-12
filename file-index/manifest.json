@@ -1,0 +1,100 @@
+{
+  "dataset_file_count": 7599,
+  "index_files": [
+    {
+      "path": "file-index/001.json",
+      "file_count": 400,
+      "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/file-index/001.json"
+    },
+    {
+      "path": "file-index/002.json",
+      "file_count": 400,
+      "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/file-index/002.json"
+    },
+    {
+      "path": "file-index/003.json",
+      "file_count": 400,
+      "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/file-index/003.json"
+    },
+    {
+      "path": "file-index/004.json",
+      "file_count": 400,
+      "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/file-index/004.json"
+    },
+    {
+      "path": "file-index/005.json",
+      "file_count": 400,
+      "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/file-index/005.json"
+    },
+    {
+      "path": "file-index/006.json",
+      "file_count": 400,
+      "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/file-index/006.json"
+    },
+    {
+      "path": "file-index/007.json",
+      "file_count": 400,
+      "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/file-index/007.json"
+    },
+    {
+      "path": "file-index/008.json",
+      "file_count": 400,
+      "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/file-index/008.json"
+    },
+    {
+      "path": "file-index/009.json",
+      "file_count": 400,
+      "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/file-index/009.json"
+    },
+    {
+      "path": "file-index/010.json",
+      "file_count": 400,
+      "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/file-index/010.json"
+    },
+    {
+      "path": "file-index/011.json",
+      "file_count": 400,
+      "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/file-index/011.json"
+    },
+    {
+      "path": "file-index/012.json",
+      "file_count": 400,
+      "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/file-index/012.json"
+    },
+    {
+      "path": "file-index/013.json",
+      "file_count": 400,
+      "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/file-index/013.json"
+    },
+    {
+      "path": "file-index/014.json",
+      "file_count": 400,
+      "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/file-index/014.json"
+    },
+    {
+      "path": "file-index/015.json",
+      "file_count": 400,
+      "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/file-index/015.json"
+    },
+    {
+      "path": "file-index/016.json",
+      "file_count": 400,
+      "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/file-index/016.json"
+    },
+    {
+      "path": "file-index/017.json",
+      "file_count": 400,
+      "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/file-index/017.json"
+    },
+    {
+      "path": "file-index/018.json",
+      "file_count": 400,
+      "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/file-index/018.json"
+    },
+    {
+      "path": "file-index/019.json",
+      "file_count": 399,
+      "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/file-index/019.json"
+    }
+  ]
+}

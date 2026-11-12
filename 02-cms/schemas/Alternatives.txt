@@ -1,0 +1,92 @@
+- heading "Alternative Settings" [level=2]
+- heading [level=2]
+- button "Duplicate Collection":
+- button "Cancel":
+  - generic: Cancel
+- button "Save Collection":
+  - generic: Save Collection
+- generic: Collection Settings
+- generic: Collection ID
+- generic: 680fabf6920f2e7fd3e42706
+- button "Copy Collection ID":
+- generic: Collection Name
+- button:
+- textbox "E.g. Blog Posts": Alternatives
+- generic: "Plural version:"
+- generic: Alternatives
+- generic: "Singular version:"
+- generic: Alternative
+- generic: Collection URL
+- button:
+- text: The name of the folder that your Alternative pages will be stored in
+- textbox "E.g. post": alternatives
+- generic: www.copyfy.io/alternatives/alternative-page
+- button "Copy Collection URL":
+- generic: A Collection Page is created for Alternatives in the Pages panel.
+- generic: Collaborators can create and edit Alternatives in the Editor.
+- generic: Collection fields
+- button:
+- button "Add group":
+  - generic: Add group
+- separator
+- heading "Basic info" [level=3]:
+  - button "Basic info" [expanded]:
+    - generic: Basic info
+- region "Basic info":
+  - generic: Name
+  - generic: (Plain text)
+  - generic: Required Field
+  - generic: Slug
+  - generic: (Plain text)
+  - generic: Required Field
+- separator
+- heading "Custom fields" [level=3]:
+  - button "Custom fields" [expanded]:
+    - generic: Custom fields
+- region "Custom fields":
+  - button "Reorder field":
+  - generic: H1
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Main image
+  - generic: (Image)
+  - button "Reorder field":
+  - generic: Introduction
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Article
+  - generic: (Rich text)
+  - button "Reorder field":
+  - generic: Meta Title
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Meta Description
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Author
+  - generic: (Reference)
+  - button "Add Field":
+    - generic: Add Field
+- status
+- note:
+  - generic: 53/60 fields left.
+- generic: We also added Date Created, Date Edited and Date Published fields for you. You can use these to filter and sort Collection Lists in Webflow. These don't count against your field limit.
+- button "Delete Collection" [disabled]:
+  - generic: Delete Collection
+- button "View Connections":
+  - generic: View Connections
+- heading "Editor Preview" [level=2]
+- paragraph: This is the form that Collaborators will see when creating a new Alternative
+- heading "Basic Info" [level=3]
+- generic: Name *
+- generic: Slug *
+- generic: webflow.com/alternatives/example
+- heading "Custom fields" [level=3]
+- generic: H1
+- generic: Main image
+- generic: Introduction
+- generic: Article
+- generic: Meta Title
+- generic: Meta Description
+- generic: Author
+- region "Notifications Alt+T"

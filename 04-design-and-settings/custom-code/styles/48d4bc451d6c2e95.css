@@ -1,0 +1,7 @@
+
+/* Home footer and subtle white structural lines, scoped to the WIP. */
+#wip-blog-design>.section-v2.is-footer{background-color:#000;background-image:linear-gradient(0deg,#000,#00042b 14%,#011f58 28%,#001d8a 42%,#003db7 56%,#0080f8 70%,#0080f8 84%,#5fbdf7);background-size:100% 416%;background-position:center bottom;background-repeat:no-repeat}
+#wip-blog-design .wip-blog-hero-2,#wip-blog-design .wip-blog-footer-cta-4{position:relative;isolation:isolate}
+#wip-blog-design .wip-blog-hero-2::before,#wip-blog-design .wip-blog-footer-cta-4::before{content:"";position:absolute;z-index:-1;pointer-events:none;top:0;bottom:0;left:50%;transform:translateX(-50%);width:min(1154.752px,calc(100% - 24px));border-left:1px solid rgba(255,255,255,.06);border-right:1px solid rgba(255,255,255,.06);box-sizing:border-box}
+#wip-blog-design .wip-blog-hero-2::after,#wip-blog-design .wip-blog-footer-cta-4::after{content:"";position:absolute;z-index:-1;pointer-events:none;inset:0;border-top:1px solid rgba(255,255,255,.06);border-bottom:1px solid rgba(255,255,255,.06);border-radius:inherit;box-sizing:border-box}
+@media(max-width:991px){#wip-blog-design .wip-blog-hero-2::before,#wip-blog-design .wip-blog-footer-cta-4::before{width:calc(100% - 24px)}}

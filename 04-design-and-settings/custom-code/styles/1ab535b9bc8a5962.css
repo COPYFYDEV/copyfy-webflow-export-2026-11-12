@@ -1,0 +1,10 @@
+
+.section-v2.is-white.no-pad:has(>.wip-blog-footer-cta-5){flex-direction:column;padding-bottom:0}
+.wip-blog-footer-cta-5{margin-top:64px;width:100%;align-self:stretch;flex-shrink:0;position:relative;isolation:isolate;font-family:Inter,system-ui,sans-serif;letter-spacing:-.2px}
+.wip-blog-footer-cta-5 [class*="wip-blog-"]{font-family:Inter,system-ui,sans-serif}
+.wip-blog-footer-cta-5 .wip-blog-footer-heading{font-family:"Inter Tight",Inter,system-ui,sans-serif!important;font-weight:600;letter-spacing:-.6px;line-height:1.2;max-width:724.3275px}
+.wip-blog-footer-cta-5 .wip-blog-cta-shell [class*="text-v2"]{font-family:Inter,system-ui,sans-serif;white-space:nowrap}
+.wip-blog-footer-cta-5::before{content:"";position:absolute;z-index:-1;pointer-events:none;top:0;bottom:0;left:50%;transform:translateX(-50%);width:min(1154.752px,calc(100% - 24px));border-left:1px solid rgba(255,255,255,.06);border-right:1px solid rgba(255,255,255,.06);box-sizing:border-box}
+.wip-blog-footer-cta-5::after{content:"";position:absolute;z-index:-1;pointer-events:none;inset:0;border-top:1px solid rgba(255,255,255,.06);border-bottom:1px solid rgba(255,255,255,.06);border-radius:inherit;box-sizing:border-box}
+@media(max-width:479px){.wip-blog-footer-cta-5{margin-top:48px}}
+@media(max-width:991px){.wip-blog-footer-cta-5::before{width:calc(100% - 24px)}}

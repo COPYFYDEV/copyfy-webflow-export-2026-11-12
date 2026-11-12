@@ -1,0 +1,784 @@
+[
+  {
+    "source": "01-native-export/supplied-source/boutique-gratuite.html",
+    "attributes": {
+      "id": "email-form",
+      "name": "email-form",
+      "data-name": "Email Form",
+      "redirect": "/boutique-gratuite-access",
+      "data-redirect": "/boutique-gratuite-access",
+      "method": "get",
+      "class": "div-blue shadow div-price-header ctrd blog is-form",
+      "data-wf-page-id": "6a5a943217207012f5171a8a",
+      "data-wf-element-id": "22173a64-a06f-7e60-451b-cc53f68d586f"
+    },
+    "fields": [
+      {
+        "tag": "input",
+        "attributes": {
+          "class": "form_input corner-radius w-input",
+          "maxlength": "256",
+          "name": "Ton-Pr-nom",
+          "data-name": "Ton Prénom",
+          "placeholder": "Ton Prénom",
+          "type": "text",
+          "id": "Ton-Pr-nom",
+          "required": ""
+        }
+      },
+      {
+        "tag": "input",
+        "attributes": {
+          "class": "form_input email w-input",
+          "maxlength": "256",
+          "name": "Ton-email",
+          "data-name": "Ton email",
+          "placeholder": "Ton email",
+          "type": "email",
+          "id": "Ton-email",
+          "required": ""
+        }
+      },
+      {
+        "tag": "input",
+        "attributes": {
+          "type": "submit",
+          "data-wait": "Please wait...",
+          "data-w-id": "22173a64-a06f-7e60-451b-cc53f68d5876",
+          "class": "button-cta shadow div-price-header is-form w-button",
+          "value": "Je crée ma boutique gratuite"
+        }
+      }
+    ]
+  },
+  {
+    "source": "01-native-export/supplied-source/style-guide.html",
+    "attributes": {
+      "id": "wf-form-Form",
+      "name": "wf-form-Form",
+      "data-name": "Form",
+      "method": "get",
+      "class": "form_form",
+      "data-wf-page-id": "68c08b6745e1027c1f171ab3",
+      "data-wf-element-id": "c069768d-b8da-aa4b-62fb-8c5d300d05cf"
+    },
+    "fields": [
+      {
+        "tag": "input",
+        "attributes": {
+          "class": "form_input w-input",
+          "maxlength": "256",
+          "name": "First-Name",
+          "data-name": "First Name",
+          "placeholder": "First Name",
+          "type": "text",
+          "id": "First-Name-3"
+        }
+      },
+      {
+        "tag": "textarea",
+        "attributes": {
+          "id": "Message-3",
+          "name": "Message",
+          "maxlength": "5000",
+          "data-name": "Message",
+          "placeholder": "Message",
+          "class": "form_input is-text-area w-input"
+        }
+      },
+      {
+        "tag": "select",
+        "attributes": {
+          "id": "Select",
+          "name": "Select",
+          "data-name": "Select",
+          "class": "form_input is-select-input w-select"
+        },
+        "options": [
+          {
+            "attributes": {
+              "value": ""
+            },
+            "text": "Select one...\n                          "
+          },
+          {
+            "attributes": {
+              "value": "First"
+            },
+            "text": "First Choice\n                          "
+          },
+          {
+            "attributes": {
+              "value": "Second"
+            },
+            "text": "Second Choice\n                          "
+          },
+          {
+            "attributes": {
+              "value": "Third"
+            },
+            "text": "Third Choice\n                        "
+          }
+        ]
+      },
+      {
+        "tag": "input",
+        "attributes": {
+          "type": "checkbox",
+          "name": "Checkbox",
+          "id": "Checkbox",
+          "data-name": "Checkbox",
+          "style": "opacity:0;position:absolute;z-index:-1",
+          "checked": ""
+        }
+      },
+      {
+        "tag": "input",
+        "attributes": {
+          "type": "radio",
+          "name": "Radio",
+          "id": "radio",
+          "data-name": "Radio",
+          "class": "w-form-formradioinput form_radio-icon w-radio-input",
+          "value": "Radio"
+        }
+      },
+      {
+        "tag": "input",
+        "attributes": {
+          "type": "submit",
+          "data-wait": "Please wait...",
+          "class": "button is-form-submit w-button",
+          "value": "Submit"
+        }
+      }
+    ]
+  },
+  {
+    "source": "01-native-export/supplied-source/401.html",
+    "attributes": {
+      "action": "/.wf_auth",
+      "method": "post",
+      "id": "email-form",
+      "name": "email-form",
+      "data-name": "Email Form",
+      "class": "utility-page-form w-password-page",
+      "data-wf-page-id": "6800f5001b61cc1a17d7a44b",
+      "data-wf-element-id": "6800f5001b61cc1a17d7a44f00000000000c"
+    },
+    "fields": [
+      {
+        "tag": "input",
+        "attributes": {
+          "class": "w-password-page w-input",
+          "autofocus": "true",
+          "maxlength": "256",
+          "name": "pass",
+          "data-name": "field",
+          "placeholder": "Enter your password",
+          "type": "password",
+          "id": "pass"
+        }
+      },
+      {
+        "tag": "input",
+        "attributes": {
+          "type": "submit",
+          "data-wait": "Please wait...",
+          "class": "w-password-page w-button",
+          "value": "Submit"
+        }
+      },
+      {
+        "tag": "input",
+        "attributes": {
+          "type": "hidden",
+          "name": "path",
+          "value": "<%WF_FORM_VALUE_PATH%>"
+        }
+      },
+      {
+        "tag": "input",
+        "attributes": {
+          "type": "hidden",
+          "name": "page",
+          "value": "<%WF_FORM_VALUE_PAGE%>"
+        }
+      }
+    ]
+  },
+  {
+    "source": "01-native-export/supplied-source/boutique-gratuite-access.html",
+    "attributes": {
+      "id": "wf-form-Shopify-URL",
+      "name": "wf-form-Shopify-URL",
+      "data-name": "Shopify URL",
+      "method": "get",
+      "class": "form-shopify-url",
+      "data-wf-page-id": "6a5ba690b4c787c14e4e5ee1",
+      "data-wf-element-id": "b55062d0-d13d-dd3b-ada4-6ddc46724f01"
+    },
+    "fields": [
+      {
+        "tag": "input",
+        "attributes": {
+          "class": "form_input url w-input",
+          "maxlength": "256",
+          "name": "Shopify-URL",
+          "data-name": "Shopify URL",
+          "placeholder": "Votre URL Shopify",
+          "type": "url",
+          "id": "Shopify-URL",
+          "required": ""
+        }
+      },
+      {
+        "tag": "input",
+        "attributes": {
+          "type": "submit",
+          "data-wait": "Please wait...",
+          "class": "submit-button w-button",
+          "value": "Submit"
+        }
+      }
+    ]
+  },
+  {
+    "source": "03-published-site/pages/boutique-gratuite/index.html",
+    "attributes": {
+      "id": "email-form",
+      "name": "email-form",
+      "data-name": "Email Form",
+      "redirect": "/boutique-gratuite-access",
+      "data-redirect": "/boutique-gratuite-access",
+      "method": "get",
+      "class": "div-blue shadow div-price-header ctrd blog is-form",
+      "data-wf-page-id": "6a5a943217207012f5171a8a",
+      "data-wf-element-id": "22173a64-a06f-7e60-451b-cc53f68d586f"
+    },
+    "fields": [
+      {
+        "tag": "input",
+        "attributes": {
+          "class": "form_input corner-radius w-input",
+          "maxlength": "256",
+          "name": "Ton-Pr-nom",
+          "data-name": "Ton Prénom",
+          "placeholder": "Ton Prénom",
+          "type": "text",
+          "id": "Ton-Pr-nom",
+          "required": ""
+        }
+      },
+      {
+        "tag": "input",
+        "attributes": {
+          "class": "form_input email w-input",
+          "maxlength": "256",
+          "name": "Ton-email",
+          "data-name": "Ton email",
+          "placeholder": "Ton email",
+          "type": "email",
+          "id": "Ton-email",
+          "required": ""
+        }
+      },
+      {
+        "tag": "input",
+        "attributes": {
+          "type": "submit",
+          "data-wait": "Please wait...",
+          "data-w-id": "22173a64-a06f-7e60-451b-cc53f68d5876",
+          "class": "button-cta shadow div-price-header is-form w-button",
+          "value": "Je crée ma boutique gratuite"
+        }
+      }
+    ]
+  },
+  {
+    "source": "03-published-site/pages/boutique-gratuite-access/index.html",
+    "attributes": {
+      "id": "wf-form-Shopify-URL",
+      "name": "wf-form-Shopify-URL",
+      "data-name": "Shopify URL",
+      "method": "get",
+      "class": "form-shopify-url",
+      "data-wf-page-id": "6a5ba690b4c787c14e4e5ee1",
+      "data-wf-element-id": "b55062d0-d13d-dd3b-ada4-6ddc46724f01"
+    },
+    "fields": [
+      {
+        "tag": "input",
+        "attributes": {
+          "class": "form_input url w-input",
+          "maxlength": "256",
+          "name": "Shopify-URL",
+          "data-name": "Shopify URL",
+          "placeholder": "Votre URL Shopify",
+          "type": "url",
+          "id": "Shopify-URL",
+          "required": ""
+        }
+      },
+      {
+        "tag": "input",
+        "attributes": {
+          "type": "submit",
+          "data-wait": "Please wait...",
+          "class": "submit-button w-button",
+          "value": "Submit"
+        }
+      }
+    ]
+  },
+  {
+    "source": "03-published-site/pages/en/boutique-gratuite/index.html",
+    "attributes": {
+      "id": "email-form",
+      "name": "email-form",
+      "data-name": "Email Form",
+      "redirect": "/boutique-gratuite-access",
+      "data-redirect": "/boutique-gratuite-access",
+      "method": "get",
+      "class": "div-blue shadow div-price-header ctrd blog is-form",
+      "data-wf-page-id": "6a5a943217207012f5171a8a",
+      "data-wf-element-id": "22173a64-a06f-7e60-451b-cc53f68d586f",
+      "data-wf-locale-id": "68014b7f36ec4a9e0f06d593"
+    },
+    "fields": [
+      {
+        "tag": "input",
+        "attributes": {
+          "class": "form_input corner-radius w-input",
+          "maxlength": "256",
+          "name": "Ton-Pr-nom",
+          "data-name": "Ton Prénom",
+          "placeholder": "Ton Prénom",
+          "type": "text",
+          "id": "Ton-Pr-nom",
+          "required": ""
+        }
+      },
+      {
+        "tag": "input",
+        "attributes": {
+          "class": "form_input email w-input",
+          "maxlength": "256",
+          "name": "Ton-email",
+          "data-name": "Ton email",
+          "placeholder": "Ton email",
+          "type": "email",
+          "id": "Ton-email",
+          "required": ""
+        }
+      },
+      {
+        "tag": "input",
+        "attributes": {
+          "type": "submit",
+          "data-wait": "Please wait...",
+          "data-w-id": "22173a64-a06f-7e60-451b-cc53f68d5876",
+          "class": "button-cta shadow div-price-header is-form w-button",
+          "value": "Je crée ma boutique gratuite"
+        }
+      }
+    ]
+  },
+  {
+    "source": "03-published-site/pages/en/boutique-gratuite-access/index.html",
+    "attributes": {
+      "id": "wf-form-Shopify-URL",
+      "name": "wf-form-Shopify-URL",
+      "data-name": "Shopify URL",
+      "method": "get",
+      "class": "form-shopify-url",
+      "data-wf-page-id": "6a5ba690b4c787c14e4e5ee1",
+      "data-wf-element-id": "b55062d0-d13d-dd3b-ada4-6ddc46724f01",
+      "data-wf-locale-id": "68014b7f36ec4a9e0f06d593"
+    },
+    "fields": [
+      {
+        "tag": "input",
+        "attributes": {
+          "class": "form_input url w-input",
+          "maxlength": "256",
+          "name": "Shopify-URL",
+          "data-name": "Shopify URL",
+          "placeholder": "Votre URL Shopify",
+          "type": "url",
+          "id": "Shopify-URL",
+          "required": ""
+        }
+      },
+      {
+        "tag": "input",
+        "attributes": {
+          "type": "submit",
+          "data-wait": "Please wait...",
+          "class": "submit-button w-button",
+          "value": "Submit"
+        }
+      }
+    ]
+  },
+  {
+    "source": "03-published-site/pages/es/boutique-gratuite/index.html",
+    "attributes": {
+      "id": "email-form",
+      "name": "email-form",
+      "data-name": "Email Form",
+      "redirect": "/boutique-gratuite-access",
+      "data-redirect": "/boutique-gratuite-access",
+      "method": "get",
+      "class": "div-blue shadow div-price-header ctrd blog is-form",
+      "data-wf-page-id": "6a5a943217207012f5171a8a",
+      "data-wf-element-id": "22173a64-a06f-7e60-451b-cc53f68d586f",
+      "data-wf-locale-id": "68014b7f36ec4a9e0f06d594"
+    },
+    "fields": [
+      {
+        "tag": "input",
+        "attributes": {
+          "class": "form_input corner-radius w-input",
+          "maxlength": "256",
+          "name": "Ton-Pr-nom",
+          "data-name": "Ton Prénom",
+          "placeholder": "Ton Prénom",
+          "type": "text",
+          "id": "Ton-Pr-nom",
+          "required": ""
+        }
+      },
+      {
+        "tag": "input",
+        "attributes": {
+          "class": "form_input email w-input",
+          "maxlength": "256",
+          "name": "Ton-email",
+          "data-name": "Ton email",
+          "placeholder": "Ton email",
+          "type": "email",
+          "id": "Ton-email",
+          "required": ""
+        }
+      },
+      {
+        "tag": "input",
+        "attributes": {
+          "type": "submit",
+          "data-wait": "Please wait...",
+          "data-w-id": "22173a64-a06f-7e60-451b-cc53f68d5876",
+          "class": "button-cta shadow div-price-header is-form w-button",
+          "value": "Je crée ma boutique gratuite"
+        }
+      }
+    ]
+  },
+  {
+    "source": "03-published-site/pages/es/boutique-gratuite-access/index.html",
+    "attributes": {
+      "id": "wf-form-Shopify-URL",
+      "name": "wf-form-Shopify-URL",
+      "data-name": "Shopify URL",
+      "method": "get",
+      "class": "form-shopify-url",
+      "data-wf-page-id": "6a5ba690b4c787c14e4e5ee1",
+      "data-wf-element-id": "b55062d0-d13d-dd3b-ada4-6ddc46724f01",
+      "data-wf-locale-id": "68014b7f36ec4a9e0f06d594"
+    },
+    "fields": [
+      {
+        "tag": "input",
+        "attributes": {
+          "class": "form_input url w-input",
+          "maxlength": "256",
+          "name": "Shopify-URL",
+          "data-name": "Shopify URL",
+          "placeholder": "Votre URL Shopify",
+          "type": "url",
+          "id": "Shopify-URL",
+          "required": ""
+        }
+      },
+      {
+        "tag": "input",
+        "attributes": {
+          "type": "submit",
+          "data-wait": "Please wait...",
+          "class": "submit-button w-button",
+          "value": "Submit"
+        }
+      }
+    ]
+  },
+  {
+    "source": "03-published-site/pages/de/boutique-gratuite/index.html",
+    "attributes": {
+      "id": "email-form",
+      "name": "email-form",
+      "data-name": "Email Form",
+      "redirect": "/boutique-gratuite-access",
+      "data-redirect": "/boutique-gratuite-access",
+      "method": "get",
+      "class": "div-blue shadow div-price-header ctrd blog is-form",
+      "data-wf-page-id": "6a5a943217207012f5171a8a",
+      "data-wf-element-id": "22173a64-a06f-7e60-451b-cc53f68d586f",
+      "data-wf-locale-id": "69f100aeb7142f11ffc29d96"
+    },
+    "fields": [
+      {
+        "tag": "input",
+        "attributes": {
+          "class": "form_input corner-radius w-input",
+          "maxlength": "256",
+          "name": "Ton-Pr-nom",
+          "data-name": "Ton Prénom",
+          "placeholder": "Ton Prénom",
+          "type": "text",
+          "id": "Ton-Pr-nom",
+          "required": ""
+        }
+      },
+      {
+        "tag": "input",
+        "attributes": {
+          "class": "form_input email w-input",
+          "maxlength": "256",
+          "name": "Ton-email",
+          "data-name": "Ton email",
+          "placeholder": "Ton email",
+          "type": "email",
+          "id": "Ton-email",
+          "required": ""
+        }
+      },
+      {
+        "tag": "input",
+        "attributes": {
+          "type": "submit",
+          "data-wait": "Please wait...",
+          "data-w-id": "22173a64-a06f-7e60-451b-cc53f68d5876",
+          "class": "button-cta shadow div-price-header is-form w-button",
+          "value": "Je crée ma boutique gratuite"
+        }
+      }
+    ]
+  },
+  {
+    "source": "03-published-site/pages/de/boutique-gratuite-access/index.html",
+    "attributes": {
+      "id": "wf-form-Shopify-URL",
+      "name": "wf-form-Shopify-URL",
+      "data-name": "Shopify URL",
+      "method": "get",
+      "class": "form-shopify-url",
+      "data-wf-page-id": "6a5ba690b4c787c14e4e5ee1",
+      "data-wf-element-id": "b55062d0-d13d-dd3b-ada4-6ddc46724f01",
+      "data-wf-locale-id": "69f100aeb7142f11ffc29d96"
+    },
+    "fields": [
+      {
+        "tag": "input",
+        "attributes": {
+          "class": "form_input url w-input",
+          "maxlength": "256",
+          "name": "Shopify-URL",
+          "data-name": "Shopify URL",
+          "placeholder": "Votre URL Shopify",
+          "type": "url",
+          "id": "Shopify-URL",
+          "required": ""
+        }
+      },
+      {
+        "tag": "input",
+        "attributes": {
+          "type": "submit",
+          "data-wait": "Please wait...",
+          "class": "submit-button w-button",
+          "value": "Submit"
+        }
+      }
+    ]
+  },
+  {
+    "source": "03-published-site/pages/nl/boutique-gratuite/index.html",
+    "attributes": {
+      "id": "email-form",
+      "name": "email-form",
+      "data-name": "Email Form",
+      "redirect": "/boutique-gratuite-access",
+      "data-redirect": "/boutique-gratuite-access",
+      "method": "get",
+      "class": "div-blue shadow div-price-header ctrd blog is-form",
+      "data-wf-page-id": "6a5a943217207012f5171a8a",
+      "data-wf-element-id": "22173a64-a06f-7e60-451b-cc53f68d586f",
+      "data-wf-locale-id": "6932a718bcb050f83738706b"
+    },
+    "fields": [
+      {
+        "tag": "input",
+        "attributes": {
+          "class": "form_input corner-radius w-input",
+          "maxlength": "256",
+          "name": "Ton-Pr-nom",
+          "data-name": "Ton Prénom",
+          "placeholder": "Ton Prénom",
+          "type": "text",
+          "id": "Ton-Pr-nom",
+          "required": ""
+        }
+      },
+      {
+        "tag": "input",
+        "attributes": {
+          "class": "form_input email w-input",
+          "maxlength": "256",
+          "name": "Ton-email",
+          "data-name": "Ton email",
+          "placeholder": "Ton email",
+          "type": "email",
+          "id": "Ton-email",
+          "required": ""
+        }
+      },
+      {
+        "tag": "input",
+        "attributes": {
+          "type": "submit",
+          "data-wait": "Please wait...",
+          "data-w-id": "22173a64-a06f-7e60-451b-cc53f68d5876",
+          "class": "button-cta shadow div-price-header is-form w-button",
+          "value": "Je crée ma boutique gratuite"
+        }
+      }
+    ]
+  },
+  {
+    "source": "03-published-site/pages/nl/boutique-gratuite-access/index.html",
+    "attributes": {
+      "id": "wf-form-Shopify-URL",
+      "name": "wf-form-Shopify-URL",
+      "data-name": "Shopify URL",
+      "method": "get",
+      "class": "form-shopify-url",
+      "data-wf-page-id": "6a5ba690b4c787c14e4e5ee1",
+      "data-wf-element-id": "b55062d0-d13d-dd3b-ada4-6ddc46724f01",
+      "data-wf-locale-id": "6932a718bcb050f83738706b"
+    },
+    "fields": [
+      {
+        "tag": "input",
+        "attributes": {
+          "class": "form_input url w-input",
+          "maxlength": "256",
+          "name": "Shopify-URL",
+          "data-name": "Shopify URL",
+          "placeholder": "Votre URL Shopify",
+          "type": "url",
+          "id": "Shopify-URL",
+          "required": ""
+        }
+      },
+      {
+        "tag": "input",
+        "attributes": {
+          "type": "submit",
+          "data-wait": "Please wait...",
+          "class": "submit-button w-button",
+          "value": "Submit"
+        }
+      }
+    ]
+  },
+  {
+    "source": "03-published-site/pages/pt/acesso-loja-gratuita/index.html",
+    "attributes": {
+      "id": "wf-form-Shopify-URL",
+      "name": "wf-form-Shopify-URL",
+      "data-name": "Shopify URL",
+      "method": "get",
+      "class": "form-shopify-url",
+      "data-wf-page-id": "6a5ba690b4c787c14e4e5ee1",
+      "data-wf-element-id": "b55062d0-d13d-dd3b-ada4-6ddc46724f01",
+      "data-wf-locale-id": "6aae6b84337c1be41b776d9f"
+    },
+    "fields": [
+      {
+        "tag": "input",
+        "attributes": {
+          "class": "form_input url w-input",
+          "maxlength": "256",
+          "name": "Shopify-URL",
+          "data-name": "Shopify URL",
+          "placeholder": "Votre URL Shopify",
+          "type": "url",
+          "id": "Shopify-URL",
+          "required": ""
+        }
+      },
+      {
+        "tag": "input",
+        "attributes": {
+          "type": "submit",
+          "data-wait": "Please wait...",
+          "class": "submit-button w-button",
+          "value": "Submit"
+        }
+      }
+    ]
+  },
+  {
+    "source": "03-published-site/pages/pt/loja-gratuita/index.html",
+    "attributes": {
+      "id": "email-form",
+      "name": "email-form",
+      "data-name": "Email Form",
+      "redirect": "/boutique-gratuite-access",
+      "data-redirect": "/boutique-gratuite-access",
+      "method": "get",
+      "class": "div-blue shadow div-price-header ctrd blog is-form",
+      "data-wf-page-id": "6a5a943217207012f5171a8a",
+      "data-wf-element-id": "22173a64-a06f-7e60-451b-cc53f68d586f",
+      "data-wf-locale-id": "6aae6b84337c1be41b776d9f"
+    },
+    "fields": [
+      {
+        "tag": "input",
+        "attributes": {
+          "class": "form_input corner-radius w-input",
+          "maxlength": "256",
+          "name": "Ton-Pr-nom",
+          "data-name": "Ton Prénom",
+          "placeholder": "Ton Prénom",
+          "type": "text",
+          "id": "Ton-Pr-nom",
+          "required": ""
+        }
+      },
+      {
+        "tag": "input",
+        "attributes": {
+          "class": "form_input email w-input",
+          "maxlength": "256",
+          "name": "Ton-email",
+          "data-name": "Ton email",
+          "placeholder": "Ton email",
+          "type": "email",
+          "id": "Ton-email",
+          "required": ""
+        }
+      },
+      {
+        "tag": "input",
+        "attributes": {
+          "type": "submit",
+          "data-wait": "Please wait...",
+          "data-w-id": "22173a64-a06f-7e60-451b-cc53f68d5876",
+          "class": "button-cta shadow div-price-header is-form w-button",
+          "value": "Je crée ma boutique gratuite"
+        }
+      }
+    ]
+  }
+]

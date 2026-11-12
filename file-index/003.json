@@ -1,0 +1,2402 @@
+[
+  {
+    "path": "01-native-export/supplied-source/images/tableau-de-bord-2-p-800.jpg",
+    "bytes": 35370,
+    "sha256": "a52fd86d117285aa81103295dbaaa10a4ec34b46368e5d1cefe9a73fab3166d3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tableau-de-bord-2-p-800.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tableau-de-bord-2.jpg",
+    "bytes": 48676,
+    "sha256": "ef69552c129e2adb1af9d0da920d7b4599e0826d7944effb5c36a2e94ee7f618",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tableau-de-bord-2.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tableau-de-bord-3-p-500.jpg",
+    "bytes": 14488,
+    "sha256": "4d748423cdcc587aac15a23bc5e124ea7400edb92303212c83411e8742de7654",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tableau-de-bord-3-p-500.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tableau-de-bord-3-p-800.jpg",
+    "bytes": 26354,
+    "sha256": "47429d7735fcfcabffdf6e6e320cfc8b7faac9ba6e7cc9192cbdb84707085bac",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tableau-de-bord-3-p-800.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tableau-de-bord-3.jpg",
+    "bytes": 37583,
+    "sha256": "b92f8f3a55444a765556c40f74639a8e20cd2d978969b00be628b9a6b66f7ccf",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tableau-de-bord-3.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tableau-de-bord-4-p-500.jpg",
+    "bytes": 14839,
+    "sha256": "12aba894d0ffb290c6a777adfd30048266cff54f4bfdb78db29f8d55868c0f0b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tableau-de-bord-4-p-500.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tableau-de-bord-4-p-800.jpg",
+    "bytes": 27159,
+    "sha256": "03cfbaa7147aae89307bb32ddb9423738c7c1b93cb0836017ae7b17e18da8ac5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tableau-de-bord-4-p-800.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tableau-de-bord-4.jpg",
+    "bytes": 36756,
+    "sha256": "7c4b53e72c2dedc42582648857eb14187aa3425454d69ac25167c1ac57ac1861",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tableau-de-bord-4.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tableau-de-bord-5-p-500.jpg",
+    "bytes": 13831,
+    "sha256": "068a15d308a106e1f2aa92ce46798124eb79d847c5c06f5e4669aad6367e8d70",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tableau-de-bord-5-p-500.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tableau-de-bord-5-p-800.jpg",
+    "bytes": 25232,
+    "sha256": "28e81dbd3c0632f2906cc0d9d15f37e0976a4dcda42cbedcd2c2fb67e73230cd",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tableau-de-bord-5-p-800.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tableau-de-bord-5.jpg",
+    "bytes": 38214,
+    "sha256": "2beda932fff5e03f6753e3523b9d8663479319e13a26a0163c87c81a22050985",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tableau-de-bord-5.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tableau-de-bord-6-p-500.jpg",
+    "bytes": 14024,
+    "sha256": "118c3f8ef230cbd0c1d77c3e129abba1bc7c900482169e05a7fbfa5d97fedd55",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tableau-de-bord-6-p-500.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tableau-de-bord-6-p-800.jpg",
+    "bytes": 26498,
+    "sha256": "18ce8d43f0a95afb0e8abc2b6a99e6bdbb33d1f25b593d80b5771dcd9b391043",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tableau-de-bord-6-p-800.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tableau-de-bord-6.jpg",
+    "bytes": 37113,
+    "sha256": "234d896eaabe34bf90a815efa0f989b7fe70755dd69738237eee8e5eb508deec",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tableau-de-bord-6.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tableau-de-bord-7-p-500.jpg",
+    "bytes": 15526,
+    "sha256": "c9a85654bae548199352296b934ca5362b923749ca87bae1e02597255f804d6c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tableau-de-bord-7-p-500.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tableau-de-bord-7-p-800.jpg",
+    "bytes": 27996,
+    "sha256": "da714df51ce41cc83a0b908f0f38c0f4ccb9655368991adefb4d0f0b1caa3f3f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tableau-de-bord-7-p-800.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tableau-de-bord-7.jpg",
+    "bytes": 39566,
+    "sha256": "f52d4e9ee08d51bac064fc33c691e27780fc9cba4137026df9c54435b69dd0ef",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tableau-de-bord-7.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tableau-de-bord-8-p-500.jpg",
+    "bytes": 12267,
+    "sha256": "95d1082863701270da92375bf3f31ddee8557e1780b4cfd99ac57d52f28330e3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tableau-de-bord-8-p-500.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tableau-de-bord-8-p-800.jpg",
+    "bytes": 24244,
+    "sha256": "1429cd44cf46541345a54cb2a0d39fd868a3cd6d879d02bbbf6144eba43fea11",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tableau-de-bord-8-p-800.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tableau-de-bord-8.jpg",
+    "bytes": 35007,
+    "sha256": "2d9fdd36b5ce19869ad5f02938795e4b72cb5a374692fea4048fe03de24c1142",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tableau-de-bord-8.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tableau-de-bord-9-p-500.jpg",
+    "bytes": 15244,
+    "sha256": "a90164ea2e07850d2c28305a731d2f3ebf9988bf82f2a703e165e53220b3558a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tableau-de-bord-9-p-500.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tableau-de-bord-9-p-800.jpg",
+    "bytes": 28458,
+    "sha256": "7719b3d649a8a4caf0cf8e26e06f89bc870ff52982a364e014364020e1727ce2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tableau-de-bord-9-p-800.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tableau-de-bord-9.jpg",
+    "bytes": 41504,
+    "sha256": "2dbe0f0d055a81cf7645c691fa31db79227e373210072cf96758515dd49a2ea6",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tableau-de-bord-9.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tabs_bg-p-1080.webp",
+    "bytes": 5082,
+    "sha256": "d064bd9d1cfd31fdfb11745d0c3bbab4179766ebd3748734cbd36f13656af61a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tabs_bg-p-1080.webp"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tabs_bg-p-1600.webp",
+    "bytes": 8938,
+    "sha256": "d57a1694d43218cd997c5565ff6e765972c2e3e6c3590a990d76c7a9f2ed47ba",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tabs_bg-p-1600.webp"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tabs_bg-p-2000.webp",
+    "bytes": 12676,
+    "sha256": "205d2799d20584d2f389f91b318a1f583c622cd84b50f35dd5a0d462bfc6e6b5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tabs_bg-p-2000.webp"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tabs_bg-p-500.webp",
+    "bytes": 1846,
+    "sha256": "bb783433eb855b1beb4ea431f597bdcf1e5d731642a37dd1f8dff042658dc948",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tabs_bg-p-500.webp"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tabs_bg-p-800.webp",
+    "bytes": 3296,
+    "sha256": "16240e7073eb35eb491537cb835f0e19a34c984868bbdeb562034038851ca2b4",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tabs_bg-p-800.webp"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/tabs_bg.webp",
+    "bytes": 28802,
+    "sha256": "ee587f0f054cc7da8ee37e533a7a83b56e1fed156e4aee0bf2c3c908a59ffdc6",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/tabs_bg.webp"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/telegram-stroke-rounded.svg",
+    "bytes": 1027,
+    "sha256": "a32823bca42c5da90a1786ed4e997a47edfb36968828f59f6f9d648a64530946",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/telegram-stroke-rounded.svg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/text-logo-new.svg",
+    "bytes": 3638,
+    "sha256": "b2bc27696925d33b86872bc55c13218d033b0dae39ca8e65891b0dd76aa68ec7",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/text-logo-new.svg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/thomas.avif",
+    "bytes": 3470,
+    "sha256": "20061de366de94ff02515564f708cb969ae22accefa1b254102907ba1675682f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/thomas.avif"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/toolbox-stroke-rounded.svg",
+    "bytes": 1135,
+    "sha256": "16dcfe1900327a568d9813f6d7560f4407049bf325618b25f73496108335c792",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/toolbox-stroke-rounded.svg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/top-ads.webp",
+    "bytes": 14924,
+    "sha256": "d6df94a9cb22c1cb5b3a755a4f94c00ba028e9a1714b81528e0adc1d6016f60f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/top-ads.webp"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/top-products.webp",
+    "bytes": 17204,
+    "sha256": "d62ac284364f5262a7270faf1efa955c73b87d33334dbe2289e53d922d41f5ab",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/top-products.webp"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/top-shop_1.webp",
+    "bytes": 29038,
+    "sha256": "4be655223557b1e4dcb51466bda404e90fe3c8c58a946386251e469b18c77521",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/top-shop_1.webp"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/top-shop_1top-shop.webp",
+    "bytes": 25300,
+    "sha256": "15978098eea3c9f5915408276d5707ce01961857e0a5fe73133578727a8e99b3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/top-shop_1top-shop.webp"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/un-seul-clic-1.png",
+    "bytes": 9645,
+    "sha256": "ddbb2d7051632ac74d9d9cd1cae9769724417c5b8a59e0e5f865f9618c2d2ee3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/un-seul-clic-1.png"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/unnamed-1-p-500.avif",
+    "bytes": 11156,
+    "sha256": "ff5398dbf7cb51f1e16ebe48baffe15ef0d1667e6301ae5c22fb866c57c2ae15",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/unnamed-1-p-500.avif"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/unnamed-1.avif",
+    "bytes": 11042,
+    "sha256": "7672cec798b26e84a354a4ecf9033aab0acab2438c521202883a744d7ec598be",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/unnamed-1.avif"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/unnamed-2.avif",
+    "bytes": 14564,
+    "sha256": "4e1b7ea427cb4b98fd6f6f7bf7e0b64b9d9a11c22bf4bffc527ce5fe87df7348",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/unnamed-2.avif"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/unnamed-3-p-500.avif",
+    "bytes": 10618,
+    "sha256": "6f453de887228fca65a925d1e3366280e906c37ccffffa70e0d78314f1aed61c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/unnamed-3-p-500.avif"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/unnamed-3.avif",
+    "bytes": 10158,
+    "sha256": "c9ecc3cb3773948d7918c0e18103296b1546569d8309040c8b1b3342c8f5f10a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/unnamed-3.avif"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/unnamed-4-p-500.avif",
+    "bytes": 9883,
+    "sha256": "cdddffca930c7c96efa88d5095f43fb0a1f3b08e98b1f7ab5dec2120c4f9baf8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/unnamed-4-p-500.avif"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/unnamed-4.avif",
+    "bytes": 9313,
+    "sha256": "261a1ccdbdcf9754128adfee2c3ed837f0893fcbd5eacb8d909c6c8b1b58ebc0",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/unnamed-4.avif"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/unnamed-5-p-500.avif",
+    "bytes": 15400,
+    "sha256": "bb0c92adb4ce35dd9e72d9d41d4e3c5c9a1d2fc07a7a05e283884c4a01e9c4cb",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/unnamed-5-p-500.avif"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/unnamed-5.avif",
+    "bytes": 15201,
+    "sha256": "331e78c1074cbb9f1796e27c5fa7cfe6f2794487f8e9435f3308163a965cd576",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/unnamed-5.avif"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/unnamed-6-p-500.avif",
+    "bytes": 10736,
+    "sha256": "fbfe430c60cfa6ff868fe8a58a60fc556380fa8d0a9c49616cbcf7a9249536da",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/unnamed-6-p-500.avif"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/unnamed-6.avif",
+    "bytes": 10199,
+    "sha256": "c5e3f5031955342565641c463662bade75bc6a806694c968f259c693cfde969c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/unnamed-6.avif"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/unnamed-7-p-500.avif",
+    "bytes": 9435,
+    "sha256": "992fd26017ff2dafe6b84a9bcf322808a7222033e12fac03b75d3e4d950dda62",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/unnamed-7-p-500.avif"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/unnamed-7.avif",
+    "bytes": 9114,
+    "sha256": "80325ec1ad0435ceaaafbeff677122ffedd4f6d9299cfe613332a520bf0175de",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/unnamed-7.avif"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/unnamed-8-p-500.avif",
+    "bytes": 9329,
+    "sha256": "fe97c37c986b4904688ff5645f75601077acb1cafc371c21aac8bc09c75ac001",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/unnamed-8-p-500.avif"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/unnamed-8.avif",
+    "bytes": 9333,
+    "sha256": "502b4b8bfa48511305122a7019c013ce89cf8a488ef4846feb0eb89c7bff69b2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/unnamed-8.avif"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/unnamed-p-500.jpg",
+    "bytes": 23146,
+    "sha256": "038980cc1ea569ddfc759ea5caad593700888ef585bff54405880366572f0b0d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/unnamed-p-500.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/unnamed.jpg",
+    "bytes": 39756,
+    "sha256": "cf36cc453a0785d82383b0b17775ef29c3b2722d2d8bf3044b56ca72a811059f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/unnamed.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/user-03-stroke-rounded.svg",
+    "bytes": 625,
+    "sha256": "d71527ccb2ae5996aab660a1cd1e6bf8433be9ef41feba4541bbfd5bb20d2720",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/user-03-stroke-rounded.svg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/video-replay-stroke-rounded.svg",
+    "bytes": 1191,
+    "sha256": "699c68770db004a667c9bb9c53003f1be6b7cf608179ca2be4cf04a980bb3302",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/video-replay-stroke-rounded.svg"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/w_1.webp",
+    "bytes": 38230,
+    "sha256": "9a9798df1eb57aca9d10e7b2e5951d49485d45b5de3b0c370d8a24a28c69577a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/w_1.webp"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/w_1w.webp",
+    "bytes": 18346,
+    "sha256": "65dff5629f0d97479ce845a4be4f0c0a3d52fd63891fe0030d08a19845138298",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/w_1w.webp"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/webclip.png",
+    "bytes": 21174,
+    "sha256": "278b58331a696a450176d02ff41814041e55c99c7ec007422ddcabb60cab8323",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/webclip.png"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/winning-store-finder-en-p-1080.png",
+    "bytes": 60745,
+    "sha256": "fb0db56de8ffc03b77d18f76003473a23d3179d048d08bf1eb27c7db513f81ea",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/winning-store-finder-en-p-1080.png"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/winning-store-finder-en-p-1600.png",
+    "bytes": 117354,
+    "sha256": "27286cb70667d8ee29c745e59262912496db289b7cec65bd05827b604dff8ce9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/winning-store-finder-en-p-1600.png"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/winning-store-finder-en-p-2000.png",
+    "bytes": 162065,
+    "sha256": "b3ea9ab69d8a1ac97f6d8efa67756007558ff83d08975d1f44e7367f3e363969",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/winning-store-finder-en-p-2000.png"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/winning-store-finder-en-p-500.png",
+    "bytes": 19387,
+    "sha256": "bd02c12f360ccd22caac967b8ac7c4c58f85ae548bb43802b4b4557e79b96239",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/winning-store-finder-en-p-500.png"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/winning-store-finder-en-p-800.png",
+    "bytes": 38598,
+    "sha256": "4ce3391149da2d773d4bab13253ab2e2040f4e176083e7c5e10223a1f855aaaa",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/winning-store-finder-en-p-800.png"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/winning-store-finder-en.png",
+    "bytes": 306128,
+    "sha256": "8b14a8daf22310bfe8bb630aa74ea29e94b22cd4910df415302e39753011afe5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/winning-store-finder-en.png"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/→-1.png",
+    "bytes": 871,
+    "sha256": "6ac9e017de4aea5898ee632c5abdef367e896ce8f6bc70dbf303bfd47b975910",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/%E2%86%92-1.png"
+  },
+  {
+    "path": "01-native-export/supplied-source/images/→.png",
+    "bytes": 832,
+    "sha256": "6cda4ce549374126085e7a20fdbf08496df315702b3d139d2e991dfe3925399c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/images/%E2%86%92.png"
+  },
+  {
+    "path": "01-native-export/supplied-source/index.html",
+    "bytes": 452608,
+    "sha256": "8bd6117c7f435b0d177b60dfa3459b0e0817fc9d9b6db1cc282c30c06487ec49",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/index.html"
+  },
+  {
+    "path": "01-native-export/supplied-source/js/webflow.js",
+    "bytes": 564431,
+    "sha256": "9c052c342222ef8611f37a54e551c2ad1912dddbc2c3458e8a9d01cb825c8921",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/js/webflow.js"
+  },
+  {
+    "path": "01-native-export/supplied-source/liste-produits.html",
+    "bytes": 238602,
+    "sha256": "06f8faa12535fef219e64f5f1a45e9079f4da5b3708180406f138faca34ef388",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/liste-produits.html"
+  },
+  {
+    "path": "01-native-export/supplied-source/old/home-copy-2.html",
+    "bytes": 189007,
+    "sha256": "f23f40eae7acfd12cd641652f98551e8d1302e6def37447becdfdc3ebebc9cb9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/old/home-copy-2.html"
+  },
+  {
+    "path": "01-native-export/supplied-source/old-home.html",
+    "bytes": 193114,
+    "sha256": "3d29f82ba02e48ffa0c6657a942169b0794e2144ad6fae25c8d7ab6b2ab63492",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/old-home.html"
+  },
+  {
+    "path": "01-native-export/supplied-source/politique-de-confidentialite.html",
+    "bytes": 94525,
+    "sha256": "3fd6297efbb3cbbb604a31e36446493e92da30423f681d8bd53bc08db9405d63",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/politique-de-confidentialite.html"
+  },
+  {
+    "path": "01-native-export/supplied-source/pricing.html",
+    "bytes": 374327,
+    "sha256": "664751388870b01670bfeb3f674caee97ae078a8dce4b4809b894e4f3cebbd9d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/pricing.html"
+  },
+  {
+    "path": "01-native-export/supplied-source/shopify-3-mois-pour-1-euros.html",
+    "bytes": 111657,
+    "sha256": "004879b40c697a4e8f3a0eb92f86b6645c47f9bf29276dc9bb056a7b0a0f6d3d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/shopify-3-mois-pour-1-euros.html"
+  },
+  {
+    "path": "01-native-export/supplied-source/shopify-3-months-for-1-dollar.html",
+    "bytes": 118197,
+    "sha256": "dfefb071d6ab595e544c772805a259dd5ecfd131a722081aa1a34e1f1d71cd7a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/shopify-3-months-for-1-dollar.html"
+  },
+  {
+    "path": "01-native-export/supplied-source/sideshift.html",
+    "bytes": 187233,
+    "sha256": "f423feb8efc2367f6df6daada85e77ebc99c8621a80ef9e4f83d9373755d0850",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/sideshift.html"
+  },
+  {
+    "path": "01-native-export/supplied-source/style-guide.html",
+    "bytes": 121946,
+    "sha256": "b6caf15e1d66fd00a6c4b9c28e3867e707b4c89ea0ba9b6e0ce59d14f18b44c1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/style-guide.html"
+  },
+  {
+    "path": "01-native-export/supplied-source/tools.html",
+    "bytes": 166626,
+    "sha256": "ed0a9ccb4988f6b0e1939c4855227572e04d6011032cc8b451e758bb07138ee8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/tools.html"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/Copfyfy---Section-1.mp4",
+    "bytes": 5646992,
+    "sha256": "e9f15cfd6638400179f558b993c66cb0e6f021ed94d4e2824c011a20eb29e600",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/Copfyfy---Section-1.mp4"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/Copfyfy---Section-1_mp4.mp4",
+    "bytes": 969220,
+    "sha256": "d2cd34dd8c313ff6050939981561b7806813ee9b4ab04d0d9b5b20193a07d687",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/Copfyfy---Section-1_mp4.mp4"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/Copfyfy---Section-1_poster.0000000.jpg",
+    "bytes": 15309,
+    "sha256": "f3e1a9e38920df5679a84d1b7034b879610440a10a42a20da19265f2bf4f622a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/Copfyfy---Section-1_poster.0000000.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/Copfyfy---Section-1_webm.webm",
+    "bytes": 2020255,
+    "sha256": "40a203e46a5b63fe293332ae9b332a0358e6e1f0d859dcfa3967a50b90803dad",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/Copfyfy---Section-1_webm.webm"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/Copyfy-Section-2.mp4",
+    "bytes": 9334157,
+    "sha256": "69c942ebb9ec5e7f95fb536c8226a69bbff94204e858b27eff86d725341fad4f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/Copyfy-Section-2.mp4"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/Copyfy-Section-2_mp4.mp4",
+    "bytes": 1171420,
+    "sha256": "ea0e667284fb6c68527b29023201f16ec4f936b250683915e3da8f3e3c291d0d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/Copyfy-Section-2_mp4.mp4"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/Copyfy-Section-2_poster.0000000.jpg",
+    "bytes": 11815,
+    "sha256": "2c33f6a2c953afceb348faf9ce633abb3fb0fc4605c4340f5204dcb34d1206d0",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/Copyfy-Section-2_poster.0000000.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/Copyfy-Section-2_webm.webm",
+    "bytes": 2162146,
+    "sha256": "db57854a10ab4cd9faa3a323327784b140bec8f5a889d967bd47adbd6038d822",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/Copyfy-Section-2_webm.webm"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/Copyfy-Section-3.mp4",
+    "bytes": 14425357,
+    "sha256": "113ac6284e2b1a391c4932005fe0c86bf743ccf0482c1b3aa1b2cfc31066f12c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/Copyfy-Section-3.mp4"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/Copyfy-Section-3_mp4.mp4",
+    "bytes": 1653904,
+    "sha256": "1324adf2b00e90c6c46376fcc1a1739a9cd6be92a0abbbcb7c5f61ebbd96668b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/Copyfy-Section-3_mp4.mp4"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/Copyfy-Section-3_poster.0000000.jpg",
+    "bytes": 14203,
+    "sha256": "02e39482dafdae655ff6e249f4be48232a4899b1bd9cd598b058851e31a22ae4",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/Copyfy-Section-3_poster.0000000.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/Copyfy-Section-3_webm.webm",
+    "bytes": 3707337,
+    "sha256": "138582f596969cc8b5f7780cd73e76b9e5f974338525101c53115cdbc5f20b30",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/Copyfy-Section-3_webm.webm"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/Screen-Recording-2026-10-06-at-19.03.13.mov",
+    "bytes": 6480913,
+    "sha256": "c0731f52e602217a349e6000c6c4e00883b9c475abac9d278bb9c5b83ae7f24e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/Screen-Recording-2026-10-06-at-19.03.13.mov"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/Screen-Recording-2026-10-06-at-19.03.13_mp4.mp4",
+    "bytes": 491839,
+    "sha256": "ea4b28b08e6cc8fdb60985f7a714acdabb7c000b9f10d82df0143ad58e5d4442",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/Screen-Recording-2026-10-06-at-19.03.13_mp4.mp4"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/Screen-Recording-2026-10-06-at-19.03.13_poster.0000000.jpg",
+    "bytes": 72249,
+    "sha256": "7e27fb6776b27fa3e042e56135aae87eba6f7f25c6d39be7e4c48a89ef3b9886",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/Screen-Recording-2026-10-06-at-19.03.13_poster.0000000.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/Screen-Recording-2026-10-06-at-19.03.13_webm.webm",
+    "bytes": 1310290,
+    "sha256": "9c198fbede41692c4f00ec3353d59a0578cfbfa3c7d742d11fe37cac056ca5e3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/Screen-Recording-2026-10-06-at-19.03.13_webm.webm"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/WhatsApp-Video-2026-10-06-at-16.25.08.mp4",
+    "bytes": 2125758,
+    "sha256": "0a9f8ae9d30d27eb08a05c3ed8d9869fb84109de2c70b8a00bc719928b7eae2a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/WhatsApp-Video-2026-10-06-at-16.25.08.mp4"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/WhatsApp-Video-2026-10-06-at-16.25.08_mp4.mp4",
+    "bytes": 551710,
+    "sha256": "5daf272a3c92d3ce7294dc3d8f67b0522c621d03a75937b02141a6d53e6033fe",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/WhatsApp-Video-2026-10-06-at-16.25.08_mp4.mp4"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/WhatsApp-Video-2026-10-06-at-16.25.08_poster.0000000.jpg",
+    "bytes": 29794,
+    "sha256": "25b2e3c85e866600160047fa97012084b0302b4a26ab1a1d5cfd0a87913280ef",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/WhatsApp-Video-2026-10-06-at-16.25.08_poster.0000000.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/WhatsApp-Video-2026-10-06-at-16.25.08_webm.webm",
+    "bytes": 1777121,
+    "sha256": "de6fa8fd30bb9041d006a7e45f65c64b620b6b6c78955d02b8b9c8d1a49da58e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/WhatsApp-Video-2026-10-06-at-16.25.08_webm.webm"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/carte-boutique-ia.mp4",
+    "bytes": 281982,
+    "sha256": "c613b7d72d4d2e61c5fc89dcfd952120eb29674e0e95cd6b2bc447b170f77d91",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/carte-boutique-ia.mp4"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/carte-boutique-ia_mp4.mp4",
+    "bytes": 1838275,
+    "sha256": "2f5faf1d4550ad2e1902f0d143863105a99786cbea58be1d63a7f3de818d48b0",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/carte-boutique-ia_mp4.mp4"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/carte-boutique-ia_poster.0000000.jpg",
+    "bytes": 28863,
+    "sha256": "fd041ef99d305fa2ae4de16e3d3591ba3bfac7e47cae989192264dfc23296725",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/carte-boutique-ia_poster.0000000.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/carte-boutique-ia_webm.webm",
+    "bytes": 3949826,
+    "sha256": "3e4ad70a36ba0aa504327cd69d031ba5babf2c0dab06d5b2033214724bb1cc2b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/carte-boutique-ia_webm.webm"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/hero-motion-design.mp4",
+    "bytes": 1085997,
+    "sha256": "9685be2b849324621d2829932679f8fef921136e8cc27a89f9d58adc34a646ad",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/hero-motion-design.mp4"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/hero-motion-design_mp4.mp4",
+    "bytes": 1584339,
+    "sha256": "99ff2a468d4f7f243031d6587f82c69e0171249b78a03b74aadc23685e1f59ad",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/hero-motion-design_mp4.mp4"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/hero-motion-design_poster.0000000.jpg",
+    "bytes": 18229,
+    "sha256": "00839f112baa66c9ce4693f951c3562ff016d299e2a1b194e944b577e83406d5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/hero-motion-design_poster.0000000.jpg"
+  },
+  {
+    "path": "01-native-export/supplied-source/videos/hero-motion-design_webm.webm",
+    "bytes": 7112117,
+    "sha256": "7c6b37b6e79e19ae477dcb8bb6f8591811c16e763795508e6192147766f84ec2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/01-native-export/supplied-source/videos/hero-motion-design_webm.webm"
+  },
+  {
+    "path": "02-cms/INVENTAIRE.md",
+    "bytes": 2250,
+    "sha256": "fc3e417f30453fb9d1c4845eeed54a35ce5c69b2198ca123091b3d8810fc44f7",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/INVENTAIRE.md"
+  },
+  {
+    "path": "02-cms/cms-manifest.json",
+    "bytes": 75477,
+    "sha256": "16284a00ff51ad62be5d647ee71a7891336eb8b477992319a9bd2cbdf08db9fe",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/cms-manifest.json"
+  },
+  {
+    "path": "02-cms/de/Alternatives.csv",
+    "bytes": 2206511,
+    "sha256": "0b39fe891f38ab9d70340f583d61c4651e389e49981e40a16c59f4fdd35c0311",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/de/Alternatives.csv"
+  },
+  {
+    "path": "02-cms/de/Authors.csv",
+    "bytes": 987,
+    "sha256": "8ce8eca4f26d0f84026d993a80e7fb527bff5522d4d44ef457ffadc90b3e6a6b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/de/Authors.csv"
+  },
+  {
+    "path": "02-cms/de/Blogs.csv",
+    "bytes": 5483303,
+    "sha256": "c54d35c36a37e7944b5ad5359f9ea56930ccac354daa5948a8828940030a8ca1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/de/Blogs.csv"
+  },
+  {
+    "path": "02-cms/de/Careers.csv",
+    "bytes": 4866,
+    "sha256": "965c2c921eb698a0b830829b5c43210f15f09099d37d7d891f10e386ff6da72b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/de/Careers.csv"
+  },
+  {
+    "path": "02-cms/de/Categories.csv",
+    "bytes": 264772,
+    "sha256": "b2de7916572700a05449eeb390619fcbe23c9c258e810085f8468672ea63e6ee",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/de/Categories.csv"
+  },
+  {
+    "path": "02-cms/de/Copyfy Vs.csv",
+    "bytes": 1248567,
+    "sha256": "a9fa2681dcb042d4c711f51ddb1762d94148195c893046bcff5071244559ecc2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/de/Copyfy%20Vs.csv"
+  },
+  {
+    "path": "02-cms/de/Demo shops.csv",
+    "bytes": 970,
+    "sha256": "5847d7d4476d50f3cfd11538119a91559fabfd7c62e17ddede568215e0da8d96",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/de/Demo%20shops.csv"
+  },
+  {
+    "path": "02-cms/de/FAQs.csv",
+    "bytes": 102279,
+    "sha256": "55484cd9766f82002cf67bef9ebf7a21b7f116717539310e64dcf9cdf4085a5f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/de/FAQs.csv"
+  },
+  {
+    "path": "02-cms/de/Features Copies.csv",
+    "bytes": 23474,
+    "sha256": "dd762eabb0350a2d7b2882966b7e287cea3deb6bc707c64dc6123c262c96bc0a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/de/Features%20Copies.csv"
+  },
+  {
+    "path": "02-cms/de/Features.csv",
+    "bytes": 29760,
+    "sha256": "162294340f6c5621a7d214c5e65594912bd91e66b839ffd63666641ca17a6364",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/de/Features.csv"
+  },
+  {
+    "path": "02-cms/de/Free Tool Lists.csv",
+    "bytes": 8459,
+    "sha256": "b2e821898357f99f2346fcaacf4fb78f6f0debff687028e858471f6d13c8af94",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/de/Free%20Tool%20Lists.csv"
+  },
+  {
+    "path": "02-cms/de/FreeTools.csv",
+    "bytes": 188609,
+    "sha256": "a8215d1936f37aa160b37b7874e62321b4b187bc2c12df9d9481e05be1fbfda4",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/de/FreeTools.csv"
+  },
+  {
+    "path": "02-cms/de/Tags.csv",
+    "bytes": 1687,
+    "sha256": "238f9da4185b9faf6dfa7f48bef81a50f8475456aefe96a16c0e3d9647761178",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/de/Tags.csv"
+  },
+  {
+    "path": "02-cms/en/Alternatives.csv",
+    "bytes": 2109899,
+    "sha256": "be6a2fb75e99cafe019290e31c265ce8ec241669b61ea349ecd3b18ee0544431",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/en/Alternatives.csv"
+  },
+  {
+    "path": "02-cms/en/Authors.csv",
+    "bytes": 966,
+    "sha256": "56ec0b7bbd911cc027fd56244542b35d5dde30fb71c10da32c4c4488783ca8a5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/en/Authors.csv"
+  },
+  {
+    "path": "02-cms/en/Blogs.csv",
+    "bytes": 5257794,
+    "sha256": "f3bb7a95fdeba6359a26dedc764079a8ee74442cba5d879ea44505f2df22bf65",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/en/Blogs.csv"
+  },
+  {
+    "path": "02-cms/en/Careers.csv",
+    "bytes": 4538,
+    "sha256": "96032f3be55d605fe2deb78b32c1a0596b075aa5e255e870a5d888ae6c1739e3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/en/Careers.csv"
+  },
+  {
+    "path": "02-cms/en/Categories.csv",
+    "bytes": 240690,
+    "sha256": "bfb106bf35d63384b8af74ef7517064ef450436fa6686b6d10270c56e95e5bfc",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/en/Categories.csv"
+  },
+  {
+    "path": "02-cms/en/Copyfy Vs.csv",
+    "bytes": 1200614,
+    "sha256": "e65e8e028e2494c58d8f683e6a29f05c33fadb9b15cb07c9996b5171815f3790",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/en/Copyfy%20Vs.csv"
+  },
+  {
+    "path": "02-cms/en/Demo shops.csv",
+    "bytes": 970,
+    "sha256": "2e37c89b915f067da882fd9451c1fb712efeb7a14f15c3510e35b5907e16e56b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/en/Demo%20shops.csv"
+  },
+  {
+    "path": "02-cms/en/FAQs.csv",
+    "bytes": 97770,
+    "sha256": "39df5d3eddf14bf284d6cf6b0bc4a4af0899bd8dc06a4d6c37f19dc5a62dcf88",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/en/FAQs.csv"
+  },
+  {
+    "path": "02-cms/en/Features Copies.csv",
+    "bytes": 21639,
+    "sha256": "88d6c846740fe764621df51c43cb6932a0c7b8c27968414695a01023133bcef3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/en/Features%20Copies.csv"
+  },
+  {
+    "path": "02-cms/en/Features.csv",
+    "bytes": 25698,
+    "sha256": "2403043e8c861aeb0b00ac8478f9bd0a3855c04a4e5f68228dac5b7569a2ada4",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/en/Features.csv"
+  },
+  {
+    "path": "02-cms/en/Free Tool Lists.csv",
+    "bytes": 8324,
+    "sha256": "e10738d9cf00a3d093bb9ec4bea6c8c6e9ebefc69f892e41f4ff8de1fe44754a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/en/Free%20Tool%20Lists.csv"
+  },
+  {
+    "path": "02-cms/en/FreeTools.csv",
+    "bytes": 176658,
+    "sha256": "c18ad87decdba68b09814c620c36fa4bc6d5b2bbd905b0cd0ff1fb790fb0f54f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/en/FreeTools.csv"
+  },
+  {
+    "path": "02-cms/en/Tags.csv",
+    "bytes": 1678,
+    "sha256": "beeb96e451a5a05b7b18db67acfee9e839644ff52914804c603b2ea440de7bce",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/en/Tags.csv"
+  },
+  {
+    "path": "02-cms/es/Alternatives.csv",
+    "bytes": 2231167,
+    "sha256": "da507ce7d14adf3d5c94aea7c7874a7baa9b322274b25903fb0bd3eb2b1630ab",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/es/Alternatives.csv"
+  },
+  {
+    "path": "02-cms/es/Authors.csv",
+    "bytes": 997,
+    "sha256": "1810f514f0f8124ed48ce47d38e840a564426a7266bab29403a3f6a481df1c21",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/es/Authors.csv"
+  },
+  {
+    "path": "02-cms/es/Blogs.csv",
+    "bytes": 5512369,
+    "sha256": "7bd6b6f46eb4cc8da3697d51d991ae33a9c809977cc177373836b8cddbde0a90",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/es/Blogs.csv"
+  },
+  {
+    "path": "02-cms/es/Careers.csv",
+    "bytes": 4939,
+    "sha256": "07e066eef674c7a2b4b977470ed900f2a58fc115ab02278c5448f2e3c73ebde9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/es/Careers.csv"
+  },
+  {
+    "path": "02-cms/es/Categories.csv",
+    "bytes": 261305,
+    "sha256": "f53b071c06bbf60852a402c910a2146ba4d2b76051ebcf99f072e7402fd824f2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/es/Categories.csv"
+  },
+  {
+    "path": "02-cms/es/Copyfy Vs.csv",
+    "bytes": 1256515,
+    "sha256": "3f31b35163a9727fe7cbb3bc6e5cd142c65956133168da8d03b276e73ea24411",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/es/Copyfy%20Vs.csv"
+  },
+  {
+    "path": "02-cms/es/Demo shops.csv",
+    "bytes": 970,
+    "sha256": "b6d04f2b9cd9059cb7d2041ab594e375cdf7bc22e8327202ee8076f3d0bbac8a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/es/Demo%20shops.csv"
+  },
+  {
+    "path": "02-cms/es/FAQs.csv",
+    "bytes": 101696,
+    "sha256": "c1dce07d9ee66cbe6a710d4e514108f3b94af690a35fc4358c0f98194d98cfaf",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/es/FAQs.csv"
+  },
+  {
+    "path": "02-cms/es/Features Copies.csv",
+    "bytes": 23101,
+    "sha256": "69ccf4b844d8c4de69b31af96dc559c310407785f3cebaaa7fea0d867a576061",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/es/Features%20Copies.csv"
+  },
+  {
+    "path": "02-cms/es/Features.csv",
+    "bytes": 27965,
+    "sha256": "5b6381633f84b14cfc18794064855a7edb992758b72e14e5f45612fb1c3942fb",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/es/Features.csv"
+  },
+  {
+    "path": "02-cms/es/Free Tool Lists.csv",
+    "bytes": 8607,
+    "sha256": "fb7fe7184fe84257e6e2ba7d4a386894364345ccd52b81909982a4219ced7748",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/es/Free%20Tool%20Lists.csv"
+  },
+  {
+    "path": "02-cms/es/FreeTools.csv",
+    "bytes": 187559,
+    "sha256": "db409a349c7c39b13b061871605167345d8487b36d6a0740f493bb11c3f64463",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/es/FreeTools.csv"
+  },
+  {
+    "path": "02-cms/es/Tags.csv",
+    "bytes": 1702,
+    "sha256": "fa57819ac5cea81901e00e83df4b0a34506495a492c0893bdd977f6f6dd0cfde",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/es/Tags.csv"
+  },
+  {
+    "path": "02-cms/fr/Alternatives.csv",
+    "bytes": 2142731,
+    "sha256": "a79644f58a7b7fa43ef165ff1be3275aba6a1cfecc561f1179723a1b834cdc97",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/fr/Alternatives.csv"
+  },
+  {
+    "path": "02-cms/fr/Authors.csv",
+    "bytes": 1010,
+    "sha256": "b431b6a4c7328ed24aebbd756ad9e2e0b76e4e443956c7aaebb55fdb868e474e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/fr/Authors.csv"
+  },
+  {
+    "path": "02-cms/fr/Blogs.csv",
+    "bytes": 6630592,
+    "sha256": "487c75633b46fd546718776389fe69d2f5b8b2f423e587b7d7966d2f4032cc79",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/fr/Blogs.csv"
+  },
+  {
+    "path": "02-cms/fr/Careers.csv",
+    "bytes": 4866,
+    "sha256": "649c5fd021dca7caf1adbbffe75aa90f313b5075be0125ae1f6ba86abc41761f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/fr/Careers.csv"
+  },
+  {
+    "path": "02-cms/fr/Categories.csv",
+    "bytes": 260225,
+    "sha256": "aaa24b9f342e6d30f3ae7b078d478d88cadef9517a2f6165d7f7c74d9a8dc304",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/fr/Categories.csv"
+  },
+  {
+    "path": "02-cms/fr/Copyfy Vs.csv",
+    "bytes": 1254895,
+    "sha256": "550ed91c8088a90e6905bb2544acfb429c4d62dd64083f1f8190a3a68d508498",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/fr/Copyfy%20Vs.csv"
+  },
+  {
+    "path": "02-cms/fr/Demo shops.csv",
+    "bytes": 970,
+    "sha256": "25b8540427d326701430fff67d217f23a9ca33d1c9240d4f32901ac52e4f3d68",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/fr/Demo%20shops.csv"
+  },
+  {
+    "path": "02-cms/fr/FAQs.csv",
+    "bytes": 99671,
+    "sha256": "101a54d36ce3a74b438ee1155279f737e87bde3dbeccf9f883a2489507128892",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/fr/FAQs.csv"
+  },
+  {
+    "path": "02-cms/fr/Features Copies.csv",
+    "bytes": 24741,
+    "sha256": "686d379eb393cd5d7b6d21727168df19ea973787c960695add744d58bfd419d5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/fr/Features%20Copies.csv"
+  },
+  {
+    "path": "02-cms/fr/Features.csv",
+    "bytes": 29973,
+    "sha256": "90dcf6a19ab690e4c91965015d500d18683e404ebce0b5323f61bfd8e75f8579",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/fr/Features.csv"
+  },
+  {
+    "path": "02-cms/fr/Free Tool Lists.csv",
+    "bytes": 8602,
+    "sha256": "6d80533950aed560150e9b4c4d8c9ad62e7784e2fdd2b38f05592007653c3a40",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/fr/Free%20Tool%20Lists.csv"
+  },
+  {
+    "path": "02-cms/fr/FreeTools.csv",
+    "bytes": 190700,
+    "sha256": "84b9a2b51f2430a811f4d55f907f35d07b9f901c1e36017037eacb662201cceb",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/fr/FreeTools.csv"
+  },
+  {
+    "path": "02-cms/fr/Tags.csv",
+    "bytes": 1687,
+    "sha256": "3a4a637478cd7f21925910dc361b2ac0254b5ed328a3f5be3643158534ae90e0",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/fr/Tags.csv"
+  },
+  {
+    "path": "02-cms/json/de/Alternatives.json",
+    "bytes": 2233363,
+    "sha256": "0fc26ba93550b92b336621809cccf485d8ba604b25a859dc2c5ad000a0e75c6b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/de/Alternatives.json"
+  },
+  {
+    "path": "02-cms/json/de/Authors.json",
+    "bytes": 1177,
+    "sha256": "ddfdb3fffc0610c185e5ce51036519134868c2365254df311b19726b2bc87216",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/de/Authors.json"
+  },
+  {
+    "path": "02-cms/json/de/Blogs.json",
+    "bytes": 5543844,
+    "sha256": "86a345ef0563e593a649fe855571ba458460f5b74fe5020b15d22c1c10d43366",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/de/Blogs.json"
+  },
+  {
+    "path": "02-cms/json/de/Careers.json",
+    "bytes": 5014,
+    "sha256": "49e53966d3b5c426ab13886f966a78e3e6988d5a695ec2c61bef1a00b7099482",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/de/Careers.json"
+  },
+  {
+    "path": "02-cms/json/de/Categories.json",
+    "bytes": 267354,
+    "sha256": "0cdca0b91780bdf171f413eb343aa5c151ed092cd219a79c2d87cbba0c7a6638",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/de/Categories.json"
+  },
+  {
+    "path": "02-cms/json/de/Copyfy Vs.json",
+    "bytes": 1269376,
+    "sha256": "862d1960b1774c8fac449054dc6203a6617446e63785519c56a8926109743743",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/de/Copyfy%20Vs.json"
+  },
+  {
+    "path": "02-cms/json/de/Demo shops.json",
+    "bytes": 1331,
+    "sha256": "6874f5153df4063554544dda3ac60975d53849f79ea1d550b447f74cd4937e2a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/de/Demo%20shops.json"
+  },
+  {
+    "path": "02-cms/json/de/FAQs.json",
+    "bytes": 154273,
+    "sha256": "7837db8a51d99d69fa2d17ec0c486a5e28d4f6c3b2c1f66785964f34b77d595a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/de/FAQs.json"
+  },
+  {
+    "path": "02-cms/json/de/Features Copies.json",
+    "bytes": 31706,
+    "sha256": "9d4202ab96313779cefee1a72f52bfe2ad33f1de978745256f1ebac59e08f658",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/de/Features%20Copies.json"
+  },
+  {
+    "path": "02-cms/json/de/Features.json",
+    "bytes": 39814,
+    "sha256": "b5eb4f3ab06c5f7402d6736805004150d6f6cc38c36760634bb768676249114a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/de/Features.json"
+  },
+  {
+    "path": "02-cms/json/de/Free Tool Lists.json",
+    "bytes": 11732,
+    "sha256": "5359007297cf43dbe3501e2d7cd47b865bcc976835681c87341fde839053e0ed",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/de/Free%20Tool%20Lists.json"
+  },
+  {
+    "path": "02-cms/json/de/FreeTools.json",
+    "bytes": 198174,
+    "sha256": "b425bb9da0743f7df2517b8f659465003097333982afe1c3e6d73c16b9dededf",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/de/FreeTools.json"
+  },
+  {
+    "path": "02-cms/json/de/Tags.json",
+    "bytes": 2597,
+    "sha256": "fbaf5a712d8131279c5e8c86ed65a4882e69fec0f5fee9b7e3fbfdabd2521799",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/de/Tags.json"
+  },
+  {
+    "path": "02-cms/json/en/Alternatives.json",
+    "bytes": 2137286,
+    "sha256": "b899a348d2fcb57b615bee1749a7e7b77875378d349db43ec37b94c400edf360",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/en/Alternatives.json"
+  },
+  {
+    "path": "02-cms/json/en/Authors.json",
+    "bytes": 1154,
+    "sha256": "c0aa4887ec8cc7f363288573e9652b7d33e443a1a80d6023bd00d8ac7cfe17d9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/en/Authors.json"
+  },
+  {
+    "path": "02-cms/json/en/Blogs.json",
+    "bytes": 5319635,
+    "sha256": "04bac419378abab555f8c0e6324eb269de27c5d714229156b968063d7a7a934e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/en/Blogs.json"
+  },
+  {
+    "path": "02-cms/json/en/Careers.json",
+    "bytes": 4686,
+    "sha256": "482cce99b57db6c7bbe26b17eb413b7a6fa9b219ac309a218c4d79f7d2042ee5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/en/Careers.json"
+  },
+  {
+    "path": "02-cms/json/en/Categories.json",
+    "bytes": 243184,
+    "sha256": "7e43308e829c2dec6f2d2e81528950b3ba4f697053cebaaeaa948af6a9260c1e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/en/Categories.json"
+  },
+  {
+    "path": "02-cms/json/en/Copyfy Vs.json",
+    "bytes": 1221422,
+    "sha256": "daa40c2f2daaf5b1af5901d2efaa5aedea3e92e3bc0d593b6da852efa85a9ab3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/en/Copyfy%20Vs.json"
+  },
+  {
+    "path": "02-cms/json/en/Demo shops.json",
+    "bytes": 1331,
+    "sha256": "1c382c214e6304a0372a3bd3634b89375bbe159358c62bff317d2d0f6f4f9ab3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/en/Demo%20shops.json"
+  },
+  {
+    "path": "02-cms/json/en/FAQs.json",
+    "bytes": 150132,
+    "sha256": "b6540f8c27f2e54195cd664abddae1fa55a9c611618ea57a34ac09e8313f0157",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/en/FAQs.json"
+  },
+  {
+    "path": "02-cms/json/en/Features Copies.json",
+    "bytes": 29911,
+    "sha256": "1a053712c5165331c2f11ff519b78c244b866298c0eaa40de44c467846e58d3f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/en/Features%20Copies.json"
+  },
+  {
+    "path": "02-cms/json/en/Features.json",
+    "bytes": 35800,
+    "sha256": "918caf75781b31728aabd51f658fb7f77894105c488f6541d0efd14d67c29234",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/en/Features.json"
+  },
+  {
+    "path": "02-cms/json/en/Free Tool Lists.json",
+    "bytes": 11603,
+    "sha256": "1fd11e32fca5df5cb06e6aa2757d9ed8f2e522a6cbf5fb9f2e4b979a359c399c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/en/Free%20Tool%20Lists.json"
+  },
+  {
+    "path": "02-cms/json/en/FreeTools.json",
+    "bytes": 186361,
+    "sha256": "7cbf606acea09d37145882e2fd098db117e8f599226e4dcf19a07ffe0a0c7235",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/en/FreeTools.json"
+  },
+  {
+    "path": "02-cms/json/en/Tags.json",
+    "bytes": 2588,
+    "sha256": "e06d70fc1d1d0dea77390f35a8718af6e967a6efa0a823bd4e56d4f2e1a9e9f4",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/en/Tags.json"
+  },
+  {
+    "path": "02-cms/json/es/Alternatives.json",
+    "bytes": 2258554,
+    "sha256": "d9128676c70e177819c9c930a2d3dd00f448351a4ae026fd6c378192f2d2c11e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/es/Alternatives.json"
+  },
+  {
+    "path": "02-cms/json/es/Authors.json",
+    "bytes": 1185,
+    "sha256": "cc64809286bf835e3f8019104e55f41e4c302c84675b0f66b846ed260d72bed1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/es/Authors.json"
+  },
+  {
+    "path": "02-cms/json/es/Blogs.json",
+    "bytes": 5573148,
+    "sha256": "c23c83be5e3de2bc154d248f3113257f7bea6e22908faf7b5b17309a265a02bc",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/es/Blogs.json"
+  },
+  {
+    "path": "02-cms/json/es/Careers.json",
+    "bytes": 5087,
+    "sha256": "6d2adfaedaf0ce9c2e55961f9a2cfbb3c9493d3dc9fc2370945c7190986031fd",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/es/Careers.json"
+  },
+  {
+    "path": "02-cms/json/es/Categories.json",
+    "bytes": 263795,
+    "sha256": "21eb100f7ee85e592e358f408678ac12dcb36e23cddecc741607ee18ee8aea59",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/es/Categories.json"
+  },
+  {
+    "path": "02-cms/json/es/Copyfy Vs.json",
+    "bytes": 1277316,
+    "sha256": "8c83d00cd9e38437b45ece044b825e18dba1d44bcc1fc27b59152b46bb012b13",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/es/Copyfy%20Vs.json"
+  },
+  {
+    "path": "02-cms/json/es/Demo shops.json",
+    "bytes": 1331,
+    "sha256": "86b06869ff9433c0702e9201e61bdf28d044590cd4c62d714f16071212e98d6c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/es/Demo%20shops.json"
+  },
+  {
+    "path": "02-cms/json/es/FAQs.json",
+    "bytes": 153726,
+    "sha256": "61ff3a9321c9da5501359a010b1befd1c8dbef396652e81668520056439b3501",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/es/FAQs.json"
+  },
+  {
+    "path": "02-cms/json/es/Features Copies.json",
+    "bytes": 31375,
+    "sha256": "19f395a25b109112bab2b2901d21dd9972f4cfd40b4d93a782ee9b846ea542c9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/es/Features%20Copies.json"
+  },
+  {
+    "path": "02-cms/json/es/Features.json",
+    "bytes": 38071,
+    "sha256": "2f1728d69c0c0b072b669887aa3a729bb7cf0f9d72274895aedc0aa37aa75853",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/es/Features.json"
+  },
+  {
+    "path": "02-cms/json/es/Free Tool Lists.json",
+    "bytes": 11886,
+    "sha256": "25bd465e8c1965ee92506de97688fd906e784f266a272be03eb82e4b01f52173",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/es/Free%20Tool%20Lists.json"
+  },
+  {
+    "path": "02-cms/json/es/FreeTools.json",
+    "bytes": 197176,
+    "sha256": "bfeb4b0f9857cc9f9592a2bd38d3eee24ee3c89b8b08253304bc26fd64065919",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/es/FreeTools.json"
+  },
+  {
+    "path": "02-cms/json/es/Tags.json",
+    "bytes": 2612,
+    "sha256": "433b740cff56d4b24b6b0e9ba02c5b6ef8de53c74ca0f84d3b315263e30789e4",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/es/Tags.json"
+  },
+  {
+    "path": "02-cms/json/fr/Alternatives.json",
+    "bytes": 2168639,
+    "sha256": "3e1cc22767bc482ed3b0ca991471b6fba2b15334de16a116411aabc79f5dcd9b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/fr/Alternatives.json"
+  },
+  {
+    "path": "02-cms/json/fr/Authors.json",
+    "bytes": 1198,
+    "sha256": "faeb6dc3b02ac82203fb4bfec9dd6470b145ec88e8729194a5716eedf53ce09e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/fr/Authors.json"
+  },
+  {
+    "path": "02-cms/json/fr/Blogs.json",
+    "bytes": 6704230,
+    "sha256": "b513f159ca67242df8eddd363086ddf1e3fc3b3266d72d1f82fbdee8af44f067",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/fr/Blogs.json"
+  },
+  {
+    "path": "02-cms/json/fr/Careers.json",
+    "bytes": 5014,
+    "sha256": "0e4b526fe04554dc000034d05b40a5bc384eca7b05bfbd5414e3701dbcc978aa",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/fr/Careers.json"
+  },
+  {
+    "path": "02-cms/json/fr/Categories.json",
+    "bytes": 262720,
+    "sha256": "500a0500c5573f2a253c3e1535d0e6d93081dc7ad6d90698ac91bdd323e91055",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/fr/Categories.json"
+  },
+  {
+    "path": "02-cms/json/fr/Copyfy Vs.json",
+    "bytes": 1275700,
+    "sha256": "ab19ced7cdbd4bc73f1a677dcf42a3906bf4d0c45520fbaaf1b184598800c0fe",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/fr/Copyfy%20Vs.json"
+  },
+  {
+    "path": "02-cms/json/fr/Demo shops.json",
+    "bytes": 1331,
+    "sha256": "9d63b844cea8adfc314753bdd9b6a9a4d7fb4f0c4a195d5521bcc0f69e230f75",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/fr/Demo%20shops.json"
+  },
+  {
+    "path": "02-cms/json/fr/FAQs.json",
+    "bytes": 149435,
+    "sha256": "007c7b7bd7d0d087d4e8f4293426531214cb2395e31f62f379d35cac729d958b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/fr/FAQs.json"
+  },
+  {
+    "path": "02-cms/json/fr/Features Copies.json",
+    "bytes": 33009,
+    "sha256": "6f472264f05206fa5c3c3a9f109d9abbde28257975cc72f97d0ce3b465300ae6",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/fr/Features%20Copies.json"
+  },
+  {
+    "path": "02-cms/json/fr/Features.json",
+    "bytes": 40059,
+    "sha256": "26acf398c1a538b604bef9d4fecb144b3f20448c1f0bf10016133a06a0dcd50c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/fr/Features.json"
+  },
+  {
+    "path": "02-cms/json/fr/Free Tool Lists.json",
+    "bytes": 11881,
+    "sha256": "9be42483819bbfb2ff504f8c0b45c3d0325e2db32c6ecb379b7123e8c5f341b0",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/fr/Free%20Tool%20Lists.json"
+  },
+  {
+    "path": "02-cms/json/fr/FreeTools.json",
+    "bytes": 200313,
+    "sha256": "16b2dc7a31018725ef29a23c9d22bb69331d24fee662fd03cff15af89242cf95",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/fr/FreeTools.json"
+  },
+  {
+    "path": "02-cms/json/fr/Tags.json",
+    "bytes": 2597,
+    "sha256": "1ae6ccbe013b1c34ac3b5cf995693c2ff34895d0befc598a29133270b4f6f9b2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/fr/Tags.json"
+  },
+  {
+    "path": "02-cms/json/nl/Alternatives.json",
+    "bytes": 2192150,
+    "sha256": "74d051f83832b8ff82c113c4816fa2aa19313d798a1f12e406789c3a547c6d63",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/nl/Alternatives.json"
+  },
+  {
+    "path": "02-cms/json/nl/Authors.json",
+    "bytes": 1178,
+    "sha256": "48bba93433c6df631d7a5e7bcc23eda80a25fe6c1e105cab15a506c725f4c6b2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/nl/Authors.json"
+  },
+  {
+    "path": "02-cms/json/nl/Blogs.json",
+    "bytes": 5480434,
+    "sha256": "fd9155e9cb32d2862ac9eb83fac7e0f642d9868939f1fc0868daad735caaf33b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/nl/Blogs.json"
+  },
+  {
+    "path": "02-cms/json/nl/Careers.json",
+    "bytes": 5014,
+    "sha256": "2c13bcb16742379ef2387fed4dd550c8878b3cda09c90ba34081b476bc50dcf3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/nl/Careers.json"
+  },
+  {
+    "path": "02-cms/json/nl/Categories.json",
+    "bytes": 257602,
+    "sha256": "e51ed01e4117fc12877ff189cb0dc728d938a1468f77a163f11df8db97c94c39",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/nl/Categories.json"
+  },
+  {
+    "path": "02-cms/json/nl/Copyfy Vs.json",
+    "bytes": 1262240,
+    "sha256": "777d2514a303388ec3b76928c1298c1eb5e476338dd77ce6de3dfecfcf9c0446",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/nl/Copyfy%20Vs.json"
+  },
+  {
+    "path": "02-cms/json/nl/Demo shops.json",
+    "bytes": 1331,
+    "sha256": "aca4db5bd7191650cd9748384620e5e32bc9a0aa75287f02e1b194aa457bfb74",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/nl/Demo%20shops.json"
+  },
+  {
+    "path": "02-cms/json/nl/FAQs.json",
+    "bytes": 152053,
+    "sha256": "351523e471e75301c88e9c8959abc9bd8ec421f60803d1cde4e4495c961bdc40",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/nl/FAQs.json"
+  },
+  {
+    "path": "02-cms/json/nl/Features Copies.json",
+    "bytes": 30819,
+    "sha256": "b853c61e08cd520d4e745e3254b98adaa87540c7f6e5f42e83a408475c661ab0",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/nl/Features%20Copies.json"
+  },
+  {
+    "path": "02-cms/json/nl/Features.json",
+    "bytes": 37583,
+    "sha256": "f253a154f094765bd1ac4a34ec2ece302365d38b610e5c4588aca8edccf9b3d7",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/nl/Features.json"
+  },
+  {
+    "path": "02-cms/json/nl/Free Tool Lists.json",
+    "bytes": 11715,
+    "sha256": "6d7e0e7be02b8aa16f1b8276e8c4062d0afa0fdf59c56e48284308a7cac16646",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/nl/Free%20Tool%20Lists.json"
+  },
+  {
+    "path": "02-cms/json/nl/FreeTools.json",
+    "bytes": 193444,
+    "sha256": "b484ca03b5eb8a432e0c080fa7489659307df50993c46c5a3e7b8f02e52597ac",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/nl/FreeTools.json"
+  },
+  {
+    "path": "02-cms/json/nl/Tags.json",
+    "bytes": 2597,
+    "sha256": "5cbcdac1f3ede0fdc26c906edc2e3de9e1a7f0dbe4d7866d9b3c269a5652c9b5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/nl/Tags.json"
+  },
+  {
+    "path": "02-cms/json/pt/Alternatives.json",
+    "bytes": 2153303,
+    "sha256": "ac8388c1b92cfc2901516f3ab831ad13008fc0d350281a73c14a4f3ae088f4fe",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/pt/Alternatives.json"
+  },
+  {
+    "path": "02-cms/json/pt/Authors.json",
+    "bytes": 1177,
+    "sha256": "b74fd2373f720157fbce763827826a17c98398c0cd68cb05972390783e587d13",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/pt/Authors.json"
+  },
+  {
+    "path": "02-cms/json/pt/Blogs.json",
+    "bytes": 6100864,
+    "sha256": "ad2f6ef3870b0d8d2df8261d9a5766dae742c474474574ba2825133734e9774d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/pt/Blogs.json"
+  },
+  {
+    "path": "02-cms/json/pt/Careers.json",
+    "bytes": 5014,
+    "sha256": "8da116d48272d6c056f11b0b7fd711b3dc6af0e1428be77984415f6152929cd7",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/pt/Careers.json"
+  },
+  {
+    "path": "02-cms/json/pt/Categories.json",
+    "bytes": 265014,
+    "sha256": "ed387667f7bb09bfa409f98086dcc41b278f8bae852e8180e552aca0ff4bdfff",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/pt/Categories.json"
+  },
+  {
+    "path": "02-cms/json/pt/Copyfy Vs.json",
+    "bytes": 1277030,
+    "sha256": "708e8d3a77a1c3cfc65c7781d36a49aa1578ef118d736459c57b582c372348de",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/pt/Copyfy%20Vs.json"
+  },
+  {
+    "path": "02-cms/json/pt/Demo shops.json",
+    "bytes": 1331,
+    "sha256": "d41e85e2d7d19e732ffca666f4d8dce36da52fcd7139238540a73a00a4db8df6",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/pt/Demo%20shops.json"
+  },
+  {
+    "path": "02-cms/json/pt/FAQs.json",
+    "bytes": 141308,
+    "sha256": "bb81868407158f53080b242f7acdc852545066cc0266be55ba68390c63ef4e82",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/pt/FAQs.json"
+  },
+  {
+    "path": "02-cms/json/pt/Features Copies.json",
+    "bytes": 31583,
+    "sha256": "35ba2f7b0b1c73505f7eb6a903898983584776a287ca23a2ac3877e47708134b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/pt/Features%20Copies.json"
+  },
+  {
+    "path": "02-cms/json/pt/Features.json",
+    "bytes": 37475,
+    "sha256": "77635cf8a4dd7ac5553147b32b5252be0fa6ec550cee9240ac43934c36402d4b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/pt/Features.json"
+  },
+  {
+    "path": "02-cms/json/pt/Free Tool Lists.json",
+    "bytes": 11704,
+    "sha256": "4de9b3a9fdab0cc6736927b63bb9b977ccd435d45dd8b59c2e20eb0d8c360c2a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/pt/Free%20Tool%20Lists.json"
+  },
+  {
+    "path": "02-cms/json/pt/FreeTools.json",
+    "bytes": 188798,
+    "sha256": "bd3f7e6f4086e908d20b014ed62afbb6b0d06af42750efdfd19c11b5d51bda6f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/pt/FreeTools.json"
+  },
+  {
+    "path": "02-cms/json/pt/Tags.json",
+    "bytes": 2594,
+    "sha256": "6e39af424c9e140473b96640a8adef21d921f0d79e00c3a9803ab19a5763eaf4",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/json/pt/Tags.json"
+  },
+  {
+    "path": "02-cms/locale-map.json",
+    "bytes": 218,
+    "sha256": "260284f3724b11310f4c1e75a01f0e423d20fb7a66bda0e6f8872d98c6b07576",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/locale-map.json"
+  },
+  {
+    "path": "02-cms/nl/Alternatives.csv",
+    "bytes": 2165293,
+    "sha256": "4385b60e2a5c325a0f8aa243addc0415cad0c9885e76530dcd72ff04ee7daf83",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/nl/Alternatives.csv"
+  },
+  {
+    "path": "02-cms/nl/Authors.csv",
+    "bytes": 988,
+    "sha256": "223e02ac35910d28ea16961b3b22ff163c37dd7927263757ecf64a020863d3e5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/nl/Authors.csv"
+  },
+  {
+    "path": "02-cms/nl/Blogs.csv",
+    "bytes": 5419073,
+    "sha256": "40fc4e67f2e2ac4e8fc56acbd30f576ff8f509f4fb998a39b28d5b76852b6c27",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/nl/Blogs.csv"
+  },
+  {
+    "path": "02-cms/nl/Careers.csv",
+    "bytes": 4866,
+    "sha256": "a36b41bf8a525ac745b64b949ccfbdff4499bc3876d615f5992ee9125a24d041",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/nl/Careers.csv"
+  },
+  {
+    "path": "02-cms/nl/Categories.csv",
+    "bytes": 255106,
+    "sha256": "5df747fe8faf285ae0ae7a872a0bd0714d63212d2b596c8b4b183ff91e9de44d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/nl/Categories.csv"
+  },
+  {
+    "path": "02-cms/nl/Copyfy Vs.csv",
+    "bytes": 1241439,
+    "sha256": "8e79640b34748756bba489238ce2bb73ddc5660f94a8fa90660a6849a2a68e1d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/nl/Copyfy%20Vs.csv"
+  },
+  {
+    "path": "02-cms/nl/Demo shops.csv",
+    "bytes": 970,
+    "sha256": "5cdde725c36dea6715ffaacc81e54522080bb10b902e7a5a4846680cc3200058",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/nl/Demo%20shops.csv"
+  },
+  {
+    "path": "02-cms/nl/FAQs.csv",
+    "bytes": 100019,
+    "sha256": "158a1975179ea2dc8e8016b9951dade802398a0e3880b65c2813a4c29e576019",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/nl/FAQs.csv"
+  },
+  {
+    "path": "02-cms/nl/Features Copies.csv",
+    "bytes": 22549,
+    "sha256": "6c6e1e96cbc76adcb1d99e0dcbbcd978d25ebe2d6a006430c3e39eca3768d3a9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/nl/Features%20Copies.csv"
+  },
+  {
+    "path": "02-cms/nl/Features.csv",
+    "bytes": 27477,
+    "sha256": "b3091c791bd854edee06ea41d066cbd85d37be007b14183e101357018dbf75e5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/nl/Features.csv"
+  },
+  {
+    "path": "02-cms/nl/Free Tool Lists.csv",
+    "bytes": 8436,
+    "sha256": "a0248c6f40091531bfaaa15051562fb648a32618a5e3a502e77d388e17b5e6a0",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/nl/Free%20Tool%20Lists.csv"
+  },
+  {
+    "path": "02-cms/nl/FreeTools.csv",
+    "bytes": 183831,
+    "sha256": "647dd9abd3a7fcb33961855dee95b1cab57ec0cba6fc467e3234d4a3ddc23e98",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/nl/FreeTools.csv"
+  },
+  {
+    "path": "02-cms/nl/Tags.csv",
+    "bytes": 1687,
+    "sha256": "50b78514a1b281098f12d92c0ad66115ae6f6f0be939037778de38b4c5ffa59e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/nl/Tags.csv"
+  },
+  {
+    "path": "02-cms/pt/Alternatives.csv",
+    "bytes": 2127397,
+    "sha256": "438ccec92d624bc0b57d633c9f06823a303615913af2ef934a547c1bd65e773d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/pt/Alternatives.csv"
+  },
+  {
+    "path": "02-cms/pt/Authors.csv",
+    "bytes": 987,
+    "sha256": "24fe1de6a1439447508f3ad5c222f301bbc1e1425825b7d6ef0d2f93a4fcae61",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/pt/Authors.csv"
+  },
+  {
+    "path": "02-cms/pt/Blogs.csv",
+    "bytes": 6031205,
+    "sha256": "19ad4c285a6705193d3cfba2a7e6981ffd1589556e0f1d66e1a757d476785581",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/pt/Blogs.csv"
+  },
+  {
+    "path": "02-cms/pt/Careers.csv",
+    "bytes": 4866,
+    "sha256": "0cd500a018d9f28e422fa86780f02ffaea63265ba2fc92ee18e66648a2b6a695",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/pt/Careers.csv"
+  },
+  {
+    "path": "02-cms/pt/Categories.csv",
+    "bytes": 262523,
+    "sha256": "c9376fd1abc3853d7b09b4604e2a66f0584bf657e6609a8a842cdca2f1bd4e75",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/pt/Categories.csv"
+  },
+  {
+    "path": "02-cms/pt/Copyfy Vs.csv",
+    "bytes": 1256226,
+    "sha256": "e2f50c1ea615915a576998095d78e06c82bd82a9f47a4297c30aa9198ccea844",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/pt/Copyfy%20Vs.csv"
+  },
+  {
+    "path": "02-cms/pt/Demo shops.csv",
+    "bytes": 970,
+    "sha256": "cb41ea10019cf9e4df123d5e1eff7ce3af6f199bc02a39deac20e93ea37a042c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/pt/Demo%20shops.csv"
+  },
+  {
+    "path": "02-cms/pt/FAQs.csv",
+    "bytes": 91528,
+    "sha256": "7fede02469d496ef228fd4471c4a38b75bd8fdae532dc4dd538ac5e17016f23c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/pt/FAQs.csv"
+  },
+  {
+    "path": "02-cms/pt/Features Copies.csv",
+    "bytes": 23315,
+    "sha256": "01dc69b5e53d4b48e839c00aa7a1bec15adbb437f9363f81346c2b4534760c02",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/pt/Features%20Copies.csv"
+  },
+  {
+    "path": "02-cms/pt/Features.csv",
+    "bytes": 27381,
+    "sha256": "e00e6beeaab8d4b17be39d200f7fb489c1b11e329c74e4a6859be6182ef88250",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/pt/Features.csv"
+  },
+  {
+    "path": "02-cms/pt/Free Tool Lists.csv",
+    "bytes": 8423,
+    "sha256": "cd01f42544f7aa518570b3bc0c8e8576c49790008db0371d15185fabb74353e4",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/pt/Free%20Tool%20Lists.csv"
+  },
+  {
+    "path": "02-cms/pt/FreeTools.csv",
+    "bytes": 179177,
+    "sha256": "3ebfb092fde67ad2bd9c78c48602e4ed31215037b29d4bbe1658611884877121",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/pt/FreeTools.csv"
+  },
+  {
+    "path": "02-cms/pt/Tags.csv",
+    "bytes": 1684,
+    "sha256": "762934d884c56aab745e274954d7396ba683dcca8f3eb3fd26f05bc91583b39b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/pt/Tags.csv"
+  },
+  {
+    "path": "02-cms/schema-field-types.json",
+    "bytes": 20905,
+    "sha256": "d8219a56407361ac219cb520013bdb620279b39ad8dbb4f886c2b144e8177129",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/schema-field-types.json"
+  },
+  {
+    "path": "02-cms/schemas/Alternatives.txt",
+    "bytes": 2799,
+    "sha256": "b2e3939d6ef36adfd85787dcc09a45bfe5011c3c565ed05ff47028315fbfc96d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/schemas/Alternatives.txt"
+  },
+  {
+    "path": "02-cms/schemas/Authors.txt",
+    "bytes": 2806,
+    "sha256": "2ca104557bb012ccfb5cce993fcd37d4cb5c1fdbc7564fa5ae51c5b99cd82581",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/schemas/Authors.txt"
+  },
+  {
+    "path": "02-cms/schemas/Blogs.txt",
+    "bytes": 3748,
+    "sha256": "aec501cca5453673259e9b35f9445f4a462f30dddbe0dc5fdc37ce56126a91fd",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/schemas/Blogs.txt"
+  },
+  {
+    "path": "02-cms/schemas/Careers.txt",
+    "bytes": 2481,
+    "sha256": "388551cee973a50364b5233cbad98fe6525b179f4bb14f1b74a41ac0a471a320",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/schemas/Careers.txt"
+  },
+  {
+    "path": "02-cms/schemas/Categories.txt",
+    "bytes": 2630,
+    "sha256": "0794d09a7cbb3226462d747f86abc70dd55f189ca32d3f9c122f4b32e43ee23e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/schemas/Categories.txt"
+  },
+  {
+    "path": "02-cms/schemas/Copyfy Vs.txt",
+    "bytes": 2763,
+    "sha256": "c793fd631732bf08dbc70eb231f06e51dc1aab3758b36cbe7ac2a1f3d3d2cd49",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/schemas/Copyfy%20Vs.txt"
+  },
+  {
+    "path": "02-cms/schemas/Demo shops.txt",
+    "bytes": 2260,
+    "sha256": "9c0aad975dd7fa2993acd9da7ac9dcd4aa980aebb1277eca06e61cbf67829dde",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/schemas/Demo%20shops.txt"
+  },
+  {
+    "path": "02-cms/schemas/FAQs.txt",
+    "bytes": 2607,
+    "sha256": "5c2893c1f3ce87fd72bedc743ab3ad313b9e4e29ec7426e5ad59117922350d7b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/schemas/FAQs.txt"
+  },
+  {
+    "path": "02-cms/schemas/Features Copies.txt",
+    "bytes": 8515,
+    "sha256": "0f2b57e448c0e9683c3375aee179178f54fd34916eb257a58cfb76f03e86133d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/schemas/Features%20Copies.txt"
+  },
+  {
+    "path": "02-cms/schemas/Features.txt",
+    "bytes": 8465,
+    "sha256": "cb211bcb9292bf5abf9f185ac545013c6512cdeb6aa146b1f145e2243958e8ab",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/schemas/Features.txt"
+  },
+  {
+    "path": "02-cms/schemas/Free Tool Lists.txt",
+    "bytes": 2458,
+    "sha256": "15050cfab12006c124206fe3d1c4f60994eb0e40fdde05e1f9c208b3f2b93e80",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/schemas/Free%20Tool%20Lists.txt"
+  },
+  {
+    "path": "02-cms/schemas/FreeTools.txt",
+    "bytes": 6260,
+    "sha256": "307accd400e673f39997a3cdbcd75e761b284520319724909d30bd1f81b0ee82",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/schemas/FreeTools.txt"
+  },
+  {
+    "path": "02-cms/schemas/Tags.txt",
+    "bytes": 1985,
+    "sha256": "c80f4c73698ba5f33e4b99d45c4fbc8eedf28a63584bc4ea2826c003fb74442d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/02-cms/schemas/Tags.txt"
+  },
+  {
+    "path": "03-published-site/asset-download-audit.json",
+    "bytes": 81105,
+    "sha256": "aa41a44245e65d073efbbfb2ea1e93859ce3e22a9b64f3338a8dd9b8ea56754d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/asset-download-audit.json"
+  },
+  {
+    "path": "03-published-site/asset-manifest-all.json",
+    "bytes": 2140521,
+    "sha256": "1ca08e118d3f6d981d36a1219872076fff86af34dd5217895c539a0114498ed8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/asset-manifest-all.json"
+  },
+  {
+    "path": "03-published-site/asset-manifest.json",
+    "bytes": 2026801,
+    "sha256": "5393bfe23ddf963f70c14f8f756b863cbd9aa72cab94f27f12616654e1b211a6",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/asset-manifest.json"
+  },
+  {
+    "path": "03-published-site/asset-urls.json",
+    "bytes": 528669,
+    "sha256": "cf360621cd46d726e197e6b9f845c02fd5a5c2c4cbf6828268ba8c9e30050ec0",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/asset-urls.json"
+  },
+  {
+    "path": "03-published-site/assets/ajax.googleapis.com/012e56dad079-webfont.js",
+    "bytes": 13188,
+    "sha256": "81016ac6be850b72df5d4faa0c3cec8e2c1b0ba0045712144a6766adfad40bee",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/ajax.googleapis.com/012e56dad079-webfont.js"
+  },
+  {
+    "path": "03-published-site/assets/app.copyfy.io/ed2912fbd4a6-config.js",
+    "bytes": 291,
+    "sha256": "f88c07a5829b61108072e5e8629348ffe1f405d8147c6c1d805c28c8bd82606e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/app.copyfy.io/ed2912fbd4a6-config.js"
+  },
+  {
+    "path": "03-published-site/assets/app.copyfy.io/f64028ed56e7-copyfy-marketing-v2.v1.js",
+    "bytes": 526025,
+    "sha256": "5ec263d31faa3b28e4687823c5c98108dad5de1644b770b25ef30bc37181106b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/app.copyfy.io/f64028ed56e7-copyfy-marketing-v2.v1.js"
+  },
+  {
+    "path": "03-published-site/assets/bucket.copyfy.io/018b40f14f93-ai-video-creation-615b9481-ad03-4390-8008-69c7d72764c5-0.mp4",
+    "bytes": 7709711,
+    "sha256": "aca623a961d0c354492e24baded0d21ddb8e82162a3a91f7e2a2d839fe8a348d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/bucket.copyfy.io/018b40f14f93-ai-video-creation-615b9481-ad03-4390-8008-69c7d72764c5-0.mp4"
+  },
+  {
+    "path": "03-published-site/assets/bucket.copyfy.io/26e5579ca78d-24835595-7bd3-4d91-b171-5a6a5b2c0e45.png",
+    "bytes": 1680496,
+    "sha256": "0183d124212dd49fc86c873ebf438d5912f7750ce92382853dd8c27e30b9cd4c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/bucket.copyfy.io/26e5579ca78d-24835595-7bd3-4d91-b171-5a6a5b2c0e45.png"
+  },
+  {
+    "path": "03-published-site/assets/bucket.copyfy.io/470af0d47f83-shop-2168-fashionnova.com-1770932196057.png",
+    "bytes": 575734,
+    "sha256": "a40b167da2aa1583048004bbf7b570122ff85b0bf05f040c3235ced467da246f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/bucket.copyfy.io/470af0d47f83-shop-2168-fashionnova.com-1770932196057.png"
+  },
+  {
+    "path": "03-published-site/assets/bucket.copyfy.io/5e7b2722cf79-shop-18384-stevemadden.com-1779308520315.png",
+    "bytes": 1464907,
+    "sha256": "491d143563c6c4538e6387b9f66b0f20856c4f14c61495584a4ba10e8bc21175",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/bucket.copyfy.io/5e7b2722cf79-shop-18384-stevemadden.com-1779308520315.png"
+  },
+  {
+    "path": "03-published-site/assets/bucket.copyfy.io/6761141dcaf0-ai-video-creation-0b6187d5-9b0f-4b9d-b465-038e3f19ddb1-0.mp4",
+    "bytes": 7936074,
+    "sha256": "9272c8a53c18ef8004a996a87c80c308722f5482be94340da4d7bae3713dbdd2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/bucket.copyfy.io/6761141dcaf0-ai-video-creation-0b6187d5-9b0f-4b9d-b465-038e3f19ddb1-0.mp4"
+  },
+  {
+    "path": "03-published-site/assets/bucket.copyfy.io/a6279e0fbbdb-7398afe0-bdb6-4816-8629-3589f717b545.png",
+    "bytes": 1579976,
+    "sha256": "644670bc58ba04b3f8ac650877d138ce6efcf04ecd1edd4bca573c066825f265",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/bucket.copyfy.io/a6279e0fbbdb-7398afe0-bdb6-4816-8629-3589f717b545.png"
+  },
+  {
+    "path": "03-published-site/assets/bucket.copyfy.io/abb379113aa6-ai-creation-b15162f8-0e9a-4c3d-85f8-9496c2d20d69-0.png",
+    "bytes": 1846536,
+    "sha256": "75dacdbce9bad51f751a46a67c2e9adfc8c1ffdcfef44b6d62df98ede25cbe3f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/bucket.copyfy.io/abb379113aa6-ai-creation-b15162f8-0e9a-4c3d-85f8-9496c2d20d69-0.png"
+  },
+  {
+    "path": "03-published-site/assets/bucket.copyfy.io/ac8488986826-12d6e90d-14a2-4c9f-8b89-4d880c19d6e1.png",
+    "bytes": 1623567,
+    "sha256": "55cbd6647629b72abae0bd561cad6e1b8b63390da3760a074009a57650900e23",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/bucket.copyfy.io/ac8488986826-12d6e90d-14a2-4c9f-8b89-4d880c19d6e1.png"
+  },
+  {
+    "path": "03-published-site/assets/bucket.copyfy.io/c71c8b4407d5-shop-139410-jbhifi.com.au-1779247883686.png",
+    "bytes": 300621,
+    "sha256": "6baecad425a1c107dcc30ab7747d41c87088293e400868c016ff043990ac1c5c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/bucket.copyfy.io/c71c8b4407d5-shop-139410-jbhifi.com.au-1779247883686.png"
+  },
+  {
+    "path": "03-published-site/assets/bucket.copyfy.io/e393a7a6d601-e3027d29-9002-4d8a-8010-8eb33f2f7dec.png",
+    "bytes": 2360091,
+    "sha256": "4fe7d88cc5a1d2507caaefba4aab124d1aa109ba2b6daf806e99d16e20c30d09",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/bucket.copyfy.io/e393a7a6d601-e3027d29-9002-4d8a-8010-8eb33f2f7dec.png"
+  },
+  {
+    "path": "03-published-site/assets/cdn.jsdelivr.net/13cf11a4182d-swiper-bundle.min.js",
+    "bytes": 154597,
+    "sha256": "985f1224c0eeec99d367a9db35e58e44b21e7eb9ce45831b15b4c108e41fd97f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.jsdelivr.net/13cf11a4182d-swiper-bundle.min.js"
+  },
+  {
+    "path": "03-published-site/assets/cdn.jsdelivr.net/24ff3a72e2b1-tsparticles.bundle.min.js",
+    "bytes": 170274,
+    "sha256": "ef4042ae4a7dfb4195b9c0772ea20d523b7e3064c3c651c6c41f9b4e3ed31591",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.jsdelivr.net/24ff3a72e2b1-tsparticles.bundle.min.js"
+  },
+  {
+    "path": "03-published-site/assets/cdn.jsdelivr.net/63c56570ae87-attributes.js",
+    "bytes": 3656,
+    "sha256": "67584fbeb46f3d91e43c0f0a9c0f2a4f0fc2e0485773e2164967653f7294c363",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.jsdelivr.net/63c56570ae87-attributes.js"
+  },
+  {
+    "path": "03-published-site/assets/cdn.jsdelivr.net/8df9caa88e70-cmsload.js",
+    "bytes": 18482,
+    "sha256": "37d32626a13f38835b81d97b03a6b66056cf0e00d421189791a7ce0de5ecbbb5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.jsdelivr.net/8df9caa88e70-cmsload.js"
+  },
+  {
+    "path": "03-published-site/assets/cdn.jsdelivr.net/98b2a77327f0-richtext.js",
+    "bytes": 8578,
+    "sha256": "d131bfb956041471afb3133f380a9fe894d298bf0c141f33e269fb498f4dc61e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.jsdelivr.net/98b2a77327f0-richtext.js"
+  },
+  {
+    "path": "03-published-site/assets/cdn.jsdelivr.net/eb6cbf3d9bae-toc.js",
+    "bytes": 22442,
+    "sha256": "8f3080c9459e76305ed52789a727b30786b4d8e27da652424db04a22f42ad83d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.jsdelivr.net/eb6cbf3d9bae-toc.js"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/0023aa568301-6ac11145b321a80594c8da16_6ac10f1a471d09a3a28d41fb_copyfy-v2-alternatives-trendtrack-nl.webp",
+    "bytes": 97056,
+    "sha256": "0df2bccf35e4f73eba08edbb57750473079dd313c3de01106646c5b8af894bd5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/0023aa568301-6ac11145b321a80594c8da16_6ac10f1a471d09a3a28d41fb_copyfy-v2-alternatives-trendtrack-nl.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/0024232f924b-6abf8c26cb8589eb27af9834_6abf8c24744bf17930eb5215_copyfy-mi-v2-ecom-sphere-avis-fr.webp",
+    "bytes": 126974,
+    "sha256": "2649a216656c97baec109340ce95cda60c6f9f2e86be7b007f7cc839739fd219",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/0024232f924b-6abf8c26cb8589eb27af9834_6abf8c24744bf17930eb5215_copyfy-mi-v2-ecom-sphere-avis-fr.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/002cba2afadc-6a7f821c1950fd4829665935_6a7f821a2be7d9b09b3fc12a_bigspy-rating-samples-en.webp",
+    "bytes": 67402,
+    "sha256": "c3883a93a5d9e1d94d8f807d2f69cbfb0bdf4d750613278a29614bef443225fd",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/002cba2afadc-6a7f821c1950fd4829665935_6a7f821a2be7d9b09b3fc12a_bigspy-rating-samples-en.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/003d62701ccd-6ab55c58384b56f99551bbe0_6ab55c56911e3a0f25e33091_avis-kalodata-nl-2-v2.webp",
+    "bytes": 141784,
+    "sha256": "b810a0a1742919687a9b5ba5fa763a31aee787f228287a337796683c3f4a6542",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/003d62701ccd-6ab55c58384b56f99551bbe0_6ab55c56911e3a0f25e33091_avis-kalodata-nl-2-v2.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/0055f238da62-6ac10fef0db25077d8e7b2a3_6ac10e24efe8c91069ed3e53_copyfy-v2-copyfy-vs-adheart-nl.webp",
+    "bytes": 111846,
+    "sha256": "bfb406fe66c2bc8a32712e092225929a5fcc70b01640f13e528a74f0ae31e9f7",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/0055f238da62-6ac10fef0db25077d8e7b2a3_6ac10e24efe8c91069ed3e53_copyfy-v2-copyfy-vs-adheart-nl.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/005e43b627f1-6abf9fadc49f6b72eae27279_6abf9f964b94c22222ca4c3d_copyfy-mi-v2-mejor-herramienta-busqueda-productos-es.webp",
+    "bytes": 138262,
+    "sha256": "c567af2a33313bf8cdc884571afaebe155a7e9812d58e6376659b70f2b24881d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/005e43b627f1-6abf9fadc49f6b72eae27279_6abf9f964b94c22222ca4c3d_copyfy-mi-v2-mejor-herramienta-busqueda-productos-es.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/006758a4a86c-6a43c9eb60e159c0f7b88112_6a43c9e8bb83c0b03a2f6f9b_july-ali-fiche-07b.webp",
+    "bytes": 254384,
+    "sha256": "a06b67e082c34690902205f497ad05980ea25926714ae193442298542180c58f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/006758a4a86c-6a43c9eb60e159c0f7b88112_6a43c9e8bb83c0b03a2f6f9b_july-ali-fiche-07b.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/007ab46ccc5c-6a6204ce08336c9722a6902a_6a620496b24c1e1349e51067_dycom-academie-avis-lp-screenshot.webp",
+    "bytes": 95086,
+    "sha256": "4f2642fc477d1f432d1c23e06075e0480e6761c7b48e75ea3c92e2e3fe977146",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/007ab46ccc5c-6a6204ce08336c9722a6902a_6a620496b24c1e1349e51067_dycom-academie-avis-lp-screenshot.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/008d8fcd7e6d-6a5b3701d160f389b772db57_download.png",
+    "bytes": 5999,
+    "sha256": "69cb31333fb12253c33ef1b675f069d3e1573ba80a219703b1347d38c5450c5e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/008d8fcd7e6d-6a5b3701d160f389b772db57_download.png"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/00b716728396-6ac1100defe8c91069ede625_6ac10e7219f4c1b03dc24923_copyfy-v2-copyfy-vs-shoplus-pt.webp",
+    "bytes": 109872,
+    "sha256": "bdbb0a414625e4f4edfed8945cf3c50e2a1c061fbe5764aadba30a871240fa64",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/00b716728396-6ac1100defe8c91069ede625_6ac10e7219f4c1b03dc24923_copyfy-v2-copyfy-vs-shoplus-pt.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/00c0fae0fe6c-6a15ce59a094bf3510f0f539_6a15ce5685003ae26ff8621c_de-aov-levers.webp",
+    "bytes": 135516,
+    "sha256": "46a2093ba60e88a48dff818ad2aae786f347a6a86ab7c1e660616c7a74f5493d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/00c0fae0fe6c-6a15ce59a094bf3510f0f539_6a15ce5685003ae26ff8621c_de-aov-levers.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/00c5491b5a4b-6a676b0336e908be3e42a6be_6a676b0025c1071e54a9cbc4_qamar-ecom-avis-fr.webp",
+    "bytes": 692186,
+    "sha256": "b7e0273876dd98e404cc1095aa0b142da5fc33fce15cd1c6a9d82c456f253f79",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/00c5491b5a4b-6a676b0336e908be3e42a6be_6a676b0025c1071e54a9cbc4_qamar-ecom-avis-fr.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/00cd015c4f9e-69d93e753bcd16f152cd344f_69355414890ad00fd1e36dff_exemple-bestselling.webp",
+    "bytes": 104500,
+    "sha256": "b98343e4b4a406da63d35766eb281343345661e2bb886ed7a1f01a6b809c69b5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/00cd015c4f9e-69d93e753bcd16f152cd344f_69355414890ad00fd1e36dff_exemple-bestselling.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/0100f2f7b1ed-6ab3e834b1fc9fde7b3763cb_6ab3e831fdfa61f173ccd996_omnisend-avis-pt-4.webp",
+    "bytes": 151582,
+    "sha256": "4fa27882c936d4e0423094d4463d3f1e630cc571a2682b4041adbd4a9c9372a5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/0100f2f7b1ed-6ab3e834b1fc9fde7b3763cb_6ab3e831fdfa61f173ccd996_omnisend-avis-pt-4.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/01062f9b3b0c-6a9c3eb1ca7d99ea08162238_6a9c3c7278361d4354dba882_video-fb-figure-4-es.webp",
+    "bytes": 82858,
+    "sha256": "12c7df2a9138471e629358d9935fae83ef2327ef181c98bd2051c6236bddc6ae",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/01062f9b3b0c-6a9c3eb1ca7d99ea08162238_6a9c3c7278361d4354dba882_video-fb-figure-4-es.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/0114eaf417eb-6a26c466ed72485025877bcc_6a26c46393653fc4bbda3a61_margin-dna-en.webp",
+    "bytes": 71738,
+    "sha256": "980f2bfbfc9a144f98ab18a3f92cae508c6dd373691f312e24de30c3b12e9009",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/0114eaf417eb-6a26c466ed72485025877bcc_6a26c46393653fc4bbda3a61_margin-dna-en.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/011a2ede7698-6ac4a6e9a75e997676f8b6d5_page-produit-fitness.webp",
+    "bytes": 42628,
+    "sha256": "2a8e532ecfe59944809855598c2e4eaa07f01cb62e039533c7f725866730e978",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/011a2ede7698-6ac4a6e9a75e997676f8b6d5_page-produit-fitness.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/011f65f7cc14-6a3412730f61df42ea10d914_6a34126a053cf0e32c595094_es-cro-funnel.webp",
+    "bytes": 121132,
+    "sha256": "4aba1bf34deaaa5ff05fdd0fa7fc4c60a5f35ad35816f9664583cb6e25f34918",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/011f65f7cc14-6a3412730f61df42ea10d914_6a34126a053cf0e32c595094_es-cro-funnel.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/01800592e856-6ac11026ac5bdcff59fc5358_6ac10eb12abb2b07788975cb_copyfy-v2-alternatives-5-best-buildyourstore-alternatives-en.webp",
+    "bytes": 100078,
+    "sha256": "18962f5499e51b2340c7017c605a71869223566686988950eb2fd8b4bd489154",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/01800592e856-6ac11026ac5bdcff59fc5358_6ac10eb12abb2b07788975cb_copyfy-v2-alternatives-5-best-buildyourstore-alternatives-en.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/0182b41bfed0-6a9e9ef65242cd997d40aa2e_6a9e9d384583c41dd50c3ee7_formations-dropshipping-seo-fr-06-livementor-e-commerce.webp",
+    "bytes": 74172,
+    "sha256": "155c990fe533b2af330b47b4d09582969dc84a19758f2cfff6758347797e64db",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/0182b41bfed0-6a9e9ef65242cd997d40aa2e_6a9e9d384583c41dd50c3ee7_formations-dropshipping-seo-fr-06-livementor-e-commerce.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/01cdc0f53b2a-6abf965fca5528278c44b414_6abf964b0fa8b5425c93b580_copyfy-mi-v2-shopify-vs-wordpress-nl.webp",
+    "bytes": 153650,
+    "sha256": "0a86dff3511a9b92bb630cde4d338af9aee5c15aad5a08cf60727ce26738487d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/01cdc0f53b2a-6abf965fca5528278c44b414_6abf964b0fa8b5425c93b580_copyfy-mi-v2-shopify-vs-wordpress-nl.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/01f6eb7eac51-69f36c2761bde17e7b28827c_69f3541a1eb24e1cbd0c4270_pageflyai-home.webp",
+    "bytes": 916398,
+    "sha256": "28f06019fe436de4b2857fda88389856dc6e363d79500bb87f2689ab6c268cc2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/01f6eb7eac51-69f36c2761bde17e7b28827c_69f3541a1eb24e1cbd0c4270_pageflyai-home.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/01fe51675971-6a1db8575ef920f944db1f0e_6a1db81dea626c65de17ba44_appstore-cta-bold.png",
+    "bytes": 111182,
+    "sha256": "e1e8c294cda300ebf3d58ccb624442e2d0a23531d2b37708e630f33c8f663ee4",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/01fe51675971-6a1db8575ef920f944db1f0e_6a1db81dea626c65de17ba44_appstore-cta-bold.png"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/02063bd9252b-6aa92694830f0641cac3faf9_6aa9268e2db203183ecf999c_free-adspy-linkedin-current-hero.webp",
+    "bytes": 53568,
+    "sha256": "9644cf2ed64e1abc98fbe34886cb9128b26d4b47a53d90a1c92549df85d8ff5a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/02063bd9252b-6aa92694830f0641cac3faf9_6aa9268e2db203183ecf999c_free-adspy-linkedin-current-hero.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/020770de98c9-6ab3e7867fb434819d356965_6ab3e782ead141bd5cbd2713_dropispy-avis-pt-1.webp",
+    "bytes": 86728,
+    "sha256": "e9520499d1e50b5b3c29afcfd9ebb4fa59bc506a39ef94fd88beb03ce8033ce4",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/020770de98c9-6ab3e7867fb434819d356965_6ab3e782ead141bd5cbd2713_dropispy-avis-pt-1.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/021dce33ea43-6abf8c867b69d786665864dc_6abf8c77942c196245427355_copyfy-mi-v2-kalodata-review-nl.webp",
+    "bytes": 135170,
+    "sha256": "f0f44a63e68be198891ed73a061dcceb4f7ce66a7a35ec02d452e2d1483b685d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/021dce33ea43-6abf8c867b69d786665864dc_6abf8c77942c196245427355_copyfy-mi-v2-kalodata-review-nl.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/025fddaf2c65-6abf99e8f092bde8e3ede9d8_6abf99d613b6ba2b3a63a378_copyfy-mi-v2-shopify-blog-maken-nl.webp",
+    "bytes": 106472,
+    "sha256": "09bb1041f80fcb91a0bf6470acb3faa5b96d7497fa23a47af2a37ef9765753a4",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/025fddaf2c65-6abf99e8f092bde8e3ede9d8_6abf99d613b6ba2b3a63a378_copyfy-mi-v2-shopify-blog-maken-nl.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/02682f0e5432-6aa92694830f0641cac3fae4_6aa9268e2db203183ecf999c_free-adspy-linkedin-current-hero.webp",
+    "bytes": 53568,
+    "sha256": "9644cf2ed64e1abc98fbe34886cb9128b26d4b47a53d90a1c92549df85d8ff5a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/02682f0e5432-6aa92694830f0641cac3fae4_6aa9268e2db203183ecf999c_free-adspy-linkedin-current-hero.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/0286130825f0-69f39651e6fcef7aee5b9677_69f39125dbaa9e3318ad184f_booster-theme.webp",
+    "bytes": 165314,
+    "sha256": "e86af0dd5c45ec4295c2bded772b8ea4cf66825df82f6c791ebe81ec3f66a03f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/0286130825f0-69f39651e6fcef7aee5b9677_69f39125dbaa9e3318ad184f_booster-theme.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/029818c34053-6a22aa98250331fb1fa11315_6a22aa9676013bc742319cbd_subapp-stagepicker-nl.webp",
+    "bytes": 147174,
+    "sha256": "b776fd8526d9aa46e08d114ec2507fc74dd8f671b23df32ce8ac0b866be0d948",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/029818c34053-6a22aa98250331fb1fa11315_6a22aa9676013bc742319cbd_subapp-stagepicker-nl.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/02a10b542531-6ab3e7571c0031d318d662b6_6ab3e7552db7aa3937138c74_comment-ameliorer-roas-pt-5.webp",
+    "bytes": 70434,
+    "sha256": "3b80cbff3000182b91234e0bf2444ab297559873787c3d0e3b6b878f1c16b6c7",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/02a10b542531-6ab3e7571c0031d318d662b6_6ab3e7552db7aa3937138c74_comment-ameliorer-roas-pt-5.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/02ab9dbb223c-6abf901e5b19a8ada731f650_6abf901929f9636ef2793de3_copyfy-mi-v2-bigspy-opinioes-pt.webp",
+    "bytes": 125962,
+    "sha256": "0b1239ff4feff2610b3569b43d41fc79521cb1f944be46e6933129dc14ca9332",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/02ab9dbb223c-6abf901e5b19a8ada731f650_6abf901929f9636ef2793de3_copyfy-mi-v2-bigspy-opinioes-pt.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/02d192f6c685-6a11abb90e0fb0be2f528a7b_6a11abb584fa09985d656faf_category-ia-hub-spoke-es.webp",
+    "bytes": 85508,
+    "sha256": "ab2087e16b29b5634320098580f5886a8a0d3c916b7b7636110de496f366c73f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/02d192f6c685-6a11abb90e0fb0be2f528a7b_6a11abb584fa09985d656faf_category-ia-hub-spoke-es.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/0304cdb14653-6abf951c0a72d8e883c90b25_6abf94fe5590174aa11dadbd_copyfy-mi-v2-best-subscription-app-for-shopify-en.webp",
+    "bytes": 124570,
+    "sha256": "e28916fe2caa25d1759bfb945996f9bef0d3b4821bf2cb9445868ca27f71840b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/0304cdb14653-6abf951c0a72d8e883c90b25_6abf94fe5590174aa11dadbd_copyfy-mi-v2-best-subscription-app-for-shopify-en.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/0305567d36f6-6ac10ff610f772f83cf5a5e8_6ac10e3735366d0fed92709a_copyfy-v2-copyfy-vs-adespresso-nl.webp",
+    "bytes": 114188,
+    "sha256": "54e87f7a29bbcae9ba40af27f06b312543be5f05104e0cacc7b54954696b249f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/0305567d36f6-6ac10ff610f772f83cf5a5e8_6ac10e3735366d0fed92709a_copyfy-v2-copyfy-vs-adespresso-nl.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/0341822b5b72-6abf909b20292e0a8ae1402f_6abf90760fa8b5425c911bef_copyfy-mi-v2-identifier-theme-boutique-shopify-fr.webp",
+    "bytes": 145694,
+    "sha256": "8a8b15993826263bfc15e82a53c68b65f25014b7c421983df654d9dd0199f3f0",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/0341822b5b72-6abf909b20292e0a8ae1402f_6abf90760fa8b5425c911bef_copyfy-mi-v2-identifier-theme-boutique-shopify-fr.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/0350130e055b-6abf8d32dcf35b4e2227f1dc_6abf8d287b69d7866658927c_copyfy-mi-v2-kostenlose-adspy-tools-de.webp",
+    "bytes": 159008,
+    "sha256": "0f6733fe66633359876fcc96b9002f3aa46d6a1b2b52d9a61ef4fa75332f07e9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/0350130e055b-6abf8d32dcf35b4e2227f1dc_6abf8d287b69d7866658927c_copyfy-mi-v2-kostenlose-adspy-tools-de.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/0362bcdfc8fd-6a7b6549764c503cbd8a3331_unnamed__6_.avif",
+    "bytes": 10199,
+    "sha256": "c5e3f5031955342565641c463662bade75bc6a806694c968f259c693cfde969c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/0362bcdfc8fd-6a7b6549764c503cbd8a3331_unnamed__6_.avif"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/03716a6b8735-6abf9e08f3ee6467fa79ae09_6abf9de32d0bdff15cead96c_copyfy-mi-v2-avis-bigbuy-fr.webp",
+    "bytes": 120392,
+    "sha256": "f878ff81aa4207989185d7a8aed62279b376a9903d055bb1c5e16ef99419431e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/03716a6b8735-6abf9e08f3ee6467fa79ae09_6abf9de32d0bdff15cead96c_copyfy-mi-v2-avis-bigbuy-fr.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/0379aca3193c-69d9327700d32cff5374ea26_693ad08aa861911f031b15b9_agent-sourcing-fiverrr.webp",
+    "bytes": 182928,
+    "sha256": "3c0474d745320162ac2f23ea4a23ecf51c38a4e23f9bb6c6b6ce6d45f190befb",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/0379aca3193c-69d9327700d32cff5374ea26_693ad08aa861911f031b15b9_agent-sourcing-fiverrr.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/037b3178ee92-6abf9ef5464508874078f9f9_6abf9ed02e08519bd5b75d9c_copyfy-mi-v2-definition-dropshipping-fr.webp",
+    "bytes": 86406,
+    "sha256": "165976b1131909c09eb086652c688e366218c1ce02321b2985155d41e1f4bff3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/037b3178ee92-6abf9ef5464508874078f9f9_6abf9ed02e08519bd5b75d9c_copyfy-mi-v2-definition-dropshipping-fr.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/038181d25ee2-6a11bb07725fd25f6e2d1457_6a11bb05c101ee562779f7a5_category-ia-flowchart-nl.webp",
+    "bytes": 44676,
+    "sha256": "778f0ec483527a86d8eddcd1bfefd8d3dedafc06da73d202057ab5bba1a2c76c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/038181d25ee2-6a11bb07725fd25f6e2d1457_6a11bb05c101ee562779f7a5_category-ia-flowchart-nl.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/0389b20e1f83-6a3d23502b74f6d06527f258_6a3d2340133dcc5aae597de7_tiktok-adspy-scorecard-en.webp",
+    "bytes": 150246,
+    "sha256": "dae69f6c88dd3fbe9363e12ec2497805648c78a8ccc0831674501744dbbe481c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/0389b20e1f83-6a3d23502b74f6d06527f258_6a3d2340133dcc5aae597de7_tiktok-adspy-scorecard-en.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/039860d233bc-6ace605377f52d0b692e6235_6ace604231080b5fa0f95f12_scaler-meta-ads-roas-break-even-pt.webp",
+    "bytes": 114644,
+    "sha256": "da6b65aa63ba61ba2e437cd015ce67a25d162dd613e72f660969ab29da51346c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/039860d233bc-6ace605377f52d0b692e6235_6ace604231080b5fa0f95f12_scaler-meta-ads-roas-break-even-pt.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/0399b3f51b75-6a282faa091dec7b16861be5_6a282f543d5956a1d272dab8_home-trendtrack.webp",
+    "bytes": 71242,
+    "sha256": "98ec42b07eb70f1b2c8d33103c2a27635df9c2c8a83a7539b59d2835f066a079",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/0399b3f51b75-6a282faa091dec7b16861be5_6a282f543d5956a1d272dab8_home-trendtrack.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/039e3c74f1ff-6ac1102fa560d1c70ef2daa8_6ac10ec659b530d77096ea11_copyfy-v2-alternatives-5-best-adsparo-alternatives-en.webp",
+    "bytes": 78634,
+    "sha256": "6d63f92c8bf66daaddbe50af29741f7171d45331e3e33f1ae747569a4040fac3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/039e3c74f1ff-6ac1102fa560d1c70ef2daa8_6ac10ec659b530d77096ea11_copyfy-v2-alternatives-5-best-adsparo-alternatives-en.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/03a5dac64ebc-6ac11015ade8f47dff5f4a24_6ac10e86e6edefdf9937853d_copyfy-v2-alternatives-5-best-adheart-alternatives-fr.webp",
+    "bytes": 75880,
+    "sha256": "083e4ee7cce8071704a21c7221d533f5504cebd3f2b474167aba5fe83ee9ab3e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/03a5dac64ebc-6ac11015ade8f47dff5f4a24_6ac10e86e6edefdf9937853d_copyfy-v2-alternatives-5-best-adheart-alternatives-fr.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/03a5ed247d1e-6ac11006c2b8728e34ff84f1_6ac10e5cd6f5796ca82bf84e_copyfy-v2-copyfy-vs-spocket-de.webp",
+    "bytes": 129018,
+    "sha256": "a40579604bf58ad7f3dfbc4a6716597ecd4289bd687b6a9f9a6d5f7c3b3c1142",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/03a5ed247d1e-6ac11006c2b8728e34ff84f1_6ac10e5cd6f5796ca82bf84e_copyfy-v2-copyfy-vs-spocket-de.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/03a6ecc92423-6abf992347998b5d73bb512f_6abf9912f83ae91a801a0747_copyfy-mi-v2-beste-dropshipping-cursussen-nl.webp",
+    "bytes": 126498,
+    "sha256": "a2618aa3a7d840d94be0b53a97e71123a5bfe988eb7e7f625d38901c66316c8b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/03a6ecc92423-6abf992347998b5d73bb512f_6abf9912f83ae91a801a0747_copyfy-mi-v2-beste-dropshipping-cursussen-nl.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/03aa3c0dcf87-6ac01248e594398ba9ce8289_6ac0124652f595f04eb83406_copyfy-v2-featured-image-ratio-1-19-1-drop-salam-avis-fr.webp",
+    "bytes": 67652,
+    "sha256": "72fa8311f1371c1eca699d01539473f65cfd87eff484f7d2624d81a85604669c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/03aa3c0dcf87-6ac01248e594398ba9ce8289_6ac0124652f595f04eb83406_copyfy-v2-featured-image-ratio-1-19-1-drop-salam-avis-fr.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/03b2c2ad9fc4-copyfy-624656.webflow.shared.10017f156.min.css",
+    "bytes": 452433,
+    "sha256": "40768b085682efd334ca7ccce24391909adcfe5ebf8b65d133e3a16d530f9f94",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/03b2c2ad9fc4-copyfy-624656.webflow.shared.10017f156.min.css"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/03b3145aa66d-6abfa09ab4bd77a390f2cb70_6abfa0812e08519bd5b825b5_copyfy-mi-v2-facebook-ads-ecommerce-es.webp",
+    "bytes": 140872,
+    "sha256": "2c3e7511dc69af8c8122dc236113349d55fbcb88d3d98c77a98de275fcc46319",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/03b3145aa66d-6abfa09ab4bd77a390f2cb70_6abfa0812e08519bd5b825b5_copyfy-mi-v2-facebook-ads-ecommerce-es.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/03bb1d1cf595-6ab55da675bebde25f40f895_6ab55da4911e3a0f25e3c571_calculer-roas-breakeven-en-0-v2.webp",
+    "bytes": 101978,
+    "sha256": "effe0554ff0b90240d4c35246201c21e915686100e00a604dc34494810003d82",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/03bb1d1cf595-6ab55da675bebde25f40f895_6ab55da4911e3a0f25e3c571_calculer-roas-breakeven-en-0-v2.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/03c6eab64fa0-6ab3e7f9e68d9c22d7571751_6ab3e7f7bf5dff80ee8cc04c_meilleure-app-abonnement-shopify-pt-9.webp",
+    "bytes": 58364,
+    "sha256": "ee3cb702daa20d8f2c887bbe7f954ac2b020fac6e64b34dfc3921a28bfab6c05",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/03c6eab64fa0-6ab3e7f9e68d9c22d7571751_6ab3e7f7bf5dff80ee8cc04c_meilleure-app-abonnement-shopify-pt-9.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/03e74345a0a8-6abfa1bbfae8d685be4665b7_6abfa1b147635be851230908_copyfy-mi-v2-shopify-shop-erstellen-de.webp",
+    "bytes": 121530,
+    "sha256": "8f6257d539ab1b4f9617ec10e59866c3330eb7e8c60a315863e70c480ce4044c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/03e74345a0a8-6abfa1bbfae8d685be4665b7_6abfa1b147635be851230908_copyfy-mi-v2-shopify-shop-erstellen-de.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/03e820ae75ed-6a676acf992a1268851cb930_6a676acd36e908be3e428793_qamar-fiabilite-fr.webp",
+    "bytes": 74948,
+    "sha256": "6c24532097aeeda69910f3f50ed5cfb3d77aaf624e27b5dc87dfd1e6a6fc3148",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/03e820ae75ed-6a676acf992a1268851cb930_6a676acd36e908be3e428793_qamar-fiabilite-fr.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/03f066d94906-69a2d3d96a187f590f6a8cdc_inventorysource.webp",
+    "bytes": 77646,
+    "sha256": "b111bccdebfe1222700c62d039ee41eb79b9d32d8d955178b6066932ea6a98ca",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/03f066d94906-69a2d3d96a187f590f6a8cdc_inventorysource.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/04050de68137-6a9e8dbb51637e9788ba8ab4_6a9e8b3819122f6d9cc2d0ca_formations-dropshipping-seo-course-layers-nl.webp",
+    "bytes": 95890,
+    "sha256": "41945b8685d072754257fb8eab96e57eea7c7f7303b2755b015136b22dce714e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/04050de68137-6a9e8dbb51637e9788ba8ab4_6a9e8b3819122f6d9cc2d0ca_formations-dropshipping-seo-course-layers-nl.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/0409e990a6f1-6a2beff3597f3593f5bcd96b_6a2befd7635ea2dbee2a5291_bds-profile-en.webp",
+    "bytes": 65558,
+    "sha256": "7846dc468be505c1c3b835c64a18c9c3f9e4f7bb28c4c0477a2de81ba4af5ed0",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/0409e990a6f1-6a2beff3597f3593f5bcd96b_6a2befd7635ea2dbee2a5291_bds-profile-en.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/0424b19ea1a4-69f39651e6fcef7aee5b967a_69f38d2d5e8b158432ec88c8_theme-dawn.webp",
+    "bytes": 115198,
+    "sha256": "c9a4460c5cfd147091094886175e5e7751fa31b80af964d254097e1c8f7807d4",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/0424b19ea1a4-69f39651e6fcef7aee5b967a_69f38d2d5e8b158432ec88c8_theme-dawn.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/0424e3bdc0c7-6aa92694830f0641cac3faf0_6aa9268cfa3f563052de20d2_free-adspy-copyfy-current-hero.webp",
+    "bytes": 58096,
+    "sha256": "95bf08eede31e30415a47146b8194257129455c2077b0a9bf992491b57d5248f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/0424e3bdc0c7-6aa92694830f0641cac3faf0_6aa9268cfa3f563052de20d2_free-adspy-copyfy-current-hero.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/044ea795f7b8-69a2d2434ba539f38b55ea53_trendsi.webp",
+    "bytes": 60230,
+    "sha256": "c8b7899e18acb7b277c6c2bb8cd67da078afe1bb9097f8016b89e479e7fdfdce",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/044ea795f7b8-69a2d2434ba539f38b55ea53_trendsi.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/046aa2dea155-6ac011b3b2ffadb153f59628_6ac0119a205531ce7b6c2514_copyfy-v2-featured-image-ratio-1-19-1-best-dropshipping-products-to-sell-in-october-en.webp",
+    "bytes": 67884,
+    "sha256": "0425ce1af2c4e8dce40ff88747af79aa6b4ca1f4f5e850420def5e585fd53e07",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/046aa2dea155-6ac011b3b2ffadb153f59628_6ac0119a205531ce7b6c2514_copyfy-v2-featured-image-ratio-1-19-1-best-dropshipping-products-to-sell-in-october-en.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/047ce4dfcad2-6abf90ede485ef2a3a8a2f5e_6abf90ea03e5450707ea4ba0_copyfy-mi-v2-justfocus-academie-avis-fr.webp",
+    "bytes": 123864,
+    "sha256": "3fb27010347ba8be6c317e006cae13903b4cf34519a8370467d557abad933ea5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/047ce4dfcad2-6abf90ede485ef2a3a8a2f5e_6abf90ea03e5450707ea4ba0_copyfy-mi-v2-justfocus-academie-avis-fr.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/04862866313a-6abfd60121789f55f38346d7_6abfd5eb4caafc17459cee46_copyfy-v2-image-dropshipping-es.webp",
+    "bytes": 117162,
+    "sha256": "ecb9543166f8c030af0b6a57f3d9714505b6da197e9cf7fe2d8910ea2ae539ca",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/04862866313a-6abfd60121789f55f38346d7_6abfd5eb4caafc17459cee46_copyfy-v2-image-dropshipping-es.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/04b0de7b7947-69033fc97fe12cbd211e4db5_Rectangle_9.avif",
+    "bytes": 2488,
+    "sha256": "bce09b329019fab7eb71f30b96e8fa527398c96ab1ad567643f759deacbcbc16",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/04b0de7b7947-69033fc97fe12cbd211e4db5_Rectangle_9.avif"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/04ba965a8283-6abf928cfba6f04c217a00ae_6abf9269231d0149de9ae905_copyfy-mi-v2-meilleures-marques-dtc-fr.webp",
+    "bytes": 90664,
+    "sha256": "dfcae7181269ee9463688baadea054d912207664ffd0c2d313cb70c34a6f743e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/04ba965a8283-6abf928cfba6f04c217a00ae_6abf9269231d0149de9ae905_copyfy-mi-v2-meilleures-marques-dtc-fr.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/04bc4e24a015-6a0edf6f5346cbde3bb859c7_6a0edf6b7e8372caeb09c7c6_nl-rprod-pitfall.webp",
+    "bytes": 187142,
+    "sha256": "bbb35c4c54a8b504d96fdac8b07fe25b9bb37bacc8aa71680add1083bdcb990e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/04bc4e24a015-6a0edf6f5346cbde3bb859c7_6a0edf6b7e8372caeb09c7c6_nl-rprod-pitfall.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/04c9874dece7-69d9327600d32cff5374ea0d_693ad2fa6a825a38428414b3_conversation-agent-sourcing-alibaba.webp",
+    "bytes": 141486,
+    "sha256": "ee9bf9ca8b935fbcf8ce48b92069bcb35fa5280056d0a2226273d60daa6337e1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/04c9874dece7-69d9327600d32cff5374ea0d_693ad2fa6a825a38428414b3_conversation-agent-sourcing-alibaba.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/04cf3b97d96a-6ac1102fa560d1c70ef2da8a_6ac10ec36bc8db3b227200ad_copyfy-v2-alternatives-5-best-tiktok-ads-library-alternatives-en.webp",
+    "bytes": 107310,
+    "sha256": "33a99f65761d97f0dff1ee6e2df454ca0f46bda6d0df5fd2bfa7cf8d67c86f2d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/04cf3b97d96a-6ac1102fa560d1c70ef2da8a_6ac10ec36bc8db3b227200ad_copyfy-v2-alternatives-5-best-tiktok-ads-library-alternatives-en.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/04cfe381e790-69d93eda7629dcbe20adbc66_69789de6f1cedf439887d4a2_delais-livraison-dropshipping.webp",
+    "bytes": 353558,
+    "sha256": "a7bf62065518c114fb4ba46cf74376d15ad24a5815982466e9e966a6ca39f576",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/04cfe381e790-69d93eda7629dcbe20adbc66_69789de6f1cedf439887d4a2_delais-livraison-dropshipping.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/04ecb548505a-6ac11026ac5bdcff59fc5349_6ac10ebb1adbc10406bd81ef_copyfy-v2-alternatives-5-best-echotik-alternatives-en.webp",
+    "bytes": 75584,
+    "sha256": "2bd7f763f8dea5c67ba6699d9e6b645b0c7b63756a48fed97c53588e4794f0e1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/04ecb548505a-6ac11026ac5bdcff59fc5349_6ac10ebb1adbc10406bd81ef_copyfy-v2-alternatives-5-best-echotik-alternatives-en.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/0515ebfb322a-6ab55d38671bfca6f872cbe7_6ab55d36f33ee768cae7ad43_gethookd-avis-pt-3-v2.webp",
+    "bytes": 107282,
+    "sha256": "9aac6e87784b32c4b52e240c191b680331cc06026057526a7350c663a8100cfc",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/0515ebfb322a-6ab55d38671bfca6f872cbe7_6ab55d36f33ee768cae7ad43_gethookd-avis-pt-3-v2.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/0522bbaf163c-6ac1101de2f04a27d4caf4eb_6ac10ea388dcc5dee8d5952f_copyfy-v2-alternatives-5-best-foreplay-alternatives-fr.webp",
+    "bytes": 77260,
+    "sha256": "61c079f06ea74e2a90906a289913b33f6801a8ce2bb12f832b787124443f61a8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/0522bbaf163c-6ac1101de2f04a27d4caf4eb_6ac10ea388dcc5dee8d5952f_copyfy-v2-alternatives-5-best-foreplay-alternatives-fr.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/052898137829-6ab3e72e71c87db87f004cc8_6ab3e72b5eaf8a3dcb95f613_avis-bigbuy-pt-5.webp",
+    "bytes": 131654,
+    "sha256": "3dabf13ed9416cd91f23080121c47d4fec1d87be045bd5b281e1617dda3a8cae",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/052898137829-6ab3e72e71c87db87f004cc8_6ab3e72b5eaf8a3dcb95f613_avis-bigbuy-pt-5.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/052b8e9cd178-6a312aa45b125ed808d9cabc_6a312aa24dd8006fa0ddcb0d_de-themes-pick-by-profile.webp",
+    "bytes": 193996,
+    "sha256": "a68ca2fe518776699ac2a42f516a3aabf53b15e8c14bac282aac42671f05bfc2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/052b8e9cd178-6a312aa45b125ed808d9cabc_6a312aa24dd8006fa0ddcb0d_de-themes-pick-by-profile.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/0533f0e3ae34-6abfd82a7f4aa8ad24ff8eb1_6abfd8135e83a53dab1a83de_copyfy-v2-thumbnail-image-shopify-product-exporter-en.webp",
+    "bytes": 40814,
+    "sha256": "25903fa329710438e86d0a2427f496ddd13710124247252f4faa6fcafba255a9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/0533f0e3ae34-6abfd82a7f4aa8ad24ff8eb1_6abfd8135e83a53dab1a83de_copyfy-v2-thumbnail-image-shopify-product-exporter-en.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/054c17fac16a-6ac3983cf4f06b101358697f_6ac398321eaeb65cbfd31d91_methode-kraken-avis-trustpilot.webp",
+    "bytes": 76322,
+    "sha256": "22f30d6b86f28b22a3ddae5267d5bef7f6badf2e1e2d66c739464276198c34f5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/054c17fac16a-6ac3983cf4f06b101358697f_6ac398321eaeb65cbfd31d91_methode-kraken-avis-trustpilot.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/054fd228f3e4-69033fcaa444a222ed0c9a6d_Rectangle_6.avif",
+    "bytes": 10580,
+    "sha256": "c6dc9c1c502534cf748b531824810cba728aaa0083f7d6f16d0899e0e34e3fda",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/054fd228f3e4-69033fcaa444a222ed0c9a6d_Rectangle_6.avif"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/055c42990599-6ac10d123e7617303a41f3ba_6ac10d0188dcc5dee8d51d23_copyfy-v2-copyfy-vs-dropispy-de.webp",
+    "bytes": 127876,
+    "sha256": "d4a5df7fb45887d14f79cea6fc1d88359d614691364a692d373e267dee5bba6c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/055c42990599-6ac10d123e7617303a41f3ba_6ac10d0188dcc5dee8d51d23_copyfy-v2-copyfy-vs-dropispy-de.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/055cac445239-6ac536dd863b59e540741cf0_Screenshot_2026-10-06_at_18.54.30-p-500.png",
+    "bytes": 23816,
+    "sha256": "2dbc9b2f281274a53514412a0a5bbb9c358b775c42decdb5f0bdf339cb70a2e2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/055cac445239-6ac536dd863b59e540741cf0_Screenshot_2026-10-06_at_18.54.30-p-500.png"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/05653efbc73e-6ab3e841bf5dff80ee8cef0b_6ab3e83be2e82eb1347a9ca4_organic-dropshipping-pt-2.webp",
+    "bytes": 288974,
+    "sha256": "a573bf4d2f1064366543c886b70c3f1abc3d2b42b8add623bb787a1774cf2144",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/05653efbc73e-6ab3e841bf5dff80ee8cef0b_6ab3e83be2e82eb1347a9ca4_organic-dropshipping-pt-2.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/0578e66d07ff-6ac1101de2f04a27d4caf4f7_6ac10e9c2abb2b0778896f62_copyfy-v2-alternatives-5-best-trend-rocket-alternatives-fr.webp",
+    "bytes": 84684,
+    "sha256": "6dbd422d01b99712250d29839ddf394a5645313cc6b5cc1e775bc68259caeb48",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/0578e66d07ff-6ac1101de2f04a27d4caf4f7_6ac10e9c2abb2b0778896f62_copyfy-v2-alternatives-5-best-trend-rocket-alternatives-fr.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/059c6e392d0e-6ac1100defe8c91069ede636_6ac10e73296d4f4fef6b4008_copyfy-v2-copyfy-vs-iconme-pt.webp",
+    "bytes": 112080,
+    "sha256": "4f3e9a04a0e0b3ac3fc1603f869eaeda3503e687db06c23853f791848911b0f8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/059c6e392d0e-6ac1100defe8c91069ede636_6ac10e73296d4f4fef6b4008_copyfy-v2-copyfy-vs-iconme-pt.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/05bbbd3ec273-6abf9c20718ae1f75c75d1e0_6abf9c098e3abe60520430e3_copyfy-mi-v2-agrego-resenas-clientes-shopify-es.webp",
+    "bytes": 139826,
+    "sha256": "2201978e55914f2eea08ab1321ea2e34c9e6cd5fd001dfffee455fd09b00f1d5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/05bbbd3ec273-6abf9c20718ae1f75c75d1e0_6abf9c098e3abe60520430e3_copyfy-mi-v2-agrego-resenas-clientes-shopify-es.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/05c3390dc3e3-6a6200a0a954775b4c51c1b3_6a62009ff326013cbf2334d2_out_dycom_transfer_fr.webp",
+    "bytes": 67354,
+    "sha256": "094ced67a76cf7cee39d9a6426d99230c6d2f3eba762c5fc5c77373205b4fb0f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/05c3390dc3e3-6a6200a0a954775b4c51c1b3_6a62009ff326013cbf2334d2_out_dycom_transfer_fr.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/05c4e2219a58-6a5a6fcc961a347f3f73f49c_6a5a6fc5edb090644c16d368_wf1_flow_nl.webp",
+    "bytes": 161090,
+    "sha256": "79a00f4d625a5f1ffc9311e8c7110c8f24173865c654b7baa60a4c2a4cc18125",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/05c4e2219a58-6a5a6fcc961a347f3f73f49c_6a5a6fc5edb090644c16d368_wf1_flow_nl.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/05c9b5a906fe-69d93c72d1d9af7097fc04e1_69418840dbae79f59727c500_blackbox-helium10.webp",
+    "bytes": 572268,
+    "sha256": "9afd1d3210df199fae4ef6e9d25348fedd88e0eaf5561bf39f192bfe619b0f49",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/05c9b5a906fe-69d93c72d1d9af7097fc04e1_69418840dbae79f59727c500_blackbox-helium10.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/05fc0adbe687-6a80464d76589e8f5e7f4bdb_6a80463c1d6d0e5ed6d22807_shopify-spy-price-ladder-en-v2.webp",
+    "bytes": 92490,
+    "sha256": "6d975101e54806d973ac053a14a511c2afd8ee77e56f8bb7203435c760916856",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/05fc0adbe687-6a80464d76589e8f5e7f4bdb_6a80463c1d6d0e5ed6d22807_shopify-spy-price-ladder-en-v2.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/0625e5c06948-6a9999fd946e817c7d6c8bd3_6a9999d1f5674eee52315c22_connecter-claude-shopify-permission-gate-es.webp",
+    "bytes": 84206,
+    "sha256": "6dc3575afcf38751f8e9351767fef29fa23b1f3da2231bf07ad3a9b59a2b3969",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/0625e5c06948-6a9999fd946e817c7d6c8bd3_6a9999d1f5674eee52315c22_connecter-claude-shopify-permission-gate-es.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/063756f3b2cb-6abf8c877b69d786665864f3_6abf8c8303e5450707e83c67_copyfy-mi-v2-analise-kalodata-pt.webp",
+    "bytes": 153378,
+    "sha256": "4c99853edff9c921605cdab4b0cae5ac0e324b8fcc8254742ff1fa555b471e58",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/063756f3b2cb-6abf8c877b69d786665864f3_6abf8c8303e5450707e83c67_copyfy-mi-v2-analise-kalodata-pt.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/064146f006d7-6abfd9d6e8fd01dbaf5d54ac_6abfd9b959a9967f922c08ae_copyfy-v2-free-tool-imagd-shopify-product-exporter-fr.webp",
+    "bytes": 45672,
+    "sha256": "ef81533a4a47ae495080d9ed979bf1f1963bc03045110db5be03ce4c659eafed",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/064146f006d7-6abfd9d6e8fd01dbaf5d54ac_6abfd9b959a9967f922c08ae_copyfy-v2-free-tool-imagd-shopify-product-exporter-fr.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/06688a349f15-6a312a8c1db63d90ce47e14e_6a312a8aef126984b41ea991_es-themes-cost-free-vs-paid.webp",
+    "bytes": 165194,
+    "sha256": "3c37b9ccb1bb21e41428b771b10972415669ee5bb452f1b0ce17e6a14294df1a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/06688a349f15-6a312a8c1db63d90ce47e14e_6a312a8aef126984b41ea991_es-themes-cost-free-vs-paid.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/0677422c4549-6ad5fc3d213d2fa56e266eda_pubs-facebook-ia-bibliotheque-meta-couverture.webp",
+    "bytes": 189710,
+    "sha256": "a23b7253157c4ea6d98cc76e863f141c9d322dc0f64762d403638d6eeb51b983",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/0677422c4549-6ad5fc3d213d2fa56e266eda_pubs-facebook-ia-bibliotheque-meta-couverture.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/067bb6e6c3d4-6a8335956264ee66333905f0_6a83356e416396a3c2865f88_dropispy-signal-weights-de.webp",
+    "bytes": 76172,
+    "sha256": "4a3ec4eeb8a44416df4042caeb71614c3881341fdcc1cf783d51028ff5f64e96",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/067bb6e6c3d4-6a8335956264ee66333905f0_6a83356e416396a3c2865f88_dropispy-signal-weights-de.webp"
+  },
+  {
+    "path": "03-published-site/assets/cdn.prod.website-files.com/068acebcbf14-6ac10ff610f772f83cf5a5f7_6ac10e39c2b8728e34ff188f_copyfy-v2-copyfy-vs-poweradspy-nl.webp",
+    "bytes": 118454,
+    "sha256": "5a404a0ee0aaa22efb09788d576e96a782e8f9f352935bd9435e8574d2c42cfd",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/assets/cdn.prod.website-files.com/068acebcbf14-6ac10ff610f772f83cf5a5f7_6ac10e39c2b8728e34ff188f_copyfy-v2-copyfy-vs-poweradspy-nl.webp"
+  }
+]

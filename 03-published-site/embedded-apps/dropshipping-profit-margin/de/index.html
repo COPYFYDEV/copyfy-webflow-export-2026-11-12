@@ -1,0 +1,708 @@
+<style>
+    html,body{margin:0 !important;padding:0 !important;}
+.copyfy-dpm * {
+        box-sizing: border-box !important;
+        margin: 0;
+        padding: 0;
+    }
+
+    .copyfy-dpm {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+        color: #FFFFFF !important;
+        background: transparent !important;
+        padding: 0 !important;
+        max-width: none !important;
+        padding-bottom: 100px !important;
+        margin: 0 auto !important;
+        line-height: 1.5;
+    }
+
+    /* Bottom bar */
+    .copyfy-dpm-bottombar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        margin-top: 24px;
+        flex-wrap: wrap;
+    }
+
+    @media (max-width: 479px) {
+        .copyfy-dpm-bottombar {
+            flex-direction: column;
+            align-items: stretch;
+        }
+        .copyfy-dpm-bottombar .copyfy-dpm-btn {
+            justify-content: center;
+        }
+    }
+
+    .copyfy-dpm-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 12px 24px !important;
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        border-radius: 30px !important;
+        border: none !important;
+        cursor: pointer;
+        font-family: inherit !important;
+        transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+        text-decoration: none !important;
+    }
+
+    .copyfy-dpm-btn-primary {
+        background: #FFFFFF !important;
+        color: #0F0F10 !important;
+    }
+
+    .copyfy-dpm-btn-secondary {
+        background: #0A6CFB !important;
+        color: #FFFFFF !important;
+    }
+
+    .copyfy-dpm-btn:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+    }
+
+    /* Main horizontal layout */
+    .copyfy-dpm-layout {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        align-items: start;
+    }
+
+    @media (min-width: 900px) {
+        .copyfy-dpm-layout {
+            grid-template-columns: minmax(300px, 400px) 1fr;
+            gap: 28px;
+        }
+    }
+
+    /* Inputs column */
+    .copyfy-dpm-inputs {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+    }
+
+    @media (max-width: 479px) {
+        .copyfy-dpm-inputs { grid-template-columns: 1fr; }
+    }
+
+    .copyfy-dpm-field { position: relative; }
+
+    .copyfy-dpm-label {
+        display: block;
+        font-size: 13px;
+        font-weight: 600;
+        color: #FFFFFF !important;
+        margin-bottom: 6px;
+    }
+
+    .copyfy-dpm-input-wrap { position: relative; }
+
+    .copyfy-dpm-icon {
+        position: absolute;
+        left: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #0F0F10 !important;
+        font-size: 15px;
+        pointer-events: none;
+        transition: color 200ms ease;
+    }
+
+    .copyfy-dpm-input {
+        width: 100% !important;
+        padding: 12px 14px 12px 32px !important;
+        background: #FFFFFF !important;
+        color: #0F0F10 !important;
+        border: 1px solid #FFFFFF !important;
+        border-radius: 12px !important;
+        font-size: 15px !important;
+        font-family: inherit !important;
+        transition: all 200ms ease;
+        -webkit-appearance: none;
+        appearance: none;
+    }
+
+    .copyfy-dpm-input:hover {
+        border-color: #0A6CFB !important;
+    }
+
+    .copyfy-dpm-input:focus {
+        outline: none !important;
+        border-color: #0A6CFB !important;
+        background: #0A6CFB !important;
+        color: #FFFFFF !important;
+    }
+
+    .copyfy-dpm-input:focus + .copyfy-dpm-icon,
+    .copyfy-dpm-input-wrap:focus-within .copyfy-dpm-icon {
+        color: #FFFFFF !important;
+    }
+
+    .copyfy-dpm-input::-webkit-outer-spin-button,
+    .copyfy-dpm-input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    .copyfy-dpm-input[type=number] { -moz-appearance: textfield; }
+
+    /* Results column */
+    .copyfy-dpm-results {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    /* Hero card */
+    .copyfy-dpm-hero {
+        padding: 28px 24px !important;
+        background: #FFFFFF !important;
+        border-radius: 12px !important;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .copyfy-dpm-hero-left { flex: 1; min-width: 0; }
+
+    .copyfy-dpm-hero-label {
+        font-size: 12px !important;
+        font-weight: 600 !important;
+        color: #0F0F10 !important;
+        opacity: 0.6;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin-bottom: 6px;
+    }
+
+    .copyfy-dpm-hero-value {
+        font-size: 40px !important;
+        font-weight: 800 !important;
+        color: #0F0F10 !important;
+        line-height: 1;
+    }
+
+    .copyfy-dpm-hero-value-positive { color: #0A6CFB !important; }
+    .copyfy-dpm-hero-value-negative { color: #DC2626 !important; }
+
+    .copyfy-dpm-hero-sub {
+        font-size: 13px;
+        color: #0F0F10 !important;
+        opacity: 0.65;
+        margin-top: 6px;
+    }
+
+    @media (max-width: 639px) {
+        .copyfy-dpm-hero-value { font-size: 32px !important; }
+    }
+
+    /* Benchmark badge inside hero */
+    .copyfy-dpm-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 14px !important;
+        background: #0F0F10 !important;
+        color: #FFFFFF !important;
+        border-radius: 30px !important;
+        font-size: 12px !important;
+        font-weight: 700 !important;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        white-space: nowrap;
+    }
+
+    .copyfy-dpm-badge-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #FFFFFF;
+    }
+
+    .copyfy-dpm-badge-loss { background: #DC2626 !important; }
+    .copyfy-dpm-badge-low { background: #0F0F10 !important; opacity: 0.7; }
+    .copyfy-dpm-badge-good { background: #0A6CFB !important; }
+    .copyfy-dpm-badge-great { background: #0A6CFB !important; box-shadow: 0 0 0 3px rgba(10, 108, 251, 0.25); }
+
+    /* Sub-stats grid */
+    .copyfy-dpm-stats {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+
+    @media (max-width: 639px) {
+        .copyfy-dpm-stats { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    .copyfy-dpm-stat {
+        padding: 14px 12px !important;
+        background: #FFFFFF !important;
+        border-radius: 12px !important;
+        text-align: center;
+    }
+
+    .copyfy-dpm-stat-label {
+        font-size: 11px !important;
+        font-weight: 600 !important;
+        color: #0F0F10 !important;
+        opacity: 0.6;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        margin-bottom: 4px;
+    }
+
+    .copyfy-dpm-stat-value {
+        font-size: 18px !important;
+        font-weight: 700 !important;
+        color: #0F0F10 !important;
+        line-height: 1.2;
+    }
+
+    .copyfy-dpm-stat-value-positive { color: #0A6CFB !important; }
+    .copyfy-dpm-stat-value-negative { color: #DC2626 !important; }
+
+    /* Target price helper */
+    .copyfy-dpm-target {
+        padding: 14px 18px !important;
+        background: #FFFFFF !important;
+        border-radius: 12px !important;
+        font-size: 13px !important;
+        color: #0F0F10 !important;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .copyfy-dpm-target-icon {
+        flex-shrink: 0;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background: #0A6CFB;
+        color: #FFFFFF;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .copyfy-dpm-target strong { color: #0A6CFB !important; font-weight: 700; }
+
+    /* Interpretation */
+    .copyfy-dpm-interp {
+        padding: 16px 18px !important;
+        background: #FFFFFF !important;
+        border-radius: 12px !important;
+        font-size: 14px !important;
+        color: #0F0F10 !important;
+        line-height: 1.6;
+    }
+
+    .copyfy-dpm-interp-loss {
+        border-left: 4px solid #DC2626 !important;
+        padding-left: 16px !important;
+    }
+
+    .copyfy-dpm-interp strong { color: #0F0F10 !important; font-weight: 700; }
+</style>
+
+<div class="copyfy-dpm">
+    <div class="copyfy-dpm-layout">
+        <!-- LEFT: Inputs -->
+        <div class="copyfy-dpm-left">
+        <div class="copyfy-dpm-inputs">
+            <div class="copyfy-dpm-field">
+                <label for="copyfy-dpm-selling-price" class="copyfy-dpm-label">
+                    Verkaufspreis
+                </label>
+                <div class="copyfy-dpm-input-wrap">
+                    <input type="number" id="copyfy-dpm-selling-price" class="copyfy-dpm-input" min="0.01" step="0.01" value="0">
+                    <span class="copyfy-dpm-icon">€</span>
+                </div>
+            </div>
+
+            <div class="copyfy-dpm-field">
+                <label for="copyfy-dpm-product-cost" class="copyfy-dpm-label">
+                    Produktkosten
+                </label>
+                <div class="copyfy-dpm-input-wrap">
+                    <input type="number" id="copyfy-dpm-product-cost" class="copyfy-dpm-input" min="0" step="0.01" value="0">
+                    <span class="copyfy-dpm-icon">€</span>
+                </div>
+            </div>
+
+            <div class="copyfy-dpm-field">
+                <label for="copyfy-dpm-ad-cost" class="copyfy-dpm-label">
+                    Werbekosten / Bestellung
+                </label>
+                <div class="copyfy-dpm-input-wrap">
+                    <input type="number" id="copyfy-dpm-ad-cost" class="copyfy-dpm-input" min="0" step="0.01" value="0">
+                    <span class="copyfy-dpm-icon">€</span>
+                </div>
+            </div>
+
+            <div class="copyfy-dpm-field">
+                <label for="copyfy-dpm-shipping-cost" class="copyfy-dpm-label">
+                    Versandkosten
+                </label>
+                <div class="copyfy-dpm-input-wrap">
+                    <input type="number" id="copyfy-dpm-shipping-cost" class="copyfy-dpm-input" min="0" step="0.01" value="0">
+                    <span class="copyfy-dpm-icon">€</span>
+                </div>
+            </div>
+
+            <div class="copyfy-dpm-field">
+                <label for="copyfy-dpm-transaction-fees" class="copyfy-dpm-label">
+                    Transaktionsgebühren
+                </label>
+                <div class="copyfy-dpm-input-wrap">
+                    <input type="number" id="copyfy-dpm-transaction-fees" class="copyfy-dpm-input" min="0" step="0.1" value="0">
+                    <span class="copyfy-dpm-icon">%</span>
+                </div>
+            </div>
+
+            <div class="copyfy-dpm-field">
+                <label for="copyfy-dpm-platform-fees" class="copyfy-dpm-label">
+                    Plattformgebühren
+                </label>
+                <div class="copyfy-dpm-input-wrap">
+                    <input type="number" id="copyfy-dpm-platform-fees" class="copyfy-dpm-input" min="0" step="0.1" value="0">
+                    <span class="copyfy-dpm-icon">%</span>
+                </div>
+            </div>
+
+            <div class="copyfy-dpm-field">
+                <label for="copyfy-dpm-return-rate" class="copyfy-dpm-label">
+                    Rückgaberate
+                </label>
+                <div class="copyfy-dpm-input-wrap">
+                    <input type="number" id="copyfy-dpm-return-rate" class="copyfy-dpm-input" min="0" max="100" step="0.1" value="0">
+                    <span class="copyfy-dpm-icon">%</span>
+                </div>
+            </div>
+
+            <div class="copyfy-dpm-field">
+                <label for="copyfy-dpm-monthly-volume" class="copyfy-dpm-label">
+                    Monatliches Volumen
+                </label>
+                <div class="copyfy-dpm-input-wrap">
+                    <input type="number" id="copyfy-dpm-monthly-volume" class="copyfy-dpm-input" min="0" step="1" value="0">
+                    <span class="copyfy-dpm-icon">#</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyfy-dpm-bottombar">
+        <button type="button" class="copyfy-dpm-btn copyfy-dpm-btn-secondary" id="copyfy-dpm-reset">
+            <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+            </svg>
+            Zurücksetzen
+        </button>
+    </div>
+        </div>
+
+        <!-- RIGHT: Results -->
+        <div class="copyfy-dpm-results">
+            <!-- Hero -->
+            <div class="copyfy-dpm-hero">
+                <div class="copyfy-dpm-hero-left">
+                    <div class="copyfy-dpm-hero-label">Monatlicher Gewinn</div>
+                    <div class="copyfy-dpm-hero-value" id="copyfy-dpm-hero-value">—</div>
+                    <div class="copyfy-dpm-hero-sub" id="copyfy-dpm-hero-sub">—</div>
+                </div>
+                <div class="copyfy-dpm-badge" id="copyfy-dpm-badge">
+                    <span class="copyfy-dpm-badge-dot"></span>
+                    <span id="copyfy-dpm-badge-text">—</span>
+                </div>
+            </div>
+
+            <!-- Sub-stats -->
+            <div class="copyfy-dpm-stats">
+                <div class="copyfy-dpm-stat">
+                    <div class="copyfy-dpm-stat-label">Gewinn / Best.</div>
+                    <div class="copyfy-dpm-stat-value" id="copyfy-dpm-stat-profit">—</div>
+                </div>
+                <div class="copyfy-dpm-stat">
+                    <div class="copyfy-dpm-stat-label">Nettomarge</div>
+                    <div class="copyfy-dpm-stat-value" id="copyfy-dpm-stat-margin">—</div>
+                </div>
+                <div class="copyfy-dpm-stat">
+                    <div class="copyfy-dpm-stat-label">Markup</div>
+                    <div class="copyfy-dpm-stat-value" id="copyfy-dpm-stat-markup">—</div>
+                </div>
+                <div class="copyfy-dpm-stat">
+                    <div class="copyfy-dpm-stat-label">BEROAS</div>
+                    <div class="copyfy-dpm-stat-value" id="copyfy-dpm-stat-beroas">—</div>
+                </div>
+            </div>
+
+            <!-- Target price helper -->
+            <div class="copyfy-dpm-target" id="copyfy-dpm-target">
+                <span class="copyfy-dpm-target-icon">🎯</span>
+                <span id="copyfy-dpm-target-text">Zielpreis wird berechnet…</span>
+            </div>
+
+            <!-- Interpretation -->
+            <div id="copyfy-dpm-interp" class="copyfy-dpm-interp">
+                <strong>Interpretation:</strong> <span id="copyfy-dpm-interp-text">Berechnung läuft…</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+(function() {
+    'use strict';
+
+    const STORAGE_KEY = 'copyfy-dpm-de-state';
+
+    const DEFAULTS = {
+        sellingPrice: 0,
+        productCost: 0,
+        adCost: 0,
+        shippingCost: 0,
+        transactionFees: 0,
+        platformFees: 0,
+        returnRate: 0,
+        monthlyVolume: 0
+    };
+
+    // Industry benchmark thresholds for net margin %
+    // Source: Harvest dropshipping guide states 10-30% is typical range.
+    const BENCHMARKS = [
+        { max: 0,        label: 'Verlust',   cls: 'copyfy-dpm-badge-loss' },
+        { max: 10,       label: 'Niedrig',   cls: 'copyfy-dpm-badge-low' },
+        { max: 30,       label: 'Gesund',    cls: 'copyfy-dpm-badge-good' },
+        { max: Infinity, label: 'Exzellent', cls: 'copyfy-dpm-badge-great' }
+    ];
+
+    // Target margin used for the "recommended selling price" helper
+    const TARGET_MARGIN_PCT = 30;
+
+    const state = Object.assign({}, DEFAULTS);
+
+    const FIELDS = {
+        'copyfy-dpm-selling-price':    ['sellingPrice',    v => parseFloat(v) || 0],
+        'copyfy-dpm-product-cost':     ['productCost',     v => parseFloat(v) || 0],
+        'copyfy-dpm-ad-cost':          ['adCost',          v => parseFloat(v) || 0],
+        'copyfy-dpm-shipping-cost':    ['shippingCost',    v => parseFloat(v) || 0],
+        'copyfy-dpm-transaction-fees': ['transactionFees', v => parseFloat(v) || 0],
+        'copyfy-dpm-platform-fees':    ['platformFees',    v => parseFloat(v) || 0],
+        'copyfy-dpm-return-rate':      ['returnRate',      v => parseFloat(v) || 0],
+        'copyfy-dpm-monthly-volume':   ['monthlyVolume',   v => parseInt(v, 10) || 0]
+    };
+
+    function loadState() {
+        try {
+            const saved = localStorage.getItem(STORAGE_KEY);
+            if (saved) Object.assign(state, JSON.parse(saved));
+        } catch (e) { /* ignore */ }
+    }
+
+    function saveState() {
+        try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch (e) {}
+    }
+
+    /**
+     * Net profit per order =
+     *   sellingPrice
+     *   - productCost
+     *   - shippingCost
+     *   - sellingPrice * (transactionFees + platformFees + returnRate) / 100
+     *   - adCostPerOrder
+     */
+    function compute() {
+        const { sellingPrice, productCost, adCost, shippingCost,
+                transactionFees, platformFees, returnRate, monthlyVolume } = state;
+
+        if (sellingPrice <= 0) return null;
+
+        const pctFees = (transactionFees + platformFees + returnRate) / 100;
+        const variableCost = sellingPrice * pctFees;
+
+        const grossMargin = sellingPrice - productCost - shippingCost - variableCost;
+        const netProfit = grossMargin - adCost;
+        const netMarginPct = (netProfit / sellingPrice) * 100;
+        const monthlyProfit = netProfit * monthlyVolume;
+        const beroas = grossMargin > 0 ? sellingPrice / grossMargin : null;
+        const markup = productCost > 0 ? sellingPrice / productCost : null;
+
+        // Reverse: find sellingPrice such that netMarginPct === TARGET_MARGIN_PCT
+        // sellingPrice * (1 - pctFees - target/100) = productCost + shippingCost + adCost
+        const denominator = 1 - pctFees - TARGET_MARGIN_PCT / 100;
+        const fixedCosts = productCost + shippingCost + adCost;
+        const targetPrice = denominator > 0 ? fixedCosts / denominator : null;
+
+        return { grossMargin, netProfit, netMarginPct, monthlyProfit, beroas, markup, targetPrice };
+    }
+
+    function formatCurrency(value) {
+        if (value === null || !isFinite(value)) return '—';
+        return new Intl.NumberFormat('de-DE', {
+            style: 'currency', currency: 'EUR',
+            minimumFractionDigits: 2, maximumFractionDigits: 2
+        }).format(value);
+    }
+
+    function formatCurrencyCompact(value) {
+        if (value === null || !isFinite(value)) return '—';
+        return new Intl.NumberFormat('de-DE', {
+            style: 'currency', currency: 'EUR',
+            minimumFractionDigits: 0, maximumFractionDigits: 0
+        }).format(value);
+    }
+
+    function formatPct(value) {
+        if (value === null || !isFinite(value)) return '—';
+        return value.toFixed(1) + '%';
+    }
+
+    function formatMultiplier(value) {
+        if (value === null || !isFinite(value)) return '—';
+        return value.toFixed(1) + 'x';
+    }
+
+    function setTone(id, isPositive, posClass, negClass) {
+        const el = document.getElementById(id);
+        el.classList.remove(posClass, negClass);
+        if (isPositive === true) el.classList.add(posClass);
+        else if (isPositive === false) el.classList.add(negClass);
+    }
+
+    function getBenchmark(netMarginPct) {
+        if (netMarginPct === null || !isFinite(netMarginPct)) {
+            return { label: '—', cls: 'copyfy-dpm-badge-low' };
+        }
+        return BENCHMARKS.find(b => netMarginPct < b.max) || BENCHMARKS[BENCHMARKS.length - 1];
+    }
+
+    function applyBenchmark(r) {
+        const badge = document.getElementById('copyfy-dpm-badge');
+        const text = document.getElementById('copyfy-dpm-badge-text');
+        const b = getBenchmark(r ? r.netMarginPct : null);
+
+        ['copyfy-dpm-badge-loss', 'copyfy-dpm-badge-low',
+         'copyfy-dpm-badge-good', 'copyfy-dpm-badge-great']
+            .forEach(c => badge.classList.remove(c));
+        badge.classList.add(b.cls);
+        text.textContent = b.label;
+    }
+
+    function updateResult() {
+        const r = compute();
+
+        if (!r) {
+            ['copyfy-dpm-hero-value', 'copyfy-dpm-stat-profit', 'copyfy-dpm-stat-margin',
+             'copyfy-dpm-stat-markup', 'copyfy-dpm-stat-beroas']
+                .forEach(id => document.getElementById(id).textContent = '—');
+            document.getElementById('copyfy-dpm-hero-sub').textContent = '—';
+            document.getElementById('copyfy-dpm-target-text').textContent = 'Gib einen gültigen Verkaufspreis ein.';
+            document.getElementById('copyfy-dpm-interp-text').textContent = 'Gib einen gültigen Verkaufspreis ein.';
+            applyBenchmark(null);
+            saveState();
+            return;
+        }
+
+        // Hero
+        document.getElementById('copyfy-dpm-hero-value').textContent = formatCurrencyCompact(r.monthlyProfit);
+        document.getElementById('copyfy-dpm-hero-sub').textContent =
+            `${state.monthlyVolume} Bestellungen × ${formatCurrency(r.netProfit)} Nettogewinn`;
+        setTone('copyfy-dpm-hero-value', r.monthlyProfit > 0,
+                'copyfy-dpm-hero-value-positive', 'copyfy-dpm-hero-value-negative');
+
+        // Sub-stats
+        document.getElementById('copyfy-dpm-stat-profit').textContent = formatCurrency(r.netProfit);
+        document.getElementById('copyfy-dpm-stat-margin').textContent = formatPct(r.netMarginPct);
+        document.getElementById('copyfy-dpm-stat-markup').textContent = formatMultiplier(r.markup);
+        document.getElementById('copyfy-dpm-stat-beroas').textContent =
+            r.beroas !== null ? r.beroas.toFixed(2) : '∞';
+
+        setTone('copyfy-dpm-stat-profit', r.netProfit > 0,
+                'copyfy-dpm-stat-value-positive', 'copyfy-dpm-stat-value-negative');
+        setTone('copyfy-dpm-stat-margin', r.netMarginPct > 0,
+                'copyfy-dpm-stat-value-positive', 'copyfy-dpm-stat-value-negative');
+
+        // Benchmark
+        applyBenchmark(r);
+
+        // Target price helper
+        const targetText = document.getElementById('copyfy-dpm-target-text');
+        if (r.targetPrice !== null && isFinite(r.targetPrice)) {
+            const delta = r.targetPrice - state.sellingPrice;
+            const direction = delta > 0.5 ? 'erhöhe deinen Preis auf' : delta < -0.5 ? 'senke deinen Preis auf' : 'bleibe nahe bei';
+            targetText.innerHTML = `Um <strong>${TARGET_MARGIN_PCT}% Nettomarge</strong> anzustreben (oberer Branchendurchschnitt), ${direction} <strong>${formatCurrency(r.targetPrice)}</strong>.`;
+        } else {
+            targetText.innerHTML = `Es ist unmöglich, <strong>${TARGET_MARGIN_PCT}% Marge</strong> mit diesen variablen Kosten zu erreichen — reduziere die Rückgaberate oder die Plattformgebühren.`;
+        }
+
+        // Interpretation
+        const interp = document.getElementById('copyfy-dpm-interp');
+        const interpText = document.getElementById('copyfy-dpm-interp-text');
+        interp.classList.remove('copyfy-dpm-interp-loss');
+
+        if (r.netProfit > 0) {
+            const markupTxt = r.markup !== null ? ` Dein Markup beträgt <strong>${formatMultiplier(r.markup)}</strong> (Dropshipping-Regel: mindestens 3x anstreben).` : '';
+            interpText.innerHTML = `Du verdienst <strong>${formatCurrency(r.netProfit)}</strong> pro Bestellung (Nettomarge <strong>${formatPct(r.netMarginPct)}</strong>). Dein Werbe-ROAS muss <strong>${r.beroas !== null ? r.beroas.toFixed(2) : '∞'}</strong> übersteigen, um profitabel zu bleiben.${markupTxt}`;
+        } else {
+            interp.classList.add('copyfy-dpm-interp-loss');
+            interpText.innerHTML = `Du verlierst <strong>${formatCurrency(Math.abs(r.netProfit))}</strong> pro Bestellung. Maximal akzeptable Werbekosten: <strong>${formatCurrency(Math.max(0, r.grossMargin))}</strong>. Erhöhe den Preis oder finde einen günstigeren Lieferanten.`;
+        }
+
+        saveState();
+    }
+
+    function init() {
+        /* loadState disabled: default 0 */
+
+        Object.entries(FIELDS).forEach(([id, [key, parser]]) => {
+            const el = document.getElementById(id);
+            el.value = state[key];
+            el.addEventListener('input', (e) => {
+                state[key] = parser(e.target.value);
+                updateResult();
+            });
+        });
+
+        document.getElementById('copyfy-dpm-reset').addEventListener('click', () => {
+            Object.assign(state, DEFAULTS);
+            Object.entries(FIELDS).forEach(([id, [key]]) => {
+                document.getElementById(id).value = state[key];
+            });
+            updateResult();
+        });
+
+        updateResult();
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+})();
+</script>
+
+<script>
+(function(){
+  function ph(){ try{ parent.postMessage({copyfyToolHeight: Math.ceil((document.querySelector(".copyfy-beroas,.copyfy-dpm")||document.body).getBoundingClientRect().bottom)}, "*"); }catch(e){} }
+  window.addEventListener("load", ph);
+  window.addEventListener("resize", ph);
+  document.addEventListener("input", ph, true);
+  if(window.ResizeObserver){ new ResizeObserver(ph).observe(document.documentElement); }
+  setTimeout(ph,200); setTimeout(ph,800);
+})();
+</script>

@@ -1,0 +1,1 @@
+(function(){function fix(){document.querySelectorAll(".main-wrapper a[href*=\"app.copyfy.io/register\"],.main-wrapper a[href*=\"app.copyfy.io/checkout/register\"]").forEach(function(link){link.href="https://app.copyfy.io/store-ai";});}if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",fix);}else{fix();}})();

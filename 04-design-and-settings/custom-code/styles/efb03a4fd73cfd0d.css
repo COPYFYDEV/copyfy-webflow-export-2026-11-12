@@ -1,0 +1,8 @@
+
+#copyfy-blog-pagination{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px;margin:32px 0 0;width:100%;flex-shrink:0}
+#copyfy-blog-pagination a,#copyfy-blog-pagination span{display:inline-flex;justify-content:center;align-items:center;min-width:40px;min-height:40px;padding:9px 14px;border:1px solid #dce2ed;border-radius:9999px;background:#fff;color:#0b0d14;font:500 14px/20px Inter,system-ui,sans-serif;text-decoration:none;cursor:pointer}
+#copyfy-blog-pagination a[aria-current="page"]{color:#fff;background:#0c6cfb;border-color:#0c6cfb}
+#copyfy-blog-pagination .is-disabled{opacity:.4;cursor:default}
+#copyfy-blog-pagination a:focus-visible{outline:2px solid #0c6cfb;outline-offset:3px}
+#copyfy-blog-pagination .is-ellipsis{min-width:24px;padding:9px 4px;border-color:transparent;background:transparent;cursor:default}
+#copyfy-blog-native-pagination{display:none!important}

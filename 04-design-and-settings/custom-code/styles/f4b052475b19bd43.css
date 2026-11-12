@@ -1,0 +1,14 @@
+
+/* Swiper mobile : conteneur verrouillé + 1 carte centrée, 8px de chaque côté */
+@media (max-width: 767px){
+  .swiper.swiper-cards{
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+  }
+  .swiper-slide.cards.v2{
+    width: calc(100% - 16px) !important;
+    min-width: 0 !important;
+    max-width: none !important;
+  }
+}

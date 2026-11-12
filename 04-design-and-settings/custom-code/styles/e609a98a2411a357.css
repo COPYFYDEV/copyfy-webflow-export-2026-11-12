@@ -1,0 +1,176 @@
+
+  .cfads-wrap *,
+  .cfads-wrap *::before,
+  .cfads-wrap *::after { box-sizing: border-box; }
+
+  .cfads-wrap {
+    display: block;
+    width: 100%;
+    max-width: 341.33px;
+    margin: 0 auto;
+    position: relative;
+    height: 0;
+    padding-bottom: 79.7%;
+    container-type: inline-size;
+    container-name: cfads;
+    overflow: hidden;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+  .cfads-frame {
+    width: 341.33px; height: 272px;
+    position: absolute; top: 0; left: 0;
+    transform-origin: top left;
+  }
+  @container cfads (max-width: 341.33px) {
+    .cfads-frame { transform: scale(calc(100cqi / 341.33px)); }
+  }
+
+  .cfads-marquee {
+    position: absolute; top: 24px; left: 0; right: 0; height: 132.66px;
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(90deg, transparent 0%, black 4%, black 96%, transparent 100%);
+    mask-image: linear-gradient(90deg, transparent 0%, black 4%, black 96%, transparent 100%);
+    opacity: 0;
+    transition: opacity 0.45s cubic-bezier(0.32, 0, 0.18, 1);
+  }
+  .cfads-wrap[data-cfads-phase="enter"] .cfads-marquee,
+  .cfads-wrap[data-cfads-phase="marquee"] .cfads-marquee { opacity: 1; }
+
+  .cfads-track {
+    display: flex; gap: 8px;
+    width: max-content;
+    transform: translate3d(-100%, 0, 0);
+    will-change: transform;
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  .cfads-wrap[data-cfads-phase="enter"] .cfads-track {
+    transform: translate3d(-50%, 0, 0);
+    transition: transform 0.95s cubic-bezier(0.32, 0, 0.18, 1);
+  }
+  .cfads-wrap[data-cfads-phase="marquee"] .cfads-track,
+  .cfads-wrap[data-cfads-phase="exit"] .cfads-track {
+    animation: cfads-scroll 31s linear infinite;
+  }
+  .cfads-wrap:hover[data-cfads-phase="marquee"] .cfads-track { animation-play-state: paused; }
+  @keyframes cfads-scroll {
+    from { transform: translate3d(-50%, 0, 0); }
+    to   { transform: translate3d(0, 0, 0); }
+  }
+
+  .cfads-tile {
+    width: 92.14px; height: 132.66px;
+    padding: 5.549px;
+    border: 0.694px solid rgba(0, 0, 0, 0.06);
+    border-radius: 11.098px;
+    background: #fff;
+    flex-shrink: 0; flex-grow: 0;
+  }
+  .cfads-photo {
+    width: 81.04px; height: 121.56px;
+    border-radius: 8.324px;
+    overflow: hidden;
+    background: #f0f0f0;
+    box-shadow:
+      0 0 0 0.694px rgba(6, 86, 134, 0.04),
+      0 0.694px 0.694px -0.347px rgba(1, 34, 54, 0.04),
+      0 2.081px 2.081px -1.04px rgba(1, 34, 54, 0.06),
+      0 4.162px 5.549px -2.081px rgba(1, 34, 54, 0.01),
+      0 4.162px 8.324px -4.162px rgba(6, 86, 134, 0.02),
+      0 16.647px 16.647px -8.324px rgba(6, 86, 134, 0.04);
+  }
+  .cfads-photo video, .cfads-photo img {
+    width: 100%; height: 100%; object-fit: cover; display: block;
+    border-radius: 8.324px;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+  }
+
+  .cfads-cursor {
+    position: absolute; left: 0; top: 0;
+    width: 16px; height: 17.6px;
+    pointer-events: none; z-index: 4;
+    opacity: 0;
+    transform: translate3d(190px, 178px, 0) scale(1);
+    will-change: transform, opacity;
+  }
+  .cfads-cursor svg { width: 100%; height: 100%; display: block; overflow: visible; }
+  .cfads-wrap[data-cfads-phase="cursor-in"] .cfads-cursor,
+  .cfads-wrap[data-cfads-phase="press"] .cfads-cursor { opacity: 1; }
+
+  .cfads-input {
+    position: absolute;
+    left: 24px; top: 172.66px;
+    width: 293px;
+    background: #fff;
+    border-radius: 10.498px;
+    overflow: hidden;
+    display: flex; flex-direction: column;
+    z-index: 2;
+    box-shadow:
+      0 0 0 0.875px rgba(6, 86, 134, 0.04),
+      0 0.875px 0.875px -0.437px rgba(1, 34, 54, 0.04),
+      0 2.625px 2.625px -1.312px rgba(1, 34, 54, 0.06),
+      0 5.249px 6.999px -2.625px rgba(1, 34, 54, 0.01),
+      0 5.249px 10.498px -5.249px rgba(6, 86, 134, 0.02),
+      0 20.997px 20.997px -10.498px rgba(6, 86, 134, 0.04);
+  }
+  .cfads-input__text-row {
+    padding: 10px;
+    height: 30px;
+    display: flex; align-items: center;
+    overflow: hidden;
+  }
+  .cfads-typed {
+    font-weight: 500;
+    font-size: 10px; line-height: 1;
+    color: rgba(27, 37, 64, 0.6);
+    letter-spacing: -0.2px;
+    white-space: nowrap;
+    display: inline-flex; align-items: center;
+  }
+  .cfads-caret {
+    display: inline-block;
+    width: 1px; height: 11px;
+    background: #0C6CFB;
+    margin-left: 1px;
+    opacity: 0;
+    animation: cfads-caret-blink 0.85s steps(2) infinite;
+    align-self: center;
+  }
+  .cfads-wrap[data-cfads-phase="typing"] .cfads-caret { opacity: 1; }
+  @keyframes cfads-caret-blink {
+    0%, 49% { opacity: 1; }
+    50%, 100% { opacity: 0; }
+  }
+  .cfads-input__action-row {
+    padding: 10px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .cfads-copyfy {
+    display: flex; align-items: center; gap: 4px;
+    height: 17.5px; padding: 0 7px;
+    background: rgba(12, 108, 251, 0.06);
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 9.5px;
+    color: #0C6CFB;
+    letter-spacing: -0.05px;
+  }
+  .cfads-copyfy__c { width: 9px; height: 9px; flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; }
+  .cfads-copyfy__c svg { width: 100%; height: 100%; display: block; }
+  .cfads-copyfy__x { width: 8.5px; height: 8.5px; flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; opacity: 0.7; }
+  .cfads-copyfy__x svg { width: 5px; height: 5px; display: block; }
+  .cfads-submit {
+    width: 17.5px; height: 17.5px; flex-shrink: 0;
+    transition: transform 0.16s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .cfads-submit svg { width: 100%; height: 100%; display: block; }
+  .cfads-wrap[data-cfads-phase="press"] .cfads-submit { transform: scale(0.85); }
+
+  @media (prefers-reduced-motion: reduce) {
+    .cfads-marquee { opacity: 1; }
+    .cfads-track { transform: translate3d(-50%, 0, 0) !important; animation: none !important; transition: none !important; }
+    .cfads-caret { animation: none !important; }
+    .cfads-cursor, .cfads-submit { transition: none !important; transform: none !important; }
+  }

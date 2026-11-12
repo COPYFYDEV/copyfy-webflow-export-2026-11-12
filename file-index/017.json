@@ -1,0 +1,2402 @@
+[
+  {
+    "path": "04-design-and-settings/custom-code/scripts/046a61f563d51ff1.js",
+    "bytes": 5836,
+    "sha256": "046a61f563d51ff14c8d3cd1df6ff7012ed2819d331ecdcbd99483b048522053",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/046a61f563d51ff1.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/0471c05a2cd0bab1.js",
+    "bytes": 6427,
+    "sha256": "0471c05a2cd0bab172bd6774e81a8d5c1f53185fd6e4fa8f7c6f3b3e0b0a8624",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/0471c05a2cd0bab1.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/04a33ed17025a15e.js",
+    "bytes": 6494,
+    "sha256": "04a33ed17025a15ec5998f8c5585b3687b4d02173c2ea185d1c9e862abda4139",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/04a33ed17025a15e.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/04aaa9ec93f08a64.js",
+    "bytes": 6439,
+    "sha256": "04aaa9ec93f08a64c943e55be9d17b49cfe00ac4f3f349a9fdb367e3233d1a80",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/04aaa9ec93f08a64.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/054b08556f37a7dd.js",
+    "bytes": 5839,
+    "sha256": "054b08556f37a7dd9265cfc8cd4e85604383c2fdee90ed7faf6894790f41517b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/054b08556f37a7dd.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/0564a5e85dfb35dd.js",
+    "bytes": 5859,
+    "sha256": "0564a5e85dfb35dd0086fa9ed258a914eeed3183848512f03086ab6c378eba74",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/0564a5e85dfb35dd.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/0597836fbcb14b19.js",
+    "bytes": 6562,
+    "sha256": "0597836fbcb14b19c23784de55598d5496b8e4aa7cae619ea1d211b7adc83a6e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/0597836fbcb14b19.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/05988bb58d492098.js",
+    "bytes": 6395,
+    "sha256": "05988bb58d4920986a7e52592ebcf9073ddbb6159e31c71ab91b323df2c0789a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/05988bb58d492098.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/05d235869b902143.js",
+    "bytes": 6448,
+    "sha256": "05d235869b902143efbab3b69d633bba6e557188440bc0c798988d05dcf5c978",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/05d235869b902143.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/064d1a83b4a468cd.json",
+    "bytes": 2071,
+    "sha256": "064d1a83b4a468cd2a5edb523aba781ddd8ab3c5af0caa3db86025d399e4ee1f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/064d1a83b4a468cd.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/06efdb74329d744c.js",
+    "bytes": 6581,
+    "sha256": "06efdb74329d744cf00f209952e9455dc0eb56e6c293e586028caef095d2b21f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/06efdb74329d744c.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/074b1a471fc9fe01.js",
+    "bytes": 5972,
+    "sha256": "074b1a471fc9fe01509667312f922ac2e45e1b923cc2d5757b21eff6f1e07792",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/074b1a471fc9fe01.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/0794eb900288134b.js",
+    "bytes": 6430,
+    "sha256": "0794eb900288134b959c35d3c7a5d53e0b428118265b040a84a87f525b5b1d59",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/0794eb900288134b.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/07a351526323b1d8.js",
+    "bytes": 426,
+    "sha256": "07a351526323b1d890690b2e44b6a6f2123e1b2ffa05ad8c84b9b464af0b0626",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/07a351526323b1d8.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/084deda193dfbb55.js",
+    "bytes": 6346,
+    "sha256": "084deda193dfbb5501485c1db417105df291faa6ff73ee51db53cab9f9b459f1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/084deda193dfbb55.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/087bdc008faa08a3.js",
+    "bytes": 5768,
+    "sha256": "087bdc008faa08a36447bfad1f1865f38b4e87c82a9e5647ffd761bae8587032",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/087bdc008faa08a3.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/08e1d5ab8fddb651.js",
+    "bytes": 6543,
+    "sha256": "08e1d5ab8fddb6512aa55a3971d6246bdfe003b2dd0c031ccb689ba61e810248",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/08e1d5ab8fddb651.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/0948faf822597d6b.js",
+    "bytes": 5798,
+    "sha256": "0948faf822597d6b65333f53b6424ac64a8a1f4388bb169b8498f22c045bfd14",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/0948faf822597d6b.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/094f00ae8bcec733.js",
+    "bytes": 6583,
+    "sha256": "094f00ae8bcec733a23ecbf475dcdb343a23222de2e85d900671d21864b8ed66",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/094f00ae8bcec733.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/097382fde9f08a7f.json",
+    "bytes": 8607,
+    "sha256": "097382fde9f08a7f7ac9e99eefb5bc8e0625357b9d89d566ce5ed9517c06f35f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/097382fde9f08a7f.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/09cf707f978f4094.js",
+    "bytes": 5802,
+    "sha256": "09cf707f978f4094e3da22e13cae6c3a209f3b89080ef930d44259b28b449cfa",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/09cf707f978f4094.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/09eb78ae1d6aabd3.json",
+    "bytes": 2231,
+    "sha256": "09eb78ae1d6aabd33cc235114527eafd83b6348de7bf49cc437e04ccc7f2ecce",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/09eb78ae1d6aabd3.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/0a07e1d1ad28e5ca.js",
+    "bytes": 5878,
+    "sha256": "0a07e1d1ad28e5caca3db6f1dde66a1257d2984faa00fdcbd7348c86e26f5c10",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/0a07e1d1ad28e5ca.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/0a8daee2dec93c05.js",
+    "bytes": 6657,
+    "sha256": "0a8daee2dec93c05780daa9bf4881d678f1aa68fea589ca5a2641d8c4b52a253",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/0a8daee2dec93c05.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/0b252895d74fafd7.js",
+    "bytes": 6556,
+    "sha256": "0b252895d74fafd7e9c7caf9d376741c0b8b111ba6674f9ddea5164c850f0dde",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/0b252895d74fafd7.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/0b29fdb3fa82787b.js",
+    "bytes": 6450,
+    "sha256": "0b29fdb3fa82787bb58ed19d992d83005f81379042bc132f7c4ca3f8a38e22ab",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/0b29fdb3fa82787b.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/0b548a6e173f1c10.json",
+    "bytes": 469,
+    "sha256": "0b548a6e173f1c1068f9cc1a8137cbcc0c797f5caec21492fddfa728004a20e6",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/0b548a6e173f1c10.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/0bd06e754eae013e.js",
+    "bytes": 6431,
+    "sha256": "0bd06e754eae013e60164f9ffc8adadc2ba6cfc763433423e05f4e56745433e6",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/0bd06e754eae013e.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/0c039989fa4d901f.js",
+    "bytes": 6422,
+    "sha256": "0c039989fa4d901f473476add0e9208246a6e384da6f47d1d6f220c5898e5451",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/0c039989fa4d901f.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/0c6330ac756fa17b.js",
+    "bytes": 6549,
+    "sha256": "0c6330ac756fa17bbf32f18224930af31aa8bc47617b93da547761a61a5f451a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/0c6330ac756fa17b.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/0c6411ea9477490a.json",
+    "bytes": 4975,
+    "sha256": "0c6411ea9477490ab18db8c3bcd63acf9cf9723386a5be8e3a7bc5e0a434f987",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/0c6411ea9477490a.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/0ca8d27f4c4d4052.json",
+    "bytes": 1978,
+    "sha256": "0ca8d27f4c4d4052e2332f010ce6008fcae0fd64169d161fdb5cafacd3b69613",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/0ca8d27f4c4d4052.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/0ccc958f795e8c58.js",
+    "bytes": 6074,
+    "sha256": "0ccc958f795e8c5815d777f8401244f86a2a2ad24c25af4fe4600ad55c7dccb4",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/0ccc958f795e8c58.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/0cf7ab2c1f70bb00.js",
+    "bytes": 7000,
+    "sha256": "0cf7ab2c1f70bb001d88587acaf69803f635ca87f619644ce69f7744d335f9cf",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/0cf7ab2c1f70bb00.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/0cffda376449fc45.js",
+    "bytes": 6408,
+    "sha256": "0cffda376449fc4545c64328736c917607063897afddb584b8e0624d9d3d181d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/0cffda376449fc45.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/0d0e8d7fae184214.js",
+    "bytes": 6632,
+    "sha256": "0d0e8d7fae18421462889794aa6dad23d17a684e5809a8382829658f66d14f34",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/0d0e8d7fae184214.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/0d8d9035fe90f1ac.js",
+    "bytes": 6552,
+    "sha256": "0d8d9035fe90f1ac203acc8d9b0f98f05f0dea9dbfde6acc3db357212b56b5cf",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/0d8d9035fe90f1ac.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/0e2e254cdc08785d.js",
+    "bytes": 6479,
+    "sha256": "0e2e254cdc08785dd191b724da68a17c9d73be2ea9d62ce19914a0f8b43682da",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/0e2e254cdc08785d.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/0ecab2917a0ed5cb.json",
+    "bytes": 4877,
+    "sha256": "0ecab2917a0ed5cbb03598682ef9e26a238021591cca3f715c8c40d00492e5f1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/0ecab2917a0ed5cb.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/0ecfbace2eaca746.json",
+    "bytes": 6580,
+    "sha256": "0ecfbace2eaca7467ec6d7bc44ff4d4553bb233aee347789367302021320072f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/0ecfbace2eaca746.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/0ee3cb5fcd6c0e25.js",
+    "bytes": 6503,
+    "sha256": "0ee3cb5fcd6c0e25a89a116cead621d31b8659e7d79574d9b20c6ae6a8ea086d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/0ee3cb5fcd6c0e25.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/0f772384bbdb3a7b.js",
+    "bytes": 6305,
+    "sha256": "0f772384bbdb3a7b01dfc7f2babefd8162110f2c85742097722721b240ad0755",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/0f772384bbdb3a7b.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/0f7b3aad10318e21.js",
+    "bytes": 6548,
+    "sha256": "0f7b3aad10318e21676bd04589dda3a56778c011c44b91f2313a9a9f81f5cc6b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/0f7b3aad10318e21.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/0fcc8c65fa172694.json",
+    "bytes": 2423,
+    "sha256": "0fcc8c65fa172694af400c67c00389c3653c1c6b135690d19c21cb631331f0f2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/0fcc8c65fa172694.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/1023cb1a032b6f0b.js",
+    "bytes": 5854,
+    "sha256": "1023cb1a032b6f0b6dce90880cea2aab06fd838e76dbfc8ce34f6f841e86dbe5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/1023cb1a032b6f0b.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/10401b233860c789.js",
+    "bytes": 6539,
+    "sha256": "10401b233860c789a2f9fdfd669491e646c85359206869644cec83f484b8f710",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/10401b233860c789.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/10beb92e2e5039da.js",
+    "bytes": 5737,
+    "sha256": "10beb92e2e5039daf29b06756114ab79d6dab2974ab47630fce0389a7c3f4397",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/10beb92e2e5039da.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/1136552221f356e6.js",
+    "bytes": 18169,
+    "sha256": "1136552221f356e65e39dcf98e9c5b184c44827b31e9d32e9bcce2ffd0aaddb9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/1136552221f356e6.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/1136bcbe04e9927c.js",
+    "bytes": 5723,
+    "sha256": "1136bcbe04e9927caa1a40adced2453fc0c1f3ca968faeacd7d46da3328e34a7",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/1136bcbe04e9927c.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/11779a320efac4f1.js",
+    "bytes": 5826,
+    "sha256": "11779a320efac4f1ece9954120a02ca1573032271c708f36645428ebee5cd0b0",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/11779a320efac4f1.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/11e10edf3b7ccde7.js",
+    "bytes": 5905,
+    "sha256": "11e10edf3b7ccde77ff41696c0f5b9d85c2f2d0db12813e4cf807370705cc5c8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/11e10edf3b7ccde7.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/11f524099b3856ec.js",
+    "bytes": 5602,
+    "sha256": "11f524099b3856ecae368adbd2d8b28d9991ae989141d45202b61e3d72fb4a03",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/11f524099b3856ec.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/1300faec20951c35.json",
+    "bytes": 4335,
+    "sha256": "1300faec20951c351241011b679377ef16e13965418c0f005f7811c6f26d704a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/1300faec20951c35.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/131acbd57435517a.js",
+    "bytes": 6557,
+    "sha256": "131acbd57435517a850f39f8360671d55b8c762bab6551a241f2782f320b9054",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/131acbd57435517a.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/13677f9d5feb03e5.json",
+    "bytes": 2523,
+    "sha256": "13677f9d5feb03e50f6830a9aad9af2113d677812987c4ef6a78ed0b0154ccbe",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/13677f9d5feb03e5.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/1376ccfbbbc7cb95.js",
+    "bytes": 6402,
+    "sha256": "1376ccfbbbc7cb951f93cff3daf0ddc8d34be2c0e9a6e1f3360231628e2767f5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/1376ccfbbbc7cb95.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/142b5980571afaea.js",
+    "bytes": 5743,
+    "sha256": "142b5980571afaea43c176bad5dfaf8c37a7b7478eca801065ef5043943e96de",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/142b5980571afaea.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/148ffae722195def.js",
+    "bytes": 2184,
+    "sha256": "148ffae722195defaeceda28557ad62a132b7e731ed4dcfe2b402eaa2b427562",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/148ffae722195def.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/161bef5cafbb290e.js",
+    "bytes": 2240,
+    "sha256": "161bef5cafbb290e8c67969b4d9947246a394b6e5b0e9d408a9b9157ce992ed9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/161bef5cafbb290e.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/163b76dae590231b.js",
+    "bytes": 852,
+    "sha256": "163b76dae590231bafedc2279ba464ed69ded76160b6c4ec6c67fb977440db44",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/163b76dae590231b.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/1646bc2ff77bca48.js",
+    "bytes": 6545,
+    "sha256": "1646bc2ff77bca48aef138717a80beb1446f33584d51d25cc9b0c8a17a69021f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/1646bc2ff77bca48.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/167cecf2ba2e473c.js",
+    "bytes": 975,
+    "sha256": "167cecf2ba2e473c6d1d3c4034b54dab6e5568373596663c1ed3d7d1f58fe6d3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/167cecf2ba2e473c.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/16970736ccb8a35e.json",
+    "bytes": 1865,
+    "sha256": "16970736ccb8a35e9c4287cefbb80ef4f94d3d45b06400eacc347f661951acde",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/16970736ccb8a35e.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/16c99cf5f3915733.js",
+    "bytes": 14814,
+    "sha256": "16c99cf5f3915733cdcaad16b68221c4c73afb78a943c62d12e0c218550b99f9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/16c99cf5f3915733.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/16d2fcbbab94743a.json",
+    "bytes": 2172,
+    "sha256": "16d2fcbbab94743a554ba64989e1c22e28b431a3a8f4cdb06e12faa29a8020d1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/16d2fcbbab94743a.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/16e2c99157ce1e5a.json",
+    "bytes": 4270,
+    "sha256": "16e2c99157ce1e5a7b6d74981f293e589dffaa38bfd63de607259b68e2afb37e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/16e2c99157ce1e5a.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/1718aa3324e70a17.json",
+    "bytes": 2233,
+    "sha256": "1718aa3324e70a17d3d199852cf5e8af236054d93b48ba67530d725ff072e66b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/1718aa3324e70a17.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/18a9845addbae0a7.js",
+    "bytes": 507,
+    "sha256": "18a9845addbae0a7584ddffe5e1a383fb1206e7eb60bc01f107db3ffd16114e3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/18a9845addbae0a7.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/18be4cd299e4c4a1.js",
+    "bytes": 4160,
+    "sha256": "18be4cd299e4c4a1791295c333d26f8dd81fc94127971360d4541b03b1ca3f90",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/18be4cd299e4c4a1.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/18cd30d4df2ed6e3.json",
+    "bytes": 2165,
+    "sha256": "18cd30d4df2ed6e3382c762b2b4a4a337096305ad8838b5fd2380f5a81ff8301",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/18cd30d4df2ed6e3.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/19b15a09a89a0ba6.js",
+    "bytes": 6400,
+    "sha256": "19b15a09a89a0ba6bda099ef3407dc54bed4b168a7a3e5ce4459e69003c67094",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/19b15a09a89a0ba6.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/19c5a58d3c9adf84.js",
+    "bytes": 5842,
+    "sha256": "19c5a58d3c9adf84cfc6b343cd811c286c00e86e3f820b1fb9766ea4c069dc24",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/19c5a58d3c9adf84.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/19eb8b40ce7beff1.js",
+    "bytes": 5793,
+    "sha256": "19eb8b40ce7beff17e6c8a257e2bf80814fd21257da023a44c8f1177de028418",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/19eb8b40ce7beff1.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/1a241488d18ea817.js",
+    "bytes": 6616,
+    "sha256": "1a241488d18ea817a84733291aed8618c32a170f52ab6156403f206ce3b0b883",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/1a241488d18ea817.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/1ad40995715f014e.js",
+    "bytes": 5845,
+    "sha256": "1ad40995715f014ef625640f360cc47a8b73bf3d26345a3bbb213484f3ef0ff9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/1ad40995715f014e.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/1b0e5af39a0813fd.js",
+    "bytes": 5773,
+    "sha256": "1b0e5af39a0813fd07bc3f09ec3b573a45723475d74760afee0a6ebd19b03b41",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/1b0e5af39a0813fd.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/1b5355a17f88ac95.js",
+    "bytes": 6490,
+    "sha256": "1b5355a17f88ac952b8ccb6b9e300eceac640c0e3e3bb7a7f1067f6683145b8a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/1b5355a17f88ac95.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/1c43a932c7734801.js",
+    "bytes": 6415,
+    "sha256": "1c43a932c7734801b2e47520252b7275f7e0f5b291e88076fd78a046bcc699e0",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/1c43a932c7734801.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/1c69c4781f0b5132.js",
+    "bytes": 6372,
+    "sha256": "1c69c4781f0b51326cd7a5bd9051174bc7e8f10c63568af7f592e9a49b389236",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/1c69c4781f0b5132.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/1d67bbc3c1ea58d5.js",
+    "bytes": 651,
+    "sha256": "1d67bbc3c1ea58d5ccfb209d103e297d4ea534b64f8c366570dcbebad98cb823",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/1d67bbc3c1ea58d5.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/1d934040bf6042ff.js",
+    "bytes": 6535,
+    "sha256": "1d934040bf6042ff4376f038788d061b410424c20465b5c462a61ae6f145a5fc",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/1d934040bf6042ff.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/1ee3a42eab005efe.js",
+    "bytes": 6513,
+    "sha256": "1ee3a42eab005efe4eb39824a723510383f517cfc2b7ebe4e61c06080d1cca7f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/1ee3a42eab005efe.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/1f11578b9b96672a.js",
+    "bytes": 5736,
+    "sha256": "1f11578b9b96672afa71d8fbb592aa1160419e2bd05daeded972184141900242",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/1f11578b9b96672a.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/1f265fef2d4a9c1b.js",
+    "bytes": 5863,
+    "sha256": "1f265fef2d4a9c1b7dd0cba2eb5763282b105633270bdb3b586cde64c93d22f2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/1f265fef2d4a9c1b.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/1f97c2c8fc22acf6.js",
+    "bytes": 6516,
+    "sha256": "1f97c2c8fc22acf6bf9ac7162d8cd8bab60ed3a9111b6ba928051088af70e109",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/1f97c2c8fc22acf6.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/20449fbc666a5c73.js",
+    "bytes": 6573,
+    "sha256": "20449fbc666a5c730122ea2906ffca79bc95e10b0653fb45795bbda91cf939a3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/20449fbc666a5c73.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/212a4307c49fcc62.js",
+    "bytes": 5810,
+    "sha256": "212a4307c49fcc62e9ab07369f74dcb969abc61c0a377cd777598e10121210ab",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/212a4307c49fcc62.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/217be3eab927f81e.js",
+    "bytes": 5783,
+    "sha256": "217be3eab927f81e01fa42141355d6acb95c8b6353e56369061e36c43879dd67",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/217be3eab927f81e.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/22103c590eb82994.js",
+    "bytes": 6541,
+    "sha256": "22103c590eb829942f9b86c834a6f094ff1e72172bce61b3b679af5bd2a4a159",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/22103c590eb82994.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/2289a9311535b887.js",
+    "bytes": 14539,
+    "sha256": "2289a9311535b88742445e1201ae4aff6dffa2d1c7044080d5c92ee4739d7988",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/2289a9311535b887.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/22e2d70fc0d959fa.js",
+    "bytes": 5854,
+    "sha256": "22e2d70fc0d959faa89037a7aab658e303b1592ded17531ae3d7173cd5a2a300",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/22e2d70fc0d959fa.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/22e66f07199e27ca.js",
+    "bytes": 3920,
+    "sha256": "22e66f07199e27ca89a9a140cfbe2716c84d6be20e9be542a92db326a0e5cf13",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/22e66f07199e27ca.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/23688c921c1c894f.js",
+    "bytes": 6417,
+    "sha256": "23688c921c1c894f5c08c1145d83842d55541df6e8d909768787f365ba1d57eb",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/23688c921c1c894f.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/238e2869afde0791.js",
+    "bytes": 6552,
+    "sha256": "238e2869afde07917eafdd4c48bdf50ad2bb71a053cd8111b8a50c77d03e0b1f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/238e2869afde0791.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/23d086b85b0a3c2a.js",
+    "bytes": 7257,
+    "sha256": "23d086b85b0a3c2ae977f1e6dceaf0c6107682ff05689e57abbcb4ce4eb96127",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/23d086b85b0a3c2a.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/23ffef95c56e2d00.js",
+    "bytes": 7488,
+    "sha256": "23ffef95c56e2d00c7edff48a039568ac1bef491579e5c39f9c94e6b81f39b94",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/23ffef95c56e2d00.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/25287d05208b8611.js",
+    "bytes": 6528,
+    "sha256": "25287d05208b861121dc651d3e5d496aab2b50a23dcce60abde688f01ed17c6e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/25287d05208b8611.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/2535702c9e7f5dda.js",
+    "bytes": 6052,
+    "sha256": "2535702c9e7f5dda87bfe7e50e5b647b9dec175f34dbdcf50cbd9e0e0f005949",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/2535702c9e7f5dda.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/25dd5e80439ce50b.js",
+    "bytes": 5765,
+    "sha256": "25dd5e80439ce50b9f75e8da9a635b1ffa2e3759d477532d2f5e5500549e79cc",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/25dd5e80439ce50b.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/264d51c939e1e18e.js",
+    "bytes": 12099,
+    "sha256": "264d51c939e1e18e3d2aaaa1a1bf0da83bcdb8c7e0de3f1f8fc37a245de9bd73",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/264d51c939e1e18e.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/26a74208979ae188.js",
+    "bytes": 5813,
+    "sha256": "26a74208979ae18862e0bf730bfcd2eb1bb715dfbcc7feca03870766691190bd",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/26a74208979ae188.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/27031884e5ea8233.json",
+    "bytes": 362,
+    "sha256": "27031884e5ea8233040ba3983dd87f55f52fa019a5cc23ad0b2924e31218dacf",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/27031884e5ea8233.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/271fd514ad6bcbed.json",
+    "bytes": 2278,
+    "sha256": "271fd514ad6bcbedbe19c5022b8dca3aef8e57268d09299d7a746652bba12476",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/271fd514ad6bcbed.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/27240183bf7c5af6.js",
+    "bytes": 3694,
+    "sha256": "27240183bf7c5af6024e114adedcc9b4fdcdfb1d9dc114e8d2e1bbd67c213424",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/27240183bf7c5af6.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/275fecc82627cdd0.js",
+    "bytes": 5707,
+    "sha256": "275fecc82627cdd0adfc75ee311f8201f45975e2bd3150a46e9678fd90058a71",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/275fecc82627cdd0.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/2768753146137388.js",
+    "bytes": 7332,
+    "sha256": "27687531461373885b70db0718a5b6aecd117f6cdeceae049cdd6e91543351d9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/2768753146137388.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/27729b2d77a876b7.js",
+    "bytes": 6367,
+    "sha256": "27729b2d77a876b760797842be9d92e1989a972b831cf32b1f4b1afedbed56bd",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/27729b2d77a876b7.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/279e19c5c8a16011.json",
+    "bytes": 2026,
+    "sha256": "279e19c5c8a160114a3e3ad63cc60cca7d3ad40f8d757544a0f56bf4156eba56",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/279e19c5c8a16011.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/281211fd7e6623ed.js",
+    "bytes": 5717,
+    "sha256": "281211fd7e6623eda9cd7935b8711e1bd90facbdf699bedf9aba76024b250e94",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/281211fd7e6623ed.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/28cf2ad3c7f4350e.js",
+    "bytes": 15143,
+    "sha256": "28cf2ad3c7f4350ec1880a6bd10614541d4a88266f310e2e3ec563dbf3fdb559",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/28cf2ad3c7f4350e.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/29085358a575e82d.json",
+    "bytes": 1652,
+    "sha256": "29085358a575e82d199c26a63e9e60fe5dde3e9032ebcbea7219f149e4431c01",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/29085358a575e82d.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/291de51d9a009ea3.js",
+    "bytes": 6472,
+    "sha256": "291de51d9a009ea315a847f26677fa3fa725f3eb632d1a479ef1905b7406c2da",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/291de51d9a009ea3.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/29400a6c3fee9c51.js",
+    "bytes": 6541,
+    "sha256": "29400a6c3fee9c51336a9722a432a3c53ca2d804ddead69053766a8ea94f5886",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/29400a6c3fee9c51.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/294d109309a3c867.js",
+    "bytes": 6460,
+    "sha256": "294d109309a3c8674f9842cfbe4283ec853d37d05ff0589e82dd8d3d05339704",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/294d109309a3c867.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/296ac723c7129b79.js",
+    "bytes": 6472,
+    "sha256": "296ac723c7129b79a5569f33b3da75f0d0bb4e5d4be90fea848982f44e7d289e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/296ac723c7129b79.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/29ab0b13f664efa8.js",
+    "bytes": 6536,
+    "sha256": "29ab0b13f664efa818a8fa75e53b717b28a9f57d87d293d7fb27e1351fac9d33",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/29ab0b13f664efa8.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/29abf687fc5a0d04.js",
+    "bytes": 6352,
+    "sha256": "29abf687fc5a0d0447b5eba19f25d40ed08614551023054a243ddd80b465d35b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/29abf687fc5a0d04.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/2a297e0fe5bb569e.js",
+    "bytes": 5661,
+    "sha256": "2a297e0fe5bb569e49a4f348309410aa3685679746aed35bea77a7085d48f3b5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/2a297e0fe5bb569e.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/2a47d6d1c22bba13.js",
+    "bytes": 8942,
+    "sha256": "2a47d6d1c22bba13e34f20161e371acff765047c9e12759d9db89c41311d19a3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/2a47d6d1c22bba13.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/2ac533ded9e17bf3.js",
+    "bytes": 190,
+    "sha256": "2ac533ded9e17bf3ef0a78018df06c66112a9f097899a864f7ceda4bb05c8723",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/2ac533ded9e17bf3.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/2b38fd10e45ff614.js",
+    "bytes": 5883,
+    "sha256": "2b38fd10e45ff6144bb1b1d5e7ccc5807dcc692ea63146da68d9aae8a390eea0",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/2b38fd10e45ff614.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/2bad69f3a6cd69b9.js",
+    "bytes": 5802,
+    "sha256": "2bad69f3a6cd69b983fa4784a7e3f975f25aced2ac7f3fba96ac95015de68a2f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/2bad69f3a6cd69b9.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/2bbe834c272b8ee0.js",
+    "bytes": 18022,
+    "sha256": "2bbe834c272b8ee0113a90f532524f52035f4894d1702118adea2d371ddc018b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/2bbe834c272b8ee0.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/2bd625b6e4f4ea6b.js",
+    "bytes": 162,
+    "sha256": "2bd625b6e4f4ea6b5d745d5289637b0ea11b83aebfe2d1916ed861aa63882957",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/2bd625b6e4f4ea6b.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/2c48cfdccd7c246d.js",
+    "bytes": 6575,
+    "sha256": "2c48cfdccd7c246d1c9aff94040daded59782a861105068a61dbd609ebbe26ee",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/2c48cfdccd7c246d.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/2c89d84abc424759.json",
+    "bytes": 420,
+    "sha256": "2c89d84abc424759d9d080591328a38f2e0830aa3c65e8d9cc5148edac886a86",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/2c89d84abc424759.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/2ce52fbdcc6850fb.js",
+    "bytes": 5891,
+    "sha256": "2ce52fbdcc6850fb80120ccf149741b4330bf0a432b243f55f6ef6b84761d346",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/2ce52fbdcc6850fb.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/2d8b513008f8141e.js",
+    "bytes": 6577,
+    "sha256": "2d8b513008f8141e520be57de8105211ce5fa521138af4f12bae25381a562ff7",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/2d8b513008f8141e.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/2dd10f2f2f7d6a58.js",
+    "bytes": 6575,
+    "sha256": "2dd10f2f2f7d6a58fa9e052b6c9d30e699e526b15b87f8127bbcd21b920f24dd",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/2dd10f2f2f7d6a58.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/2dee251ea262ed20.js",
+    "bytes": 6539,
+    "sha256": "2dee251ea262ed202c3fc697c4d82bc3ee5e0715c6466f5073e0da82521eb15f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/2dee251ea262ed20.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/2e2ee8a3b5e169c3.js",
+    "bytes": 6411,
+    "sha256": "2e2ee8a3b5e169c38e07994baad776ab3223208e324808cfc0ff48e17d25efd3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/2e2ee8a3b5e169c3.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/2e37a4e3de106c18.js",
+    "bytes": 223,
+    "sha256": "2e37a4e3de106c183a5f11a9b52b8ca8360fe0bc4efe4bd0f8348432f227636a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/2e37a4e3de106c18.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/2e5a125958489224.json",
+    "bytes": 2235,
+    "sha256": "2e5a1259584892247ad22a7cad532478cdbf3310b01d95d83870b5949a5c2d63",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/2e5a125958489224.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/2e6f59a81ab86b80.js",
+    "bytes": 6266,
+    "sha256": "2e6f59a81ab86b80ae78e45a1456bfb5a96dc1b2ff3ae9537f8e9e71fa328fa3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/2e6f59a81ab86b80.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/2ed9570c520bd59a.js",
+    "bytes": 6535,
+    "sha256": "2ed9570c520bd59aa8e83621c5eb5ec74d106f0ad5f07babca491940a9437955",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/2ed9570c520bd59a.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/2ed9fde54875e7eb.js",
+    "bytes": 155,
+    "sha256": "2ed9fde54875e7eb430a33d4da8b90a1f5880a3a15bfc9e7e52a703b6db892b9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/2ed9fde54875e7eb.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/2f34f933345dbd4f.js",
+    "bytes": 6479,
+    "sha256": "2f34f933345dbd4f863996c6270f8ab9f777af46f63fbae3958388beb921cd88",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/2f34f933345dbd4f.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/2fdee945a5a43eb1.js",
+    "bytes": 5842,
+    "sha256": "2fdee945a5a43eb117665780b5b2e3ebaafdcf55f766ee1fcfec1e1cac0f4a8b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/2fdee945a5a43eb1.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/2ff517ea34433ba0.js",
+    "bytes": 5663,
+    "sha256": "2ff517ea34433ba0a8637fef15ea931e04cc31a748095027631fced13913ee6e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/2ff517ea34433ba0.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/30034e80b29cecea.js",
+    "bytes": 2945,
+    "sha256": "30034e80b29cecea066a3807a5339b6046b7719b2fbb6f3f9d144781599fcbb9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/30034e80b29cecea.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/300d547a8e3c12ef.js",
+    "bytes": 6555,
+    "sha256": "300d547a8e3c12efb4800ddb0cc348481e0d05908994a8563915d9f45f7b53e8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/300d547a8e3c12ef.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/301db2ab673cf11e.js",
+    "bytes": 7481,
+    "sha256": "301db2ab673cf11eb4ae26ef882d6da596f658f40f79885bce2e98e89e5dff46",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/301db2ab673cf11e.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3028c79961782ac8.js",
+    "bytes": 5907,
+    "sha256": "3028c79961782ac8ea8244d374c64eff00811e1aef16cecb8e47a8cc8e189dd2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3028c79961782ac8.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3033cc3faf7ed409.js",
+    "bytes": 6472,
+    "sha256": "3033cc3faf7ed409d2bb129f93570840f08bdb5d23b8aaa6265d7bddda07b375",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3033cc3faf7ed409.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/303bce0ea29cf6bb.json",
+    "bytes": 8134,
+    "sha256": "303bce0ea29cf6bb5b2d293d44a1fde23e066596b76e11a11fbee48f8740dd34",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/303bce0ea29cf6bb.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/303fb6d2664a3dec.js",
+    "bytes": 5663,
+    "sha256": "303fb6d2664a3dec1f182a953b05a77a5526d9f501423508075cecfa4bf91cad",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/303fb6d2664a3dec.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3097acffdbd66b7c.js",
+    "bytes": 6505,
+    "sha256": "3097acffdbd66b7c68d914108abebfd6a66307ee43dae51e2b18f019a61e0707",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3097acffdbd66b7c.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/30ba4def7c2743ae.js",
+    "bytes": 852,
+    "sha256": "30ba4def7c2743ae31b7726929e077b5e659c8af27a3c7bdcad30614fe1c5de8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/30ba4def7c2743ae.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/30d1f9bf3d684280.js",
+    "bytes": 5804,
+    "sha256": "30d1f9bf3d6842802c6a569b0f827c77383ab7a129482f69f8212c38860a1a21",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/30d1f9bf3d684280.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/31574a3c5ce7a4cf.json",
+    "bytes": 2167,
+    "sha256": "31574a3c5ce7a4cf2ec348e53f381b623be0a0f0f1537f927e48740ec600fc14",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/31574a3c5ce7a4cf.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/318594af519fd3d4.js",
+    "bytes": 6600,
+    "sha256": "318594af519fd3d4c101e7967d6d1e9b12aef09fdae57c1c4e658f01d3bdbb19",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/318594af519fd3d4.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/31a26e3b82d73e62.js",
+    "bytes": 7355,
+    "sha256": "31a26e3b82d73e62d1fe9aa8c80b4b883716e3a26623ea4a5157bb194e8f72b4",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/31a26e3b82d73e62.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/31b0ad60de64ec39.js",
+    "bytes": 6419,
+    "sha256": "31b0ad60de64ec3992b9ee9bb11277677b6905c3012f98d9ece2421ee8df64ab",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/31b0ad60de64ec39.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/327e5a6339cb76fb.json",
+    "bytes": 517,
+    "sha256": "327e5a6339cb76fb1ff14d4bbf83d483865768629a006380a6574f84b5a97e41",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/327e5a6339cb76fb.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/329fd5d9a74113ae.json",
+    "bytes": 2195,
+    "sha256": "329fd5d9a74113ae44e0ee14d604952e91de1ec56670369d81ff6933f9feea88",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/329fd5d9a74113ae.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3327593ffb698e3d.js",
+    "bytes": 6548,
+    "sha256": "3327593ffb698e3de921b1879fca95d3af1da557d7d5ebeff6a396e8d579e7b5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3327593ffb698e3d.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3444e865242dc46f.js",
+    "bytes": 5736,
+    "sha256": "3444e865242dc46f81d66527821a7d334f5f84baa555bd0fd4a36ecbf4257bac",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3444e865242dc46f.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3447837bf613ca8f.js",
+    "bytes": 6656,
+    "sha256": "3447837bf613ca8f7fc30ef4ea904dd776b41cb78beef7a768cca55226f99d7a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3447837bf613ca8f.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/347d1bff9850f218.js",
+    "bytes": 342,
+    "sha256": "347d1bff9850f21826e2b357ac012b35d9a2e152e78c40fac59ad15807b52446",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/347d1bff9850f218.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/34d0ced03a6e01ee.js",
+    "bytes": 2980,
+    "sha256": "34d0ced03a6e01eea1557b18a63770ae8c8fdb3f48b189af0dcc4b0bff48e2e7",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/34d0ced03a6e01ee.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/34e15241d89652f7.js",
+    "bytes": 5731,
+    "sha256": "34e15241d89652f7fc44ba0ba7285e8264a36e909752ce4bdfe5f01b6d86bd11",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/34e15241d89652f7.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/35463adeafa5089c.js",
+    "bytes": 6554,
+    "sha256": "35463adeafa5089cf2b8bc88e784b26a687c7fb62a20ee3e10ab7f1f956fa30c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/35463adeafa5089c.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3565f51a67ff0c47.js",
+    "bytes": 5675,
+    "sha256": "3565f51a67ff0c47f68bf539f33ed4f2b50ce729e75e890f8c7dddbb26dc1992",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3565f51a67ff0c47.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/35829b9aee0ca254.js",
+    "bytes": 5772,
+    "sha256": "35829b9aee0ca254290d5690c1cf05a9e047444084ecf27b3535d39e1af11052",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/35829b9aee0ca254.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/35d72b74ffdae19b.js",
+    "bytes": 6453,
+    "sha256": "35d72b74ffdae19b3294ba80e2f20de12615cfc1b8698de04e5ef6273a987b1a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/35d72b74ffdae19b.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/35f237a86f7568f9.json",
+    "bytes": 1903,
+    "sha256": "35f237a86f7568f991b7afd973ded2f27eac8c596e9e104d552c09de5d564f6d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/35f237a86f7568f9.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/362fe8be2d679024.js",
+    "bytes": 5889,
+    "sha256": "362fe8be2d679024319fa4bc3abce5a2d463e6aa019217f42a0917f7d34d22bf",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/362fe8be2d679024.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/364c92d5a8fc98ce.js",
+    "bytes": 1889,
+    "sha256": "364c92d5a8fc98ce7ba54af1d57641bebe5b97f0a1f9200ffa0404eba3753568",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/364c92d5a8fc98ce.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/377eeee4124dfaea.json",
+    "bytes": 2570,
+    "sha256": "377eeee4124dfaeaa45187659908034f1c5f5069282aa24d99f84af32db758cf",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/377eeee4124dfaea.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/382d7c20e0138c46.js",
+    "bytes": 6493,
+    "sha256": "382d7c20e0138c4610ecbbb204ada5ce5acc12eba96335454dc93a0a860789e9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/382d7c20e0138c46.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/382e048c625a790d.js",
+    "bytes": 5734,
+    "sha256": "382e048c625a790d4a87755c7d3dce16ddb5ebd58dc8a10f4ca414784155c470",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/382e048c625a790d.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3a12a015f2069b36.js",
+    "bytes": 5631,
+    "sha256": "3a12a015f2069b360ceaa05c2989cf07838ee242e93212f1c112c18f0d0a3f56",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3a12a015f2069b36.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3a1bddb6a99db7cf.json",
+    "bytes": 447,
+    "sha256": "3a1bddb6a99db7cfc55663305cb6abb99260fe8db39c43aeaf46375f52ec7f29",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3a1bddb6a99db7cf.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3a47a0d13dd1d9c2.json",
+    "bytes": 2498,
+    "sha256": "3a47a0d13dd1d9c22995a43802998ab58bf02622f32909e19ba1855a819a3ad1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3a47a0d13dd1d9c2.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3a7ebba45a15abc4.json",
+    "bytes": 362,
+    "sha256": "3a7ebba45a15abc4a0a6c666c9c2570530c0103dd0fd9599abcf27fa2d1daf95",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3a7ebba45a15abc4.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3a86e2ff684c41a6.json",
+    "bytes": 2289,
+    "sha256": "3a86e2ff684c41a608a8c1473e242df0bc2a773e07c6df282118be6159651b6f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3a86e2ff684c41a6.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3ab14ed7d59a878f.js",
+    "bytes": 6632,
+    "sha256": "3ab14ed7d59a878f9f95eafebc6177b44e2e34dafb1498109c2662c67ebd931b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3ab14ed7d59a878f.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3b13260a77f393c2.js",
+    "bytes": 5750,
+    "sha256": "3b13260a77f393c27b5d9aff98b34335459a05521b7d764a2765d61688b036c1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3b13260a77f393c2.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3b177453168538c0.js",
+    "bytes": 6454,
+    "sha256": "3b177453168538c08055ff49334db3cb044002ef8531bb9b46182a17124c2eba",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3b177453168538c0.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3b2319a563ccd09f.js",
+    "bytes": 1888,
+    "sha256": "3b2319a563ccd09f0a26b7cffcbcbd931657091d2aa0ebbeef1564375b6a5c33",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3b2319a563ccd09f.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3b486e46853df693.js",
+    "bytes": 5684,
+    "sha256": "3b486e46853df693d9ed87cc7000dfea63adbf95aebd9dfb920cc0e6f43ad2b8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3b486e46853df693.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3c028d3f85cc33c4.js",
+    "bytes": 6561,
+    "sha256": "3c028d3f85cc33c47767b052cba20ce50287b895838a030798b5c8a43823bd0d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3c028d3f85cc33c4.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3c1915effdb9a426.js",
+    "bytes": 5762,
+    "sha256": "3c1915effdb9a426a11f98f0ee2a13c7687c58689ef6947158f145478b3cdfa9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3c1915effdb9a426.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3c8ba04da8a364bb.js",
+    "bytes": 5859,
+    "sha256": "3c8ba04da8a364bbed8357cc583543ae0af4de0577884cccd71b4df7bf0fb691",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3c8ba04da8a364bb.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3cb26bc0495cebd6.js",
+    "bytes": 6058,
+    "sha256": "3cb26bc0495cebd6b1bd030fbb9b2adc54a3f5c92b32316169a96cf818dad036",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3cb26bc0495cebd6.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3cee70ff396699af.js",
+    "bytes": 6469,
+    "sha256": "3cee70ff396699afd781df1767d4d1ccd874cc5ebfe8fa290add7d3bec16ab07",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3cee70ff396699af.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3d6203fd197ce3a3.js",
+    "bytes": 6511,
+    "sha256": "3d6203fd197ce3a35640bafc93e32c3a03a69afef1a43ed8304cd284d92140cd",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3d6203fd197ce3a3.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3d6a9bf3a4c2a289.js",
+    "bytes": 339,
+    "sha256": "3d6a9bf3a4c2a289ae0269d956efd5292b4c18df2afbb7b635c80791398c390e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3d6a9bf3a4c2a289.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3db815c139acab17.js",
+    "bytes": 6584,
+    "sha256": "3db815c139acab172147dd0df2f76bcc016ea80570395b23a594ad043c5681e0",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3db815c139acab17.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3e00f98ed06473e2.js",
+    "bytes": 6395,
+    "sha256": "3e00f98ed06473e2bde7837ac59d862aceb79b2206b4991b3702ff4c84fdbe23",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3e00f98ed06473e2.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3fad2a0bdc9595fd.js",
+    "bytes": 930,
+    "sha256": "3fad2a0bdc9595fd7551a018e0160062a2a07d84b51132ed36e24a6272122c58",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3fad2a0bdc9595fd.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3fe39524811bba99.js",
+    "bytes": 1097,
+    "sha256": "3fe39524811bba9919fc2fc7f59668e491db3403bc84598c7ba6adf712ea1128",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3fe39524811bba99.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/3ff17abb787b6971.js",
+    "bytes": 15071,
+    "sha256": "3ff17abb787b6971b31cbdeb4f86e37e04d8697bc8bec214f100c4bbea65df38",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/3ff17abb787b6971.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/405de62730aff189.js",
+    "bytes": 6535,
+    "sha256": "405de62730aff18901ad258871c008c497bf37ef8022e7a0e2b06a412112b401",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/405de62730aff189.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/40866646797ee875.js",
+    "bytes": 18059,
+    "sha256": "40866646797ee8750d08a1a16623bc51f6e3c7dc589f1e9431a039112cf200ab",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/40866646797ee875.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/40b6cfb2bba8c269.js",
+    "bytes": 6523,
+    "sha256": "40b6cfb2bba8c269c30137c8a5255c7e5f01db8ff46a3dbc822736fc2ddfe48c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/40b6cfb2bba8c269.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/40d4719afcbe185b.json",
+    "bytes": 2143,
+    "sha256": "40d4719afcbe185b6bda5d331d5a7b762c84d5f6620d78f7be29c3bc2d952b81",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/40d4719afcbe185b.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/40eace0395270dba.js",
+    "bytes": 5711,
+    "sha256": "40eace0395270dbaacb8ed716ccf264717a484c8a66a41202eefb6882a87304b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/40eace0395270dba.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/413ba9e259d4a7e6.js",
+    "bytes": 6459,
+    "sha256": "413ba9e259d4a7e6f2035187d7ceae4d7d8e5eaf02ee6d36dd114f8816e892b8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/413ba9e259d4a7e6.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/41584538de455d86.json",
+    "bytes": 2111,
+    "sha256": "41584538de455d861390000ff8a0d067117265722f4e4835781b23265ae4da91",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/41584538de455d86.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/418293f2722e0f67.json",
+    "bytes": 2220,
+    "sha256": "418293f2722e0f67ae92848769b39897352a034838b117929d4b313ab651d9e3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/418293f2722e0f67.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/41bd6b599ca5d00e.js",
+    "bytes": 6218,
+    "sha256": "41bd6b599ca5d00ed05c668101241cff3d68b04f1bb33b794812c26dbc52f0fc",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/41bd6b599ca5d00e.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/41c94108e6907a91.json",
+    "bytes": 7196,
+    "sha256": "41c94108e6907a91ef3b6e0d0fd00b07a65432cdadebe83e64d751c711f395ed",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/41c94108e6907a91.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4256b0fe437d5b85.json",
+    "bytes": 2121,
+    "sha256": "4256b0fe437d5b85ca752825893868fa6da8d1e9a5b283acddc91f2c9d7ac421",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4256b0fe437d5b85.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/427c98dc811db64f.js",
+    "bytes": 5905,
+    "sha256": "427c98dc811db64f98e5bafa58ba2e92429acb57fc10a14e8770893fa44fce86",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/427c98dc811db64f.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4284cea1a6d8abb8.js",
+    "bytes": 5814,
+    "sha256": "4284cea1a6d8abb8b85c8bece1fee7ab34ffcc6cf914aeceebc6bcb03689f86b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4284cea1a6d8abb8.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/42ce966240a73d41.js",
+    "bytes": 6392,
+    "sha256": "42ce966240a73d4151ba03fe17156562401673256f59d2e53860a0536d917d0a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/42ce966240a73d41.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/43cde9a927656964.js",
+    "bytes": 1161,
+    "sha256": "43cde9a92765696406c1b9b96c3d1d0f7acef3337588b93d3235e5fcbfb35178",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/43cde9a927656964.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/447fe1208e17a771.js",
+    "bytes": 5738,
+    "sha256": "447fe1208e17a771106f83ec98d17dc23f8e5a9722b591773746e6b751d97f78",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/447fe1208e17a771.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/44d17ca12db7ba78.js",
+    "bytes": 6781,
+    "sha256": "44d17ca12db7ba786b0fbc45d0d72ee2f09d252b4277f0d3954500d55f3d30a3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/44d17ca12db7ba78.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4547f134baa0a993.js",
+    "bytes": 6517,
+    "sha256": "4547f134baa0a9937a2f819d6a5f0ee66ab61b912ca28bd468de3e2095df6f0d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4547f134baa0a993.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/456dffc6a2f8d241.json",
+    "bytes": 5116,
+    "sha256": "456dffc6a2f8d24199fc7817bb663e4f3421271177209569ff5bbf06d833f4e2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/456dffc6a2f8d241.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4578582f4c9168ca.js",
+    "bytes": 6235,
+    "sha256": "4578582f4c9168cab4ffaa0c92bedecdcb5132bb0ab4ec3f734beefe6c024b3a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4578582f4c9168ca.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/457d94846da59d4f.js",
+    "bytes": 6487,
+    "sha256": "457d94846da59d4f15e7fbb24fedd3ade1fa3925c1388b17a0f61db149f3d691",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/457d94846da59d4f.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/45c9a7cf3f90602b.js",
+    "bytes": 5868,
+    "sha256": "45c9a7cf3f90602bcf7017593bc99286de038f4a0b11aa504711d1297e699da3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/45c9a7cf3f90602b.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/45e773746959474d.js",
+    "bytes": 5889,
+    "sha256": "45e773746959474d5aed3a589d7ad00499fd9db609f80066966a1ffd49d896fc",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/45e773746959474d.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/46056646c70e58f2.js",
+    "bytes": 5743,
+    "sha256": "46056646c70e58f27257d767e77bdeb568532d7ec8bd8b4fbb25bf9e462b7986",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/46056646c70e58f2.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/462231ff46843d36.js",
+    "bytes": 5669,
+    "sha256": "462231ff46843d36047d8eff735871f81dbae819434f3d3a79e6cd1dcd484bbf",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/462231ff46843d36.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/469789da824f8127.js",
+    "bytes": 5749,
+    "sha256": "469789da824f8127d072417e32d01484ea60cebdbc36f734c9690c88f4e646eb",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/469789da824f8127.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/46a61aa3ca90c20a.js",
+    "bytes": 6260,
+    "sha256": "46a61aa3ca90c20a377f063e72fc59678e60dc897e98adde46c133a0198cffdb",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/46a61aa3ca90c20a.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/46b3dcaf08204041.js",
+    "bytes": 6399,
+    "sha256": "46b3dcaf08204041cdf8b1cdecb0db4d602f058b287bdd4eeb3b8cb9474d64d8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/46b3dcaf08204041.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/46c1b95288cb5571.js",
+    "bytes": 5678,
+    "sha256": "46c1b95288cb55719c0f49359bdae69bd4b9e9a7326cda58e277cbd54c373edb",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/46c1b95288cb5571.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/46cf38b38a9230c3.js",
+    "bytes": 6159,
+    "sha256": "46cf38b38a9230c3e7432e7dceb42dcf574e9717f64ecd07a1636b98129d2484",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/46cf38b38a9230c3.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/46d03d967f4ec086.js",
+    "bytes": 5672,
+    "sha256": "46d03d967f4ec0860a3dd5afe1248f3409e0452084faf0e55667e14de27743fc",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/46d03d967f4ec086.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4705fb8afdb58384.json",
+    "bytes": 963,
+    "sha256": "4705fb8afdb5838468f3d44a855a3edfa80cf7469babae0de3bb73a9b24f5c80",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4705fb8afdb58384.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4786ce4bbe5bf19a.js",
+    "bytes": 6547,
+    "sha256": "4786ce4bbe5bf19af65034b941cc5db9bd1977db47da75cdae95dd1cc0e70023",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4786ce4bbe5bf19a.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/47d21af855873425.js",
+    "bytes": 5963,
+    "sha256": "47d21af855873425b728d5514c0f8d4a5f5bfe55f26cb7522367aeaa440d4360",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/47d21af855873425.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/482f5a483d500a21.js",
+    "bytes": 885,
+    "sha256": "482f5a483d500a2148a6ea8e4602968dae6610b55c37ade16d6c0df2fc5bf3a6",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/482f5a483d500a21.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/487c4d96ef517eee.js",
+    "bytes": 6452,
+    "sha256": "487c4d96ef517eee07186bb8e73ee8f4407b5156efae22d852425d8f40df1c1a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/487c4d96ef517eee.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/48cd7c3edba794ea.js",
+    "bytes": 6413,
+    "sha256": "48cd7c3edba794ea17e1100590495bc1a8424b84bc91da5fc0be774e67861334",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/48cd7c3edba794ea.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/49236fdcb9554770.js",
+    "bytes": 6588,
+    "sha256": "49236fdcb95547709d3b23715c91ab704b3d596b9b910643cd0595b0ee2fd3a8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/49236fdcb9554770.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/495015ebb36eafdd.js",
+    "bytes": 5726,
+    "sha256": "495015ebb36eafddbc513aba6d74f3a01cc2b5df7cfe4c96098a552a5198dcbb",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/495015ebb36eafdd.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4950cb1006cd247a.js",
+    "bytes": 5812,
+    "sha256": "4950cb1006cd247aa3598de1d8d86c8338569626190d6513590b9c9af7533132",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4950cb1006cd247a.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4990e7d9d52c8c30.js",
+    "bytes": 5626,
+    "sha256": "4990e7d9d52c8c30c4d22076d3ac4e9914be26846ee99557ecaaf67e23328794",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4990e7d9d52c8c30.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/49d7c0a688ec88b3.json",
+    "bytes": 4642,
+    "sha256": "49d7c0a688ec88b3bd2b8befe10d811866fdbe4c9611177da9b4c266c9125cb3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/49d7c0a688ec88b3.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4a7d030bf2a12b6c.js",
+    "bytes": 3829,
+    "sha256": "4a7d030bf2a12b6c61895d698bf5c837c294eafdc6c601d24778ffc23d5748e8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4a7d030bf2a12b6c.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4a8a9ab9a9d86729.js",
+    "bytes": 5792,
+    "sha256": "4a8a9ab9a9d86729813e821720e3d4217904d079f70412a79db865953e207065",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4a8a9ab9a9d86729.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4a9ebc28efe6483e.js",
+    "bytes": 6818,
+    "sha256": "4a9ebc28efe6483e4324a5d7c0417c661a6b409ac288e0b5a350a6e28e89d4b9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4a9ebc28efe6483e.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4ac901b7fd293c42.js",
+    "bytes": 6227,
+    "sha256": "4ac901b7fd293c42fd839ab80b62e87343c2fbc22632cba9d37809a985158d7c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4ac901b7fd293c42.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4ad59ddb236c224f.js",
+    "bytes": 6510,
+    "sha256": "4ad59ddb236c224fd69dfcd05043a5850802fe5baca74168a3db12c5dfb84724",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4ad59ddb236c224f.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4afc28f644a3b17f.js",
+    "bytes": 6381,
+    "sha256": "4afc28f644a3b17f5f614dfd2ae6f37095ae51186e1bff8b7234601fd7a50b23",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4afc28f644a3b17f.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4bd6f4d08464fb3c.json",
+    "bytes": 2131,
+    "sha256": "4bd6f4d08464fb3c4b6dab743f84d1a756380d40da000c7d29e9f4a9030cf133",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4bd6f4d08464fb3c.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4bf1f29be21b30c3.js",
+    "bytes": 5880,
+    "sha256": "4bf1f29be21b30c3164374d7e4ff42909066c1437afd37492301663114df9ce9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4bf1f29be21b30c3.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4c1b7c4e273b3629.js",
+    "bytes": 6478,
+    "sha256": "4c1b7c4e273b3629d76838651d289830cc98dbea189ebac99955d55fc1711a95",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4c1b7c4e273b3629.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4c6ae481b9ff2844.json",
+    "bytes": 8214,
+    "sha256": "4c6ae481b9ff2844df34f0da35233e3d7b775a3a970d1fc54dbddf3357bb61bc",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4c6ae481b9ff2844.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4cb8efffef05c105.js",
+    "bytes": 6597,
+    "sha256": "4cb8efffef05c105ead6896506673b4a1bb6ccf9850f74c29d7bf39029d7765c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4cb8efffef05c105.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4d203b6f5b755f8a.js",
+    "bytes": 6405,
+    "sha256": "4d203b6f5b755f8ad8a7b7f3eaffe2281a5fb9b857d8048676ea966363e3d76f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4d203b6f5b755f8a.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4d51f62d2e30ba00.js",
+    "bytes": 6703,
+    "sha256": "4d51f62d2e30ba0001ddb2a0e945ca8230c8fc2bbf01a93aba1db5b0ce6d2a0a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4d51f62d2e30ba00.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4def4ed8b374b613.js",
+    "bytes": 6513,
+    "sha256": "4def4ed8b374b6137197b524ea309f55871a7e60e73fa4ad04a79a0429d1cd57",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4def4ed8b374b613.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4e32cdeee41eba15.js",
+    "bytes": 5957,
+    "sha256": "4e32cdeee41eba155f03fdb9687174114b779a24514116e4cb1568c125a3d6a0",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4e32cdeee41eba15.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4e6d74178950c514.js",
+    "bytes": 6596,
+    "sha256": "4e6d74178950c51410da8e3848af188165c9fde6b6daa644810155868b4d8eea",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4e6d74178950c514.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4e84df99c3be71c6.js",
+    "bytes": 6520,
+    "sha256": "4e84df99c3be71c6a1b5114766be509d7e6327451ce2b66e71684d20b33fe4fb",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4e84df99c3be71c6.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4e8743790e606f41.js",
+    "bytes": 6401,
+    "sha256": "4e8743790e606f41fbe198ca04f22f0aa3c9024e424196f1be89fdf5c966e5f2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4e8743790e606f41.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4e9b7989e2f35157.json",
+    "bytes": 5036,
+    "sha256": "4e9b7989e2f35157285698bee96a86716717b5a7b573ff64b02eb1c9ff905abd",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4e9b7989e2f35157.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4ea0fb10e16968ae.js",
+    "bytes": 6526,
+    "sha256": "4ea0fb10e16968aec853b689bf3b3796a44eb6fa8061d40027150fc386c9f3ab",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4ea0fb10e16968ae.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4ec4f71727119fec.js",
+    "bytes": 5909,
+    "sha256": "4ec4f71727119fecca473cbb3e98c3702ba5c90545a35e84e62c50492934d975",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4ec4f71727119fec.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4ed94a30391daa9e.js",
+    "bytes": 6383,
+    "sha256": "4ed94a30391daa9e380954ef31f73d3aa3e55a70405305ac86562df3f8d8da28",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4ed94a30391daa9e.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4f1a4d6dcc1b9159.js",
+    "bytes": 5776,
+    "sha256": "4f1a4d6dcc1b9159439e1f3a6bbc9815ffce8d95fd1a339612cc4d6877e41462",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4f1a4d6dcc1b9159.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4f49071205f90e03.json",
+    "bytes": 2235,
+    "sha256": "4f49071205f90e0390feda092f070656d18ac0efe23b7588cee66502bbffebda",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4f49071205f90e03.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4f60a032342ddc2f.json",
+    "bytes": 2257,
+    "sha256": "4f60a032342ddc2fd4c1e01b77c6705f77a10882701f0295f783de730e36d961",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4f60a032342ddc2f.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4fda5f99a6d92de8.js",
+    "bytes": 5917,
+    "sha256": "4fda5f99a6d92de8bf76ce9341c49f2e6346da2ed0eda8d1268afdaf6d87a3f2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4fda5f99a6d92de8.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/4fdf80db7957afc0.js",
+    "bytes": 5800,
+    "sha256": "4fdf80db7957afc0c6ee4b246ceaf56e159a6682896cbc872894d86a77a5703c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/4fdf80db7957afc0.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/50ab2b85f6db248b.js",
+    "bytes": 5702,
+    "sha256": "50ab2b85f6db248b1fc0e06272cc080d3c64bed3e1cef84f8fcf18acfe5e8f58",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/50ab2b85f6db248b.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/50e96100fd525768.js",
+    "bytes": 6807,
+    "sha256": "50e96100fd525768bd83702123b1ad2108ab7f468d58e3b6ee6dd274f8f53b45",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/50e96100fd525768.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5100ff46aef4c147.js",
+    "bytes": 5786,
+    "sha256": "5100ff46aef4c147c2622f3e5696319904af1577487a4306c3484b35a8d7e2d0",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5100ff46aef4c147.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5144d18e3e1c5db1.json",
+    "bytes": 8594,
+    "sha256": "5144d18e3e1c5db1e0972986aab29d7e7e9d2020b3ccc776a4b2371fa2cd7390",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5144d18e3e1c5db1.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/52325eded67b5247.json",
+    "bytes": 6834,
+    "sha256": "52325eded67b5247215b609ba8ff8894424ef7f67f950c083c46458616d8ecdd",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/52325eded67b5247.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/524e3b5cd3ac926d.js",
+    "bytes": 852,
+    "sha256": "524e3b5cd3ac926d90b7e35938d6346de3c4176c8909be50714e19d6146019f0",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/524e3b5cd3ac926d.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/53697ea420c1f8ac.js",
+    "bytes": 6543,
+    "sha256": "53697ea420c1f8ac6e033ed1446a9ed5d7dc809797df8e83ce4000eed19b9225",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/53697ea420c1f8ac.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/538f0fc9ec079b95.js",
+    "bytes": 5893,
+    "sha256": "538f0fc9ec079b9596f4e6127a1935ed46dd4b8dc9430ce99005f750d9630e97",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/538f0fc9ec079b95.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/54178f1f06744460.js",
+    "bytes": 6595,
+    "sha256": "54178f1f067444605dc1788117cdf3f127c1c652c6361774779de88f73c528fc",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/54178f1f06744460.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5433d439b01df83f.json",
+    "bytes": 2132,
+    "sha256": "5433d439b01df83f42682704f9b95c5c5b8cbd50b7701a86c1f8fd3680e7b294",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5433d439b01df83f.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/549f85490a55bafc.js",
+    "bytes": 15764,
+    "sha256": "549f85490a55bafc4450b585dd06503366866f8690f155e056569a9b39517e6c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/549f85490a55bafc.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/55668ee50cfed2bd.json",
+    "bytes": 2347,
+    "sha256": "55668ee50cfed2bd09111f61a63f84430dc84c2cc37c38e1063d613d8dea9e6c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/55668ee50cfed2bd.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/55a19238f4758cc4.js",
+    "bytes": 6507,
+    "sha256": "55a19238f4758cc49e6860c9b11b22d1fc1a33521e89174ead57726f465df8d2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/55a19238f4758cc4.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/56257d8ce29be76f.js",
+    "bytes": 5667,
+    "sha256": "56257d8ce29be76f95601e8c84746dcdcc2b4a308b5951a090957233ee632d39",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/56257d8ce29be76f.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5630a08cc1c49e68.js",
+    "bytes": 7207,
+    "sha256": "5630a08cc1c49e68f8ff78a7df08f221878084d7b43988c887cb2c53478b1d87",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5630a08cc1c49e68.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/56675a4650e31b6e.json",
+    "bytes": 7272,
+    "sha256": "56675a4650e31b6e22cf9b6a5489e7ad3f77c50e5f2b7da42dd6c7f5e693e4b4",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/56675a4650e31b6e.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/568efc783a194a59.js",
+    "bytes": 5769,
+    "sha256": "568efc783a194a59f32e74137c679b8afadf7ce63b419b07783e5aff1c38c0c3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/568efc783a194a59.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/569c38f3d0d1025e.js",
+    "bytes": 15730,
+    "sha256": "569c38f3d0d1025e4c28c46cdb6521e0b8787e94eb2bb82482661bebe12c3032",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/569c38f3d0d1025e.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/56a9c52b90f75a4a.js",
+    "bytes": 3838,
+    "sha256": "56a9c52b90f75a4a268654fb422474ed794100e4487c5dd78bdabbfdcd529265",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/56a9c52b90f75a4a.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/56de3399510e058a.json",
+    "bytes": 2213,
+    "sha256": "56de3399510e058aa378775c2095a7311b3d978535413fcc7bc873e28e4e99f1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/56de3399510e058a.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5746d5bcfa9d6131.json",
+    "bytes": 2253,
+    "sha256": "5746d5bcfa9d6131b99c53335044e3ebd31f5eebe058961731086d642f60e0f5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5746d5bcfa9d6131.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/57623e23aee72297.js",
+    "bytes": 6650,
+    "sha256": "57623e23aee72297c1f7782d65c1e4b62a605ee0aface5c164eda24ec8dc16c2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/57623e23aee72297.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/57aa2d7a32ddb2a6.js",
+    "bytes": 6511,
+    "sha256": "57aa2d7a32ddb2a6b535b1f5a9e6cb71551c1809bd588615eaeb690587f03fb1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/57aa2d7a32ddb2a6.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/57ae3615bcb6aa7a.js",
+    "bytes": 6580,
+    "sha256": "57ae3615bcb6aa7a2823fb046ce630b6b0843eccaac4173b63a44775851232e2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/57ae3615bcb6aa7a.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/57b875484f23ecc7.js",
+    "bytes": 5914,
+    "sha256": "57b875484f23ecc7948c90908cab2bfe4ba4a840ffc51ededca5289e46a52615",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/57b875484f23ecc7.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/57e5d4ad00a8dd8f.js",
+    "bytes": 6609,
+    "sha256": "57e5d4ad00a8dd8ffb6d50ecb726757f6994ecf8b6ff3f5ffdb07579b69003c5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/57e5d4ad00a8dd8f.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/584cd1dc7a96b619.js",
+    "bytes": 6597,
+    "sha256": "584cd1dc7a96b6191cc31c2074cb331a7dd50f80d63e8fd9adf4bc6eb94f1f45",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/584cd1dc7a96b619.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/585ac8e3d86b1d16.json",
+    "bytes": 3599,
+    "sha256": "585ac8e3d86b1d16c1a7f71f31b562c188afbc20c718106d72ae3c6ec737df19",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/585ac8e3d86b1d16.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/586a47b147ecdfae.js",
+    "bytes": 5798,
+    "sha256": "586a47b147ecdfae2f2f185703b1e289a21988dcf0cd89da311e374212f240ce",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/586a47b147ecdfae.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/58912d09b2552c5e.js",
+    "bytes": 6523,
+    "sha256": "58912d09b2552c5ea223b741558c90585b7e6a70bcbcdf6e1cbcefe3555924a4",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/58912d09b2552c5e.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/58f7419122314e06.js",
+    "bytes": 179,
+    "sha256": "58f7419122314e06df5ddba331b833e204b76af10c59add3c38ef4778748a2d0",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/58f7419122314e06.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/597237829b276bb6.json",
+    "bytes": 2183,
+    "sha256": "597237829b276bb6fe81491f0990bdc07d45aa568c23679f388813c8ff08ddd0",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/597237829b276bb6.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/598e0bad082886a2.js",
+    "bytes": 6503,
+    "sha256": "598e0bad082886a2f1feebce15ee780ea2d92a0a267bbd5d65426491ace8febc",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/598e0bad082886a2.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/59bb4e248ffee378.js",
+    "bytes": 5764,
+    "sha256": "59bb4e248ffee37856291689e434a3242a92077f2c7926b158b72b13ec80ffef",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/59bb4e248ffee378.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5aa7f46aced1c454.js",
+    "bytes": 3067,
+    "sha256": "5aa7f46aced1c45416347a15cee216281845ec07a1b4506994e243103f39d289",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5aa7f46aced1c454.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5b106f4aca5c1a9e.js",
+    "bytes": 6237,
+    "sha256": "5b106f4aca5c1a9ea076dc0e9c243138909081bc027dcf4ead642ca86db3f0e1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5b106f4aca5c1a9e.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5b1b2aa180b66ad6.js",
+    "bytes": 5763,
+    "sha256": "5b1b2aa180b66ad6ab2e95e1ade36e4815332e68a56a6fd13b8cb56cff14d47f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5b1b2aa180b66ad6.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5b7062f034b656bd.js",
+    "bytes": 5742,
+    "sha256": "5b7062f034b656bd320c29b043920ff6a32180774d462e0dc98e3db787b87c02",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5b7062f034b656bd.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5bd0b293965860f7.js",
+    "bytes": 6386,
+    "sha256": "5bd0b293965860f7df739786946037ad2d00ac077f07ac8d2f07352983fe999a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5bd0b293965860f7.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5c2fbfb1911dd5ff.json",
+    "bytes": 4713,
+    "sha256": "5c2fbfb1911dd5ff4cf94f8e1e7b20e40168837e719219987f6708e9c2b365e6",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5c2fbfb1911dd5ff.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5c64307514a7f720.js",
+    "bytes": 7493,
+    "sha256": "5c64307514a7f72045ea190567f604404fbc33126cf8cef3a262c5d835cf1898",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5c64307514a7f720.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5c824ed0174ae88a.js",
+    "bytes": 5820,
+    "sha256": "5c824ed0174ae88aa78348b300de6fd51d54e6c8acba76b5a50fd891fbcdfcf5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5c824ed0174ae88a.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5c94dedf9367737d.js",
+    "bytes": 6602,
+    "sha256": "5c94dedf9367737df409ec24a17184ede0733123d5deaa85dad1e848438cb9af",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5c94dedf9367737d.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5c9765d16acb54c6.js",
+    "bytes": 5815,
+    "sha256": "5c9765d16acb54c656db2684806f2831e94723a967fa87a1057397f6d967de5d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5c9765d16acb54c6.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5ce56b317d71c498.json",
+    "bytes": 8307,
+    "sha256": "5ce56b317d71c4987e2ac619a508ded7f12fd6d4470dbe4e311a2e49bd8acfb5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5ce56b317d71c498.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5d75343fa61858b2.json",
+    "bytes": 2210,
+    "sha256": "5d75343fa61858b261602cf8c18e1f1748d2ba404f5baebf46e18bb17ee6de63",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5d75343fa61858b2.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5db049adb7a69a33.json",
+    "bytes": 2196,
+    "sha256": "5db049adb7a69a33b5e2efd6568fac766881927f884e665fb180bb01c1e6f626",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5db049adb7a69a33.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5de78fde299703dc.js",
+    "bytes": 5743,
+    "sha256": "5de78fde299703dc38a18e5a5e377d7d64b9f923ba3648955c2255770fe3cee7",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5de78fde299703dc.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5e169556bbf8dcf0.js",
+    "bytes": 6535,
+    "sha256": "5e169556bbf8dcf0899bf5a8aa940f6cdc38066109f8f9910c80a9a88e93293e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5e169556bbf8dcf0.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5e2342ab365c6a6b.js",
+    "bytes": 5631,
+    "sha256": "5e2342ab365c6a6b1e82aebb9b98015df90d34e9cef91acf58ec25f8ac1ad473",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5e2342ab365c6a6b.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5e53e0113406a01f.js",
+    "bytes": 5780,
+    "sha256": "5e53e0113406a01fe445ef28f1d4f808e5ee17e69cf409f0a67377abe6aadbc9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5e53e0113406a01f.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5ea2ab8789c76da4.json",
+    "bytes": 2079,
+    "sha256": "5ea2ab8789c76da43c99e3085af2029a9f67ea9cc94e220960e97c66f1baadb1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5ea2ab8789c76da4.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5eaad6b35d39fa02.js",
+    "bytes": 6159,
+    "sha256": "5eaad6b35d39fa025f6289819ebdef07d3427c5eaf3f69d119eccf151d2fe13f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5eaad6b35d39fa02.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5eac2c30cfbf023e.json",
+    "bytes": 2158,
+    "sha256": "5eac2c30cfbf023e390d28bb0a77c3199d21de451d9d0db232e1381e297ca3a1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5eac2c30cfbf023e.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5eb3b10a95f4f372.json",
+    "bytes": 2036,
+    "sha256": "5eb3b10a95f4f372399413993d4d48fd8db482143793615d31994d5ca293f878",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5eb3b10a95f4f372.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5ecb23e825ec3018.js",
+    "bytes": 6583,
+    "sha256": "5ecb23e825ec3018aee99ba5b0b635d8cde26adaa58654146d59c4a94d420672",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5ecb23e825ec3018.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5ef839998d4ca8be.json",
+    "bytes": 402,
+    "sha256": "5ef839998d4ca8be1ef618d1e0a9a070b0b1c7c6b1de512e00cccce7386ed3d8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5ef839998d4ca8be.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5fa9fdfb1e92bd5a.json",
+    "bytes": 2289,
+    "sha256": "5fa9fdfb1e92bd5a9201cee5bfa6a03fd68c46a7a2517bc11f8bcad5ff76ad7b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5fa9fdfb1e92bd5a.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5feee30cd5448dc1.js",
+    "bytes": 6464,
+    "sha256": "5feee30cd5448dc1d2795c1fbd5158bcfd531fcba1e113a4d2053bc8a78c5d70",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5feee30cd5448dc1.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/5ffeb1295a71961e.js",
+    "bytes": 6461,
+    "sha256": "5ffeb1295a71961e3497efe8ae6306b67545cfa28d504459214970de5e75d86a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/5ffeb1295a71961e.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/600d93c45ab4bf2d.js",
+    "bytes": 6549,
+    "sha256": "600d93c45ab4bf2dd650f4740bf9721dd3d7e5dc97db6d6d043047b5cdf20239",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/600d93c45ab4bf2d.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/60164c0832dc4486.json",
+    "bytes": 4846,
+    "sha256": "60164c0832dc44867870ea3bbc1fab3c3aa4d8486bdcf94d5eaf730b85bfd23c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/60164c0832dc4486.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/6022940e63758937.js",
+    "bytes": 6579,
+    "sha256": "6022940e6375893744597ffa1f74bffd55f14b13ea3cd0f477282b33f08b515a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/6022940e63758937.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/6063487b1f9964f1.js",
+    "bytes": 6620,
+    "sha256": "6063487b1f9964f14398e34c43b1af71b2dd73c98b54e3445c4b6ec718d1af6a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/6063487b1f9964f1.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/60741eb1ce9aa485.js",
+    "bytes": 5956,
+    "sha256": "60741eb1ce9aa48512f8de57ce896b25b5526ec388566e14dae5022595b051dc",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/60741eb1ce9aa485.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/608fd45bb1c0e2a1.json",
+    "bytes": 5215,
+    "sha256": "608fd45bb1c0e2a16f582a56002ed2ed6eee571599dce26f39f901fe35c63f7d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/608fd45bb1c0e2a1.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/60dfe3382e7c67c2.js",
+    "bytes": 9724,
+    "sha256": "60dfe3382e7c67c26045ffb7c38e92a8d8ac144df740f487f01bd3f11ae6b33a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/60dfe3382e7c67c2.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/60e09af2683577cc.json",
+    "bytes": 3317,
+    "sha256": "60e09af2683577ccc7f7f19a0b1462a251e1f49efd59d73fb8a51ed9fc14071a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/60e09af2683577cc.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/61f95b435f9e360e.js",
+    "bytes": 6203,
+    "sha256": "61f95b435f9e360e4b8c98339e78f23ad491a5d57b5da7b144c9b2767c680cc5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/61f95b435f9e360e.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/623fd60832fe83c1.js",
+    "bytes": 5783,
+    "sha256": "623fd60832fe83c139808c4858115cdc655571f0f9a87e889c5da40696bf3bd2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/623fd60832fe83c1.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/63184e984639303c.js",
+    "bytes": 5777,
+    "sha256": "63184e984639303c07e624b54805a231d5b28d90d1772863a5918c027bd90001",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/63184e984639303c.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/63adc74d4eb8a8a1.js",
+    "bytes": 6555,
+    "sha256": "63adc74d4eb8a8a197215e7444616b653859460a408b5fdee55e9dd5ad539cb5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/63adc74d4eb8a8a1.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/63eab9a176a4cb31.js",
+    "bytes": 6516,
+    "sha256": "63eab9a176a4cb314c821f31e8cab29d184a48b56721ac0064384f64589245d1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/63eab9a176a4cb31.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/63ed2987cd0018c8.js",
+    "bytes": 5637,
+    "sha256": "63ed2987cd0018c802903d9ef9ad6be45f10962a4e7d438d417e23396fccfab1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/63ed2987cd0018c8.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/643485923f157d7d.js",
+    "bytes": 938,
+    "sha256": "643485923f157d7d8b559e3fcfaadc51e5a36258f218d25f068b90e60c6d7b44",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/643485923f157d7d.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/6451261415ec2def.js",
+    "bytes": 6476,
+    "sha256": "6451261415ec2defe4abf33e5d631ee6d0c6489511519aef782d2185e9ddb5ce",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/6451261415ec2def.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/645a95d6c28796a5.json",
+    "bytes": 4748,
+    "sha256": "645a95d6c28796a5f040270e546051186fcc54c0aa63dfd41ea3c85dc5620846",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/645a95d6c28796a5.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/64630c6249139248.json",
+    "bytes": 5090,
+    "sha256": "64630c6249139248899fe7122242a8c8d54685d1893efb01e81a42bc8acc4801",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/64630c6249139248.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/646b44f8cc077fda.js",
+    "bytes": 6019,
+    "sha256": "646b44f8cc077fda52ed8c7068e13c437f75d902c0f9e419ebbcb591d12b74ce",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/646b44f8cc077fda.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/64a8e17d32123240.js",
+    "bytes": 5769,
+    "sha256": "64a8e17d32123240ad1d0fa339db86025cc28c647d4c41036149fedd3221a2b2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/64a8e17d32123240.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/6558a454d5425a7b.json",
+    "bytes": 4728,
+    "sha256": "6558a454d5425a7bb2be6fb4954bd6f98ea80803cdbf66410af2c1414e93fc06",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/6558a454d5425a7b.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/65643528cf24ba58.js",
+    "bytes": 72,
+    "sha256": "65643528cf24ba5879c8c37f93d8b137266852cf838de911f3c55e0847f4b053",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/65643528cf24ba58.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/65aba67f581e952b.js",
+    "bytes": 5877,
+    "sha256": "65aba67f581e952b740cf637a7a3ece178d3094125701b444dc4f40e48af11e2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/65aba67f581e952b.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/663b65201904c808.json",
+    "bytes": 2237,
+    "sha256": "663b65201904c808d4173c58fe0080422951a3955e099d872336c588cc502a06",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/663b65201904c808.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/66495af0d02a5eee.js",
+    "bytes": 6499,
+    "sha256": "66495af0d02a5eeeaac07d3b8cb1b76103f1e3823a62b520f479c114897ae906",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/66495af0d02a5eee.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/665503d5e5cf0496.js",
+    "bytes": 15120,
+    "sha256": "665503d5e5cf0496ffb705909b507495147c4ee81b5752ed3f363fe0b53a703f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/665503d5e5cf0496.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/66af4d4f49109e64.js",
+    "bytes": 6250,
+    "sha256": "66af4d4f49109e64065238940154769e3085188de086f7f3ebe50fc73df88746",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/66af4d4f49109e64.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/66b5e3ee87fb1d18.js",
+    "bytes": 5794,
+    "sha256": "66b5e3ee87fb1d18b50af68f1a14b4b6aea605d27fa51938e02b65d5eb9ddc54",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/66b5e3ee87fb1d18.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/66c43badba31afde.js",
+    "bytes": 6350,
+    "sha256": "66c43badba31afde524d352b39e6d0ae5755be61dd7d703e8981b2a8c18daeba",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/66c43badba31afde.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/66f67c41fad2ccfc.json",
+    "bytes": 2026,
+    "sha256": "66f67c41fad2ccfcf629c4beafd1e9921ccd5fe505bbcb71780568a5d5069bb1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/66f67c41fad2ccfc.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/671515693972af88.js",
+    "bytes": 6700,
+    "sha256": "671515693972af887c0ebe0ec60208e681f473c31aeeacd72d24743b8dac95b8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/671515693972af88.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/67553a7319c81dea.json",
+    "bytes": 2167,
+    "sha256": "67553a7319c81dea3285b294702c546002d9b36cda49b8ec83c5ba2c1e7109a4",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/67553a7319c81dea.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/6764a7c8fb7c3c84.js",
+    "bytes": 17568,
+    "sha256": "6764a7c8fb7c3c84668d37256a55aafb3fb0d4d6f0fb40a96442739359144a4a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/6764a7c8fb7c3c84.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/6796071c6916f6b6.js",
+    "bytes": 7867,
+    "sha256": "6796071c6916f6b624a2a60e5b746aae600344fa8264d59ef02168607aef0092",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/6796071c6916f6b6.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/67f2f40a8a5412a2.json",
+    "bytes": 1028,
+    "sha256": "67f2f40a8a5412a28c92a6a8c3634793909537f4ac5a8db2261e4078ea5cda8f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/67f2f40a8a5412a2.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/680ed382cc469e60.json",
+    "bytes": 1961,
+    "sha256": "680ed382cc469e605292908a3c8dfd314c33802c4edc96d73409af5da18baca3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/680ed382cc469e60.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/6817e5be892de820.js",
+    "bytes": 5845,
+    "sha256": "6817e5be892de820976f6888912e9915103945409ef78720368d10d41a91856c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/6817e5be892de820.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/6834c559a62b15bf.js",
+    "bytes": 6359,
+    "sha256": "6834c559a62b15bf36757bdc930e1a5657693e4c42e8fdd0f029be4f1eb7dd7e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/6834c559a62b15bf.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/6864e6d572bb34f0.js",
+    "bytes": 6501,
+    "sha256": "6864e6d572bb34f09ab1c1d098bea4a43b0b556a3d0d6c35734f39a7687604ad",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/6864e6d572bb34f0.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/689ba78814d7cfed.js",
+    "bytes": 6545,
+    "sha256": "689ba78814d7cfed871871883b96b40dd711e62471560d84fcb9cb82e21c889d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/689ba78814d7cfed.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/68a384bf242de09c.js",
+    "bytes": 5744,
+    "sha256": "68a384bf242de09cc759871a1b1d228505f6905ba02b1c92a046969d1713d431",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/68a384bf242de09c.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/68bc4c49c969c2f0.js",
+    "bytes": 5744,
+    "sha256": "68bc4c49c969c2f0021bf9a3f84d7810ad4aa254d24bc002fcab4a6827ccbc2b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/68bc4c49c969c2f0.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/68d70bea1495d813.js",
+    "bytes": 6551,
+    "sha256": "68d70bea1495d81335b2f572efa47c4f52e68c69f358a80b13a60701284797e4",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/68d70bea1495d813.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/690c99a81729eade.json",
+    "bytes": 1937,
+    "sha256": "690c99a81729eadefc0c087fd636c91ee062b533ce3e36e27fa22fc4245d5e0c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/690c99a81729eade.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/69482e5c081dc8ee.js",
+    "bytes": 13742,
+    "sha256": "69482e5c081dc8eed0021cec8616a54f8b0bbbc2974a1ec44f225d58ccf50b8b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/69482e5c081dc8ee.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/69d582fd12a837df.js",
+    "bytes": 6559,
+    "sha256": "69d582fd12a837dfb20f22323f0d4d593597433de79fbd236326bd39305b6d41",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/69d582fd12a837df.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/69fbd1234755b331.js",
+    "bytes": 5817,
+    "sha256": "69fbd1234755b331aa451e95d1688f722361c8a69f3a3447c8dcb1538df55b24",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/69fbd1234755b331.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/6ab6e61312b4c102.js",
+    "bytes": 12180,
+    "sha256": "6ab6e61312b4c1029a97095e60cc1b280e4fa765a24a0130ec46162707ac5f3a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/6ab6e61312b4c102.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/6abd54b5845e114e.json",
+    "bytes": 2163,
+    "sha256": "6abd54b5845e114efde0f8a5e44d603a880ad00134b454dd63e1e4c2e6fa1dc1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/6abd54b5845e114e.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/6ac67c349ed3cf34.js",
+    "bytes": 6612,
+    "sha256": "6ac67c349ed3cf3475dfe21acc659385b33d225b5fdf8ee22725397fceb10ecd",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/6ac67c349ed3cf34.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/6b75219583fb1480.json",
+    "bytes": 2076,
+    "sha256": "6b75219583fb1480e0074b85c6d4b81e904c3e297ab2fab170a4cc70ea3e657e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/6b75219583fb1480.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/6c1e14a0c935e63b.js",
+    "bytes": 6416,
+    "sha256": "6c1e14a0c935e63b01bf4a79e8dbbb3bc7675af809ebce9dd6a5120324f91cf9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/6c1e14a0c935e63b.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/6d21e5a734eae9c3.js",
+    "bytes": 6563,
+    "sha256": "6d21e5a734eae9c319aa3120dfbd1dfb4d0451d6e1b148bb2854bbfebd74b39d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/6d21e5a734eae9c3.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/6d3801919c70b195.json",
+    "bytes": 2727,
+    "sha256": "6d3801919c70b1956c28df4ad13ef832f6a66b4d741155296549118656c74798",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/6d3801919c70b195.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/6d3c2d6132371f08.js",
+    "bytes": 606,
+    "sha256": "6d3c2d6132371f08ce5851ebee1a9b69d82ccfcb66dab80a3c937c6de15e3770",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/6d3c2d6132371f08.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/6dc309ab8d2f8eea.json",
+    "bytes": 2124,
+    "sha256": "6dc309ab8d2f8eea44ac642fa10dd50cf574a7507153ac9b2979e310f6b4d4e2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/6dc309ab8d2f8eea.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/6dd94356116ff16d.js",
+    "bytes": 2396,
+    "sha256": "6dd94356116ff16da543ac666f7e38a72c2b3c9972d0d97206a6168df1542603",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/6dd94356116ff16d.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/6de47e6e1d051a86.json",
+    "bytes": 2124,
+    "sha256": "6de47e6e1d051a864bb4ecdcb95081a50d8a82accd628dca6e9b0888329382a1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/6de47e6e1d051a86.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/6e0109ee7a8db0b1.js",
+    "bytes": 7269,
+    "sha256": "6e0109ee7a8db0b15de04671c1cf1983112cf6a7659196f2e6f3f97ee0a4eee3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/6e0109ee7a8db0b1.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/6eb1a62a4a081f73.js",
+    "bytes": 6553,
+    "sha256": "6eb1a62a4a081f730f15f9c57f85ce715778b926360c402de1047f2560b74cba",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/6eb1a62a4a081f73.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/6ec7e9d115c59b12.js",
+    "bytes": 6611,
+    "sha256": "6ec7e9d115c59b1212ed98263fbfb119773e47e1e30be5cfd006e44956090cf8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/6ec7e9d115c59b12.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/6f2f369802417e21.js",
+    "bytes": 1275,
+    "sha256": "6f2f369802417e2116c3218d959809ec3fe1820f2a25401bf2f6047a3a1e8e20",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/6f2f369802417e21.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/6f3377fac69ca507.js",
+    "bytes": 9655,
+    "sha256": "6f3377fac69ca5071da1b62271b21abb842649d06091a82ff3df48a5664fb50c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/6f3377fac69ca507.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/6fa51fd114b5a8fe.js",
+    "bytes": 6394,
+    "sha256": "6fa51fd114b5a8fee34a2173b207a96a43065f4939fe4a87ba01c7ed670a9bd9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/6fa51fd114b5a8fe.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/6fb71a9b671e8111.js",
+    "bytes": 6389,
+    "sha256": "6fb71a9b671e811112a9c6b7bca2f36125b3ec3b895ff01ea8e03059802611c9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/6fb71a9b671e8111.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/7014f4498ffa857c.json",
+    "bytes": 391,
+    "sha256": "7014f4498ffa857cf29ed7a9421c7bf184b32ce77c7643795adfbfc74800fafc",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/7014f4498ffa857c.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/703fb1dd43496f44.js",
+    "bytes": 6269,
+    "sha256": "703fb1dd43496f444292ae258f562969c6da6f680295b38d61646161f6170f4a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/703fb1dd43496f44.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/710ea08d1500635f.js",
+    "bytes": 6527,
+    "sha256": "710ea08d1500635f7d2a0e48e9b54cdf50809b32a9d948281175f76a0bdc4a83",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/710ea08d1500635f.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/7110073047ad3b19.js",
+    "bytes": 179,
+    "sha256": "7110073047ad3b193319ae10a9085b28af5f459d4c645a6cd01a97377ebf51ab",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/7110073047ad3b19.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/71712ac2761b1d67.json",
+    "bytes": 5137,
+    "sha256": "71712ac2761b1d674d9405c42c2363bbcade00f74cc6fe2210f32774ae0d1489",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/71712ac2761b1d67.json"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/719e25265e51e151.js",
+    "bytes": 3912,
+    "sha256": "719e25265e51e151f3b353b6401d9b453af735c52039a02515912b353374021c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/719e25265e51e151.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/71e11aea48f654e9.js",
+    "bytes": 770,
+    "sha256": "71e11aea48f654e936255f72a308c8595a5395741bc2db661cfa7b09aa74259c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/71e11aea48f654e9.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/71edff48b25cc77b.js",
+    "bytes": 6536,
+    "sha256": "71edff48b25cc77b6a0287a49834b6e2b642a0dd92c8a22698e2df55b3cd18f5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/71edff48b25cc77b.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/71ee76c99fec2341.js",
+    "bytes": 735,
+    "sha256": "71ee76c99fec2341462733889bb42e47b46524592da6e350d5cb6a1ac6231188",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/71ee76c99fec2341.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/7226efa567576bc4.js",
+    "bytes": 6599,
+    "sha256": "7226efa567576bc45b0a19bb4aecc2ceb905a48a28b120087bc27e0019c72d4c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/7226efa567576bc4.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/72b2741a595aa8d0.js",
+    "bytes": 6543,
+    "sha256": "72b2741a595aa8d0d97d54bf3a604b2d510512002e6f07ce184d5fe355424419",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/72b2741a595aa8d0.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/7343faad06a9c987.js",
+    "bytes": 6383,
+    "sha256": "7343faad06a9c987b831cd190a9f0a9369bffab9e02a54778228c658c3a9d6a6",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/7343faad06a9c987.js"
+  },
+  {
+    "path": "04-design-and-settings/custom-code/scripts/73805c565c3cb99e.json",
+    "bytes": 2143,
+    "sha256": "73805c565c3cb99e55b7580e74ee330d88359d5989fc73d43562cba22b891737",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/04-design-and-settings/custom-code/scripts/73805c565c3cb99e.json"
+  }
+]

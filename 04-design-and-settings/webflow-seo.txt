@@ -1,0 +1,166 @@
+- navigation "Navigation":
+  - link "home":
+    - /url: /?r=0
+  - list:
+    - link "Dashboard":
+      - /url: /dashboard?utm_source=dashboard
+    - button "Marketplace menu dropdown":
+      - generic: Marketplace
+    - link "Learn":
+      - /url: https://university.webflow.com/?utm_source=dashboard
+    - button "Resources menu dropdown":
+      - generic: Resources
+    - button "Search":
+    - button "Notifications":
+    - button "Account":
+      - generic: Thomas Salic
+      - generic: TS
+- navigation:
+  - link "All projects":
+    - /url: /dashboard?activeTab=all-projects&workspace=thomass-workspace-395ee9
+    - generic: All projects
+  - link "General":
+    - /url: /dashboard/sites/copyfy-624656/general
+    - generic: General
+  - link "Site access":
+    - /url: /dashboard/sites/copyfy-624656/site-access
+    - generic: Site access
+  - link "Publishing":
+    - /url: /dashboard/sites/copyfy-624656/publishing
+    - generic: Publishing
+  - link "Billing":
+    - /url: /dashboard/sites/copyfy-624656/billing?sp=project seo tab
+    - generic: Billing
+  - link "Plans":
+    - /url: /dashboard/sites/copyfy-624656/plans?ref=plans_tab
+    - generic: Plans
+  - button "Usage":
+    - text: Usage
+  - link "SEO" [active]:
+    - /url: /dashboard/sites/copyfy-624656/seo
+    - generic: SEO
+  - link "Forms":
+    - /url: /dashboard/sites/copyfy-624656/forms
+    - generic: Forms
+  - link "Fonts":
+    - /url: /dashboard/sites/copyfy-624656/fonts
+    - generic: Fonts
+  - link "Backups":
+    - /url: /dashboard/sites/copyfy-624656/backups
+    - generic: Backups
+  - link "Apps & Integrations":
+    - /url: /dashboard/sites/copyfy-624656/integrations
+    - generic: Apps & Integrations
+  - link "Custom code":
+    - /url: /dashboard/sites/copyfy-624656/custom-code
+    - generic: Custom code
+  - link "Webflow Cloud":
+    - /url: /dashboard/sites/copyfy-624656/webflow-cloud
+    - generic: Webflow Cloud
+- main:
+  - heading "Copyfy Visit website" [level=1]:
+    - text: Copyfy
+    - link "Visit website":
+      - /url: https://copyfy-624656.webflow.io
+  - button "Transfer site":
+  - button "Archive site":
+  - button "Duplicate site":
+  - button "Unpublish site" [disabled]:
+  - button "Share":
+    - generic: Share
+  - link "Open site in Webflow":
+    - /url: /external/designer/copyfy-624656
+    - generic: Open site in Webflow
+  - button "Publish":
+    - generic: Publish
+  - heading "Search engine optimization" [level=2]
+  - text: You can set
+  - link "SEO meta titles and descriptions":
+    - /url: https://help.webflow.com/hc/en-us/articles/33961237278611#h_01JQ4D4EY3BE2ZFT57J30Y0D48
+  - text: ", as well as"
+  - link "Open Graph info":
+    - /url: https://help.webflow.com/hc/en-us/articles/33961370297107-Control-the-look-of-social-shares-with-Open-Graph#how-to-set-open-graph-tags
+  - text: for individual pages and Collection items in your site's page settings.
+  - heading "Indexing" [level=2]
+  - button "Save" [disabled]:
+    - generic: Save
+  - generic: Webflow subdomain indexing
+  - switch "Webflow subdomain indexing"
+  - generic: "Off"
+  - generic: Indexing of https://copyfy-624656.webflow.io is disabled
+  - generic: "If indexing is disabled, a unique robots.txt will be published only on the subdomain telling search engines to ignore the domain. (The actual content is: User-Agent: * Disallow: /)"
+  - generic: robots.txt
+  - textbox "robots.txt": "User-Agent: * Disallow: /old/"
+  - text: If populated, this will be added to all of your pages. The limit is 500 KiB. Learn more at
+  - link "www.robotstxt.org":
+    - /url: https://www.robotstxt.org
+  - text: .
+  - generic: Traffic controls
+  - switch "Traffic controls" [checked]
+  - generic: "On"
+  - generic: Allow Search Engine Crawlers
+  - switch [checked]
+  - generic: "On"
+  - generic: Allow Artificial Intelligence Bots
+  - text: Disabling these will request that your website content be excluded from access by certain bots.
+  - link "Learn more":
+    - /url: https://help.webflow.com/hc/en-us/articles/33961368603539-Disable-search-engine-indexing#01JGPQHKSCSFVTH30K5X595NA8
+  - generic: Remove sitemap.xml from robots.txt
+  - switch "Remove sitemap.xml from robots.txt"
+  - generic: "Off"
+  - generic: sitemap.xml will be added to robots.txt
+  - text: Enabling this removes the automatically generated sitemap.xml address within your robots.txt file. You can input a custom sitemap.xml below.
+  - link "Learn more":
+    - /url: https://help.webflow.com/hc/en-us/articles/33961355371667-Create-a-sitemap-in-Webflow#how-to-auto-generate-a-sitemap
+  - heading "Sitemap" [level=2]
+  - button "Save" [disabled]:
+    - generic: Save
+  - generic: Auto-generate sitemap
+  - switch "Auto-generate sitemap" [checked]
+  - generic: "On"
+  - generic: Automatically update sitemap.xml when site is published.
+  - switch "Use global canonical URL for sitemap entries"
+  - generic: "Off"
+  - text: Use your global canonical URL as the base URL for each
+  - code: sitemap.xml
+  - text: entry.
+  - text: Boost your SEO by automatically updating your sitemap whenever you publish your site. View your sitemap at
+  - code: your-site.com/sitemap.xml
+  - text: . You'll still need to submit your sitemap to Google.
+  - link "Learn more":
+    - /url: https://support.google.com/webmasters/answer/183668?vid=0-635803558094131134-280399586
+  - heading "Google site verification" [level=2]
+  - button "Save" [disabled]:
+    - generic: Save
+  - generic: Verify your site with Google to get access to your site’s Google search data, and submit your sitemap for indexing.
+  - generic: Google site verification ID
+  - textbox "Google site verification ID":
+    - /placeholder: e.g. x88atPHmzG1G2FBivU1bk-w398zDtL8Mci2AC2tYd4kw
+    - text: wpMfm6jfSqxqnDKNEev6YLnd_IO9qIv6vTA7yRy2ECE
+  - text: Visit
+  - link "Google Search Console":
+    - /url: https://www.google.com/webmasters/tools/
+  - text: to add and verify your site.
+  - link "Learn more":
+    - /url: https://help.webflow.com/hc/en-us/articles/33961258413459
+  - heading "Global canonical tag URL" [level=2]
+  - generic: Set the global URL to use in the canonical tag for this site so search engines know the proper URL to index and don't serve duplicate content.
+  - button "Save" [disabled]:
+    - generic: Save
+  - generic: Global canonical URL
+  - textbox "Global canonical URL":
+    - /placeholder: https://
+    - text: https://www.copyfy.io
+  - paragraph: We will automatically remove trailing slashes in your URL.
+  - text: All site pages will use this global canonical tag URL as their starting point and append the page's unique URL slug after it.
+  - link "Learn more":
+    - /url: https://help.webflow.com/hc/en-us/articles/33961263684115-Set-canonical-tags-to-improve-SEO
+  - text: .
+  - heading "LLMs.txt" [level=2]
+  - generic: Upload llms.txt file
+  - button "Upload":
+    - generic: Upload
+  - text: Upload your llms.txt file here. This file helps control how AI models and language learning models interact with your site.
+  - link "Learn more":
+    - /url: https://help.webflow.com/hc/en-us/articles/43240104183315-Upload-an-llms-txt-file-to-your-site
+- region "Notifications Alt+T"

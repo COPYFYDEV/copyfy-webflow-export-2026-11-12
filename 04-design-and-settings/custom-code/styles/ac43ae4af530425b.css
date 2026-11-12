@@ -1,0 +1,21 @@
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - .5rem));
+  }
+}
+
+.scroll {
+  animation: scroll 80s linear infinite;
+}
+
+.reverse {
+  animation-direction: reverse;
+}
+
+.marquee-image {
+  -webkit-transform: translateZ(0);
+}

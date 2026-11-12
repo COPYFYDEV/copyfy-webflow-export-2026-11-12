@@ -1,0 +1,1 @@
+(function(w,i,g){w[g]=w[g]||[];if(typeof w[g].push=='function')w[g].push.apply(w[g],Array.isArray(i)?i:[i]);})(window,['G-QLWX4WTGSF'],'google_tags_first_party');

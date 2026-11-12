@@ -1,0 +1,76 @@
+[
+  {
+    "href": "https://cdn.prod.website-files.com",
+    "rel": "preconnect",
+    "crossorigin": "anonymous"
+  },
+  {
+    "rel": "alternate",
+    "hreflang": "x-default",
+    "href": "https://www.copyfy.io/"
+  },
+  {
+    "rel": "alternate",
+    "hreflang": "fr",
+    "href": "https://www.copyfy.io/"
+  },
+  {
+    "rel": "alternate",
+    "hreflang": "en",
+    "href": "https://www.copyfy.io/en"
+  },
+  {
+    "rel": "alternate",
+    "hreflang": "es",
+    "href": "https://www.copyfy.io/es"
+  },
+  {
+    "rel": "alternate",
+    "hreflang": "nl",
+    "href": "https://www.copyfy.io/nl"
+  },
+  {
+    "rel": "alternate",
+    "hreflang": "de",
+    "href": "https://www.copyfy.io/de"
+  },
+  {
+    "rel": "alternate",
+    "hreflang": "pt",
+    "href": "https://www.copyfy.io/pt"
+  },
+  {
+    "href": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/css/copyfy-624656.webflow.shared.10017f156.min.css",
+    "rel": "stylesheet",
+    "type": "text/css",
+    "integrity": "sha384-EAF/FW8hwqvrE+FWbG/ceXYqJqm59JccsfKojdrftfgxzy2p1wigZ+5MAZhLsBiI",
+    "crossorigin": "anonymous"
+  },
+  {
+    "href": "https://fonts.googleapis.com",
+    "rel": "preconnect"
+  },
+  {
+    "href": "https://fonts.gstatic.com",
+    "rel": "preconnect",
+    "crossorigin": "anonymous"
+  },
+  {
+    "href": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/680149ac7c07adbd3635ca1f_favicon-32x32.png",
+    "rel": "shortcut icon",
+    "type": "image/x-icon"
+  },
+  {
+    "href": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/680149f67602324cb099a300_iconn.png",
+    "rel": "apple-touch-icon"
+  },
+  {
+    "href": "https://www.copyfy.io/de",
+    "rel": "canonical"
+  },
+  {
+    "rel": "preconnect",
+    "href": "https://app.copyfy.io",
+    "crossorigin": null
+  }
+]

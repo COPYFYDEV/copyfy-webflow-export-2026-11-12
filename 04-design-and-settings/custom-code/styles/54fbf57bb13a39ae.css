@@ -1,0 +1,203 @@
+
+  .cfstr-wrap *,
+  .cfstr-wrap *::before,
+  .cfstr-wrap *::after { box-sizing: border-box; }
+  .cfstr-wrap {
+    width: 100%;
+    max-width: 341.33px;
+    margin: 0 auto;
+    aspect-ratio: 341.33 / 287;
+    container-type: inline-size;
+    container-name: cfstr;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+  .cfstr-frame {
+    width: 341.33px; height: 287px;
+    position: absolute; top: 0; left: 0;
+    transform-origin: top left;
+  }
+  @container cfstr (max-width: 341.33px) {
+    .cfstr-frame { transform: scale(calc(100cqi / 341.33px)); }
+  }
+  /* STAGE wraps cards + mockup with a mask gradient so they fade out at the bottom,
+     regardless of host background colour. */
+  .cfstr-stage {
+    position: absolute; inset: 0;
+    -webkit-mask-image: linear-gradient(180deg, black 0%, black 58%, transparent 80%);
+    mask-image: linear-gradient(180deg, black 0%, black 58%, transparent 80%);
+    z-index: 0;
+  }
+  /* Browser mockup behind the cards (Figma exact: left=24, top=132). */
+  .cfstr-mockup {
+    position: absolute;
+    left: 24px; top: 132px;
+    width: 294px; height: 108.983px;
+    background: #fff;
+    border-radius: 5.069px;
+    box-shadow:
+      0 0 0 0.634px rgba(6, 86, 134, 0.04),
+      0 0.634px 0.634px -0.317px rgba(1, 34, 54, 0.04),
+      0 1.901px 1.901px -0.95px rgba(1, 34, 54, 0.06),
+      0 3.802px 5.069px -1.901px rgba(1, 34, 54, 0.01),
+      0 3.802px 7.603px -3.802px rgba(6, 86, 134, 0.02),
+      0 15.207px 15.207px -7.603px rgba(6, 86, 134, 0.04);
+    overflow: hidden;
+    z-index: 1;
+  }
+  .cfstr-mockup__left {
+    position: absolute;
+    left: 14.57px; top: 12.67px;
+    width: 129.069px; height: 163.015px;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  .cfstr-mockup__block {
+    width: 129.069px; height: 129.069px;
+    background: rgba(27, 37, 64, 0.02);
+    border: 0.373px solid rgba(27, 37, 64, 0.04);
+    border-radius: 5.969px;
+  }
+  .cfstr-mockup__icons { display: flex; gap: 3.73px; align-items: center; }
+  .cfstr-mockup__icon {
+    width: 29.47px; height: 29.47px;
+    background: rgba(27, 37, 64, 0.02);
+    border: 0.373px solid rgba(27, 37, 64, 0.04);
+    border-radius: 4.476px;
+  }
+  .cfstr-mockup__right {
+    position: absolute;
+    left: 149.61px; top: 12.67px;
+    width: 129.815px; height: 130px;
+    overflow: hidden;
+  }
+  .cfstr-mockup__top {
+    width: 129.815px; height: 11.191px;
+    background: rgba(27, 37, 64, 0.02);
+    border: 0.373px solid rgba(27, 37, 64, 0.04);
+    border-radius: 1.492px;
+  }
+  .cfstr-mockup__rows { margin-top: 6px; display: flex; flex-direction: column; gap: 2.984px; }
+  .cfstr-mockup__row { display: flex; gap: 3.73px; height: 5.222px; }
+  .cfstr-mockup__bar {
+    height: 5.222px;
+    background: rgba(27, 37, 64, 0.02);
+    border: 0.373px solid rgba(27, 37, 64, 0.04);
+    border-radius: 1.492px;
+  }
+  .cfstr-mockup__blocks { margin-top: 14px; display: flex; flex-direction: column; gap: 2.984px; }
+  .cfstr-mockup__blocks > div {
+    height: 22.382px;
+    background: rgba(27, 37, 64, 0.02);
+    border: 0.373px solid rgba(27, 37, 64, 0.04);
+    border-radius: 2.984px;
+  }
+  /* Vertical scrolling cards — behind the mockup (z-index 0 within stage). 8px gap (per Figma). */
+  .cfstr-cards-mask {
+    position: absolute;
+    left: 35px; top: -22px;
+    width: 272px; height: 237px;
+    overflow: hidden;
+    z-index: 0;
+  }
+  .cfstr-cards-track {
+    display: flex; flex-direction: column; gap: 8px;
+    animation: cfstr-scroll 14s linear infinite;
+    will-change: transform;
+  }
+  .cfstr-wrap:hover .cfstr-cards-track { animation-play-state: paused; }
+  /* 3 copies of 2 cards = 6 tiles; -33.333% scrolls 1 set, seamless */
+  @keyframes cfstr-scroll {
+    from { transform: translateY(0); }
+    to   { transform: translateY(-33.333%); }
+  }
+  .cfstr-card {
+    background: #fff;
+    border-radius: 9.406px;
+    padding: 9.406px;
+    width: 272px;
+    box-shadow:
+      0 0 0 0.784px rgba(6, 86, 134, 0.04),
+      0 0.784px 0.784px -0.392px rgba(1, 34, 54, 0.04),
+      0 2.352px 2.352px -1.176px rgba(1, 34, 54, 0.06),
+      0 4.703px 6.271px -2.352px rgba(1, 34, 54, 0.01),
+      0 4.703px 9.406px -4.703px rgba(6, 86, 134, 0.02),
+      0 18.813px 18.813px -9.406px rgba(6, 86, 134, 0.04);
+    display: flex; flex-direction: column; gap: 6.271px;
+    flex-shrink: 0;
+  }
+  .cfstr-card__head { display: flex; align-items: center; gap: 6.271px; }
+  .cfstr-card__icon { width: 15.677px; height: 15.677px; flex-shrink: 0; }
+  .cfstr-card__icon svg { width: 100%; height: 100%; display: block; }
+  .cfstr-card__label {
+    font-weight: 500;
+    font-size: 9.406px; line-height: 1;
+    color: #1B2540;
+    letter-spacing: -0.1881px;
+  }
+  .cfstr-card__row {
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .cfstr-card__value {
+    font-weight: 500;
+    font-size: 9.406px;
+    color: rgba(27, 37, 64, 0.6);
+    letter-spacing: -0.1881px;
+  }
+  .cfstr-card__open {
+    border: 0.784px solid rgba(27, 37, 64, 0.06);
+    border-radius: 9999px;
+    padding: 3.919px 6.271px;
+    font-weight: 500;
+    font-size: 9.406px;
+    color: #1B2540;
+    letter-spacing: -0.1881px;
+    white-space: nowrap;
+  }
+  /* Subtle backdrop blur (Figma Rectangle4 hint, no baked colour) */
+  .cfstr-gradient {
+    position: absolute;
+    left: 0; top: 165px;
+    width: 341.33px; height: 50px;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    z-index: 1;
+    pointer-events: none;
+  }
+  /* Status pill — classic auto-layout. Width set by JS, smooth transition. */
+  .cfstr-status {
+    position: absolute;
+    top: 226px; left: 50%; transform: translateX(-50%);
+    background: #fff;
+    border-radius: 9999px;
+    padding: 7px 12px;
+    box-shadow:
+      0 0 0 1px rgba(6, 86, 134, 0.04),
+      0 1px 1px -0.5px rgba(1, 34, 54, 0.04),
+      0 3px 3px -1.5px rgba(1, 34, 54, 0.06),
+      0 6px 8px -3px rgba(1, 34, 54, 0.01),
+      0 6px 12px -6px rgba(6, 86, 134, 0.02),
+      0 24px 24px -12px rgba(6, 86, 134, 0.04);
+    display: inline-flex; align-items: center; gap: 6px;
+    z-index: 2;
+    transition: width 0.4s cubic-bezier(0.32, 0, 0.18, 1);
+  }
+  .cfstr-status__dot { width: 7px; height: 7px; flex-shrink: 0; }
+  .cfstr-status__dot svg { width: 100%; height: 100%; display: block; }
+  .cfstr-status__text {
+    font-weight: 500;
+    font-size: 10px; line-height: 1.09;
+    color: #1B2540;
+    letter-spacing: -0.2px;
+    white-space: nowrap;
+    transition: opacity 0.22s cubic-bezier(0.65, 0, 0.35, 1),
+                filter 0.22s cubic-bezier(0.65, 0, 0.35, 1);
+  }
+  .cfstr-status.is-changing .cfstr-status__text {
+    opacity: 0;
+    filter: blur(3px);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .cfstr-cards-track { animation: none !important; }
+    .cfstr-status, .cfstr-status__text { transition: none !important; }
+  }

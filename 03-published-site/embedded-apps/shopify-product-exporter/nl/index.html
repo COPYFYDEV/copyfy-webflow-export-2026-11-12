@@ -1,0 +1,485 @@
+<style>
+    html,body{margin:0 !important;padding:0 !important;}
+    .copyfy-spx *{box-sizing:border-box !important;margin:0;padding:0;}
+    .copyfy-spx{
+        font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
+        color:#FFFFFF !important;background:transparent !important;
+        padding:0 !important;padding-bottom:100px !important;max-width:none !important;width:100% !important;margin:0 auto !important;
+        overflow:hidden !important;line-height:1.5;
+    }
+    .copyfy-spx-bar{display:flex;gap:12px;flex-wrap:wrap;align-items:stretch;}
+    .copyfy-spx-field{position:relative;flex:1 1 320px;min-width:0;}
+    .copyfy-spx-icon{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:#0F0F10;font-size:15px;pointer-events:none;}
+    .copyfy-spx-input{
+        width:100% !important;background:#FFFFFF !important;color:#0F0F10 !important;
+        border:1px solid #FFFFFF !important;border-radius:12px !important;
+        padding:14px 14px 14px 34px !important;font-size:15px !important;font-family:inherit !important;
+        transition:border-color .2s ease;
+    }
+    .copyfy-spx-input::placeholder{color:#8a8a8a;}
+    .copyfy-spx-input:hover{border-color:#d1d5db !important;}
+    .copyfy-spx-input:focus{outline:none;border-color:#6B7280 !important;}
+    .copyfy-spx-btn{
+        display:inline-flex;align-items:center;justify-content:center;gap:8px;
+        border:none !important;border-radius:30px !important;padding:12px 24px !important;
+        font-size:14px !important;font-weight:700 !important;font-family:inherit !important;
+        cursor:pointer;text-decoration:none;transition:transform .2s ease,box-shadow .2s ease,opacity .2s ease;
+    }
+    .copyfy-spx-btn:hover{transform:translateY(-1px);box-shadow:0 6px 16px rgba(0,0,0,.25);}
+    .copyfy-spx-btn-primary{background:#FFFFFF !important;color:#0F0F10 !important;}
+    .copyfy-spx-btn-secondary{background:#0A6CFB !important;color:#FFFFFF !important;}
+    .copyfy-spx-btn[disabled]{opacity:.6;cursor:default;transform:none;box-shadow:none;}
+    .copyfy-spx-opts{display:flex;align-items:center;gap:9px;margin-top:12px;font-size:13px;color:rgba(255,255,255,.85);flex-wrap:wrap;}
+    .copyfy-spx-opts input{width:16px;height:16px;accent-color:#0A6CFB;cursor:pointer;flex:0 0 16px;}
+    .copyfy-spx-opts label{cursor:pointer;}
+    .copyfy-spx-status{margin-top:14px;font-size:14px;color:#FFFFFF;display:flex;align-items:center;gap:10px;}
+    /* a class-level display beats the UA rule for [hidden], so restate it */
+    .copyfy-spx-status[hidden],.copyfy-spx-progress[hidden],.copyfy-spx-results[hidden],
+    .copyfy-spx-preview[hidden],.copyfy-spx-note[hidden]{display:none !important;}
+    .copyfy-spx-spin{width:16px;height:16px;border:2px solid rgba(255,255,255,.35);border-top-color:#FFFFFF;border-radius:50%;animation:copyfy-spx-rot .7s linear infinite;flex:0 0 16px;}
+    @keyframes copyfy-spx-rot{to{transform:rotate(360deg);}}
+    .copyfy-spx-progress{height:6px;border-radius:999px;background:rgba(255,255,255,.2);margin-top:10px;overflow:hidden;}
+    .copyfy-spx-progress span{display:block;height:100%;width:0;background:#0A6CFB;border-radius:999px;transition:width .25s ease;}
+    .copyfy-spx-stopbar{margin-top:12px;}
+    .copyfy-spx-stopbar[hidden]{display:none !important;}
+    .copyfy-spx-results{margin-top:16px;}
+    .copyfy-spx-hero{
+        background:#FFFFFF !important;border-radius:12px;padding:24px;
+        display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px;
+    }
+    .copyfy-spx-stats{display:flex;gap:32px;flex-wrap:wrap;}
+    .copyfy-spx-stat-label{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:#0F0F10;}
+    .copyfy-spx-stat-value{font-size:38px;font-weight:800;color:#0A6CFB;line-height:1.1;}
+    .copyfy-spx-badge{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:30px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:#FFFFFF;background:#0A6CFB;}
+    .copyfy-spx-badge.is-neg{background:#DC2626;}
+    .copyfy-spx-badge-dot{width:8px;height:8px;border-radius:50%;background:#FFFFFF;}
+    .copyfy-spx-note{background:#FFFFFF !important;border-radius:12px;padding:16px 24px;margin-top:12px;font-size:14px;color:#0F0F10;}
+    .copyfy-spx-note.is-neg{border-left:4px solid #DC2626;}
+    .copyfy-spx-preview{background:#FFFFFF !important;border-radius:12px;margin-top:12px;overflow:hidden;}
+    .copyfy-spx-preview-head{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:#0F0F10;padding:16px 20px 0;}
+    .copyfy-spx-scroll{overflow-x:auto;padding:12px 20px 20px;}
+    .copyfy-spx-table{width:100%;border-collapse:collapse;font-size:13px;color:#0F0F10;min-width:640px;}
+    .copyfy-spx-table th{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:#6B7280;font-weight:600;padding:8px 10px;border-bottom:1px solid #E5E7EB;white-space:nowrap;}
+    .copyfy-spx-table td{padding:10px;border-bottom:1px solid #F1F2F4;vertical-align:middle;}
+    .copyfy-spx-table tr:last-child td{border-bottom:none;}
+    .copyfy-spx-thumb{width:44px;height:44px;border-radius:8px;object-fit:cover;background:#F4F5F7;display:block;}
+    .copyfy-spx-pname{font-weight:700;max-width:280px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+    .copyfy-spx-tick{color:#0A6CFB;font-weight:700;}
+    .copyfy-spx-cross{color:#9CA3AF;}
+    .copyfy-spx-bottombar{display:flex;flex-direction:row;justify-content:center;align-items:center;gap:12px;flex-wrap:wrap;margin-top:22px;}
+    @media (max-width:640px){.copyfy-spx-stats{gap:22px;}.copyfy-spx-stat-value{font-size:30px;}}
+    @media (max-width:480px){.copyfy-spx-bottombar{flex-direction:column;align-items:stretch;}.copyfy-spx-btn{width:100% !important;}}
+</style>
+
+<div class="copyfy-spx">
+    <div class="copyfy-spx-bar">
+        <div class="copyfy-spx-field">
+            <input type="text" id="copyfy-spx-url" class="copyfy-spx-input" autocomplete="off" spellcheck="false">
+            <span class="copyfy-spx-icon">&#128269;</span>
+        </div>
+        <button type="button" id="copyfy-spx-run" class="copyfy-spx-btn copyfy-spx-btn-secondary"></button>
+    </div>
+    <div class="copyfy-spx-opts">
+        <input type="checkbox" id="copyfy-spx-seo" checked>
+        <label for="copyfy-spx-seo" id="copyfy-spx-seo-label"></label>
+    </div>
+
+    <div class="copyfy-spx-status" id="copyfy-spx-status" hidden>
+        <span class="copyfy-spx-spin" id="copyfy-spx-spin"></span>
+        <span id="copyfy-spx-status-text"></span>
+    </div>
+    <div class="copyfy-spx-progress" id="copyfy-spx-progress" hidden><span id="copyfy-spx-progress-bar"></span></div>
+    <div class="copyfy-spx-stopbar" id="copyfy-spx-stopbar" hidden>
+        <button type="button" id="copyfy-spx-stop" class="copyfy-spx-btn copyfy-spx-btn-primary"></button>
+    </div>
+
+    <div class="copyfy-spx-results" id="copyfy-spx-results" hidden>
+        <div class="copyfy-spx-hero">
+            <div class="copyfy-spx-stats" id="copyfy-spx-stats"></div>
+            <div class="copyfy-spx-badge" id="copyfy-spx-badge">
+                <span class="copyfy-spx-badge-dot"></span><span id="copyfy-spx-badge-text"></span>
+            </div>
+        </div>
+        <div class="copyfy-spx-note" id="copyfy-spx-note" hidden></div>
+        <div class="copyfy-spx-preview" id="copyfy-spx-preview" hidden>
+            <div class="copyfy-spx-preview-head" id="copyfy-spx-preview-head"></div>
+            <div class="copyfy-spx-scroll"><table class="copyfy-spx-table" id="copyfy-spx-table"></table></div>
+        </div>
+        <div class="copyfy-spx-bottombar">
+            <button type="button" id="copyfy-spx-dl" class="copyfy-spx-btn copyfy-spx-btn-secondary"></button>
+            <a id="copyfy-spx-cta" class="copyfy-spx-btn copyfy-spx-btn-primary" href="https://app.copyfy.io/register?lang=nl" target="_blank" rel="noopener"></a>
+        </div>
+    </div>
+</div>
+
+<script>
+(function(){
+    'use strict';
+
+    var T = {
+        lang: 'nl',
+        placeholder: 'voorbeeld-winkel.com',
+        run: 'Producten exporteren',
+        seoOption: 'Haal ook de meta titles, meta descriptions en alt-teksten van de afbeeldingen op (duurt langer)',
+        loadingCatalogue: 'Catalogus lezen… {n} producten gevonden',
+        loadingSeo: 'Meta\'s ophalen… {done}/{total} producten',
+        building: 'Bestand maken…',
+        badgeOk: 'CATALOGUS GEËXPORTEERD',
+        badgeError: 'MISLUKT',
+        statProducts: 'Producten',
+        statVariants: 'Varianten',
+        statImages: 'Afbeeldingen',
+        previewHead: 'Voorbeeld van de eerste 8 producten',
+        colImage: 'Afbeelding',
+        colTitle: 'Product',
+        colVariants: 'Varianten',
+        colPrice: 'Prijs',
+        colSeo: 'Meta title',
+        download: 'Download het CSV-bestand',
+        stopNow: 'Stoppen en downloaden',
+        cta: 'Probeer Copyfy gratis',
+        noteCapped: 'Export beperkt tot de eerste {cap} producten van de winkel.',
+        noteNoSeo: 'De meta\'s en alt-teksten zijn niet opgehaald: laat de optie uit voor een snellere export, zet hem aan voor een volledig bestand.',
+        notePartialSeo: 'De meta\'s konden maar voor {done} van de {total} producten gelezen worden: de winkel remt snelle verzoeken af. Start de export opnieuw om aan te vullen, of zet de optie uit als je ze niet nodig hebt.',
+        noteReady: 'Het bestand gebruikt het Shopify-importformaat voor producten: ga in de doelwinkel naar Producten en dan Importeren, en zet dit CSV-bestand erin. De afbeeldingen worden via hun URL opgehaald.',
+        errInvalid: 'Ongeldig adres. Vul het domein van de winkel in, bijvoorbeeld voorbeeld-winkel.com.',
+        errClosed: 'Deze winkel publiceert haar catalogus niet (gesloten of beveiligd met een wachtwoord).',
+        errNotShopify: 'Deze site is geen Shopify-winkel.',
+        errEmpty: 'Geen gepubliceerd product in deze winkel.',
+        errRate: 'De winkel beperkt op dit moment het aantal verzoeken. Wacht een minuut en start de export opnieuw.',
+        errBlocked: 'Deze winkel blokkeert geautomatiseerde verzoeken: de catalogus is niet toegankelijk.',
+        errFetch: 'Kan deze winkel niet lezen (niet bereikbaar of offline).',
+    };
+
+    var CAP = 5000;              // products; a hard stop so a huge catalogue can't run forever
+    var SEO_BATCH = 6;           // handles per API call, matches the serverless limit
+    var SEO_PARALLEL = 2;        // batches in flight; higher gets the store to throttle us
+    var MIN_GAP_MS = 120;        // fastest pace between batches
+    var MAX_GAP_MS = 1100;       // pace a throttling store tolerates (~6 products/s)
+
+    var $ = function(id){ return document.getElementById(id); };
+    var elUrl = $('copyfy-spx-url'), elRun = $('copyfy-spx-run'), elSeo = $('copyfy-spx-seo');
+    var elStatus = $('copyfy-spx-status'), elStatusText = $('copyfy-spx-status-text'), elSpin = $('copyfy-spx-spin');
+    var elProgress = $('copyfy-spx-progress'), elBar = $('copyfy-spx-progress-bar');
+    var elResults = $('copyfy-spx-results'), elStats = $('copyfy-spx-stats');
+    var elBadge = $('copyfy-spx-badge'), elBadgeText = $('copyfy-spx-badge-text');
+    var elNote = $('copyfy-spx-note'), elPreview = $('copyfy-spx-preview'), elTable = $('copyfy-spx-table');
+    var elDl = $('copyfy-spx-dl'), elCta = $('copyfy-spx-cta');
+    var elStopBar = $('copyfy-spx-stopbar'), elStop = $('copyfy-spx-stop');
+
+    elUrl.placeholder = T.placeholder;
+    elRun.textContent = T.run;
+    $('copyfy-spx-seo-label').textContent = T.seoOption;
+    $('copyfy-spx-preview-head').textContent = T.previewHead;
+    elDl.textContent = T.download;
+    elStop.textContent = T.stopNow;
+    elCta.textContent = T.cta;
+    elCta.href = 'https://app.copyfy.io/register?lang=' + T.lang;
+
+    var lastCsv = null, lastName = 'produits.csv', busy = false, aborted = false;
+
+    function fmt(str, vars){ return str.replace(/\{(\w+)\}/g, function(_, k){ return vars[k]; }); }
+    function num(n){ return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ' '); }
+
+    function setStatus(text){
+        elStatus.hidden = false; elSpin.hidden = false; elStatusText.textContent = text;
+    }
+    function setProgress(ratio){
+        elProgress.hidden = false; elBar.style.width = Math.max(0, Math.min(1, ratio)) * 100 + '%';
+    }
+    function clearStatus(){ elStatus.hidden = true; elProgress.hidden = true; elStopBar.hidden = true; }
+
+    function fail(message){
+        clearStatus();
+        elResults.hidden = false;
+        elStats.innerHTML = '';
+        elBadge.className = 'copyfy-spx-badge is-neg';
+        elBadgeText.textContent = T.badgeError;
+        elNote.hidden = false; elNote.className = 'copyfy-spx-note is-neg'; elNote.textContent = message;
+        elPreview.hidden = true; elDl.hidden = true;
+        emitHeight();
+    }
+
+    async function getJson(url){
+        var r = await fetch(url, { headers: { 'Accept': 'application/json' } });
+        if (!r.ok && r.status !== 200) {
+            var body = null;
+            try { body = await r.json(); } catch (_) {}
+            return body || { error: 'fetch_failed' };
+        }
+        return await r.json();
+    }
+
+    async function loadCatalogue(store){
+        var all = [], page = 1, reachedEnd = false;
+        while (all.length < CAP && page <= 40) {
+            var res = await getJson('/api/catalogue?url=' + encodeURIComponent(store) + '&page=' + page);
+            if (res.error) return { error: res.error };
+            all = all.concat(res.products || []);
+            setStatus(fmt(T.loadingCatalogue, { n: num(all.length) }));
+            if (res.done) { reachedEnd = true; break; }
+            page++;
+        }
+        // Stopping on the cap instead of on an exhausted catalogue means the store has more.
+        return { products: all.slice(0, CAP), capped: !reachedEnd };
+    }
+
+    // Storefronts throttle sustained reads, and a throttled read comes back instantly
+    // with nothing rather than with an error. A fixed pace is therefore either too slow
+    // for a small catalogue or too fast for a large one: speed up while it works, back
+    // off as soon as products come back empty, then retry the gaps at the slow pace.
+    async function loadExtras(store, products){
+        var byHandle = {}, gap = MIN_GAP_MS, lastStart = 0;
+
+        async function fetchBatch(handles){
+            var wait = Math.max(0, lastStart + gap - Date.now());
+            if (wait) await new Promise(function(r){ setTimeout(r, wait); });
+            lastStart = Date.now();
+            var url = '/api/product-extras?url=' + encodeURIComponent(store) + '&handles=' + encodeURIComponent(handles.join(','));
+            var res = await getJson(url).catch(function(){ return { items: [] }; });
+            var items = res.items || [], landed = 0;
+            items.forEach(function(it){
+                if (it.ok || !byHandle[it.handle]) byHandle[it.handle] = it;
+                if (it.ok) landed++;
+            });
+            if (landed === handles.length) gap = Math.max(MIN_GAP_MS, gap * 0.85);
+            else gap = Math.min(MAX_GAP_MS, Math.max(gap * 1.8, MIN_GAP_MS * 2));
+            return landed;
+        }
+
+        function countReached(){
+            var n = 0;
+            for (var h in byHandle) if (byHandle[h] && byHandle[h].ok) n++;
+            return n;
+        }
+
+        async function pass(handles, parallel){
+            var batches = [], i;
+            for (i = 0; i < handles.length; i += SEO_BATCH) batches.push(handles.slice(i, i + SEO_BATCH));
+            var cursor = 0, done = 0;
+            async function worker(){
+                while (cursor < batches.length && !aborted) {
+                    var mine = batches[cursor++];
+                    await fetchBatch(mine);
+                    done += mine.length;
+                    setStatus(fmt(T.loadingSeo, { done: num(countReached()), total: num(products.length) }));
+                    setProgress((products.length - handles.length + done) / products.length);
+                }
+            }
+            var ws = [];
+            for (i = 0; i < parallel; i++) ws.push(worker());
+            await Promise.all(ws);
+        }
+
+        var all = products.map(function(p){ return p.handle; });
+        await pass(all, SEO_PARALLEL);
+
+        // second and third go at whatever the store refused, one batch at a time
+        for (var round = 0; round < 2 && !aborted; round++) {
+            var missing = all.filter(function(h){ return !(byHandle[h] && byHandle[h].ok); });
+            if (!missing.length) break;
+            gap = MAX_GAP_MS;
+            await pass(missing, 1);
+        }
+
+        byHandle.__reached = countReached();
+        return byHandle;
+    }
+
+    // ---- Shopify product import CSV ------------------------------------------------
+    var COLUMNS = ['Handle','Title','Body (HTML)','Vendor','Product Category','Type','Tags','Published',
+        'Option1 Name','Option1 Value','Option2 Name','Option2 Value','Option3 Name','Option3 Value',
+        'Variant SKU','Variant Grams','Variant Inventory Tracker','Variant Inventory Qty','Variant Inventory Policy',
+        'Variant Fulfillment Service','Variant Price','Variant Compare At Price','Variant Requires Shipping',
+        'Variant Taxable','Variant Barcode','Image Src','Image Position','Image Alt Text','Gift Card',
+        'SEO Title','SEO Description','Google Shopping / Google Product Category','Google Shopping / Gender',
+        'Google Shopping / Age Group','Google Shopping / MPN','Google Shopping / Condition',
+        'Google Shopping / Custom Product','Variant Image','Variant Weight Unit','Variant Tax Code',
+        'Cost per item','Status'];
+
+    function csvCell(v){
+        var s = (v === null || v === undefined) ? '' : String(v);
+        if (/[",\n\r]/.test(s)) return '"' + s.replace(/"/g, '""') + '"';
+        return s;
+    }
+    function stripQuery(src){ return String(src || '').split('?')[0].replace(/^https?:/, ''); }
+
+    function buildCsv(products, extras){
+        var lines = [COLUMNS.map(csvCell).join(',')];
+        products.forEach(function(p){
+            var ex = extras[p.handle] || { seoTitle: '', seoDescription: '', alts: {} };
+            var variants = p.variants.length ? p.variants : [{ option1: 'Default Title', price: '', grams: 0,
+                requires_shipping: true, taxable: true, sku: '', compare_at_price: null, featured_image: '' }];
+            var optNames = (p.options || []).map(function(o){ return o.name; });
+            var rows = Math.max(variants.length, p.images.length);
+            for (var i = 0; i < rows; i++) {
+                var v = variants[i] || null;
+                var img = p.images[i] || null;
+                var row = {};
+                COLUMNS.forEach(function(c){ row[c] = ''; });
+                row['Handle'] = p.handle;
+                if (i === 0) {
+                    row['Title'] = p.title;
+                    row['Body (HTML)'] = p.body_html;
+                    row['Vendor'] = p.vendor;
+                    row['Type'] = p.product_type;
+                    row['Tags'] = (p.tags || []).join(', ');
+                    row['Published'] = p.published_at ? 'TRUE' : 'FALSE';
+                    row['Gift Card'] = 'FALSE';
+                    row['SEO Title'] = ex.seoTitle || '';
+                    row['SEO Description'] = ex.seoDescription || '';
+                    row['Status'] = 'active';
+                }
+                if (v) {
+                    // Option names repeat on every variant row, that is what Shopify's importer expects.
+                    row['Option1 Name'] = optNames[0] || 'Title';
+                    row['Option1 Value'] = v.option1 || 'Default Title';
+                    if (optNames[1] || v.option2) { row['Option2 Name'] = optNames[1] || ''; row['Option2 Value'] = v.option2 || ''; }
+                    if (optNames[2] || v.option3) { row['Option3 Name'] = optNames[2] || ''; row['Option3 Value'] = v.option3 || ''; }
+                    row['Variant SKU'] = v.sku || '';
+                    row['Variant Grams'] = v.grams || 0;
+                    // Tracker left empty on purpose: stock is untracked, so the products stay sellable
+                    // right after the import instead of landing as sold out.
+                    row['Variant Inventory Tracker'] = '';
+                    row['Variant Inventory Qty'] = 0;
+                    row['Variant Inventory Policy'] = 'deny';
+                    row['Variant Fulfillment Service'] = 'manual';
+                    row['Variant Price'] = v.price || '';
+                    row['Variant Compare At Price'] = v.compare_at_price || '';
+                    row['Variant Requires Shipping'] = v.requires_shipping ? 'TRUE' : 'FALSE';
+                    row['Variant Taxable'] = v.taxable ? 'TRUE' : 'FALSE';
+                    row['Variant Weight Unit'] = 'g';
+                    row['Variant Image'] = v.featured_image || '';
+                }
+                if (img) {
+                    row['Image Src'] = img.src;
+                    row['Image Position'] = img.position || (i + 1);
+                    row['Image Alt Text'] = ex.alts[stripQuery(img.src)] || '';
+                }
+                lines.push(COLUMNS.map(function(c){ return csvCell(row[c]); }).join(','));
+            }
+        });
+        return lines.join('\r\n');
+    }
+
+    function renderPreview(products, extras){
+        var head = '<thead><tr><th>' + [T.colImage, T.colTitle, T.colVariants, T.colPrice, T.colSeo].join('</th><th>') + '</th></tr></thead>';
+        var body = products.slice(0, 8).map(function(p){
+            var img = p.images[0] ? p.images[0].src : '';
+            var price = p.variants[0] ? p.variants[0].price : '';
+            var seo = (extras[p.handle] && extras[p.handle].seoTitle) ? '<span class="copyfy-spx-tick">&#10003;</span>' : '<span class="copyfy-spx-cross">&mdash;</span>';
+            return '<tr>'
+                + '<td>' + (img ? '<img class="copyfy-spx-thumb" src="' + esc(img) + '" alt="" loading="lazy">' : '') + '</td>'
+                + '<td><div class="copyfy-spx-pname">' + esc(p.title) + '</div></td>'
+                + '<td>' + p.variants.length + '</td>'
+                + '<td>' + esc(price) + '</td>'
+                + '<td>' + seo + '</td></tr>';
+        }).join('');
+        elTable.innerHTML = head + '<tbody>' + body + '</tbody>';
+        elPreview.hidden = false;
+    }
+    function esc(s){
+        return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){
+            return { '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c];
+        });
+    }
+
+    function renderStats(products){
+        var variants = 0, images = 0;
+        products.forEach(function(p){ variants += p.variants.length; images += p.images.length; });
+        elStats.innerHTML = [
+            [T.statProducts, products.length], [T.statVariants, variants], [T.statImages, images]
+        ].map(function(pair){
+            return '<div><div class="copyfy-spx-stat-label">' + esc(pair[0]) + '</div>'
+                 + '<div class="copyfy-spx-stat-value">' + num(pair[1]) + '</div></div>';
+        }).join('');
+    }
+
+    async function run(){
+        if (busy) return;
+        var store = elUrl.value.trim();
+        if (!store || store.indexOf('.') === -1) { fail(T.errInvalid); return; }
+        busy = true; aborted = false; elRun.disabled = true; elDl.hidden = false;
+        elResults.hidden = true; elNote.hidden = true; lastCsv = null; elStop.disabled = false;
+        setStatus(fmt(T.loadingCatalogue, { n: '0' }));
+
+        try {
+            var cat = await loadCatalogue(store);
+            if (cat.error) {
+                fail(cat.error === 'catalogue_closed' ? T.errClosed
+                   : cat.error === 'not_shopify' ? T.errNotShopify
+                   : cat.error === 'rate_limited' ? T.errRate
+                   : cat.error === 'blocked' ? T.errBlocked
+                   : cat.error === 'invalid_url' ? T.errInvalid : T.errFetch);
+                return;
+            }
+            var products = cat.products;
+            if (!products.length) { fail(T.errEmpty); return; }
+
+            var extras = {}, reachedMetas = 0;
+            if (elSeo.checked) {
+                elStopBar.hidden = false;
+                extras = await loadExtras(store, products);
+                elStopBar.hidden = true;
+                reachedMetas = extras.__reached || 0;
+                delete extras.__reached;
+            }
+
+            setStatus(T.building);
+            lastCsv = buildCsv(products, extras);
+            lastName = store.replace(/^https?:\/\//, '').replace(/[^a-z0-9.-]/gi, '') + '-produits-shopify.csv';
+
+            clearStatus();
+            elResults.hidden = false;
+            elBadge.className = 'copyfy-spx-badge';
+            elBadgeText.textContent = T.badgeOk;
+            renderStats(products);
+            renderPreview(products, extras);
+            var notes = [T.noteReady];
+            if (cat.capped) notes.unshift(fmt(T.noteCapped, { cap: num(CAP) }));
+            if (!elSeo.checked) notes.push(T.noteNoSeo);
+            // Never let a throttled run pass for a complete one.
+            if (elSeo.checked && reachedMetas < products.length) {
+                notes.unshift(fmt(T.notePartialSeo, { done: num(reachedMetas), total: num(products.length) }));
+            }
+            elNote.hidden = false; elNote.className = 'copyfy-spx-note'; elNote.textContent = notes.join(' ');
+            elDl.hidden = false;
+        } catch (e) {
+            fail(T.errFetch);
+        } finally {
+            busy = false; elRun.disabled = false; emitHeight();
+        }
+    }
+
+    function download(){
+        if (!lastCsv) return;
+        // BOM so Excel opens the accented columns in UTF-8 instead of mojibake.
+        var blob = new Blob(['﻿' + lastCsv], { type: 'text/csv;charset=utf-8;' });
+        var a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = lastName;
+        document.body.appendChild(a); a.click();
+        setTimeout(function(){ URL.revokeObjectURL(a.href); a.remove(); }, 0);
+    }
+
+    elStop.addEventListener('click', function(){ aborted = true; elStop.disabled = true; });
+    elRun.addEventListener('click', run);
+    elDl.addEventListener('click', download);
+    elUrl.addEventListener('keydown', function(e){ if (e.key === 'Enter') run(); });
+
+    function emitHeight(){
+        try {
+            var root = document.querySelector('.copyfy-spx') || document.body;
+            parent.postMessage({ copyfyToolHeight: Math.ceil(root.getBoundingClientRect().bottom) }, '*');
+        } catch (_) {}
+    }
+    window.addEventListener('load', emitHeight);
+    window.addEventListener('resize', emitHeight);
+    document.addEventListener('input', emitHeight, true);
+    if (window.ResizeObserver) {
+        var ro = new ResizeObserver(emitHeight);
+        ro.observe(document.querySelector('.copyfy-spx') || document.body);
+    }
+    emitHeight();
+})();
+</script>

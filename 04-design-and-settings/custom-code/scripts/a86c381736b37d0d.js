@@ -1,0 +1,36 @@
+(()=>{
+function mount(){
+const source=document.querySelector('.main-wrapper'),article=source?.querySelector('.blog-post_rich-text'),header=source?.querySelector('.blog-post_header'),template=document.getElementById('copyfy-comparison-layout');
+if(!template||!article||!header||document.getElementById('wip-blog-design'))return;
+const title=header.querySelector('h1'),intro=header.querySelector('.blog-post_intro'),image=header.querySelector('.blog-post_image'),nativeAuthor=source.querySelector('.blog-post_author');
+if(!title?.textContent.trim()||!intro||!image)return;
+const root=template.content.firstElementChild.cloneNode(true),lang=(document.documentElement.lang||'fr').split('-')[0],prefix=lang==='fr'?'':'/'+lang;
+const family='category';
+root.dataset.comparisonCollection=family;
+const oldNavbar=document.querySelector('.navbar_component');if(oldNavbar){root.querySelector('.wip-blog-live-header').append(oldNavbar);oldNavbar.classList.add('nav-bar-3','v2');const logo=oldNavbar.querySelector('.navbar_logo-link img');if(logo){logo.classList.add('logo');logo.src='https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/6a16eb2b2ba04773f2aa3075_Group%201%20(36).webp';logo.removeAttribute('srcset');logo.alt='Copyfy';}}
+const breadcrumb=root.querySelector('#wip-cms-breadcrumb-name');breadcrumb.textContent=header.querySelector('.breadcrumb > :last-child')?.textContent.trim()||title.textContent.trim();
+const category=root.querySelector('.wip-blog-a-021');category.nextElementSibling?.remove();category.remove();
+const slot=root.querySelector('.wip-blog-title-3');title.className=slot.className;slot.replaceWith(title);
+const introSlot=root.querySelector('.wip-blog-intro');intro.className=introSlot.className;introSlot.replaceWith(intro);
+const fullIntro=intro.textContent.trim();if(fullIntro.length>180&&window.Intl?.Segmenter){const sentences=[...new Intl.Segmenter(lang,{granularity:'sentence'}).segment(fullIntro)].map(x=>x.segment.trim());let short='';for(const sentence of sentences){if((short+' '+sentence).trim().length>180)break;short=(short+' '+sentence).trim();}if(short)intro.textContent=short;}
+const navTrial=oldNavbar?.querySelector('a[href*="app.copyfy.io/store-ai"],a[href*="app.copyfy.io/register"],a[href*="app.copyfy.io/checkout/register"]'),heroButton=root.querySelector('.wip-blog-hero-2 a.link-button');if(navTrial&&heroButton){navTrial.href='https://app.copyfy.io/register?lang='+lang;const label=navTrial.textContent.trim();navTrial.className=heroButton.className;navTrial.replaceChildren(...[...heroButton.childNodes].map(n=>n.cloneNode(true)));const text=navTrial.querySelector('[class*=text-v2]');if(text)text.textContent=label;}
+const imageSlot=root.querySelector('#wip-cms-hero-image');image.className=imageSlot.className;image.id=imageSlot.id;image.loading='eager';imageSlot.replaceWith(image);
+const articleSlot=root.querySelector('#wip-blog-design-rich-text');article.className=articleSlot.className;article.id=articleSlot.id;articleSlot.replaceWith(article);
+const summaryLabel=[...article.children].find(e=>/^(?:tl;?dr|resumo|zusammenfassung|kurzfassung|samenvatting|en bref|à retenir|key takeaways|in brief|at a glance|en breve|puntos clave|kort samengevat|in het kort|belangrijkste punten|kurz zusammengefasst|das wichtigste|em resumo|pontos-chave)\s*[:：]?$/i.test(e.textContent.trim()));
+const summary=summaryLabel?.nextElementSibling;if(summary&&['UL','OL','P'].includes(summary.tagName)){root.querySelector('#wip-blog-tldr-text').append(summary.cloneNode(true));summaryLabel.hidden=true;summary.hidden=true;}
+const name=nativeAuthor?.querySelector('.text-size-16'),role=nativeAuthor?.querySelector('.text-size-12'),bio=nativeAuthor?.querySelector('.text-size-14'),portrait=nativeAuthor?.querySelector('img');
+root.querySelector('.wip-blog-div-074').textContent=name?.textContent.trim()||'';root.querySelector('#wip-cms-author-role').textContent=role?.textContent.trim()||'';root.querySelector('.wip-blog-div-075').textContent=bio?.textContent.trim()||'';
+if(portrait){const slot=root.querySelector('#wip-cms-author-picture');portrait.className=slot.className;portrait.id=slot.id;portrait.alt=name?.textContent.trim()||'';slot.replaceWith(portrait);}
+for(const [key,pattern] of [['x',/x\.com|twitter\.com/],['youtube',/youtube\.com/],['linkedin',/linkedin\.com/],['telegram',/t\.me/],['website',/buildwiththomas\.com/]]){const original=[...nativeAuthor?.querySelectorAll('a[href]')||[]].find(a=>pattern.test(a.href));const target=root.querySelector('#wip-cms-social-'+key);if(original)target.href=original.href;}
+const oldLocaleLinks=[...document.querySelectorAll('.w-locales-list a[href]')];const newLocaleLinks=[...root.querySelectorAll('.w-locales-list a[href]')];newLocaleLinks.forEach((a,i)=>{if(oldLocaleLinks[i]){a.href=oldLocaleLinks[i].href;a.classList.toggle('w--current',a.textContent.trim().toLowerCase()===lang);}});
+const grid=root.querySelector('.wip-blog-related-grid');const relatedLink=root.querySelector('.wip-blog-a-095');relatedLink.href=prefix+'/blog';relatedLink.textContent=({fr:'Tous les articles →',en:'All articles →',es:'Todos los artículos →',nl:'Alle artikelen →',de:'Alle Artikel →',pt:'Todos os artigos →'}[lang]||'All articles →');
+function cards(nodes){for(const native of nodes){const link=[...native.querySelectorAll('a[href]')].find(a=>a.textContent.trim())||native.querySelector('a[href]'),img=native.querySelector('img'),excerpt=native.querySelector('.text-style-2lines,.text-size-14,.blog-post_intro');if(!link||!img||!link.href.includes('/blog/')||new URL(link.href,location.href).pathname===location.pathname)continue;
+const item=document.createElement('div');item.className='w-dyn-item';item.setAttribute('role','listitem');const a=document.createElement('a');a.className='wip-blog-related-card w-inline-block';a.href=link.getAttribute('href');img.className='wip-blog-related-image';img.loading='lazy';a.append(img);const body=document.createElement('div');body.className='wip-blog-related-body';const title=document.createElement('div');title.className='wip-blog-related-title';title.textContent=link.textContent.trim();const text=document.createElement('div');text.className='wip-blog-related-intro';text.textContent=excerpt?.textContent.trim()||'';body.append(title,text);a.append(body);item.append(a);grid.append(item);}
+root.querySelector('.wip-blog-related-4').hidden=!grid.children.length;}
+cards(source.querySelectorAll('.section_related .blog_card,.section_related .blog-card'));const pagination=source.querySelector('.section_related .w-pagination-wrapper');if(pagination)grid.after(pagination);
+source.before(root);source.hidden=true;const oldFooter=source.nextElementSibling;if(oldFooter&&oldFooter.matches('.section_footer,.footer_component,footer,[class*=footer]'))oldFooter.hidden=true;template.remove();
+// All editable article data remains supplied by the original native CMS bindings.
+
+}
+mount();if(!document.getElementById('wip-blog-design')&&document.readyState==='loading')document.addEventListener('DOMContentLoaded',mount);
+})();

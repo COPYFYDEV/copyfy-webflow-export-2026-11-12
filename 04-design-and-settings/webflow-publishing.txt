@@ -1,0 +1,318 @@
+- navigation "Navigation":
+  - link "home":
+    - /url: /?r=0
+  - list:
+    - link "Dashboard":
+      - /url: /dashboard?utm_source=dashboard
+    - button "Marketplace menu dropdown":
+      - generic: Marketplace
+    - link "Learn":
+      - /url: https://university.webflow.com/?utm_source=dashboard
+    - button "Resources menu dropdown":
+      - generic: Resources
+    - button "Search":
+    - button "Notifications":
+    - button "Account":
+      - generic: Thomas Salic
+      - generic: TS
+- navigation:
+  - link "All projects":
+    - /url: /dashboard?activeTab=all-projects&workspace=thomass-workspace-395ee9
+    - generic: All projects
+  - link "General":
+    - /url: /dashboard/sites/copyfy-624656/general
+    - generic: General
+  - link "Site access":
+    - /url: /dashboard/sites/copyfy-624656/site-access
+    - generic: Site access
+  - link "Publishing" [active]:
+    - /url: /dashboard/sites/copyfy-624656/publishing
+    - generic: Publishing
+  - link "Billing":
+    - /url: /dashboard/sites/copyfy-624656/billing?sp=project publishing tab
+    - generic: Billing
+  - link "Plans":
+    - /url: /dashboard/sites/copyfy-624656/plans?ref=plans_tab
+    - generic: Plans
+  - button "Usage":
+    - text: Usage
+  - link "SEO":
+    - /url: /dashboard/sites/copyfy-624656/seo
+    - generic: SEO
+  - link "Forms":
+    - /url: /dashboard/sites/copyfy-624656/forms
+    - generic: Forms
+  - link "Fonts":
+    - /url: /dashboard/sites/copyfy-624656/fonts
+    - generic: Fonts
+  - link "Backups":
+    - /url: /dashboard/sites/copyfy-624656/backups
+    - generic: Backups
+  - link "Apps & Integrations":
+    - /url: /dashboard/sites/copyfy-624656/integrations
+    - generic: Apps & Integrations
+  - link "Custom code":
+    - /url: /dashboard/sites/copyfy-624656/custom-code
+    - generic: Custom code
+  - link "Webflow Cloud":
+    - /url: /dashboard/sites/copyfy-624656/webflow-cloud
+    - generic: Webflow Cloud
+- main:
+  - heading "Copyfy Visit website" [level=1]:
+    - text: Copyfy
+    - link "Visit website":
+      - /url: https://copyfy-624656.webflow.io
+  - button "Transfer site":
+  - button "Archive site":
+  - button "Duplicate site":
+  - button "Unpublish site" [disabled]:
+  - button "Share":
+    - generic: Share
+  - link "Open site in Webflow":
+    - /url: /external/designer/copyfy-624656
+    - generic: Open site in Webflow
+  - button "Publish":
+    - generic: Publish
+  - heading "Staging" [level=2]
+  - button "Save" [disabled]:
+    - generic: Save
+  - text: Configure an environment to review changes privately or with public URLs.
+  - link "Learn more about configuring and using staging.":
+    - /url: https://help.webflow.com/hc/en-us/articles/33961419650067
+  - generic: Webflow.io domain
+  - textbox "Webflow.io domain": copyfy-624656
+  - generic: .webflow.io
+  - paragraph:
+    - strong: Last published 6 days ago.
+  - generic: Must be alphanumeric (A-Z, 0-9) with dashes between words.
+  - generic: Make staging private
+  - switch "Make staging private" [disabled]
+  - generic: "Off"
+  - generic: Turn on private staging to restrict access to members and guests of this Workspace
+  - text: Private staging is only available on Enterprise plans. Please contact
+  - button "contact sales"
+  - text: for offerings.
+  - separator
+  - heading "Production" [level=2]
+  - button "Add a custom domain":
+    - generic: Add a custom domain
+  - text: Add your domain(s) below or buy a domain. Need help?
+  - link "Learn how to set up custom domain hosting.":
+    - /url: https://help.webflow.com/hc/en-us/articles/33961334343827
+  - note:
+    - text: It's best practice to use the 'www' version of your site as the default. Using the root domain may not be supported by your DNS provider, and requires manual setup.
+    - link "Learn more":
+      - /url: https://help.webflow.com/hc/en-us/articles/33961368398099
+      - text: Learn more
+  - table "Custom domains list":
+    - rowgroup:
+      - row "Domain SSL certificate":
+        - columnheader "Domain":
+          - generic: Domain
+        - columnheader "SSL certificate":
+          - text: SSL certificate
+        - columnheader
+    - rowgroup:
+      - row "copyfy.io Proxied · Published 6 days ago Proxied Make default":
+        - cell "copyfy.io Proxied · Published 6 days ago":
+          - generic: copyfy.io
+          - generic: Proxied
+          - generic: ·
+          - generic: Published 6 days ago
+        - cell "Proxied":
+          - generic: Proxied
+        - cell "Make default":
+          - button "Make default":
+            - generic: Make default
+          - button:
+      - row "www.copyfy.io Default Proxied · Published 6 days ago Proxied Remove default":
+        - cell "www.copyfy.io Default Proxied · Published 6 days ago":
+          - generic: www.copyfy.io
+          - generic: Default
+          - generic: Proxied
+          - generic: ·
+          - generic: Published 6 days ago
+        - cell "Proxied":
+          - generic: Proxied
+        - cell "Remove default":
+          - button "Remove default":
+            - generic: Remove default
+          - button:
+  - heading "301 redirects" [level=2]
+  - text: Redirect old URLs to new ones manually or in bulk with a CSV file. You can also redirect multiple URLs to a single one with wild card rules. This helps preserve your SEO ranking.
+  - link "Learn more about wildcard redirect rules.":
+    - /url: https://help.webflow.com/hc/en-us/articles/33961294898835-How-do-I-set-up-redirects-in-Webflow#wildcard-redirect-examples
+  - textbox "Search"
+  - combobox:
+    - generic: Last modified
+  - button "Delete all":
+    - generic: Delete all
+  - button "Export":
+    - generic: Export
+  - button "Import":
+    - generic: Import
+  - button "Add":
+    - generic: Add
+  - table:
+    - rowgroup:
+      - row "Old path New path":
+        - columnheader "Old path New path":
+          - generic: Old path
+          - generic: New path
+        - columnheader
+    - rowgroup:
+      - row "/recherche-produits/marcuus https://app.copyfy.io/login?utm_source=marcuus-kos&utm_mediu…":
+        - cell "/recherche-produits/marcuus https://app.copyfy.io/login?utm_source=marcuus-kos&utm_mediu…":
+          - generic: /recherche-produits/marcuus
+          - generic: https://app.copyfy.io/login?utm_source=marcuus-kos&utm_mediu…
+        - cell
+      - row "/produits/marcuus https://app.copyfy.io/en/login?utm_source=marcuus-kos&utm_me…":
+        - cell "/produits/marcuus https://app.copyfy.io/en/login?utm_source=marcuus-kos&utm_me…":
+          - generic: /produits/marcuus
+          - generic: https://app.copyfy.io/en/login?utm_source=marcuus-kos&utm_me…
+        - cell
+      - row "/liste-produits/marcuus https://www.copyfy.io/liste-produits?utm_source=marcuus-kos&…":
+        - cell "/liste-produits/marcuus https://www.copyfy.io/liste-produits?utm_source=marcuus-kos&…":
+          - generic: /liste-produits/marcuus
+          - generic: https://www.copyfy.io/liste-produits?utm_source=marcuus-kos&…
+        - cell
+      - row "/ai-store/marcuus https://www.copyfy.io/ai-store?utm_source=marcuus-kos&utm_me…":
+        - cell "/ai-store/marcuus https://www.copyfy.io/ai-store?utm_source=marcuus-kos&utm_me…":
+          - generic: /ai-store/marcuus
+          - generic: https://www.copyfy.io/ai-store?utm_source=marcuus-kos&utm_me…
+        - cell
+      - row "/home-keystone /home":
+        - cell "/home-keystone /home":
+          - generic: /home-keystone
+          - generic: /home
+        - cell
+      - row "/free-trial-en /freetrial-en":
+        - cell "/free-trial-en /freetrial-en":
+          - generic: /free-trial-en
+          - generic: /freetrial-en
+        - cell
+      - row "/essai-gratuit-free-trial /free-trial":
+        - cell "/essai-gratuit-free-trial /free-trial":
+          - generic: /essai-gratuit-free-trial
+          - generic: /free-trial
+        - cell
+      - row "/essai-gratuit /essai-gratuit-free-trial":
+        - cell "/essai-gratuit /essai-gratuit-free-trial":
+          - generic: /essai-gratuit
+          - generic: /essai-gratuit-free-trial
+        - cell
+      - row /courses /:
+        - cell /courses /:
+          - generic: /courses
+          - generic: /
+        - cell
+      - row /blog/dropshipping-rentable /:
+        - cell /blog/dropshipping-rentable /:
+          - generic: /blog/dropshipping-rentable
+          - generic: /
+        - cell
+      - row "/careers https://humanflow.app/careers/copyfy":
+        - cell "/careers https://humanflow.app/careers/copyfy":
+          - generic: /careers
+          - generic: https://humanflow.app/careers/copyfy
+        - cell
+      - row "/es/blog/empieza-a-hacer-dropshipping /es/category/dropshipping":
+        - cell "/es/blog/empieza-a-hacer-dropshipping /es/category/dropshipping":
+          - generic: /es/blog/empieza-a-hacer-dropshipping
+          - generic: /es/category/dropshipping
+        - cell
+      - row "/en/blog/how-to-start-dropshipping /en/category/dropshipping":
+        - cell "/en/blog/how-to-start-dropshipping /en/category/dropshipping":
+          - generic: /en/blog/how-to-start-dropshipping
+          - generic: /en/category/dropshipping
+        - cell
+      - row "/blog/debuter-le-dropshipping-avec-copyfy /category/dropshipping":
+        - cell "/blog/debuter-le-dropshipping-avec-copyfy /category/dropshipping":
+          - generic: /blog/debuter-le-dropshipping-avec-copyfy
+          - generic: /category/dropshipping
+        - cell
+      - row "/blog/fonctionnement-du-dropshipping-copyfy /blog/definition-dropshipping":
+        - cell "/blog/fonctionnement-du-dropshipping-copyfy /blog/definition-dropshipping":
+          - generic: /blog/fonctionnement-du-dropshipping-copyfy
+          - generic: /blog/definition-dropshipping
+        - cell
+      - row "/blog/les-meilleurs-fournisseurs-dropshipping /blog/fournisseur-dropshipping":
+        - cell "/blog/les-meilleurs-fournisseurs-dropshipping /blog/fournisseur-dropshipping":
+          - generic: /blog/les-meilleurs-fournisseurs-dropshipping
+          - generic: /blog/fournisseur-dropshipping
+        - cell
+      - row "/blog/trouver-son-fournisseur-avec-copyfy /blog/fournisseur-dropshipping":
+        - cell "/blog/trouver-son-fournisseur-avec-copyfy /blog/fournisseur-dropshipping":
+          - generic: /blog/trouver-son-fournisseur-avec-copyfy
+          - generic: /blog/fournisseur-dropshipping
+        - cell
+      - row "/blog/dropship-product-finder /features/product-database":
+        - cell "/blog/dropship-product-finder /features/product-database":
+          - generic: /blog/dropship-product-finder
+          - generic: /features/product-database
+        - cell
+      - row "/en/privacy-policy-copy /en/general-terms-and-conditions-of-sale":
+        - cell "/en/privacy-policy-copy /en/general-terms-and-conditions-of-sale":
+          - generic: /en/privacy-policy-copy
+          - generic: /en/general-terms-and-conditions-of-sale
+        - cell
+      - row "/legals/conditions-dutilisation /conditions-dutilisation":
+        - cell "/legals/conditions-dutilisation /conditions-dutilisation":
+          - generic: /legals/conditions-dutilisation
+          - generic: /conditions-dutilisation
+        - cell
+  - navigation:
+    - button "Go to previous page" [disabled]:
+    - button "1":
+      - generic: "1"
+    - button "2":
+      - generic: "2"
+    - button "3":
+      - generic: "3"
+    - button "4":
+      - generic: "4"
+    - button "5":
+      - generic: "5"
+    - generic: ...
+    - button "14":
+      - generic: "14"
+    - button "Go to next page":
+    - generic: 1-20 of 280 redirects
+  - heading "Advanced publishing options" [level=2]
+  - button "Save" [disabled]:
+    - generic: Save
+  - generic: Performance
+  - switch
+  - generic: "Off"
+  - generic: Asynchronously load JS
+  - switch [checked]
+  - generic: "On"
+  - generic: Minify HTML
+  - switch [checked]
+  - generic: "On"
+  - generic: Minify CSS
+  - switch [checked]
+  - generic: "On"
+  - generic: Minify JS
+  - switch
+  - generic: "Off"
+  - generic: Per page CSS
+  - generic: Security
+  - switch
+  - generic: "Off"
+  - generic: Enable HSTS for subdomains
+  - switch
+  - generic: "Off"
+  - generic: Enable HSTS preload header
+  - switch
+  - generic: "Off"
+  - generic: Use secure frame headers
+  - separator
+  - heading "Custom SSL certificates" [level=2]
+  - button "Add certificate" [disabled]:
+    - generic: Add certificate
+  - text: To upload a custom SSL certificate, you need an Enterprise plan. To learn more,
+  - button "contact sales"
+  - text: .
+  - generic: No custom SSL certificates have been added to this site yet.
+- region "Notifications Alt+T"

@@ -1,0 +1,6 @@
+
+/* Shared blog content width: 1024px + 15%, then -5% and -2.5%, with safe desktop gutters. */
+@media(min-width:992px){
+#wip-blog-design .nav-bar-3.v2,#wip-blog-design .wip-blog-div-018,#wip-blog-design .wip-blog-hero-grid-4,#wip-blog-design .wip-blog-layout-2,#wip-blog-design .wip-blog-related-4,#wip-blog-design .div-footer{max-width:min(1090.752px,calc(100% - 40px))}
+#wip-blog-design .wip-blog-footer-heading{max-width:724.3275px}
+}

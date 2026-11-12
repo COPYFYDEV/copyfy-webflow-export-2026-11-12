@@ -1,0 +1,62 @@
+[
+  {
+    "Name": "Conteúdo envolvente",
+    "Slug": "conteudo-envolvente",
+    "Collection ID": "68eed2109d590febd2cab360",
+    "Locale ID": "6aae6b84337c1be41b776da4",
+    "Item ID": "68eed3300565a754ac91d67c",
+    "Archived": "false",
+    "Draft": "false",
+    "Created On": "Sat Sep 19 2026 11:01:26 GMT+0000 (Coordinated Universal Time)",
+    "Updated On": "Wed Sep 23 2026 07:31:54 GMT+0000 (Coordinated Universal Time)",
+    "Published On": "Wed Sep 23 2026 15:16:22 GMT+0000 (Coordinated Universal Time)"
+  },
+  {
+    "Name": "Inovações no e-commerce",
+    "Slug": "inovacoes-ecommerce",
+    "Collection ID": "68eed2109d590febd2cab360",
+    "Locale ID": "6aae6b84337c1be41b776da4",
+    "Item ID": "68eed3300565a754ac91d678",
+    "Archived": "false",
+    "Draft": "false",
+    "Created On": "Sat Sep 19 2026 11:01:26 GMT+0000 (Coordinated Universal Time)",
+    "Updated On": "Wed Sep 23 2026 07:31:54 GMT+0000 (Coordinated Universal Time)",
+    "Published On": "Wed Sep 23 2026 15:16:22 GMT+0000 (Coordinated Universal Time)"
+  },
+  {
+    "Name": "Inspiração para anúncios",
+    "Slug": "inspiracao-anuncios",
+    "Collection ID": "68eed2109d590febd2cab360",
+    "Locale ID": "6aae6b84337c1be41b776da4",
+    "Item ID": "68eed3300565a754ac91d670",
+    "Archived": "false",
+    "Draft": "false",
+    "Created On": "Sat Sep 19 2026 11:01:26 GMT+0000 (Coordinated Universal Time)",
+    "Updated On": "Wed Sep 23 2026 07:31:54 GMT+0000 (Coordinated Universal Time)",
+    "Published On": "Wed Sep 23 2026 15:16:22 GMT+0000 (Coordinated Universal Time)"
+  },
+  {
+    "Name": "Marketing digital",
+    "Slug": "marketing-digital",
+    "Collection ID": "68eed2109d590febd2cab360",
+    "Locale ID": "6aae6b84337c1be41b776da4",
+    "Item ID": "68eed3300565a754ac91d674",
+    "Archived": "false",
+    "Draft": "false",
+    "Created On": "Sat Sep 19 2026 11:01:26 GMT+0000 (Coordinated Universal Time)",
+    "Updated On": "Wed Sep 23 2026 07:31:54 GMT+0000 (Coordinated Universal Time)",
+    "Published On": "Wed Sep 23 2026 15:16:22 GMT+0000 (Coordinated Universal Time)"
+  },
+  {
+    "Name": "Estratégia criativa",
+    "Slug": "estrategia-criativa",
+    "Collection ID": "68eed2109d590febd2cab360",
+    "Locale ID": "6aae6b84337c1be41b776da4",
+    "Item ID": "68eed3300565a754ac91d66c",
+    "Archived": "false",
+    "Draft": "false",
+    "Created On": "Sat Sep 19 2026 11:01:26 GMT+0000 (Coordinated Universal Time)",
+    "Updated On": "Wed Sep 23 2026 07:31:54 GMT+0000 (Coordinated Universal Time)",
+    "Published On": "Wed Sep 23 2026 15:16:22 GMT+0000 (Coordinated Universal Time)"
+  }
+]

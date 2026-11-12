@@ -1,0 +1,2402 @@
+[
+  {
+    "path": "03-published-site/pages/en/copyfy-vs/peeksta/index.html",
+    "bytes": 215962,
+    "sha256": "dcf3df82658b575796b56934591586a7dab811bb869355ce1d7cef5fd555faac",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/copyfy-vs/peeksta/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/copyfy-vs/pipiads/index.html",
+    "bytes": 214900,
+    "sha256": "2b37dac5dee541ef1b64d1ae44963158d8106db2d43883ee1d6c3f2d047f6711",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/copyfy-vs/pipiads/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/copyfy-vs/poweradspy/index.html",
+    "bytes": 216336,
+    "sha256": "b38f0cb6bdcd13af137917dbb94421dbb2d21a8bcb7a8bc63afa0768fb6a8cee",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/copyfy-vs/poweradspy/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/copyfy-vs/sell-the-trend/index.html",
+    "bytes": 216777,
+    "sha256": "7ea54c55f433cb665aca77c5aa19c774b5c2795aaf856cf043d2acb6bfce85ef",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/copyfy-vs/sell-the-trend/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/copyfy-vs/sellercenter/index.html",
+    "bytes": 216001,
+    "sha256": "020583a6fe5461d81e261a71f1af3245460d0b0779d9ddf869929cebe7c0bff1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/copyfy-vs/sellercenter/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/copyfy-vs/shophunter/index.html",
+    "bytes": 216525,
+    "sha256": "538bd94768e37f1a63802239fd59b04b6ed29e45e2a897b0e6798693c9f7d7f8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/copyfy-vs/shophunter/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/copyfy-vs/shoplus/index.html",
+    "bytes": 215427,
+    "sha256": "58e22157a9118746c99f042f3b33338042be9883f8cc0d665f002989696fd04e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/copyfy-vs/shoplus/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/copyfy-vs/spocket/index.html",
+    "bytes": 216150,
+    "sha256": "0b0d14487f85fe094cfb9d5ccc32de33955752a220b8fce32a0eae3ef8dae2f1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/copyfy-vs/spocket/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/copyfy-vs/spysales/index.html",
+    "bytes": 216078,
+    "sha256": "0893f9b1d9abde1c6cab2c030a9500e24803f868c8f0c9a9f8a7e01ede6a6566",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/copyfy-vs/spysales/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/copyfy-vs/tabcut/index.html",
+    "bytes": 215682,
+    "sha256": "086d3053f299f7a8d708b0879c78f0bbc2cf1232983a7624e955667e0cf6e5b2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/copyfy-vs/tabcut/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/copyfy-vs/tryatria/index.html",
+    "bytes": 216780,
+    "sha256": "bd23a0ad09fb1da344b649739c5db252368d0c7f4d758002e9b2aeb740066ccf",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/copyfy-vs/tryatria/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/copyfy-vs/winninghunter/index.html",
+    "bytes": 216121,
+    "sha256": "fde9599d4234ca7bfb59bb50ca2c5b0904569668cd3ebccf17e044c01bc45cd7",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/copyfy-vs/winninghunter/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/copyfy-webinar/index.html",
+    "bytes": 31846,
+    "sha256": "f82d2d20db188f0cf4a4e304adc010f1f4c96a7ac00f5be3296694ded6691391",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/copyfy-webinar/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/curriculum/index.html",
+    "bytes": 80379,
+    "sha256": "e44b8d112373bad627e30bad480522be2fa32e0230c69a0ae847dca543b91987",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/curriculum/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/faq/index.html",
+    "bytes": 189781,
+    "sha256": "0becf5b86788e261bed72ed2d83c5b398017849644bb2eb7f88d5b382b6e8109",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/faq/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/features/ads-library/index.html",
+    "bytes": 122409,
+    "sha256": "8a53190547ed19b3604cf132752f004c2ba6f726a9654b6d892c3d8d254afc06",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/features/ads-library/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/features/adspy/index.html",
+    "bytes": 123508,
+    "sha256": "7cd63c211c9accdd312320ba5ca1e6252ec7358545e5aba5e73a7a7c83662ea3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/features/adspy/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/features/competitor-research/index.html",
+    "bytes": 121467,
+    "sha256": "302399d0c1529a1ec9100b9c538e1137f0e01562932128d4d6795607b68b3232",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/features/competitor-research/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/features/create-e-commerce-shop-with-ai/index.html",
+    "bytes": 124858,
+    "sha256": "e8f2fb7649105114a7de0922a79e3349dcea65370e6bfc6ae4a762cfa4bf0799",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/features/create-e-commerce-shop-with-ai/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/features/product-database/index.html",
+    "bytes": 121811,
+    "sha256": "636c0eb3b590581784f6c8e832d3b74684a4a9114414b87c5a353151d0ea1529",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/features/product-database/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/features/shop-analysis/index.html",
+    "bytes": 122935,
+    "sha256": "743e0a650f9526a023eda5ec207833c6d8a40605e238677f975fc718fe65ad33",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/features/shop-analysis/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/features-copyfy/adspy/index.html",
+    "bytes": 81771,
+    "sha256": "bb0d03b7870910169bf875b9fb0f0f882a95b696ce2666369da7b336058e3a87",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/features-copyfy/adspy/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/features-copyfy/competitor-research/index.html",
+    "bytes": 81874,
+    "sha256": "a04e07a482589ac6eed0cf375450d7a3451def60b00d15bdc055299969ebfe05",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/features-copyfy/competitor-research/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/features-copyfy/create-e-commerce-shop-with-ai/index.html",
+    "bytes": 82300,
+    "sha256": "bf3ba2e4b25bc0dd2bc12100dca08ce2830c0c8b40be4cefb73730ce386546ec",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/features-copyfy/create-e-commerce-shop-with-ai/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/features-copyfy/product-database/index.html",
+    "bytes": 81977,
+    "sha256": "2110ccc2906fd3db5cc9eae0a75520cde00ea2192cd097a39a6bf9bb328ac421",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/features-copyfy/product-database/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/features-copyfy/shop-analysis/index.html",
+    "bytes": 81847,
+    "sha256": "443631282f653c0b2f69516ffc844653657f329c0dad2c64df53c51a726d5ff5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/features-copyfy/shop-analysis/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/free-trial/index.html",
+    "bytes": 80304,
+    "sha256": "a0f6db381087bf07bcdd1b8c854ceb2b310b32c0d2729d5b544a977848e7e073",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/free-trial/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/freetrial-en/index.html",
+    "bytes": 80320,
+    "sha256": "ae932d95e8398f277d637c806311c29d2e1f3ea64cd5badd2ae385812357ab3d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/freetrial-en/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/general-terms-and-conditions-of-sale/index.html",
+    "bytes": 101952,
+    "sha256": "b1fdbaa2bf9ac6a8c96fb2ee8350856916227d1877156bf329245e467f92f2d1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/general-terms-and-conditions-of-sale/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/google-btn/index.html",
+    "bytes": 54922,
+    "sha256": "7d533fc9c805af5247117d7556e6b7e8756b6c2a06e6a8deb700dfc973ca21d6",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/google-btn/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/index.html",
+    "bytes": 357089,
+    "sha256": "9ad4c1c49b3759255b00d6a07a4d9187e8920494706fc48e251f1c0264aacd93",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/liste-produits/index.html",
+    "bytes": 196116,
+    "sha256": "0b879555b5866b28cca8768243ce2b797b47bc7bf4f0103ee09da270ce5cf9ed",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/liste-produits/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/pricing/index.html",
+    "bytes": 298444,
+    "sha256": "1426e2958c32241aff14e5f9d3a9df53e79025c3c1da8e3410c8c5e728ffd904",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/pricing/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/privacy-policy/index.html",
+    "bytes": 88750,
+    "sha256": "dd2f2acf5bf49c77f8169b8ecc69c7a06507edad1385e1524a47d596fcd1876d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/privacy-policy/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/shopify-3-mois-pour-1-euros/index.html",
+    "bytes": 101843,
+    "sha256": "ffa295b565cf9e437bf0fabd1a3944bfc61fb6bb90bfd45d6e7ac20cfedd3a3d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/shopify-3-mois-pour-1-euros/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/shopify-3-months-for-1-dollar/index.html",
+    "bytes": 109097,
+    "sha256": "0daa5f08b39de478801fb9fe94a5eff2f1012fc74a1d4c6f3a01dc26c6d6e06b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/shopify-3-months-for-1-dollar/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/terms-of-use/index.html",
+    "bytes": 99115,
+    "sha256": "25cd4c5f66469dd0c398f551e2e92815e56c9a97d2a8393a3015c9c47648446f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/terms-of-use/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/tools/beroas-calculator/index.html",
+    "bytes": 113791,
+    "sha256": "2ea047c0887b635ec827113cbeb6a3a0baada61f00e68f0b639828a0430c0060",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/tools/beroas-calculator/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/tools/cpa-calculator/index.html",
+    "bytes": 124489,
+    "sha256": "1657ebb385b30d69c824956ab332af18715a71c7471e2c3da688ceb25438a968",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/tools/cpa-calculator/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/tools/customer-lifetime-value-calculator/index.html",
+    "bytes": 154034,
+    "sha256": "00d66ae4de0ea51756b446451ca2f6b621d98656387e7389e5c10aaae67112e6",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/tools/customer-lifetime-value-calculator/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/tools/customer-review-analyzer/index.html",
+    "bytes": 123823,
+    "sha256": "94cabd6024acd90c3c0d40bf3d16a0f6fbd7b5b9eff4e3aa091e6fcb21df6c76",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/tools/customer-review-analyzer/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/tools/dropshipping-profit-margin-calculator/index.html",
+    "bytes": 109292,
+    "sha256": "5aae5440be8a2df77e1f740d9eb67840d88cc0398353a628de89760a30d1f372",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/tools/dropshipping-profit-margin-calculator/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/tools/ecommerce-roi-calculator/index.html",
+    "bytes": 148290,
+    "sha256": "db88a5d5f82a929f1dae295ac976238c8b72f16d75363f9d023574a14320ff70",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/tools/ecommerce-roi-calculator/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/tools/facebook-ads-downloader/index.html",
+    "bytes": 123449,
+    "sha256": "f9ac6735f8366d91d325dc7b5bd90f3e250c31ac59eb5a1ea092da119b90f3de",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/tools/facebook-ads-downloader/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/tools/index.html",
+    "bytes": 159654,
+    "sha256": "64361ed0e08dc31a02990c8731c7431d09e41c4b59339c77d505555b10495b9a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/tools/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/tools/shopify-apps-detector/index.html",
+    "bytes": 111023,
+    "sha256": "632d7b2d708f604c7b6b9b6c30a848e30e0cd2132737d627c88c8fdc6b8247d7",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/tools/shopify-apps-detector/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/tools/shopify-product-exporter/index.html",
+    "bytes": 134980,
+    "sha256": "f8d5138bc13e1a38fa64200f0b6660e70a33373a3802933efd19d3e058ea329a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/tools/shopify-product-exporter/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/tools/shopify-subscription-calculator/index.html",
+    "bytes": 119087,
+    "sha256": "abb13fe2ef95dc4e49715c3739ab518e8f280e8b069197df95baed2d40c2e581",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/tools/shopify-subscription-calculator/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/tools/shopify-theme-detector/index.html",
+    "bytes": 121945,
+    "sha256": "ac2fcdd65e16c6ae0fe57a8d024b41b82c9c86dca22040377898b610b5026111",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/tools/shopify-theme-detector/index.html"
+  },
+  {
+    "path": "03-published-site/pages/en/tools/tiktok-ads-downloader/index.html",
+    "bytes": 123568,
+    "sha256": "860896011362eac7a87c2684fc0005d0706b552ef614b349b9e5715c8bdf6adf",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/en/tools/tiktok-ads-downloader/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/affiliate/index.html",
+    "bytes": 133575,
+    "sha256": "ffe1773d1cba61f786a380293b550c388efe5dec5384eab1f039aade6c6f1182",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/affiliate/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/affiliate/marcuus-lawrence/index.html",
+    "bytes": 48341,
+    "sha256": "e79c960044b4ae5958a1463ccafd0b3099150c32d0b79efc74fed64e6e37e795",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/affiliate/marcuus-lawrence/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/ai-store/index.html",
+    "bytes": 183945,
+    "sha256": "cd8d32af2313efd09cc0b9a2eb42b8725c9132e74131e8371fa4dbe75e402bdc",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/ai-store/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-adflex-alternatives/index.html",
+    "bytes": 233005,
+    "sha256": "0aa01ca0b74928aeed5f37db7b566ae78a0a937e3dc4973f9969639926e6246d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-adflex-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-adheart-alternatives/index.html",
+    "bytes": 234421,
+    "sha256": "0b68b1d0d5236d9ef72d83895df0cf77cc5c51a28187e66c15bede1be4d7b730",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-adheart-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-adnova-alternatives/index.html",
+    "bytes": 233096,
+    "sha256": "34d20482f6e95a68db3c26c50954999ff4437a8bfd977ac0522b5b09caba3f8a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-adnova-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-adscan-alternatives/index.html",
+    "bytes": 233311,
+    "sha256": "67875698b2880b54d291cad2d9e9a45ed4750d51cba17b3d3359b24b90a53d22",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-adscan-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-adsparo-alternatives/index.html",
+    "bytes": 240350,
+    "sha256": "d30d034513c094faea92a601209ec8b81f25093931b9f1f973209541c00c07a8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-adsparo-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-adspy-alternatives/index.html",
+    "bytes": 234092,
+    "sha256": "979704b632f23b6a49d3b2c46b9aef323acd72f7f0b319110b4ecf9cdc0fb90d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-adspy-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-adspyder-alternatives/index.html",
+    "bytes": 233335,
+    "sha256": "8c1ff50379a8c0c703204b91b84aa3bdbc66d55e041657fecc8a87d90d9f4cf0",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-adspyder-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-alternatives-to-sellercenter/index.html",
+    "bytes": 233856,
+    "sha256": "4718176c4d1bbba7591f446960499ed24adbeefb062f34e6bad5c24bdcbfcf1c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-alternatives-to-sellercenter/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-alternatives-to-shine-commerce/index.html",
+    "bytes": 212857,
+    "sha256": "64cb710600665c0965cd216cfbcbe4daacc85175658a64981ad1dec07201700d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-alternatives-to-shine-commerce/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-alternatives-to-thieve/index.html",
+    "bytes": 234570,
+    "sha256": "56cc914b02ef77a4c64c284128484240dd811d711e992b222494165e7b1e374d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-alternatives-to-thieve/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-anstrex-alternatives/index.html",
+    "bytes": 233324,
+    "sha256": "a0039f17b434332c7f592a0d65225f8ca016cd9b03f19a23796b87033a4275de",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-anstrex-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-bigspy-alternatives/index.html",
+    "bytes": 232730,
+    "sha256": "1be774a0148d23b1605b6f69068ed287eb65f08b622f814ceb0fb52787fc7617",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-bigspy-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-buildyourstore-alternatives/index.html",
+    "bytes": 234505,
+    "sha256": "66a9ff8a4cd548d49d6f4b4364df72e48690b3cd1a7a3aafa7620f9c00f3c998",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-buildyourstore-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-countik-alternatives/index.html",
+    "bytes": 233314,
+    "sha256": "df45d0194419cd9b458e447cae89d1a0f5e2fcb2c374a8ea39121313f4a1dcd1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-countik-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-denote-alternatives/index.html",
+    "bytes": 233093,
+    "sha256": "68d46789cb27801eac7ec088bf2b31e4f9945caf2130693b113aed02d2eb9813",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-denote-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-diffshop-alternatives/index.html",
+    "bytes": 233341,
+    "sha256": "46e96eadc19cc25d686599652c3aaa4252ef8657cc3fa67aab17e87f36ec90bb",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-diffshop-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-dropispy-alternatives/index.html",
+    "bytes": 246804,
+    "sha256": "6f91adf96e52330d4a671a4fae3d8a7d555d253b8e706dc6822bc484f18f94c2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-dropispy-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-dropship-alternatives/index.html",
+    "bytes": 237239,
+    "sha256": "1fc7b4a5a7567a48348ba8c1a319a5f5905af839d39380036114a41d69dfc599",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-dropship-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-dropship-spy-alternatives/index.html",
+    "bytes": 234102,
+    "sha256": "deb46cebf48b3d1d05658b7750b1985f1a7a039e9b35c64d108ccad2c2d919a4",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-dropship-spy-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-echotik-alternatives/index.html",
+    "bytes": 232573,
+    "sha256": "f7d019d5b536ca0d32be86e8de5f3fa0c0bcbdaf1dc7e07bdc11e05e64c3d38c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-echotik-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-ecomhunt-alternatives/index.html",
+    "bytes": 235277,
+    "sha256": "1adb024adea1abb3ce95ed61b81ca52af7939cf7a818f754fcd6bb4ff543f559",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-ecomhunt-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-facebook-ad-library-alternatives/index.html",
+    "bytes": 237134,
+    "sha256": "95289c5288387ddfc4069590d2604ffbb8606aa3659fe23ca67362c422405dda",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-facebook-ad-library-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-fastmoss-alternatives/index.html",
+    "bytes": 235664,
+    "sha256": "987105a83e30c2421d298fe462eea19ac8e76f54b88a5ba850781efefce90cfa",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-fastmoss-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-foreplay-alternatives/index.html",
+    "bytes": 234474,
+    "sha256": "1565752e712dd7c22c7933e56435795a8ea8182462e0e0284366b9f08ed6074a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-foreplay-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-ixspy-alternatives/index.html",
+    "bytes": 233070,
+    "sha256": "cceecd44f121a09fcaa01a0433dc3756a197f42b5c96aa9f8cdfe82da5cc9452",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-ixspy-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-kalodata-alternatives/index.html",
+    "bytes": 238600,
+    "sha256": "bdd75e834972929cdfebfc6f979202a75645d3c567e0105212c389052b1643e8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-kalodata-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-minea-alternatives/index.html",
+    "bytes": 231985,
+    "sha256": "de6e3eeb14d444c44439c20215ab505aee58b20db31f299d858cc6d25831d4c1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-minea-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-nichescraper-alternatives/index.html",
+    "bytes": 233228,
+    "sha256": "f0ed3563a85638c2059fb196d1485236283bc7dcef57d95e320c1a83d0b36b25",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-nichescraper-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-peeksta-alternatives/index.html",
+    "bytes": 235348,
+    "sha256": "14545cf54e52bfa0b50f1092b0a9503ace4532431dae3e65ab1be23eab54831d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-peeksta-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-pipiads-alternatives/index.html",
+    "bytes": 232737,
+    "sha256": "50c969feb86ac7ce39f1ff41a50a9d92fca9ae68e478a2de9f033c7dd433e732",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-pipiads-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-poweradspy-alternatives/index.html",
+    "bytes": 233015,
+    "sha256": "12b6387aa1d829a31163f358b5cbd0640728d64879d8c0ce349a3b9e505d471c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-poweradspy-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-sell-the-trend-alternatives/index.html",
+    "bytes": 234061,
+    "sha256": "5e89e224aee628c4c39d28188c5d83c46fd0619348950d099e4e08ad25962ecc",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-sell-the-trend-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-shophunter-alternatives/index.html",
+    "bytes": 233724,
+    "sha256": "22cb6873da56c0a4aaa649a5c65cdae77ecdd5ca62e17d1beed5865f882a38c6",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-shophunter-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-shoplus-alternatives/index.html",
+    "bytes": 232017,
+    "sha256": "e1ed72a61becb4966fbdec5985bcee75f0af65484daa6ec1b6b50745bdc89410",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-shoplus-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-spocket-alternatives/index.html",
+    "bytes": 232941,
+    "sha256": "00fc1b9166ed5036e259161f0cfa734ab2b659a37160305f2cf286a9ce43a9d1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-spocket-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-spysales-alternatives/index.html",
+    "bytes": 235502,
+    "sha256": "fe95519d050ea1184956ead7c0aea7d0b6ce801bb205e87e51929476c9465d15",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-spysales-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-storebuild-alternatives/index.html",
+    "bytes": 234934,
+    "sha256": "c7ee50a5d943b2d9b56d1b66ece54557744a26a0c167c424e74c8d8256a83fa7",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-storebuild-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-storeleads-alternatives/index.html",
+    "bytes": 237042,
+    "sha256": "9fcfa0e7b1e31860cdb43904cfa7587adb79c9c208ceb4b3f4a3afa4a3e801c0",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-storeleads-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-tabcut-alternatives/index.html",
+    "bytes": 235194,
+    "sha256": "9d7d889f87176a5a07dd97ced4d0ff855bf00ba8e2eedbc65247a1cc6a03e775",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-tabcut-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-tiktok-ads-library-alternatives/index.html",
+    "bytes": 233334,
+    "sha256": "9eea3febee402cdc0843bb95a7a5368afedfc9072ddeed9d4e8a07a2143a9673",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-tiktok-ads-library-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-tiktok-creative-center-alternatives/index.html",
+    "bytes": 233030,
+    "sha256": "7c98d315fb539ce40b8bd8e1c646319e21e79f42077fecded4e0b2f4e6afb9e5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-tiktok-creative-center-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-trend-rocket-alternatives/index.html",
+    "bytes": 240201,
+    "sha256": "ebe163900ff502e571cbe622fbb3e7cc58df50bfc17100816b1a95f9ede98055",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-trend-rocket-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-tryatria-alternatives/index.html",
+    "bytes": 232970,
+    "sha256": "02a80f81c5e05b48ab062d3ede0f10f396009354a0fefb6527e98536c362aa5e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-tryatria-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/5-best-winninghunter-alternatives/index.html",
+    "bytes": 236886,
+    "sha256": "bdfc6c2d837aed3f81759c889d8820019fa0e5902715858df6bfe04fbda93331",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/5-best-winninghunter-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/dropmagic/index.html",
+    "bytes": 233477,
+    "sha256": "6772ef329ed78192c15c731463b4aa7e8154f967788b2cde6c867106689b6431",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/dropmagic/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/index.html",
+    "bytes": 236548,
+    "sha256": "8901d8f6375d1cb8c3089370c44c2de31a6847fb983f04dcd53158d35e5047d9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/magicbrief/index.html",
+    "bytes": 233028,
+    "sha256": "ff8f771f46548605bac2640353d81680dfa3b11aa29c44a88da85b7da1bdf7fa",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/magicbrief/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/alternatives/trendtrack/index.html",
+    "bytes": 240914,
+    "sha256": "5f0d509e70acb03797a603a9a69824955650e60c1716c11f982de20d39786caf",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/alternatives/trendtrack/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/ab-test-shopify/index.html",
+    "bytes": 209078,
+    "sha256": "000ff2abaaa5c05f6d02d2e20c9fd6da14e86dd5f5dc885ca506c8330fd1faf8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/ab-test-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/adspy-opiniones/index.html",
+    "bytes": 247053,
+    "sha256": "c8df272ac0b93a35e7243f7c29ad478c0584562f3bca5fcbce9a7cb848380502",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/adspy-opiniones/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/agent-dropshipping/index.html",
+    "bytes": 216522,
+    "sha256": "fb1029d9f4497475c82824dc192116775d3d35c31bc3c611af12dd5094b42e78",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/agent-dropshipping/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/agrego-resenas-clientes-shopify/index.html",
+    "bytes": 220835,
+    "sha256": "56db27fa436007a4846bcbd65d29fab9c11d9249dba2c381566232cf6169e86a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/agrego-resenas-clientes-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/analizar-best-sellers-competencia/index.html",
+    "bytes": 222894,
+    "sha256": "c0fbda69d4a1aadf7a188d038c940a09b819756a18397ba6389f2a93428d6a31",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/analizar-best-sellers-competencia/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/analizar-tienda-shopify/index.html",
+    "bytes": 230306,
+    "sha256": "07678f71b6464acbcc8929163454fe3fbc79b7d73c14c7828f2550c0ccaaefad",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/analizar-tienda-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/aplicaciones-dropshipping/index.html",
+    "bytes": 214681,
+    "sha256": "9e1629744212bffa86578f88906a6fccd97d2dce10d49a243b2aa32c11a266bf",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/aplicaciones-dropshipping/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/atria-ai-opiniones/index.html",
+    "bytes": 231748,
+    "sha256": "9bc7311108426d47804db28f59b1d6d9c4025580141a710f43d1ddf3210ccf84",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/atria-ai-opiniones/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/bigspy-opiniones/index.html",
+    "bytes": 247210,
+    "sha256": "6fa68371e2709362d27d048015a3a716474602b73deecaeb75496b1800dcc16e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/bigspy-opiniones/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/calcular-roas-equilibrio/index.html",
+    "bytes": 209421,
+    "sha256": "aacab00b38d9f98c561f03be6408acd7e7b55a659598f7c687992ec79bcff31d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/calcular-roas-equilibrio/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/checklist-seo-shopify/index.html",
+    "bytes": 243040,
+    "sha256": "eabe5e86360dc2481d11dfcf6eb1b48e5864adda63f31d8d5793e0b121d52dc9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/checklist-seo-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/cj-dropshipping-opinion/index.html",
+    "bytes": 216570,
+    "sha256": "7faf64f360d7600c495e7233199a5b85b4a8a4c38aed2aa10ab0c1b48589a732",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/cj-dropshipping-opinion/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/claude-code-e-commerce/index.html",
+    "bytes": 222351,
+    "sha256": "884b61d2479cafc7ca7abccfec3eb1dcac47a96d3ce202fe58b8eaf9e82931e1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/claude-code-e-commerce/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/como-atraer-trafico-tienda-shopify/index.html",
+    "bytes": 233839,
+    "sha256": "7fce1be2927da248ab31125bcb460b43f9eb5cd742e181966665d6a97da27fde",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/como-atraer-trafico-tienda-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/como-encontrar-anuncios-facebook-fuera-biblioteca/index.html",
+    "bytes": 216887,
+    "sha256": "00c0191962723bbdba150772262b04af2bb493abab1736affe24aa86228c33cf",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/como-encontrar-anuncios-facebook-fuera-biblioteca/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/como-ganar-dinero-shopify/index.html",
+    "bytes": 253210,
+    "sha256": "9b163d264a4a1523fc326fab62493be6326f78c84b81348bbdcd5bffe0394513",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/como-ganar-dinero-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/como-hacer-dropshipping-en-shopify/index.html",
+    "bytes": 214125,
+    "sha256": "1da1422393a6fd2d9665e3365f6dda7aa8b8719bb8ebab47685de2c44b7e4f0d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/como-hacer-dropshipping-en-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/como-mejorar-roas/index.html",
+    "bytes": 234008,
+    "sha256": "3037c930d2b290a25273131f373232216203c3b1140269646909ec70424048a1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/como-mejorar-roas/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/conectar-claude-con-shopify/index.html",
+    "bytes": 221255,
+    "sha256": "bdac1f38934b66d46cb6dfde71ee921c1571926fee8e10c5064a0b9c7b31ad43",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/conectar-claude-con-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/crear-anuncios-facebook-ia/index.html",
+    "bytes": 228515,
+    "sha256": "147f04298db33cc1b861d2f92983bc34d19dbece20b3776ff7f7e98508a6f528",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/crear-anuncios-facebook-ia/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/crear-tienda-shopify/index.html",
+    "bytes": 235995,
+    "sha256": "3f52296ce15b27ba6667e8064d9c32923c9c04c75691eb7904a6f6ab1dfadafd",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/crear-tienda-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/crear-tienda-shopify-ia/index.html",
+    "bytes": 218513,
+    "sha256": "3f71ad38c77a2a981fcfdd5cdcceab0dadc730c7ee7bd8ad2c4cf9d860b4bbda",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/crear-tienda-shopify-ia/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/creo-blog-shopify/index.html",
+    "bytes": 216540,
+    "sha256": "8618cc9f106d6893524c79e753a59fb5c7a9151125c9457f8f2f386ce0311f20",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/creo-blog-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/definicion-dropshipping/index.html",
+    "bytes": 205688,
+    "sha256": "31e293f6da47be8ad7059a5f4d7e602c89d0c6417e6a17d5fec4e373d2b7a25a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/definicion-dropshipping/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/dropispy-opiniones/index.html",
+    "bytes": 248148,
+    "sha256": "6c83aea3fc60b0a74e0078608177a1aee2fe1b1fcb5cafa23bb704167343ca46",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/dropispy-opiniones/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/dropshipping-amazon/index.html",
+    "bytes": 208500,
+    "sha256": "9e777107e660effb07d30a2a997bc95f5deeb109c2a737b0a2c2c96f9f7ee0cf",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/dropshipping-amazon/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/dropshipping-facebook-ads/index.html",
+    "bytes": 221207,
+    "sha256": "4ec3243e4eb33ab0c479826f2f90e8399ec6d07f5cc908608f3b0a4ab74b142e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/dropshipping-facebook-ads/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/dropshipping-high-ticket/index.html",
+    "bytes": 207195,
+    "sha256": "ff16a6efdc7ec17d0aa6941e378dbe1746d1363744cd5ccd547fd8f264526c92",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/dropshipping-high-ticket/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/dropshipping-ia/index.html",
+    "bytes": 208381,
+    "sha256": "8de757ed84fd79dce74a9cc7a88000cd4020c8038c4eb52b93e8e58b26fa5b71",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/dropshipping-ia/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/dropshipping-legal/index.html",
+    "bytes": 218309,
+    "sha256": "4b6fc88ade92adba8b17277e81bd04c746efe5cd7664c282deb9c31dbaace714",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/dropshipping-legal/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/dropshipping-seo/index.html",
+    "bytes": 215592,
+    "sha256": "f81182d516b99949f3f6e0336ca1e100e1c616e033ae941a5fef81c9b1f04964",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/dropshipping-seo/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/dropshipping-tiktok-shop/index.html",
+    "bytes": 227075,
+    "sha256": "b61cd334abc839675735f3a39fad499df0cfb1c74af7f2b0836ec6b952542b0b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/dropshipping-tiktok-shop/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/dropshipping-ventajas-desventajas/index.html",
+    "bytes": 204140,
+    "sha256": "4b5e168a7d24453cabed8dee38b5efbaff29115cf728f097b3fcfabec188893d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/dropshipping-ventajas-desventajas/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/dsers-opinion/index.html",
+    "bytes": 219786,
+    "sha256": "c04dd92bc960317fed1a8d7a734f69c2333a6bc6e2979023f560eb33ae44a1f1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/dsers-opinion/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/duplicar-tienda-shopify/index.html",
+    "bytes": 242402,
+    "sha256": "ad25653cff97bcb67d912eabe260c44e06b42eac755bdb60a3ed25a614fd0947",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/duplicar-tienda-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/ejemplos-fichas-productos/index.html",
+    "bytes": 262113,
+    "sha256": "3e4373b31a91c99a0483e999a942932dbfdc1b85b0789faa961e521fdae450b8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/ejemplos-fichas-productos/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/encontrar-agente-abastecimiento/index.html",
+    "bytes": 231508,
+    "sha256": "afb060de4b82926b0ee7940c2a4bbb9725a7dffcf420d8b0cd3173bac91120f0",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/encontrar-agente-abastecimiento/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/encontrar-producto-ganador/index.html",
+    "bytes": 248734,
+    "sha256": "f35b4e8bb5848e23b7e91a128abcb643cee2df7b4021f77f895aecb9040d864a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/encontrar-producto-ganador/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/escalar-campanas-meta-ads/index.html",
+    "bytes": 227562,
+    "sha256": "83b0ca77bd1c92c71bc2302d27d38c6300e90045e2ee9485df08f004e9b9634f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/escalar-campanas-meta-ads/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/facebook-ads-ecommerce/index.html",
+    "bytes": 223145,
+    "sha256": "c5483ad96bc2d35c0dae49cd80aaac044c036b22adfb22ca8a87241edecce3a6",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/facebook-ads-ecommerce/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/gethookd-opiniones/index.html",
+    "bytes": 226856,
+    "sha256": "f6827525dbf8aadfa990e5a7278154ae0da18920c0044ee0a7b28bd5ec8865b6",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/gethookd-opiniones/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/herramientas-adspy-gratis/index.html",
+    "bytes": 232649,
+    "sha256": "939e81e65f84d0d1539a10c82815ca45d3914fa2ad9bd9dd83fed10ff46266aa",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/herramientas-adspy-gratis/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/identificar-tema-tienda-shopify/index.html",
+    "bytes": 208907,
+    "sha256": "8e0a6eb97f910ea7c4c1d561c0e39c5395e6ac2c7a9c0035cc4262d4347da242",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/identificar-tema-tienda-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/index.html",
+    "bytes": 142942,
+    "sha256": "6beb9c7d910aad90b2356092d2c929f368fdd55b5386e9cdb22aebda4f9d7dea",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/iniciar-dropshipping-con-0/index.html",
+    "bytes": 213771,
+    "sha256": "97edf4e408fd5d58f576a633b09b02436879cd3b5d8a7d5fa55eff0c3e1687ba",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/iniciar-dropshipping-con-0/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/investigacion-de-palabras-clave-ecommerce/index.html",
+    "bytes": 221842,
+    "sha256": "406f31b44e63fbb15aef6a9d360a72f01bf849a96afcb329edb6724e24b87a8e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/investigacion-de-palabras-clave-ecommerce/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/magento-vs-shopify/index.html",
+    "bytes": 238457,
+    "sha256": "53a0a84835b209ac6c889887e0f9dc5311ce526b0f62de57478cf04e24b66edb",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/magento-vs-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/mejor-app-suscripciones-shopify/index.html",
+    "bytes": 244010,
+    "sha256": "526548e2a0eee2f2d8c5c5b47cbd0e0e61885a3f89680026f3665e791ee39387",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/mejor-app-suscripciones-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/mejor-herramienta-adspy/index.html",
+    "bytes": 232068,
+    "sha256": "ccb0b3d66f6e9743d008392efae2bfdd3fc953d94df95c52c1fad4a670cfde43",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/mejor-herramienta-adspy/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/mejor-herramienta-busqueda-productos/index.html",
+    "bytes": 217525,
+    "sha256": "13548c2c4dab54c19f97505785d790b05f6f5856d6249e2bd185eef4060d727c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/mejor-herramienta-busqueda-productos/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/mejor-software-dropshipping/index.html",
+    "bytes": 223074,
+    "sha256": "954aac1b65422ee641e18c823d45092b176dfffbf2e913184010ff7f9205abd4",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/mejor-software-dropshipping/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/mejores-aplicaciones-seo-shopify/index.html",
+    "bytes": 235480,
+    "sha256": "a052e66b4c2ea665d9fa9844238864bd09e7977f20030c780bd70d7b3d5fe012",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/mejores-aplicaciones-seo-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/mejores-apps-shopify/index.html",
+    "bytes": 239684,
+    "sha256": "41e4ab4285a65706f5730a4dfabe736ddf936a326beec2a4102a706157058dff",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/mejores-apps-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/mejores-cursos-dropshipping/index.html",
+    "bytes": 237521,
+    "sha256": "c83fb5605e540ebab67772912c73e3f4110cccf41d38583b1322f514164455c0",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/mejores-cursos-dropshipping/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/mejores-cursos-dropshipping-seo/index.html",
+    "bytes": 232651,
+    "sha256": "36518c7eb94325369c9129e12e43c66182aa341546d73fb5918749c68b787c00",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/mejores-cursos-dropshipping-seo/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/mejores-herramientas-espia-shopify/index.html",
+    "bytes": 253248,
+    "sha256": "2c3ff2e283ba429e8d4217e3bd3a2762ec302808f51dd74273468d0c221faf49",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/mejores-herramientas-espia-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/mejores-herramientas-espionaje-anuncios-tiktok/index.html",
+    "bytes": 224981,
+    "sha256": "b18e48cdf7afc1920f862ef37bf80d3a5c55a84b446cfd7fa40d82b726f52589",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/mejores-herramientas-espionaje-anuncios-tiktok/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/mejores-herramientas-tienda-ia/index.html",
+    "bytes": 225074,
+    "sha256": "35b7f5f190744025dae9724b4bfe420040854d66dc7a454c387d51179f46bef0",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/mejores-herramientas-tienda-ia/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/mejores-marcas-dtc/index.html",
+    "bytes": 296166,
+    "sha256": "67e863494e9a6e361693217ca414a6ef541400e9f1a68e286d82fa72474255b3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/mejores-marcas-dtc/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/mejores-productos-dropshipping-para-vender-en-agosto/index.html",
+    "bytes": 237550,
+    "sha256": "292eb2b7ca8eed3872287505c8e9d24ef30524c7ffc000715e5c6efd2a96e1c3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/mejores-productos-dropshipping-para-vender-en-agosto/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/mejores-productos-dropshipping-para-vender-en-julio/index.html",
+    "bytes": 242448,
+    "sha256": "0271a939585129fd1b50618156ed181f12f43b2f70a1a317db2d96bed0cdc64d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/mejores-productos-dropshipping-para-vender-en-julio/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/mejores-productos-dropshipping-para-vender-en-noviembre/index.html",
+    "bytes": 217911,
+    "sha256": "360e0a631746bf75cf3f8c062c909f4aee5396c508982129ee7bc64168fc8d6e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/mejores-productos-dropshipping-para-vender-en-noviembre/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/mejores-productos-dropshipping-para-vender-en-octubre/index.html",
+    "bytes": 218271,
+    "sha256": "08a15f4b6a38d455263061b8027ae0a5bf49ae03da0910422bde02a3639a4aaf",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/mejores-productos-dropshipping-para-vender-en-octubre/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/mejores-productos-dropshipping-para-vender-en-septiembre/index.html",
+    "bytes": 216863,
+    "sha256": "4e24b738910b8da4307b614a7a831bb45cd38b20fb2247134073b2eca2d7f0fd",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/mejores-productos-dropshipping-para-vender-en-septiembre/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/mejores-productos-dropshipping-q4/index.html",
+    "bytes": 246763,
+    "sha256": "ab2d53aa4627d16c9d692489fbd352e014ba6504e8fd2ee837edc4208cb94299",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/mejores-productos-dropshipping-q4/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/mejores-shopify-ai-apps/index.html",
+    "bytes": 236756,
+    "sha256": "73afdb9f137d93c08bab9561c26f7219350d42cb58cf61e4caeed9ca4e7909cb",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/mejores-shopify-ai-apps/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/mejores-temas-gratuitos-shopify/index.html",
+    "bytes": 220958,
+    "sha256": "d0d39ee7c7d47760e8b9f8d18409b50372bd86ab0b5d315e05c5cef003024bb2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/mejores-temas-gratuitos-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/mejores-temas-shopify/index.html",
+    "bytes": 257606,
+    "sha256": "fa664dee0cc5c3d72ee7b59dc855be0ac9daa2cce2613b9977b5478d6e6046e9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/mejores-temas-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/mejores-temas-shopify-conversion/index.html",
+    "bytes": 247064,
+    "sha256": "8ed4cc7b33a96f5f3d0f653feb75186ad89af0fcf316e9c8b0f38d8792d301cb",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/mejores-temas-shopify-conversion/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/minea-opiniones/index.html",
+    "bytes": 234754,
+    "sha256": "222016f114a9fe0bf298caeb285ea2f1920c0451e259e8fd70e2fab22fc16c13",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/minea-opiniones/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/nichos-dropshipping/index.html",
+    "bytes": 263785,
+    "sha256": "fed63b94c63b67d9efde363332a505606bde170cfda48c5b9162e6b388b7f670",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/nichos-dropshipping/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/omnisend-opiniones/index.html",
+    "bytes": 224085,
+    "sha256": "5163d222f9f41e5c3a736145b9489b740f5fd5164b3b5379e7d9765fb3ace6d7",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/omnisend-opiniones/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/opinion-bigbuy/index.html",
+    "bytes": 215731,
+    "sha256": "71c211179da3cd7d4d36c5cab1b0e425df2273a8825238b65801d149d5db9eb8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/opinion-bigbuy/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/opinion-bigcartel/index.html",
+    "bytes": 206309,
+    "sha256": "c362309c7d5322ac522d7d5516af478cde43599980637e5fb1d5eefabc0d3c7d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/opinion-bigcartel/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/opinion-eprolo/index.html",
+    "bytes": 210135,
+    "sha256": "51514d9cc72e4b422408f6a25465a0dc565789c7aed549d28c04c159a9e22e89",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/opinion-eprolo/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/opinion-kalodata/index.html",
+    "bytes": 228058,
+    "sha256": "8a83e09a48362781b8cab9041086a3b9c407fdd85280e4619b39a0414193b24a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/opinion-kalodata/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/opiniones-adplexity/index.html",
+    "bytes": 237221,
+    "sha256": "7a2bb42d308d3144590db09f11700d03bb8b5243798399fb385f5605e0576645",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/opiniones-adplexity/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/opiniones-dropship-io/index.html",
+    "bytes": 240785,
+    "sha256": "e546c69099932c06510e37e8ace2d93205fb65b2b1926d131b065b9899640979",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/opiniones-dropship-io/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/opiniones-shopify/index.html",
+    "bytes": 235335,
+    "sha256": "dd271af9b9728f0bff8b3d5ff1bbba94b0c1af77a80c16a3b0e73a18fa5f19ee",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/opiniones-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/optimizacion-seo-shopify/index.html",
+    "bytes": 225517,
+    "sha256": "e7d50d7ab9c6b95a15b7e656a95f3e9419aa6a280885eae93644b85c3365ee54",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/optimizacion-seo-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/organico-dropshipping/index.html",
+    "bytes": 238385,
+    "sha256": "ddb8cdb74621b0d48c19dba9e8e836ee907c5e83fec153fcd0532a32ed37e72f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/organico-dropshipping/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/pipiads-opiniones/index.html",
+    "bytes": 213116,
+    "sha256": "5e05bc4cd96e11bfc27f2cbca2d066202eb41db95290cfaed1b49012abfaf117",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/pipiads-opiniones/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/productos-dropshipping-alto-margen/index.html",
+    "bytes": 228176,
+    "sha256": "bfe4a3978ec2677fcc3be8d17c2f619f060c7aae1cfc910d9891521b7a469197",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/productos-dropshipping-alto-margen/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/productos-mas-rentables-para-vender-online/index.html",
+    "bytes": 237274,
+    "sha256": "2728b6db3b12ee361d6f77b13d4cdd9998744ab9f7c93ecffa744851d101a434",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/productos-mas-rentables-para-vender-online/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/proveedor-dropshipping-gratuito/index.html",
+    "bytes": 224552,
+    "sha256": "129d9b2cda0b1dcf0fb963172310e3c8dcfb258cd3158b2f540b4d878030b698",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/proveedor-dropshipping-gratuito/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/proveedores-dropshipping/index.html",
+    "bytes": 247367,
+    "sha256": "277a1b28dbd0727a6058af0d15be7083810f57699f2c0de13944747d4ef7415a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/proveedores-dropshipping/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/que-es-el-roas/index.html",
+    "bytes": 228498,
+    "sha256": "576ca67ad000464b18a47594c840946bf9846ba5aa6f113a0a384ad4e9fe4695",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/que-es-el-roas/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/que-es-el-valor-medio-de-pedido/index.html",
+    "bytes": 203813,
+    "sha256": "f401745a3ff8ba49ac053774f3f8e1333a2454a0e7c1c4e68bc4a9b38a8625bb",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/que-es-el-valor-medio-de-pedido/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/recordatorios-carritos-abandonados/index.html",
+    "bytes": 204257,
+    "sha256": "9fdebe7ea36f0ab3f36a1383a62de92bbc2ac75a3026fd857ea3b118522e1316",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/recordatorios-carritos-abandonados/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/shopify-cro/index.html",
+    "bytes": 233441,
+    "sha256": "ec1aaaa707bbcb50d7587ab259c05afe2e8ff5c6bdad2ef1c733bd4aaaf58a9a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/shopify-cro/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/shopify-pros-y-contras/index.html",
+    "bytes": 228038,
+    "sha256": "7c81bd5d571f2d270a23d68dbf03caba7475e33e35f1539b5c043851fff1680f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/shopify-pros-y-contras/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/shopify-vs-wordpress/index.html",
+    "bytes": 236963,
+    "sha256": "435c73a5651d9971a78df52575b42682b12ec7392e43957316f48ae4343fcc4a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/shopify-vs-wordpress/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/tamano-video-facebook-ads/index.html",
+    "bytes": 217148,
+    "sha256": "821b219ffa19e68224ef83a3fbb48310f74a0d13836c4f4dbce4ce9c72c2166e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/tamano-video-facebook-ads/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/traducir-tienda-shopify/index.html",
+    "bytes": 231536,
+    "sha256": "f9edc8186ad5c7f433fa4eab6efd2f2f07c92a6790f89325f71628c20fa016ec",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/traducir-tienda-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/ver-apps-tienda-shopify/index.html",
+    "bytes": 210601,
+    "sha256": "e54767727351710e30168d4caf77d67c56e1b973a1ae8158d29bdf33bf9d93b9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/ver-apps-tienda-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/ver-ventas-tienda-shopify/index.html",
+    "bytes": 207763,
+    "sha256": "a6cd47ff47fef31713e000b54ceadd915f5e94b04bc2f46922c2a696639fb589",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/ver-ventas-tienda-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/winninghunter-opiniones/index.html",
+    "bytes": 220354,
+    "sha256": "b0bbe4f6f83e8e1e8787c7f20150d989718ab4ca3dac801b1c43800177204598",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/winninghunter-opiniones/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/blog/zendrop-opiniones/index.html",
+    "bytes": 221993,
+    "sha256": "4581becf6484c2aaed2976b191ce923529272a57798e193d8829f546e735fe8a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/blog/zendrop-opiniones/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/boutique-gratuite/index.html",
+    "bytes": 63779,
+    "sha256": "bb739a9fd816acf52f5e27810e5fa398b3867baa5188fd250d6133f623486c88",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/boutique-gratuite/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/boutique-gratuite-access/index.html",
+    "bytes": 40632,
+    "sha256": "51812789f811470d125bb5ba1b193934a9884ca9655756fedc2954a7c653acef",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/boutique-gratuite-access/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/category/analisis-kpis/index.html",
+    "bytes": 200201,
+    "sha256": "88880374bb05e8d8480bdb96c51e4ac161c5994356be7ddcf1985d5c11877b9f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/category/analisis-kpis/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/category/busqueda-de-productos/index.html",
+    "bytes": 197649,
+    "sha256": "25ff35885b8fd21a357111eeaaa28f3f85906a8c908aad48dca7fe2fd0b0df82",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/category/busqueda-de-productos/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/category/crear-tienda-online/index.html",
+    "bytes": 213579,
+    "sha256": "45fb5586a06a3cbcc8e687654186f40b43807f94c07cfa6061879c49aededc72",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/category/crear-tienda-online/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/category/dropshipping/index.html",
+    "bytes": 224462,
+    "sha256": "1ba630272e8cdbf3e0c8231867059175a2a813bda3fcf9107383e1434b1d7790",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/category/dropshipping/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/category/ia/index.html",
+    "bytes": 193374,
+    "sha256": "b746af2486021dbfa37a49f68cafaf734098915b41f054caaa39f310f24c7344",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/category/ia/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/category/marketing-comercio-electronico/index.html",
+    "bytes": 210405,
+    "sha256": "9eedf9c9d0aabaffb25672b148b4a20f8af62ff92fa6acb167ddddb67dabd900",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/category/marketing-comercio-electronico/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/category/obligaciones-legales-ecommerce/index.html",
+    "bytes": 193564,
+    "sha256": "4c7502e317969f2427f7056ca025f18e9310685643bccb68a2cdecd6c47a1137",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/category/obligaciones-legales-ecommerce/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/category/sourcing-logistica-ecommerce/index.html",
+    "bytes": 205452,
+    "sha256": "216c9798eb670c236f661120209b64a6d9a448a0433cdfa49ec80824bdea810d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/category/sourcing-logistica-ecommerce/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/cgv/index.html",
+    "bytes": 64866,
+    "sha256": "afbf39b51a4fb9827e6b66bce50f88ac61bf3f85e5a78081fdf917557a3430fd",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/cgv/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/challenge-marcuus-copyfy/index.html",
+    "bytes": 194458,
+    "sha256": "bae8320000c763143c3693df66aaecae8cd6b5fd9393588a52a6a1da45fe25b1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/challenge-marcuus-copyfy/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/coaching/index.html",
+    "bytes": 96672,
+    "sha256": "31d7aec8646259810f9bd4f65befdf37627b148590a6117471d67705c6b65b4b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/coaching/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/condiciones-de-uso/index.html",
+    "bytes": 102033,
+    "sha256": "8a1c9bcac3210d81d16e85e05e57035ec6e79e64ca48c347b9db1fd7b18452a7",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/condiciones-de-uso/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/adespresso/index.html",
+    "bytes": 218627,
+    "sha256": "ec3f8e91ac57d86d4470cd9062834c35c83447c0e3a9c84cc7c9e99654447051",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/adespresso/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/adflex/index.html",
+    "bytes": 217204,
+    "sha256": "f37df7a2e0a4e08d1ea0876c2585273640b5926a62191100217ad397512e18b0",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/adflex/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/adheart/index.html",
+    "bytes": 218217,
+    "sha256": "8ba6ab87edbb8ab3affa6653da784f0d7071be9eb7e927444e8b2195f8c15103",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/adheart/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/adspy/index.html",
+    "bytes": 217433,
+    "sha256": "b3f882ffa09a889e366366dff21df40b472bb2429e2b53c1e7ac2a5eda091087",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/adspy/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/anstrex/index.html",
+    "bytes": 217967,
+    "sha256": "d7cb1bbb04f74c1fe6841d46ddfdeda31b3dc266d102a7664f6b001dc7b86991",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/anstrex/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/bigspy/index.html",
+    "bytes": 218170,
+    "sha256": "c853fbbd63a01417f9891ca32367df6d4950c02178ecd4f398e1bbd292015d2d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/bigspy/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/countik/index.html",
+    "bytes": 217532,
+    "sha256": "aec4550f6b9e47e92fd34516f8cb7488a71a70c6be31ea5517257aead4514f9f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/countik/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/diffshop/index.html",
+    "bytes": 217825,
+    "sha256": "4bec78168afe04e9f8b4585e7c40b04182b8aad13401f295591ff5b3955f9a06",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/diffshop/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/dropispy/index.html",
+    "bytes": 217469,
+    "sha256": "d2eef111e9e0d23467975a945f6125044d858646ed14152e20c4805c53098fc9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/dropispy/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/dropship-spy/index.html",
+    "bytes": 218041,
+    "sha256": "ddb41f3b2f265b10d34f57e3eac5a32a77de20be58f4058cdd1b6d189ffdd02a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/dropship-spy/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/echotik/index.html",
+    "bytes": 217681,
+    "sha256": "8541d1c556d32f1c06c4debd60075fef65c9d0370d27364acaa0d48b44c3a218",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/echotik/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/ecomhunt/index.html",
+    "bytes": 218067,
+    "sha256": "63bfd551e7279fa56df2dd4e723d5ad2b2bc4d32a3acc6436c5b897ed2dbadf1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/ecomhunt/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/fastmoss/index.html",
+    "bytes": 217936,
+    "sha256": "a20dec365fce3789f4d6bb2e61b13bdbf06246303ab00afbd17a5fd37977847b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/fastmoss/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/foreplay/index.html",
+    "bytes": 218571,
+    "sha256": "461d5113c6cd8ca47e10cb0b7299156dad8bb14dbbc64f8b3fd5ac86f0bb7742",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/foreplay/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/iconme/index.html",
+    "bytes": 217320,
+    "sha256": "ea9c3e97e7270399842610d28f082da786dbe7d41a21bf33b7961c0f4a2b2a8e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/iconme/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/index.html",
+    "bytes": 176394,
+    "sha256": "6d47b3e369100dbf1a87bd8c41459c88253b46395ac91a166b4ce8db3edefa7c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/kalodata/index.html",
+    "bytes": 218056,
+    "sha256": "805a10a1eb624b445d2c51acf7b8e8b9ceba598abe25d4c9b05acc8eb8d5fe00",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/kalodata/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/minea/index.html",
+    "bytes": 217262,
+    "sha256": "1350d34d9e54a8e4530fa29c0abafdae5b846566dd90e212463e1ff559f1b94b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/minea/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/nichescraper/index.html",
+    "bytes": 218748,
+    "sha256": "ca883954d055a164dabd76b9c028d684c3233a1fca02674ed7b7bec7bcb06b0b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/nichescraper/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/peeksta/index.html",
+    "bytes": 218282,
+    "sha256": "3852d6e7b89b1854736d1b5bb792f7456b7dab4a43d4286dd6bbd968c850b8e4",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/peeksta/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/pipiads/index.html",
+    "bytes": 217435,
+    "sha256": "b916f34e38e5eb9b9a24143565077ee9b288cfccc683a8728d0127b749680fa1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/pipiads/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/poweradspy/index.html",
+    "bytes": 218566,
+    "sha256": "91a7bb163ec4150c60a9bc4aa9db10113bd8db226af1015ba7b083cc041a4377",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/poweradspy/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/sell-the-trend/index.html",
+    "bytes": 219382,
+    "sha256": "a1170d3677136fafd3cb337976cbb6695b6796f6a6d45529125c30e648e07bcf",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/sell-the-trend/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/sellercenter/index.html",
+    "bytes": 218244,
+    "sha256": "f2896e7845d3bde058001b7860e4d2197ef6c737a8f7839248dd13b8dfa11058",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/sellercenter/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/shophunter/index.html",
+    "bytes": 218657,
+    "sha256": "2b8152b0c0f3fe30978e6561feacbbbd3f8e94cb22a6dda37981d4bb77256a8d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/shophunter/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/shoplus/index.html",
+    "bytes": 217239,
+    "sha256": "7480bb9582bf45a693bf874c052e20e4758352ee56c82be648833e27e6f2e644",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/shoplus/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/spocket/index.html",
+    "bytes": 218230,
+    "sha256": "1fe5b2a1cd503fc6900e4c0d72072621d3b3550bc8970fabd0594d7f874592cb",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/spocket/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/spysales/index.html",
+    "bytes": 218393,
+    "sha256": "6f57ce257abaf85f01b9b4024c35262c67885dd63de5b38339dc7b58605a1a4f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/spysales/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/tabcut/index.html",
+    "bytes": 217519,
+    "sha256": "cdba80d2a0d8a83a4ed0931bc5d95db9d348bbb633b5824c028bc87e86093409",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/tabcut/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/tryatria/index.html",
+    "bytes": 218882,
+    "sha256": "01ddd3de740e220f2297c8a8243d4a3d7a7515ad686f16396483d1f51a18df6a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/tryatria/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-vs/winninghunter/index.html",
+    "bytes": 218347,
+    "sha256": "568742d64a77d8e9f1a6e7a30c0ebb2cce1bdfcc97d61922d97cf13d9ff846aa",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-vs/winninghunter/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/copyfy-webinar/index.html",
+    "bytes": 31846,
+    "sha256": "b2a0e0aae633cc2f2fb46ad5fc41a4f65fc2d6165c9ed5926ba1e3a8dd4dd8b9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/copyfy-webinar/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/curriculum/index.html",
+    "bytes": 80379,
+    "sha256": "6240c48e3fb4daabb006da4b671d9b0260a8e3fdfedecdd793051162cd1e83f9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/curriculum/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/faq/index.html",
+    "bytes": 192955,
+    "sha256": "de0a48ef7127d2751c38ffc1a6ec8c4ad15934292c6b20213cff17b44ee7d343",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/faq/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/features/ads-library/index.html",
+    "bytes": 123356,
+    "sha256": "15026390a0bd7f3ed2c23a1e72629df72a6ae21c26c6af68d93aea83e659852c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/features/ads-library/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/features/adspy/index.html",
+    "bytes": 124578,
+    "sha256": "150d1204610a95902fcd147c1ece671e911fb5d07521fd4491aa78ed544350bd",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/features/adspy/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/features/competitor-research/index.html",
+    "bytes": 122110,
+    "sha256": "55cf7b4b0393e7200cf9a9647773fa1a8b02517180ad9023ed4f10f1a38dcaac",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/features/competitor-research/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/features/create-e-commerce-shop-with-ai/index.html",
+    "bytes": 125598,
+    "sha256": "81435887d6f731ece554bb2053b319ca92e824ec7868bee5611ce3284b15335f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/features/create-e-commerce-shop-with-ai/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/features/product-database/index.html",
+    "bytes": 122634,
+    "sha256": "1eaef809dbc40657ec2d372cbf9ae4db8bbf68230cf1ae2907a08c4160aab79c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/features/product-database/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/features/shop-analysis/index.html",
+    "bytes": 123750,
+    "sha256": "04c99f3c9bb070cbea4488ee9d9f0d9bff48363551ac568c7a62925a6f29a36b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/features/shop-analysis/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/features-copyfy/adspy/index.html",
+    "bytes": 82330,
+    "sha256": "709702417822ca7cb1d8de2fecf51305f15073c20d0a2d6a2007abf8a3033f85",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/features-copyfy/adspy/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/features-copyfy/competitor-research/index.html",
+    "bytes": 82139,
+    "sha256": "c432c3af2776b4366b602ff1c14d0e5e554a4f870f79de3887f5124925c532c1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/features-copyfy/competitor-research/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/features-copyfy/create-e-commerce-shop-with-ai/index.html",
+    "bytes": 82534,
+    "sha256": "4711c05591dd7afa567ed9bc3d59e74b718e322d745639d1f9c5659a899bcb3f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/features-copyfy/create-e-commerce-shop-with-ai/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/features-copyfy/product-database/index.html",
+    "bytes": 82400,
+    "sha256": "1a68cbb624f3548b0f3a09a46d2c22f3d25f7c1d34983e0a28d27458a401e675",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/features-copyfy/product-database/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/features-copyfy/shop-analysis/index.html",
+    "bytes": 82131,
+    "sha256": "567e4e44e6ff3cc1b6b70d979986290dd557520988bc7c34153bc8a6d94d9465",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/features-copyfy/shop-analysis/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/free-trial/index.html",
+    "bytes": 80304,
+    "sha256": "0a9b9b222f7778cf9bfc3e8d8cd7138abcee8e06fef2ad4f116a977126399dd4",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/free-trial/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/freetrial-en/index.html",
+    "bytes": 80320,
+    "sha256": "a0cdc1d13351443c1a0210a1da9b25aabf06b71dcf8370857cbbf55c416cf577",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/freetrial-en/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/google-btn/index.html",
+    "bytes": 54922,
+    "sha256": "0671451b34432036fc196a0627f70cc1bab297f3ecc506d5182fc9ff92c9c394",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/google-btn/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/index.html",
+    "bytes": 359431,
+    "sha256": "9423c98dbf6ca25ef7dae5f67078f3c547943cc23ad601c81ef8a07b3d907bff",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/liste-produits/index.html",
+    "bytes": 197161,
+    "sha256": "8812b000fbce2c43e2bea7aa2fb65486c9ce693cb85957d13e6bff84a35b1d1e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/liste-produits/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/politica-de-confidencialidad/index.html",
+    "bytes": 88591,
+    "sha256": "0ec30860b40bf062c3d8e5d0ebd7ff533ea0a85dba48c8aa0e4366475529eebf",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/politica-de-confidencialidad/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/politica-de-confidencialidad-copy/index.html",
+    "bytes": 104284,
+    "sha256": "dd3c552cc8bf57e32cebf16e6b0ddcee4a2454026842d839e6dcd46f389b528d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/politica-de-confidencialidad-copy/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/pricing/index.html",
+    "bytes": 301956,
+    "sha256": "4eb3365bfddcd69b8ffa051b170622e2e42885de597ee3b9e3edfde357413502",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/pricing/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/shopify-3-mois-pour-1-euros/index.html",
+    "bytes": 102333,
+    "sha256": "b51e4bcc7382a92a54c659db1726408ac0d5ea56c2a15cb74fb6a7ea092ad87b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/shopify-3-mois-pour-1-euros/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/shopify-3-months-for-1-dollar/index.html",
+    "bytes": 109617,
+    "sha256": "b3e3f9f5b80de0e7d1c57f755230390d6d633552a2479f52d3ce27da70117a70",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/shopify-3-months-for-1-dollar/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/tools/analizador-resenas-clientes/index.html",
+    "bytes": 125955,
+    "sha256": "5730749b3e8b4b46f35426cedc800b6bf8947e3a47b171daec98c60e6f99a230",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/tools/analizador-resenas-clientes/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/tools/calculadora-beroas/index.html",
+    "bytes": 115173,
+    "sha256": "8a7e202d328c61af61e51678057c4d0cc43e28a30660f81120a458e3b9d67272",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/tools/calculadora-beroas/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/tools/calculadora-cpa/index.html",
+    "bytes": 126178,
+    "sha256": "2c101fc5ab14623313d26898df33dbb0742a51043a256d75a5dca672b0f7d38f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/tools/calculadora-cpa/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/tools/calculadora-margenes-dropshipping/index.html",
+    "bytes": 110658,
+    "sha256": "12328a0fd7cb72dd1553ead2f1e7af44b531fcbaaedcd8f9745c40003775742f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/tools/calculadora-margenes-dropshipping/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/tools/calculadora-roi-ecommerce/index.html",
+    "bytes": 151254,
+    "sha256": "ba0f61129ece0f44ae7f0f022eee202e87e5132a0b85fb54d127af7798f44547",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/tools/calculadora-roi-ecommerce/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/tools/calculadora-suscripcion-shopify/index.html",
+    "bytes": 120229,
+    "sha256": "9a60a3c25ebaa587c45f51a57bec558e62dee6402d9f76f711ff453733e5625f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/tools/calculadora-suscripcion-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/tools/calculadora-valor-vida-cliente/index.html",
+    "bytes": 155493,
+    "sha256": "7f7bfb9bb729400cfc9221af150ad62b67a778c2537249a8f0d4e15d5fb29223",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/tools/calculadora-valor-vida-cliente/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/tools/descargar-anuncios-facebook/index.html",
+    "bytes": 126123,
+    "sha256": "93b1e935c7c631e52f4ddc2168e8f2840b0ddbd9595627f6f3ffa9328b0b43ee",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/tools/descargar-anuncios-facebook/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/tools/descargar-anuncios-tiktok/index.html",
+    "bytes": 125775,
+    "sha256": "890d9c4bba8177a6b845d0a81e2e270adcf02e49e97fcbb35c3ebe35621e9ca3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/tools/descargar-anuncios-tiktok/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/tools/detector-apps-shopify/index.html",
+    "bytes": 112215,
+    "sha256": "236f3b11af0a392f5120985426a356eb307878f7d0739fc800d07e92fbbafb20",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/tools/detector-apps-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/tools/detector-tema-shopify/index.html",
+    "bytes": 123480,
+    "sha256": "8a7c30860658a1001712ee3d24bd20113505ede8ef92e9981b2141f419482da9",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/tools/detector-tema-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/tools/exportador-de-productos-shopify/index.html",
+    "bytes": 138474,
+    "sha256": "37c3c0bc26a8feb4980f2195a0e523200b25df8cca5dc6750a899e118c0331cf",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/tools/exportador-de-productos-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/es/tools/index.html",
+    "bytes": 160263,
+    "sha256": "8e9f241d57b56bf3068d3d664df9ca627e87fa9a14e4d03dca0e4af1149f4a58",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/es/tools/index.html"
+  },
+  {
+    "path": "03-published-site/pages/faq/index.html",
+    "bytes": 194310,
+    "sha256": "855c4e562e8d4b6d402339e4dab2b9ea5b482fc3bf943137a0109a9bea0e2d12",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/faq/index.html"
+  },
+  {
+    "path": "03-published-site/pages/features/ads-library/index.html",
+    "bytes": 125212,
+    "sha256": "a4cb8a1483cbe73d7dff94ce6a825be9b101602038c1d5a4bc4bc27243cbc7d5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/features/ads-library/index.html"
+  },
+  {
+    "path": "03-published-site/pages/features/adspy/index.html",
+    "bytes": 125877,
+    "sha256": "3aeb35dc250fca792248868d8fdbc6f131f7f6592d43b4ed65128bf1860612d3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/features/adspy/index.html"
+  },
+  {
+    "path": "03-published-site/pages/features/competitor-research/index.html",
+    "bytes": 122354,
+    "sha256": "25070cc9db3363669dfaca2443d666958e7ef375834fa52c877dbaf593cd39f8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/features/competitor-research/index.html"
+  },
+  {
+    "path": "03-published-site/pages/features/create-e-commerce-shop-with-ai/index.html",
+    "bytes": 125836,
+    "sha256": "ddd093b93d025dd2fcd1c3eef8940f7891eff96b2754124e2f620437dcb89706",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/features/create-e-commerce-shop-with-ai/index.html"
+  },
+  {
+    "path": "03-published-site/pages/features/product-database/index.html",
+    "bytes": 122822,
+    "sha256": "a432e73ba32e408415e908019dfb4cdda6d1dae32046436703a2bdf97cb393b2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/features/product-database/index.html"
+  },
+  {
+    "path": "03-published-site/pages/features/shop-analysis/index.html",
+    "bytes": 123961,
+    "sha256": "a2223926b22d371a32ff67bf53b69fc598d4e374c9b8e5f2b3b79eb265830f8f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/features/shop-analysis/index.html"
+  },
+  {
+    "path": "03-published-site/pages/features-copyfy/adspy/index.html",
+    "bytes": 85532,
+    "sha256": "548fbe17cd10c014168e170c57740bd2ea2fd613d140e0c56d8b89cb197289b3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/features-copyfy/adspy/index.html"
+  },
+  {
+    "path": "03-published-site/pages/features-copyfy/competitor-research/index.html",
+    "bytes": 84622,
+    "sha256": "346eaaf489a18d9d74087603eeccca4c58fefdf757488d804a8b8c26677a373d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/features-copyfy/competitor-research/index.html"
+  },
+  {
+    "path": "03-published-site/pages/features-copyfy/create-e-commerce-shop-with-ai/index.html",
+    "bytes": 86843,
+    "sha256": "10e7f433ca3317817a71964fe8f7375e1aa45dd192c2aa437773f6fb00424af4",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/features-copyfy/create-e-commerce-shop-with-ai/index.html"
+  },
+  {
+    "path": "03-published-site/pages/features-copyfy/product-database/index.html",
+    "bytes": 85041,
+    "sha256": "fbb379f692eb93976e115261a044a84d8be273b7f14499b30aab7abd1548e601",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/features-copyfy/product-database/index.html"
+  },
+  {
+    "path": "03-published-site/pages/features-copyfy/shop-analysis/index.html",
+    "bytes": 85913,
+    "sha256": "57dfa777adfd52412be8a8a892a361c69b8aadca45e3fb3600244bc261cda30a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/features-copyfy/shop-analysis/index.html"
+  },
+  {
+    "path": "03-published-site/pages/free-trial/index.html",
+    "bytes": 79778,
+    "sha256": "489291c4e6c442cc30886ca92a51ca724fa1225889289f55a1dbc5e571d15e4f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/free-trial/index.html"
+  },
+  {
+    "path": "03-published-site/pages/freetrial-en/index.html",
+    "bytes": 75754,
+    "sha256": "19159db6fef8372b203d3b1c9f5172c7922bfb05abbd32420fefa857c5e49cdd",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/freetrial-en/index.html"
+  },
+  {
+    "path": "03-published-site/pages/google-btn/index.html",
+    "bytes": 54919,
+    "sha256": "d06dc1da3aee99035bf5441e4723e669b073d06a03855125b28ebd8d60ae24ab",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/google-btn/index.html"
+  },
+  {
+    "path": "03-published-site/pages/index.html",
+    "bytes": 360029,
+    "sha256": "bd9049eabdfffe844653d36531c9eac8bf09e43ff88f6157852c0265fa6a0729",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/index.html"
+  },
+  {
+    "path": "03-published-site/pages/liste-produits/index.html",
+    "bytes": 197298,
+    "sha256": "45fc3143d36be1c78a576342832e461bfcf59d22a56888e1f71812b1a33f0d06",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/liste-produits/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/affiliate/index.html",
+    "bytes": 133084,
+    "sha256": "8a2fcd0221ba042803d1509ecc2459ef5f02eb1ae4203d05b6549003909a097d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/affiliate/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/affiliate/marcuus-lawrence/index.html",
+    "bytes": 48468,
+    "sha256": "d37e5ae0965a0518418fe079756f5dc2119fed80835e15795c5af88b84709ace",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/affiliate/marcuus-lawrence/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/ai-store/index.html",
+    "bytes": 184184,
+    "sha256": "3a65976aee28fae236d3349260c10d68d97f115425ec022baf7229418122e43f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/ai-store/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-adflex-alternatives/index.html",
+    "bytes": 230340,
+    "sha256": "23b69ad045377a06cb6985d380f7b260eaaa25581b075010dadcea6deef8ad20",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-adflex-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-adheart-alternatives/index.html",
+    "bytes": 231625,
+    "sha256": "8536a430e687d9b0b6af4ca6658fd8125267c4eddb64cde5d430a9a64f9ceb8f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-adheart-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-adnova-alternatives/index.html",
+    "bytes": 231512,
+    "sha256": "4cce198143dade5f3f03bffaac8551e0b3f41fb6cd880fd055261925b80b6bca",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-adnova-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-adscan-alternatives/index.html",
+    "bytes": 231355,
+    "sha256": "6f3f8b58ff434d02cc7d2800379cb8f1580a0a2b991ae8cde07c95e18c71bff2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-adscan-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-adsparo-alternatives/index.html",
+    "bytes": 237388,
+    "sha256": "6c7e8880d3bcff8e0c2f92ad39ba0a39d0c1461ce9975ab9149b0d6b23ad99a4",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-adsparo-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-adspy-alternatives/index.html",
+    "bytes": 232390,
+    "sha256": "0ab00fc85829d84fa064902c3f1f27a6b390b655d36fe2590d6e518ebf04dee7",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-adspy-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-adspyder-alternatives/index.html",
+    "bytes": 231834,
+    "sha256": "5a832422e0388dbb0ba79135411e59abf5b3c93e691762b12d44ceafe9a65711",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-adspyder-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-alternatives-to-sellercenter/index.html",
+    "bytes": 231159,
+    "sha256": "1595f663b9dd2414b7c2c85da615c3afcb4d8738797b53723e992539a629ef07",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-alternatives-to-sellercenter/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-alternatives-to-shine-commerce/index.html",
+    "bytes": 211453,
+    "sha256": "4f4b13305ef084cc43bcc15c22c0a6f0de779ad0329847f242f608b37c1a0e55",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-alternatives-to-shine-commerce/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-alternatives-to-thieve/index.html",
+    "bytes": 231582,
+    "sha256": "0cea9549c946ff598d6cc946a210907e36f0dc0d0b945339172fb4790ac94649",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-alternatives-to-thieve/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-anstrex-alternatives/index.html",
+    "bytes": 231660,
+    "sha256": "6a7161e1bf5c3ec1d7198d1253e2eb51a7abfa9c1ce03e35167b2110472d9fcd",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-anstrex-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-bigspy-alternatives/index.html",
+    "bytes": 230813,
+    "sha256": "90c1d28e615855d2a371a869725237582e3f8f57d9b9a317f86d628bc02606ef",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-bigspy-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-buildyourstore-alternatives/index.html",
+    "bytes": 233475,
+    "sha256": "9711cf48c3b0ce48c14ea8c88f22684d41ebd3faa3cc7eb8b685f78c314e8f7c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-buildyourstore-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-countik-alternatives/index.html",
+    "bytes": 230182,
+    "sha256": "15e05db3abcee308bc7b961a6aaa454bff86a3f93330bba4b8cf1496321d7ac6",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-countik-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-denote-alternatives/index.html",
+    "bytes": 231283,
+    "sha256": "00f7216bbdfbf147bc10ca4e3ca33186ba2ad6c7447851b5371a164ced6c703c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-denote-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-diffshop-alternatives/index.html",
+    "bytes": 232195,
+    "sha256": "5f5005b93bab1947913f48b7740550dab8eac439a22716e95381b4411f0ab04d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-diffshop-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-dropispy-alternatives/index.html",
+    "bytes": 241631,
+    "sha256": "01210e0784484fba7186dcde43969122ba3c95a92594fded5fd9d06dca5b964e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-dropispy-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-dropship-alternatives/index.html",
+    "bytes": 234319,
+    "sha256": "2825d7454bfbf8c3a48c6a641ae6f5ebcfca1362add85de15b2f4eaa5ca665ac",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-dropship-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-dropship-spy-alternatives/index.html",
+    "bytes": 232371,
+    "sha256": "471e2ef69643c21351bce382d6f8bc8857cbcfcb759347b6ac5fe146238fd0b1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-dropship-spy-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-echotik-alternatives/index.html",
+    "bytes": 229957,
+    "sha256": "37c3467cc22b8b9760904dfc5f79e1687a4583c6f443caa75d7ad81f7406031f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-echotik-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-ecomhunt-alternatives/index.html",
+    "bytes": 232244,
+    "sha256": "ba9702cdcc4e4a4db27478a667a41ca320e304a8817e4a1a2f7442d78f316916",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-ecomhunt-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-facebook-ad-library-alternatives/index.html",
+    "bytes": 234104,
+    "sha256": "9d7a431d3fcc194f4383f490eb41d0378b41ee368fa8473a6229e657304ef7de",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-facebook-ad-library-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-fastmoss-alternatives/index.html",
+    "bytes": 232545,
+    "sha256": "b28f1c0266a15902b1b4e20d0687a81225292f511168fb6d3519a98ed0b4eed8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-fastmoss-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-foreplay-alternatives/index.html",
+    "bytes": 231350,
+    "sha256": "7f31c1d9e83ed185239b6499d714b874fe4e811452c57fc7ba5135b73351e670",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-foreplay-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-ixspy-alternatives/index.html",
+    "bytes": 231297,
+    "sha256": "bffd0a874debd434d02d637801f6dbfaeeb9214f98d38109f4f4a5f806c51774",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-ixspy-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-kalodata-alternatives/index.html",
+    "bytes": 235231,
+    "sha256": "31996e538158ffec03f72ce71fa2a6dc3f26925fc0bf3dd6df3724c52c993648",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-kalodata-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-minea-alternatives/index.html",
+    "bytes": 229567,
+    "sha256": "ed82930e33f4312924ada70ac198f596007bb051cd25a649996f5ef5388a159f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-minea-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-nichescraper-alternatives/index.html",
+    "bytes": 231392,
+    "sha256": "7f4f6fff57f14f757a9f571b3cbbee9adef7093f08eecdee53b22c13af48c752",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-nichescraper-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-peeksta-alternatives/index.html",
+    "bytes": 233200,
+    "sha256": "aab7ddb82f2373dfc3430d2ad8f4659ca5302af6927987d55deeabe3409440d6",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-peeksta-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-pipiads-alternatives/index.html",
+    "bytes": 231297,
+    "sha256": "a8e879663944c90aad41a00239fa592e540fb5ae8b4e8f751b3f5f752ce40402",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-pipiads-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-poweradspy-alternatives/index.html",
+    "bytes": 231289,
+    "sha256": "2f72c4d09c5e5c0c4c07dd69ba25dc1fb68e4749042c82334eea00f2b881e86f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-poweradspy-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-sell-the-trend-alternatives/index.html",
+    "bytes": 230827,
+    "sha256": "c48e432145c014184a4f9e9eefdcc6bd3b9eea84f61cc98bc51242f9bb21a80d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-sell-the-trend-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-shophunter-alternatives/index.html",
+    "bytes": 231936,
+    "sha256": "113c56463f43c95d63226798e5e8159068ea4ca4a9b89cb3bf72211e745d5ff7",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-shophunter-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-shoplus-alternatives/index.html",
+    "bytes": 230101,
+    "sha256": "9bec0c500add6eb80479a3eb225e74f9b9b0198d67212b643c959779bae8b533",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-shoplus-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-spocket-alternatives/index.html",
+    "bytes": 231279,
+    "sha256": "58728ef3beb3b8fdf911e174bbc00a13385d21238c443d412090eb6247938c05",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-spocket-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-spysales-alternatives/index.html",
+    "bytes": 232552,
+    "sha256": "af158a13a790ef312d67535f2ee7f95d86095165ceda49b84b919d05ecc8b823",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-spysales-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-storebuild-alternatives/index.html",
+    "bytes": 233845,
+    "sha256": "b96ed7f44d017bc68ba6814f5e79d0d98fc1e56f5a65a3c1661ded537c779038",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-storebuild-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-storeleads-alternatives/index.html",
+    "bytes": 233435,
+    "sha256": "dbaa10f88b9ab6a3ce71d2d9247c17b3ef8eef4f521b79cab97c263feb4d7fdd",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-storeleads-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-tabcut-alternatives/index.html",
+    "bytes": 231936,
+    "sha256": "cd40641780152cd3f54941ad27ee171eb391fdc368d1b8b8d1ed110e1c3353a5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-tabcut-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-tiktok-ads-library-alternatives/index.html",
+    "bytes": 231626,
+    "sha256": "1d7d8b34bd0676673b462a8751013ae29c1104262b2c8117a82e661eb0a04f0b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-tiktok-ads-library-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-tiktok-creative-center-alternatives/index.html",
+    "bytes": 231205,
+    "sha256": "01dc71f5c99fb3a643a4a6307178b420822b210634075984bdec2f80fc434267",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-tiktok-creative-center-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-trend-rocket-alternatives/index.html",
+    "bytes": 237077,
+    "sha256": "c7c562745057316ae83c52d0fc6d9d2a63e2f5ce11364bd936bf73a63e898260",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-trend-rocket-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-tryatria-alternatives/index.html",
+    "bytes": 231097,
+    "sha256": "9de38c63f3340f02034ebea104485b46dab549299e69a4cf7297448dde54849b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-tryatria-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/5-best-winninghunter-alternatives/index.html",
+    "bytes": 233765,
+    "sha256": "84cd5c084ee48fd35346dd1947820dda9fd3de8abbdb25943c41a6885515c350",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/5-best-winninghunter-alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/dropmagic/index.html",
+    "bytes": 232333,
+    "sha256": "3e7cfd603451d5389b5fc92a9670cabd9bbdbefb9733169a480c23776b9ce5d2",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/dropmagic/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/index.html",
+    "bytes": 220651,
+    "sha256": "24c8684024aec14856da7dd76dc977c455dc0f2f88cf56c97e12f21ee4a05976",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/magicbrief/index.html",
+    "bytes": 230571,
+    "sha256": "b32cb0bcca137a7a92d42f6df3e0c29c8d377a18b48321e817543e6fec7d0a63",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/magicbrief/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/alternatives/trendtrack/index.html",
+    "bytes": 238443,
+    "sha256": "b3bd505ca1720e41fa65014b3d59458d4d36a569fbfae9ad4dd3fd34673ccde0",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/alternatives/trendtrack/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/ab-test-shopify/index.html",
+    "bytes": 207835,
+    "sha256": "1e99bc9b78d7c1e2225f8ed5050815e77bc317af85e3b75417fbf4a37a31091d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/ab-test-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/adplexity-review/index.html",
+    "bytes": 235592,
+    "sha256": "d19271a205761163e73479ff73e661db5e6fc312464c3c038e46948e6f9cc756",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/adplexity-review/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/adspy-review/index.html",
+    "bytes": 245258,
+    "sha256": "66a26f5cee4a83d210a2d7f50bb1458aa0bd83f6e34fdad791ec511e8baf37fa",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/adspy-review/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/ai-dropshipping-gids/index.html",
+    "bytes": 207069,
+    "sha256": "f3856f410321ff534c1e434c741fd23bfc90152bc8eda4bf2ee7b5af3108b83c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/ai-dropshipping-gids/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/amazon-dropshipping-gids/index.html",
+    "bytes": 207553,
+    "sha256": "0e134dbbfbd56307a8c0eb420f1dbfdb9ce1ee5e3f2459c866b63c203f6b7ab3",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/amazon-dropshipping-gids/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/apps-shopify-winkel-bekijken/index.html",
+    "bytes": 209250,
+    "sha256": "70278c11dae5b0b4e128ac2a400b1a99d5d64cdc5cb812e13128024dc09e3244",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/apps-shopify-winkel-bekijken/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/atria-ai-review/index.html",
+    "bytes": 230246,
+    "sha256": "22f937206b7527528751da4f68b74897b548aaeafb7effa2f05c9cad1ef0596f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/atria-ai-review/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/best-converterende-shopify-themas/index.html",
+    "bytes": 245567,
+    "sha256": "b125568b290f98e05cf0aaa7e793d10fc3af856ced9c9a3452ec3db2f492c0e8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/best-converterende-shopify-themas/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/beste-abonnementsapp-shopify/index.html",
+    "bytes": 242112,
+    "sha256": "e9931bc5772c3c7122a1dc01a1e569e1c3be41d522ff3e6fff6259fd3c5c9192",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/beste-abonnementsapp-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/beste-adspy-tools/index.html",
+    "bytes": 229414,
+    "sha256": "6b2fd9512f8e03a5ec0e63f03fe6517e314058aca5a266745e4a4b3fe59c29f8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/beste-adspy-tools/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/beste-ai-shopify-apps/index.html",
+    "bytes": 234899,
+    "sha256": "491a8dcad2a1504eb591f55636f846539efd5959fdb8eb6b3bdb91ac41b8087c",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/beste-ai-shopify-apps/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/beste-ai-store-builder/index.html",
+    "bytes": 222812,
+    "sha256": "08b07e51097d7bce06ef87b939815c78569e363a18370939391900a9c2854be5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/beste-ai-store-builder/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/beste-dropshipping-cursussen/index.html",
+    "bytes": 235149,
+    "sha256": "a880e6dc110102f840d2d5494db895eea18bc882a5f4b50aa9b1d0cab898f336",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/beste-dropshipping-cursussen/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/beste-dropshipping-producten-om-te-verkopen-in-augustus/index.html",
+    "bytes": 234887,
+    "sha256": "cb42f628cadd8a615962e0f9812c5f14a1bd6818a8f1cee75b00af1e64e1ec7d",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/beste-dropshipping-producten-om-te-verkopen-in-augustus/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/beste-dropshipping-producten-om-te-verkopen-in-juli/index.html",
+    "bytes": 238294,
+    "sha256": "09ec4afa3e82db747eb6b7a2bd655758ddef9a8d28c0c24f98065a3cfd886825",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/beste-dropshipping-producten-om-te-verkopen-in-juli/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/beste-dropshipping-producten-om-te-verkopen-in-november/index.html",
+    "bytes": 216379,
+    "sha256": "105aaed54b92e28c35ed3a6c41cab3885c42edc09ddc8b7cb11f93068fa3492e",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/beste-dropshipping-producten-om-te-verkopen-in-november/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/beste-dropshipping-producten-om-te-verkopen-in-oktober/index.html",
+    "bytes": 216703,
+    "sha256": "84230c08535cd562684220f1d755b776715eb754f0882523930a683483ab9b5a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/beste-dropshipping-producten-om-te-verkopen-in-oktober/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/beste-dropshipping-producten-om-te-verkopen-in-september/index.html",
+    "bytes": 215856,
+    "sha256": "7116a8c0f6702bd16ca4438fe40011da3224aedb0f03ffe82d370369fc12f965",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/beste-dropshipping-producten-om-te-verkopen-in-september/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/beste-dropshipping-producten-q4/index.html",
+    "bytes": 241891,
+    "sha256": "34323f3cb3b954424a74dc8026c2995a1f2433ac928b327ff365c1e615c6f4c8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/beste-dropshipping-producten-q4/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/beste-dropshipping-seo-cursussen/index.html",
+    "bytes": 231811,
+    "sha256": "e2cdf06c0aad056c0013162e06b8bc5010a30c7878c2c926a1e650a7f845e7dc",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/beste-dropshipping-seo-cursussen/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/beste-dropshipping-software/index.html",
+    "bytes": 220563,
+    "sha256": "5b54eb52c3a6615c9d1e6f20e96d4c073871c41c6804ff5e5f1e7c778943074a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/beste-dropshipping-software/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/beste-dtc-merken/index.html",
+    "bytes": 292975,
+    "sha256": "2809ceb2a4e4cdd1adb6a96d92e7b814c32bc936a9d05fd7da40ddda61262fd4",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/beste-dtc-merken/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/beste-product-research-tool/index.html",
+    "bytes": 214880,
+    "sha256": "3e68a1c472e87509ddf3775976f60fe956e98245ee2ae2b251cf7b946deb3965",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/beste-product-research-tool/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/beste-seo-apps-voor-shopify/index.html",
+    "bytes": 233162,
+    "sha256": "830b9522dc3862ccf728a2210a9ec66f4ebe09b6016514b2f7277a98f17e48aa",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/beste-seo-apps-voor-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/beste-shopify-apps/index.html",
+    "bytes": 236904,
+    "sha256": "ce5609403f8c5445fb1eba3dbb360592a5e3bbb3b85b6abe996d317242a16761",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/beste-shopify-apps/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/beste-shopify-spy-tools/index.html",
+    "bytes": 250786,
+    "sha256": "f4040eedf766bb828e9982e0de9c72273694fdb76b4da1ac24f362d59397931a",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/beste-shopify-spy-tools/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/beste-shopify-themas/index.html",
+    "bytes": 255587,
+    "sha256": "77068882df9782bccb7a0c98943a9d3280e5ce813da37edc22b8e7d73be04ae4",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/beste-shopify-themas/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/beste-tiktok-advertentie-spy-tools/index.html",
+    "bytes": 222392,
+    "sha256": "ba3f99d6b7e5cf5df0e1af541c5c139a59e3451b3905d3f547d5a80fea8aecbb",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/beste-tiktok-advertentie-spy-tools/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/bestsellers-concurrenten-analyseren/index.html",
+    "bytes": 221810,
+    "sha256": "50806c083451be8ceacba654368d9aa29d3241d37e0abffe544a6ffe1f283c39",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/bestsellers-concurrenten-analyseren/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/bigbuy-review/index.html",
+    "bytes": 214595,
+    "sha256": "adda1e92ecd9b0f9deb8f1659aee1493ff0f75bb47c3a3d13bb59855acfc41f8",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/bigbuy-review/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/bigcartel-review/index.html",
+    "bytes": 204781,
+    "sha256": "8b8081ed9c3359e5c066cb797d6eb7657defcb68b0db48feaa4d1a1574a306b7",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/bigcartel-review/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/bigspy-review/index.html",
+    "bytes": 245243,
+    "sha256": "07d879afd92fff4843f4af80027cdea644188b88e1628221173061146f74c1f1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/bigspy-review/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/break-even-roas-berekenen/index.html",
+    "bytes": 207690,
+    "sha256": "78f9344e43d9215fcc3c818f86ba6833ea4bb3003571de3937e0ec3bee850356",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/break-even-roas-berekenen/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/cj-dropshipping-review/index.html",
+    "bytes": 215382,
+    "sha256": "049d33a3d7aeb15f434fe72c0ca7f10b241b4c115da85ac6bb16279c8ccfb361",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/cj-dropshipping-review/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/claude-code-voor-e-commerce/index.html",
+    "bytes": 222074,
+    "sha256": "e7f2e9348a14693d18295d3c028960b2ded63a90ee2a496dcf10c8206ca3e780",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/claude-code-voor-e-commerce/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/claude-koppelen-aan-shopify/index.html",
+    "bytes": 220078,
+    "sha256": "013007834574f31bab3484e2afe42ffc68d16ae161ef549085a02f8c47b6df2f",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/claude-koppelen-aan-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/dropispy-review/index.html",
+    "bytes": 246230,
+    "sha256": "c2287eeb33e35acef1a2b55eb0d08d83b96de6c81aeeffb534c87152f030704b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/dropispy-review/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/dropship-io-review/index.html",
+    "bytes": 239626,
+    "sha256": "ce2d9ab028709916f61a0df3f74976b51042ebc5e3617d79825126a9f7f87118",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/dropship-io-review/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/dropshipping-agent/index.html",
+    "bytes": 215839,
+    "sha256": "31d78d53c60ab4285979aab9f584c5898335975766634d6a80d49bed1271d48b",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/dropshipping-agent/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/dropshipping-apps-shopify/index.html",
+    "bytes": 212781,
+    "sha256": "a65871301a1d1722fc1d38b32b9d424e2c8826111de1859c9d88d61d5f876aba",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/dropshipping-apps-shopify/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/dropshipping-definitie/index.html",
+    "bytes": 204777,
+    "sha256": "f53e3355f88ffd711fc133486f06ad7aaf9af76edfb2a728b8b88de8341704fb",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/dropshipping-definitie/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/dropshipping-facebook-ads-gids/index.html",
+    "bytes": 219593,
+    "sha256": "c4d1803ffd2a7430b14e03e2f8550a00c033dc155d21404d1829b1bb0294faff",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/dropshipping-facebook-ads-gids/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/dropshipping-leveranciers/index.html",
+    "bytes": 243438,
+    "sha256": "b9a6dfe6e1ace244a187ed126e6aa82825592f1ac68ed1928354d216507f24a5",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/dropshipping-leveranciers/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/dropshipping-niches/index.html",
+    "bytes": 261887,
+    "sha256": "be154cb95814012a897079c232eee76552e62bd09183c51a66523acddb627689",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/dropshipping-niches/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/dropshipping-producten-hoge-winstmarge/index.html",
+    "bytes": 226614,
+    "sha256": "e7635fb5be3c7e00a5dfadd3f781c5c52fdd02cff099ea31b6fae92fca6da537",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/dropshipping-producten-hoge-winstmarge/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/dropshipping-seo/index.html",
+    "bytes": 214056,
+    "sha256": "cd13d9c255021dff9415fd79fda4191442a1fda73c219f2061ab246935364468",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/dropshipping-seo/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/dropshipping-sourcing-agent-vinden/index.html",
+    "bytes": 229573,
+    "sha256": "314dc1d716ff8d80b5eb0f20e5b5de1dcd6890368002c894ff1e1f1fbca779ce",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/dropshipping-sourcing-agent-vinden/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/dropshipping-starten-vanaf-nul/index.html",
+    "bytes": 213600,
+    "sha256": "9e7cb60656f160788c475c0be1eca565e95e0e9e0f018adedb4c0813f217def0",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/dropshipping-starten-vanaf-nul/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/dropshipping-voor-en-nadelen/index.html",
+    "bytes": 203266,
+    "sha256": "16dc38c1e9ba10f44a0a8f64d03a330d8734eacfbcc413596a820a8747211c34",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/dropshipping-voor-en-nadelen/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/dsers-review/index.html",
+    "bytes": 217896,
+    "sha256": "6bff7d1371af9226dbc0874a19957421ddfc6638360c7ff73bc27777528497f1",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/dsers-review/index.html"
+  },
+  {
+    "path": "03-published-site/pages/nl/blog/eprolo-review/index.html",
+    "bytes": 209027,
+    "sha256": "30c94a8afa5bff56a57cf2c39505e055445486803c4f2fcd885ff9c38adf9371",
+    "raw_url": "https://raw.githubusercontent.com/COPYFYDEV/copyfy-webflow-export-2026-11-12/refs/heads/chore/webflow-export/03-published-site/pages/nl/blog/eprolo-review/index.html"
+  }
+]

@@ -1,0 +1,7 @@
+
+#wip-blog-design .for-hero .hero{gap:20px;width:100%}
+#wip-blog-design .resource-hero-description{max-width:500px;margin:0;color:rgba(255,255,255,.6);font:400 15px/20px Inter,system-ui,sans-serif;text-align:center}
+#wip-blog-design #resource-hero-conversion{display:flex;flex-direction:column;align-items:center;width:100%}
+#wip-blog-design #resource-hero-cta{margin:0;max-width:100%;align-self:center;white-space:nowrap}
+#wip-blog-design #resource-hero-cta .text-v2-17{font:400 15px/40px Inter,system-ui,sans-serif}
+@media(max-width:479px){#wip-blog-design .resource-hero-description{max-width:100%}#wip-blog-design #resource-hero-cta .div-btn{padding-left:12px;padding-right:12px}#wip-blog-design #resource-hero-cta .text-v2-17{font-size:14px}}

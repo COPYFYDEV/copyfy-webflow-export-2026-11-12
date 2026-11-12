@@ -1,0 +1,420 @@
+<style>
+    html,body{margin:0 !important;padding:0 !important;}
+    .copyfy-metadl *{box-sizing:border-box !important;margin:0;padding:0;}
+    .copyfy-metadl{
+        font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
+        color:#FFFFFF !important;background:transparent !important;
+        padding:0 !important;padding-bottom:100px !important;max-width:none !important;width:100% !important;margin:0 auto !important;
+        overflow:hidden !important;line-height:1.5;
+    }
+    .copyfy-metadl-bar{display:flex;gap:12px;flex-wrap:wrap;align-items:stretch;}
+    .copyfy-metadl-field{position:relative;flex:1 1 320px;min-width:0;}
+    .copyfy-metadl-icon{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:#0F0F10;font-size:15px;pointer-events:none;}
+    .copyfy-metadl-input{
+        width:100% !important;background:#FFFFFF !important;color:#0F0F10 !important;
+        border:1px solid #FFFFFF !important;border-radius:12px !important;
+        padding:14px 14px 14px 34px !important;font-size:15px !important;font-family:inherit !important;
+        transition:border-color .2s ease;
+    }
+    .copyfy-metadl-input::placeholder{color:#8a8a8a;}
+    .copyfy-metadl-input:hover{border-color:#d1d5db !important;}
+    .copyfy-metadl-input:focus{outline:none;background:#FFFFFF !important;color:#0F0F10 !important;border-color:#6B7280 !important;}
+    .copyfy-metadl-btn{
+        display:inline-flex;align-items:center;justify-content:center;gap:8px;
+        border:none !important;border-radius:30px !important;padding:12px 24px !important;
+        font-size:14px !important;font-weight:700 !important;font-family:inherit !important;
+        cursor:pointer;text-decoration:none;background:#0A6CFB !important;color:#FFFFFF !important;
+        transition:transform .2s ease,box-shadow .2s ease,opacity .2s ease;
+    }
+    .copyfy-metadl-btn:hover{transform:translateY(-1px);box-shadow:0 6px 16px rgba(0,0,0,.25);}
+    .copyfy-metadl-btn[disabled]{opacity:.6;cursor:default;transform:none;box-shadow:none;}
+    .copyfy-metadl-spin{width:16px;height:16px;border:2px solid rgba(255,255,255,.35);border-top-color:#FFFFFF;border-radius:50%;animation:copyfy-metadl-rot .7s linear infinite;flex:0 0 auto;}
+    @keyframes copyfy-metadl-rot{to{transform:rotate(360deg);}}
+    .copyfy-metadl-hint{margin-top:10px;font-size:13px;color:#B8BCC6;}
+    .copyfy-metadl-hint a{color:#FFFFFF;font-weight:600;}
+    .copyfy-metadl-results{margin-top:16px;}
+    .copyfy-metadl-card{background:#FFFFFF !important;border-radius:12px;padding:24px;color:#0F0F10;}
+    .copyfy-metadl-head{display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+    .copyfy-metadl-avatar{width:44px;height:44px;border-radius:50%;object-fit:cover;background:#EDEEF1;flex:0 0 auto;}
+    .copyfy-metadl-page{font-size:16px;font-weight:700;color:#0F0F10;min-width:0;word-break:break-word;}
+    .copyfy-metadl-page a{color:#0F0F10;text-decoration:none;}
+    .copyfy-metadl-page a:hover{text-decoration:underline;}
+    .copyfy-metadl-pill{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;border-radius:9999px;padding:4px 10px;background:#EDEEF1;color:#374151;}
+    .copyfy-metadl-pill::before{content:"";width:7px;height:7px;border-radius:50%;background:#9CA3AF;}
+    .copyfy-metadl-pill.is-on{background:#E8F7EE;color:#14753C;}
+    .copyfy-metadl-pill.is-on::before{background:#16A34A;}
+    .copyfy-metadl-body{margin-top:18px;}
+    .copyfy-metadl-label{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:#6B7280;}
+    .copyfy-metadl-text{font-size:15px;font-weight:500;color:#0F0F10;margin:6px 0 8px;white-space:pre-line;word-break:break-word;max-height:9em;overflow:auto;}
+    .copyfy-metadl-copy{background:none;border:none;color:#0A6CFB;font-size:13px;font-weight:700;font-family:inherit;cursor:pointer;padding:0;}
+    .copyfy-metadl-rows{margin-top:12px;}
+    .copyfy-metadl-row{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:10px 0;border-bottom:1px solid #EDEEF1;}
+    .copyfy-metadl-row:last-child{border-bottom:none;}
+    .copyfy-metadl-row-k{font-size:13px;color:#6B7280;font-weight:600;flex:0 0 auto;}
+    .copyfy-metadl-row-v{font-size:14px;color:#0F0F10;font-weight:600;text-align:right;word-break:break-word;min-width:0;}
+    .copyfy-metadl-row-v a{color:#0A6CFB;}
+    .copyfy-metadl-mtitle{margin-top:22px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;}
+    .copyfy-metadl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;margin-top:12px;align-items:start;}
+    .copyfy-metadl-grid.is-single{grid-template-columns:minmax(0,340px);}
+    .copyfy-metadl-item{border:1px solid #EDEEF1;border-radius:12px;padding:10px;display:flex;flex-direction:column;gap:10px;min-width:0;}
+    .copyfy-metadl-preview{display:block;width:100%;max-height:420px;object-fit:contain;background:#0F0F10;border-radius:8px;}
+    .copyfy-metadl-ititle{font-size:13px;font-weight:600;color:#0F0F10;word-break:break-word;}
+    .copyfy-metadl-ilink{font-size:12px;color:#0A6CFB;word-break:break-all;}
+    .copyfy-metadl-dl{display:flex;flex-wrap:wrap;gap:8px;}
+    .copyfy-metadl-dl .copyfy-metadl-btn{border-radius:10px !important;padding:10px 14px !important;font-size:13px !important;flex:1 1 auto;}
+    .copyfy-metadl-btn.is-alt{background:#FFFFFF !important;color:#0F0F10 !important;border:1px solid #D1D5DB !important;}
+    .copyfy-metadl-btn.is-alt .copyfy-metadl-spin{border-color:rgba(15,15,16,.2);border-top-color:#0F0F10;}
+    .copyfy-metadl-all{border-radius:10px !important;padding:10px 16px !important;font-size:13px !important;}
+    .copyfy-metadl-note{font-size:12px;color:#6B7280;margin-top:14px;}
+    .copyfy-metadl-msg{background:#FFFFFF !important;border-radius:12px;padding:16px 20px;font-size:14px;color:#0F0F10;border-left:4px solid #DC2626;}
+    .copyfy-metadl-msg a{color:#0A6CFB;font-weight:600;}
+    @media (max-width:560px){
+        .copyfy-metadl-card{padding:16px;}
+        .copyfy-metadl-row{flex-direction:column;gap:2px;}.copyfy-metadl-row-v{text-align:left;}
+        .copyfy-metadl-grid,.copyfy-metadl-grid.is-single{grid-template-columns:minmax(0,1fr);}
+        .copyfy-metadl-all{flex:1 1 100%;}
+    }
+</style>
+
+<div class="copyfy-metadl">
+    <div class="copyfy-metadl-bar">
+        <div class="copyfy-metadl-field">
+            <input type="text" id="copyfy-metadl-url" class="copyfy-metadl-input" autocomplete="off" spellcheck="false">
+            <span class="copyfy-metadl-icon">&#128269;</span>
+        </div>
+        <button type="button" id="copyfy-metadl-run" class="copyfy-metadl-btn"></button>
+    </div>
+    <p class="copyfy-metadl-hint" id="copyfy-metadl-hint"></p>
+    <div class="copyfy-metadl-results" id="copyfy-metadl-results" hidden></div>
+</div>
+
+<script>
+(function(){
+    'use strict';
+
+    var LOCALE = 'de';
+    var T = {
+        "placeholder": "Link zu einer Anzeige aus der Meta-Bibliothek oder ihre ID",
+        "run": "Anzeige abrufen",
+        "loading": "Suche läuft…",
+        "hint": "Füge den Link einer Anzeige aus der {link} ein (…/ads/library/?id=…) oder die Bibliotheks-ID, die bei der Anzeige steht.",
+        "hintLink": "Meta-Werbebibliothek",
+        "active": "Aktiv",
+        "inactive": "Inaktiv",
+        "caption": "Anzeigentext",
+        "noCaption": "Kein gemeinsamer Text: Jedes Motiv hat seinen eigenen (dynamisches Creative oder Katalog).",
+        "copy": "Text kopieren",
+        "copied": "Text kopiert",
+        "rowHeadline": "Überschrift",
+        "rowFormat": "Format",
+        "rowSince": "Aktiv seit",
+        "rowPeriod": "Laufzeit",
+        "rowPlatforms": "Plattformen",
+        "rowCta": "Button",
+        "rowLanding": "Zielseite",
+        "rowSource": "Quelle",
+        "sourceLink": "In der Meta-Bibliothek ansehen",
+        "periodSep": " bis ",
+        "mediaTitle": "Motive der Anzeige ({n})",
+        "dlAll": "Alle herunterladen",
+        "dlVideoHd": "HD-Video (MP4)",
+        "dlVideoSd": "SD-Video",
+        "dlVideo": "Video (MP4)",
+        "dlImage": "Bild herunterladen",
+        "dlProgress": "Download… {p} %",
+        "dlStarting": "Download…",
+        "note": "Die Links zu den Motiven sind von Meta signiert und laufen ab: Starte eine neue Suche, wenn ein Download fehlschlägt. Die Rechte am Creative bleiben beim Werbetreibenden.",
+        "errInvalid": "Dieser Link wird nicht erkannt. Füge die URL einer Anzeige aus der {link} ein (…/ads/library/?id=…) oder ihre Bibliotheks-ID.",
+        "errNoId": "Dieser Link ist eine Suche in der {link}, keine einzelne Anzeige. Öffne die Details der Anzeige und kopiere den Link mit ?id=… oder die Bibliotheks-ID, die bei der Anzeige steht.",
+        "errPost": "Facebook- und Instagram-Beiträge werden nicht unterstützt: Das Tool ruft Anzeigen aus der {link} ab. Füge einen Anzeigenlink oder die ID ein.",
+        "errNotFound": "Keine Anzeige mit dieser ID gefunden. Prüfe die Bibliotheks-ID oder öffne die Anzeige in der {link}.",
+        "errBlocked": "Meta lehnt die Anfrage gerade ab. Versuche es in einer Minute noch einmal.",
+        "errFetch": "Meta antwortet nicht. Versuche es in ein paar Sekunden noch einmal.",
+        "formats": {
+            "VIDEO": "Video",
+            "IMAGE": "Bild",
+            "CAROUSEL": "Karussell",
+            "DCO": "Dynamisches Creative",
+            "DPA": "Produktkatalog",
+            "MULTI_IMAGES": "Mehrere Bilder",
+            "MULTI_VIDEOS": "Mehrere Videos",
+            "MULTI_MEDIA": "Mehrere Medien",
+            "TEXT": "Text"
+        }
+    };
+    var LIB_URL = 'https://www.facebook.com/ads/library/';
+    var PLATFORMS = {FACEBOOK: 'Facebook', INSTAGRAM: 'Instagram', AUDIENCE_NETWORK: 'Audience Network', MESSENGER: 'Messenger', THREADS: 'Threads', WHATSAPP: 'WhatsApp'};
+
+    function $(id){ return document.getElementById(id); }
+    function el(tag, cls, text){ var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+
+    function postHeight(){
+        try { parent.postMessage({copyfyToolHeight: Math.ceil((document.querySelector('.copyfy-metadl')||document.body).getBoundingClientRect().bottom)}, '*'); } catch(e){}
+    }
+
+    // Fill a "{link}" placeholder with a real anchor to the Meta Ad Library.
+    function withLink(node, text){
+        var parts = text.split('{link}');
+        node.textContent = parts[0];
+        if (parts.length > 1){
+            var a = el('a', null, T.hintLink);
+            a.href = LIB_URL; a.target = '_blank'; a.rel = 'noopener nofollow';
+            node.appendChild(a);
+            node.appendChild(document.createTextNode(parts[1]));
+        }
+        return node;
+    }
+
+    function fmtDate(ts){
+        if (!ts) return null;
+        try { return new Intl.DateTimeFormat(LOCALE, {day: 'numeric', month: 'long', year: 'numeric'}).format(new Date(ts * 1000)); }
+        catch(e){ return new Date(ts * 1000).toISOString().slice(0, 10); }
+    }
+
+    function row(k, v){
+        if (v === null || v === undefined || v === '') return null;
+        var r = el('div', 'copyfy-metadl-row');
+        r.appendChild(el('div', 'copyfy-metadl-row-k', k));
+        var vEl = el('div', 'copyfy-metadl-row-v');
+        if (v.nodeType) vEl.appendChild(v); else vEl.textContent = v;
+        r.appendChild(vEl);
+        return r;
+    }
+
+    function extLink(href, text){
+        var a = el('a', null, text);
+        a.href = href; a.target = '_blank'; a.rel = 'noopener nofollow';
+        return a;
+    }
+
+    function shortUrl(u){ return u.replace(/[?#].*$/, '').replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, ''); }
+
+    function extFor(type, ct){
+        if (/png/.test(ct)) return 'png';
+        if (/webp/.test(ct)) return 'webp';
+        if (/mp4|video/.test(ct)) return 'mp4';
+        return type === 'video' ? 'mp4' : 'jpg';
+    }
+
+    // fbcdn usually answers with CORS *, so the file is fetched as a blob (with progress) and
+    // saved under a clean name. Some video URLs answer a CORS fetch with a 302 lacking that
+    // header: fallback to the same-origin proxy, which streams the file as an attachment.
+    function download(btn, url, type, name){
+        var label = btn.textContent;
+        btn.disabled = true;
+        btn.innerHTML = '';
+        btn.appendChild(el('span', 'copyfy-metadl-spin'));
+        var txt = el('span', null, T.dlStarting);
+        btn.appendChild(txt);
+        function done(){ btn.disabled = false; btn.textContent = label; }
+        var ct = '';
+        return fetch(url).then(function(r){
+            if (!r.ok) throw new Error('http ' + r.status);
+            ct = r.headers.get('content-type') || '';
+            var total = +r.headers.get('content-length') || 0;
+            if (!r.body || !r.body.getReader || !total) return r.blob();
+            var reader = r.body.getReader(), got = 0, chunks = [];
+            function pump(){
+                return reader.read().then(function(res){
+                    if (res.done) return new Blob(chunks, {type: ct});
+                    chunks.push(res.value); got += res.value.length;
+                    txt.textContent = T.dlProgress.replace('{p}', Math.min(99, Math.round(got / total * 100)));
+                    return pump();
+                });
+            }
+            return pump();
+        }).then(function(blob){
+            var a = document.createElement('a');
+            a.href = URL.createObjectURL(blob);
+            a.download = name + '.' + extFor(type, ct || blob.type);
+            document.body.appendChild(a); a.click(); a.remove();
+            setTimeout(function(){ URL.revokeObjectURL(a.href); }, 10000);
+            done();
+        }).catch(function(){
+            var a = document.createElement('a');
+            a.href = '/api/meta-media?u=' + encodeURIComponent(url) + '&n=' + encodeURIComponent(name);
+            document.body.appendChild(a); a.click(); a.remove();
+            setTimeout(done, 1500);
+        });
+    }
+
+    function dlButton(label, alt, url, type, name){
+        var b = el('button', 'copyfy-metadl-btn' + (alt ? ' is-alt' : ''), label);
+        b.type = 'button';
+        b.addEventListener('click', function(){ download(b, url, type, name); });
+        return b;
+    }
+
+    function renderItem(m, i, ad, single){
+        var item = el('div', 'copyfy-metadl-item');
+        var base = 'meta-ad-' + ad.id + (single ? '' : '-' + (i + 1));
+        var dl = el('div', 'copyfy-metadl-dl');
+        var primary;
+        if (m.type === 'video'){
+            var v = document.createElement('video');
+            v.className = 'copyfy-metadl-preview';
+            v.controls = true; v.playsInline = true; v.preload = 'metadata';
+            if (m.poster) v.poster = m.poster;
+            v.src = m.sd || m.hd;
+            v.addEventListener('loadedmetadata', postHeight);
+            item.appendChild(v);
+            if (m.hd && m.sd){
+                primary = dlButton(T.dlVideoHd, false, m.hd, 'video', base + '-hd');
+                dl.appendChild(primary);
+                dl.appendChild(dlButton(T.dlVideoSd, true, m.sd, 'video', base + '-sd'));
+            } else {
+                primary = dlButton(T.dlVideo, false, m.hd || m.sd, 'video', base);
+                dl.appendChild(primary);
+            }
+        } else {
+            var img = document.createElement('img');
+            img.className = 'copyfy-metadl-preview';
+            img.alt = m.title || ad.pageName || '';
+            img.loading = 'lazy';
+            img.src = m.url;
+            img.addEventListener('load', postHeight);
+            item.appendChild(img);
+            primary = dlButton(T.dlImage, false, m.url, 'image', base);
+            dl.appendChild(primary);
+        }
+        if (m.title) item.appendChild(el('div', 'copyfy-metadl-ititle', m.title));
+        if (m.linkUrl && m.linkUrl !== ad.linkUrl) item.appendChild(extLink(m.linkUrl, shortUrl(m.linkUrl))).className = 'copyfy-metadl-ilink';
+        item.appendChild(dl);
+        return {node: item, primary: primary};
+    }
+
+    function renderAd(ad){
+        var host = $('copyfy-metadl-results');
+        var card = el('div', 'copyfy-metadl-card');
+
+        var head = el('div', 'copyfy-metadl-head');
+        if (ad.pageAvatar){
+            var av = document.createElement('img');
+            av.className = 'copyfy-metadl-avatar'; av.alt = ''; av.src = ad.pageAvatar;
+            av.addEventListener('error', function(){ av.remove(); });
+            head.appendChild(av);
+        }
+        var page = el('div', 'copyfy-metadl-page');
+        if (ad.pageUrl) page.appendChild(extLink(ad.pageUrl, ad.pageName || shortUrl(ad.pageUrl)));
+        else page.textContent = ad.pageName || '';
+        head.appendChild(page);
+        if (ad.isActive !== null) head.appendChild(el('span', 'copyfy-metadl-pill' + (ad.isActive ? ' is-on' : ''), ad.isActive ? T.active : T.inactive));
+        card.appendChild(head);
+
+        var body = el('div', 'copyfy-metadl-body');
+        body.appendChild(el('div', 'copyfy-metadl-label', T.caption));
+        body.appendChild(el('div', 'copyfy-metadl-text', ad.body || T.noCaption));
+        if (ad.body && navigator.clipboard){
+            var cp = el('button', 'copyfy-metadl-copy', T.copy);
+            cp.type = 'button';
+            cp.addEventListener('click', function(){
+                navigator.clipboard.writeText(ad.body).then(function(){
+                    cp.textContent = T.copied;
+                    setTimeout(function(){ cp.textContent = T.copy; }, 1800);
+                }).catch(function(){});
+            });
+            body.appendChild(cp);
+        }
+
+        var period = ad.isActive || !ad.endDate
+            ? null
+            : fmtDate(ad.startDate) + T.periodSep + fmtDate(ad.endDate);
+        var rows = el('div', 'copyfy-metadl-rows');
+        [
+            row(T.rowHeadline, ad.title),
+            row(T.rowFormat, ad.format ? (T.formats[ad.format] || ad.format.toLowerCase().replace(/_/g, ' ')) : null),
+            period ? row(T.rowPeriod, period) : row(T.rowSince, fmtDate(ad.startDate)),
+            row(T.rowPlatforms, ad.platforms.map(function(p){ return PLATFORMS[p] || p; }).join(', ')),
+            row(T.rowCta, ad.cta),
+            row(T.rowLanding, ad.linkUrl ? extLink(ad.linkUrl, shortUrl(ad.linkUrl)) : null),
+            row(T.rowSource, extLink(ad.sourceUrl, T.sourceLink))
+        ].forEach(function(r){ if (r) rows.appendChild(r); });
+        body.appendChild(rows);
+        card.appendChild(body);
+
+        var single = ad.media.length === 1;
+        var mt = el('div', 'copyfy-metadl-mtitle');
+        mt.appendChild(el('div', 'copyfy-metadl-label', T.mediaTitle.replace('{n}', ad.media.length)));
+        var grid = el('div', 'copyfy-metadl-grid' + (single ? ' is-single' : ''));
+        var primaries = ad.media.map(function(m, i){
+            var it = renderItem(m, i, ad, single);
+            grid.appendChild(it.node);
+            return it.primary;
+        });
+        if (!single){
+            var all = el('button', 'copyfy-metadl-btn copyfy-metadl-all', T.dlAll);
+            all.type = 'button';
+            all.addEventListener('click', function(){
+                all.disabled = true;
+                // Sequential: browsers block bursts of simultaneous downloads.
+                primaries.reduce(function(p, b){ return p.then(function(){ b.click(); return new Promise(function(ok){
+                    (function wait(){ if (!b.disabled) ok(); else setTimeout(wait, 250); })();
+                }); }); }, Promise.resolve()).then(function(){ all.disabled = false; });
+            });
+            mt.appendChild(all);
+        }
+        card.appendChild(mt);
+        card.appendChild(grid);
+        card.appendChild(el('p', 'copyfy-metadl-note', T.note));
+        host.appendChild(card);
+    }
+
+    function renderError(data){
+        var msg = el('div', 'copyfy-metadl-msg');
+        var text = data.error === 'invalid_url' ? T.errInvalid
+            : data.error === 'unsupported_source' ? (data.source === 'no_ad_id' ? T.errNoId : T.errPost)
+            : data.error === 'not_found' ? T.errNotFound
+            : data.error === 'blocked' ? T.errBlocked
+            : T.errFetch;
+        withLink(msg, text);
+        $('copyfy-metadl-results').appendChild(msg);
+    }
+
+    function render(data){
+        var host = $('copyfy-metadl-results');
+        host.innerHTML = '';
+        host.hidden = false;
+        if (data && data.ad) renderAd(data.ad); else renderError(data || {});
+        postHeight();
+    }
+
+    function run(){
+        var url = $('copyfy-metadl-url').value.trim();
+        if (!url) return;
+        var btn = $('copyfy-metadl-run');
+        btn.disabled = true;
+        btn.innerHTML = '';
+        btn.appendChild(el('span', 'copyfy-metadl-spin'));
+        btn.appendChild(el('span', null, T.loading));
+        fetch('/api/meta-ad?url=' + encodeURIComponent(url))
+            .then(function(r){ return r.json(); })
+            .then(render)
+            .catch(function(){ render({error: 'fetch_failed'}); })
+            .then(function(){ btn.disabled = false; btn.textContent = T.run; });
+    }
+
+    function init(){
+        $('copyfy-metadl-url').placeholder = T.placeholder;
+        $('copyfy-metadl-run').textContent = T.run;
+        withLink($('copyfy-metadl-hint'), T.hint);
+        $('copyfy-metadl-run').addEventListener('click', run);
+        $('copyfy-metadl-url').addEventListener('keydown', function(e){ if (e.key === 'Enter') run(); });
+        postHeight();
+    }
+
+    if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', init); }
+    else { init(); }
+})();
+</script>
+
+<script>
+(function(){
+    function ph(){ try{ parent.postMessage({copyfyToolHeight: Math.ceil((document.querySelector('.copyfy-metadl')||document.body).getBoundingClientRect().bottom)}, '*'); }catch(e){} }
+    window.addEventListener('load', ph);
+    window.addEventListener('resize', ph);
+    document.addEventListener('input', ph, true);
+    document.addEventListener('click', ph, true);
+    if (window.ResizeObserver){ new ResizeObserver(ph).observe(document.documentElement); }
+    setTimeout(ph,200); setTimeout(ph,800);
+})();
+</script>

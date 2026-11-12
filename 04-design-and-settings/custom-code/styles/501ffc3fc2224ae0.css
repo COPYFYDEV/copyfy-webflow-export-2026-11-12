@@ -1,0 +1,6 @@
+/* Article CTA width and compact breadcrumb, WIP only. */
+#wip-blog-design-rich-text > [data-rt-embed-type] > a.btn{width:100%!important;max-width:100%!important}
+#wip-blog-design .wip-blog-div-018,#wip-blog-design .wip-blog-div-018>*{font-family:Inter,system-ui,sans-serif;font-size:13px;line-height:20px}
+#wip-blog-design .wip-blog-div-018>a,#wip-blog-design .wip-cms-breadcrumb-title{color:#fff}
+#wip-blog-design .wip-cms-breadcrumb-title{max-width:260px;font-weight:400}
+@media(max-width:767px){#wip-blog-design .wip-cms-breadcrumb-title{max-width:150px}}

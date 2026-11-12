@@ -1,0 +1,1023 @@
+{
+  "successful_resources": 3873,
+  "resolved_extraction_candidates": [
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ace604e77f52d0b692e61a3_6ace603cb2ae211f3ec027d6_scaler-meta-ads-main-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/c2f13ed87a95-6ace604e77f52d0b692e61a3_6ace603cb2ae211f3ec027d6_scaler-meta-ads-main-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad260a705128697419c59e6_6ad260a25b85ba2624f6f326_metadl-v2-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/f31c1919dbc2-6ad260a705128697419c59e6_6ad260a25b85ba2624f6f326_metadl-v2-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfda0224be0c0bc0281ed3_6abfd9e551ae4e0d424cfba7_copyfy-v2-free-tool-imagd-cpa-calculator-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/f3226d579f67-6abfda0224be0c0bc0281ed3_6abfd9e551ae4e0d424cfba7_copyfy-v2-free-tool-imagd-cpa-calculator-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd82a7f4aa8ad24ff8eba_6abfd8228709b8552866a465_copyfy-v2-thumbnail-image-shopify-produkt-exporter-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/85453d74d652-6abfd82a7f4aa8ad24ff8eba_6abfd8228709b8552866a465_copyfy-v2-thumbnail-image-shopify-produkt-exporter-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00%2F69d6a4074f1fe3acae347bf3_Copfyfy%20-%20Section%201_mp4.mp4,https://cdn.prod.website-files.com/66bf717325c1db31e2aded00%2F69d6a4074f1fe3acae347bf3_Copfyfy%20-%20Section%201_webm.webm",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/5bfff17458cd-66bf717325c1db31e2aded00_69d6a4074f1fe3acae347bf3_Copfyfy_-_Section_1_poster.0000000.jpg",
+      "method": "matching Webflow asset ID; original candidate was truncated"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad7800600268dd60d031923_6ad77ffe4b78580c7aa21960_cpa-v2-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/076e113beb8c-6ad7800600268dd60d031923_6ad77ffe4b78580c7aa21960_cpa-v2-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad5f879d03030a3b8d90c7e_6ad5f86144e29293ac21dc9d_pubs-facebook-ia-main-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/7bfc38e547b7-6ad5f879d03030a3b8d90c7e_6ad5f86144e29293ac21dc9d_pubs-facebook-ia-main-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd7c12f9e066aabf348c9_6abfd7b3d6b0196c4e3c1cad_copyfy-v2-thumbnail-image-ecommerce-roi-calculator-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/7c578e78aadf-6abfd7c12f9e066aabf348c9_6abfd7b3d6b0196c4e3c1cad_copyfy-v2-thumbnail-image-ecommerce-roi-calculator-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd85b085b9c7902ec0484_6abfd8584caafc17459e49dc_copyfy-v2-thumbnail-image-calculadora-planos-shopify-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/bbe76d105a52-6abfd85b085b9c7902ec0484_6abfd8584caafc17459e49dc_copyfy-v2-thumbnail-image-calculadora-planos-shopify-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd85b085b9c7902ec0481_6abfd83e21789f55f3844450_copyfy-v2-thumbnail-image-calculateur-abonnement-shopify-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/d688601acff7-6abfd85b085b9c7902ec0481_6abfd83e21789f55f3844450_copyfy-v2-thumbnail-image-calculateur-abonnement-shopify-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad260a705128697419c59dd_6ad260a39412913035edb9ad_metadl-v2-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/312bf3c15394-6ad260a705128697419c59dd_6ad260a39412913035edb9ad_metadl-v2-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfda893030d8d225960be5_6abfda769431f24790af0dce_copyfy-v2-free-tool-imagd-shopify-theme-detector-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/c73d5ee21d52-6abfda893030d8d225960be5_6abfda769431f24790af0dce_copyfy-v2-free-tool-imagd-shopify-theme-detector-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd85b085b9c7902ec0488_6abfd8486fb280f68c2fe231_copyfy-v2-thumbnail-image-calculadora-suscripcion-shopify-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/99d0746e6bd2-6abfd85b085b9c7902ec0488_6abfd8486fb280f68c2fe231_copyfy-v2-thumbnail-image-calculadora-suscripcion-shopify-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd9d6e8fd01dbaf5d54a9_6abfd9d34f8027ad9c785aba_copyfy-v2-free-tool-imagd-exportador-produtos-shopify-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/22935fa31bc1-6abfd9d6e8fd01dbaf5d54a9_6abfd9d34f8027ad9c785aba_copyfy-v2-free-tool-imagd-exportador-produtos-shopify-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ae3316ad7e3c1cfe1d8f6f8_6ae33168bd12d008ef592f2b_jonathan-ecom-avis-main-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/6531f73b5041-6ae3316ad7e3c1cfe1d8f6f8_6ae33168bd12d008ef592f2b_jonathan-ecom-avis-main-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd82a7f4aa8ad24ff8eb7_6abfd81d999ac0a3dc21e1ff_copyfy-v2-thumbnail-image-shopify-product-exporteur-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/bf7f010f3efc-6abfd82a7f4aa8ad24ff8eb7_6abfd81d999ac0a3dc21e1ff_copyfy-v2-thumbnail-image-shopify-product-exporteur-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd8e96fb280f68c303a4a_6abfd8e4d7fbb4a107d09a88_copyfy-v2-thumbnail-image-calculadora-margens-dropshipping-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/fff2af4ff3f3-6abfd8e96fb280f68c303a4a_6abfd8e4d7fbb4a107d09a88_copyfy-v2-thumbnail-image-calculadora-margens-dropshipping-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abf8cc77b69d78666587e14_6abf8cb932b9dfb77bd1a939_copyfy-mi-v2-gethookd-review-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/b8805a5c0689-6abf8cc77b69d78666587e14_6abf8cb932b9dfb77bd1a939_copyfy-mi-v2-gethookd-review-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00%2F6ac4a6f5057560f0b3cb70ef_hero-motion-design_poster.0000000.jpg\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/de117a13230b-66bf717325c1db31e2aded00_6ac4a6f5057560f0b3cb70ef_hero-motion-design_poster.0000000.jpg",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfda883030d8d225960be2_6abfda6b6bd8b4b73d2d363a_copyfy-v2-free-tool-imagd-shopify-theme-detector-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/dcd786954506-6abfda883030d8d225960be2_6abfda6b6bd8b4b73d2d363a_copyfy-v2-free-tool-imagd-shopify-theme-detector-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ae06dc2edc7a72bdda48445_6ae06db9d49dd25b9c74d1f6_november-products-main-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/23294be3b395-6ae06dc2edc7a72bdda48445_6ae06db9d49dd25b9c74d1f6_november-products-main-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfda893030d8d225960be8_6abfda7cd4fb553ba7a8cae4_copyfy-v2-free-tool-imagd-shopify-theme-detector-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/8f348d908f55-6abfda893030d8d225960be8_6abfda7cd4fb553ba7a8cae4_copyfy-v2-free-tool-imagd-shopify-theme-detector-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd91db9df9e90a2d29038_6abfd9056fb280f68c304983_copyfy-v2-thumbnail-image-beroas-calculator-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/feb25c0ad7e2-6abfd91db9df9e90a2d29038_6abfd9056fb280f68c304983_copyfy-v2-thumbnail-image-beroas-calculator-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd7f621789f55f38428dd_6abfd7eb3f0c2680a14310bd_copyfy-v2-thumbnail-image-clv-rechner-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/82ae855e43ed-6abfd7f621789f55f38428dd_6abfd7eb3f0c2680a14310bd_copyfy-v2-thumbnail-image-clv-rechner-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd91db9df9e90a2d2903e_6abfd91af8a16155cfea736d_copyfy-v2-thumbnail-image-calculadora-roas-equilibrio-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/35e60f55713c-6abfd91db9df9e90a2d2903e_6abfd91af8a16155cfea736d_copyfy-v2-thumbnail-image-calculadora-roas-equilibrio-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd9a80b3e60f68cc82264_6abfd99be8fd01dbaf5d322c_copyfy-v2-free-tool-imagd-best-shopify-subscription-calculator-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/4d150e2165f8-6abfd9a80b3e60f68cc82264_6abfd99be8fd01dbaf5d322c_copyfy-v2-free-tool-imagd-best-shopify-subscription-calculator-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ace604862b96029229ec72a_6ace602a5e9dffe7abe9b15a_scaler-meta-ads-main-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/3d1298bb9604-6ace604862b96029229ec72a_6ace602a5e9dffe7abe9b15a_scaler-meta-ads-main-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abf8c0f20292e0a8adf3229_6abf8bee2eea08b4f867dff4_copyfy-mi-v2-meilleurs-produits-dropshipping-a-vendre-en-octobre-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/78e583b7dd13-6abf8c0f20292e0a8adf3229_6abf8bee2eea08b4f867dff4_copyfy-mi-v2-meilleurs-produits-dropshipping-a-vendre-en-octobre-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd9a80b3e60f68cc8226a_6abfd9907783495664e3d44d_copyfy-v2-free-tool-imagd-best-shopify-subscription-calculator-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/6efea31ee8a5-6abfd9a80b3e60f68cc8226a_6abfd9907783495664e3d44d_copyfy-v2-free-tool-imagd-best-shopify-subscription-calculator-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00%2F6ac4a6f5f8c79b75d8830c61_carte-boutique-ia_poster.0000000.jpg\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/c4d9b6a4ab60-66bf717325c1db31e2aded00_6ac4a6f5f8c79b75d8830c61_carte-boutique-ia_poster.0000000.jpg",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00%2F69d6a553cad13f215903acac_Copyfy-Section-3_poster.0000000.jpg\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/b7d4f0a4dcbe-66bf717325c1db31e2aded00_69d6a553cad13f215903acac_Copyfy-Section-3_poster.0000000.jpg",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abf8cfe7b7b48c9b2440f13_6abf8ce937663ea2b642b84e_copyfy-mi-v2-atria-ai-opiniones-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/8fbf96b8fe84-6abf8cfe7b7b48c9b2440f13_6abf8ce937663ea2b642b84e_copyfy-mi-v2-atria-ai-opiniones-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfda5cf8a16155cfeafc93_6abfda5951ae4e0d424d3267_copyfy-v2-free-tool-imagd-detetor-apps-shopify-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/26cbf6535d38-6abfda5cf8a16155cfeafc93_6abfda5951ae4e0d424d3267_copyfy-v2-free-tool-imagd-detetor-apps-shopify-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd94f8709b85528671e41_6abfd93ce8fd01dbaf5d0955_copyfy-v2-free-tool-imagd-calculateur-roi-ecommerce-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/3f5fa52374d3-6abfd94f8709b85528671e41_6abfd93ce8fd01dbaf5d0955_copyfy-v2-free-tool-imagd-calculateur-roi-ecommerce-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfda2f4caafc17459f5531_6abfda2b2f9e066aabf3880a_copyfy-v2-free-tool-imagd-calculadora-roas-equilibrio-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/0c0c58dda876-6abfda2f4caafc17459f5531_6abfda2b2f9e066aabf3880a_copyfy-v2-free-tool-imagd-calculadora-roas-equilibrio-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd9a80b3e60f68cc82270_6abfd9a57783495664e3dfdd_copyfy-v2-free-tool-imagd-calculadora-planos-shopify-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/6d36c8a3e002-6abfd9a80b3e60f68cc82270_6abfd9a57783495664e3dfdd_copyfy-v2-free-tool-imagd-calculadora-planos-shopify-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abf8cfe7b7b48c9b2440f20_6abf8cf50a72d8e883c76bb4_copyfy-mi-v2-atria-ai-test-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/4758a7096d6f-6abf8cfe7b7b48c9b2440f20_6abf8cf50a72d8e883c76bb4_copyfy-mi-v2-atria-ai-test-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd97bb818077c397333fc_6abfd968999ac0a3dc222a43_copyfy-v2-free-tool-imagd-best-customer-lifetime-value-calculator-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/1bfa8330a476-6abfd97bb818077c397333fc_6abfd968999ac0a3dc222a43_copyfy-v2-free-tool-imagd-best-customer-lifetime-value-calculator-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abf8d32dcf35b4e2227f1d9_6abf8d1d2eea08b4f8687e05_copyfy-mi-v2-herramientas-adspy-gratis-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/6423d8d5c7a6-6abf8d32dcf35b4e2227f1d9_6abf8d1d2eea08b4f8687e05_copyfy-mi-v2-herramientas-adspy-gratis-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd88b265f1b622f0c0b1c_6abfd87d59092e46abb40531_copyfy-v2-thumbnail-image-shopify-thema-detector-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/c6ea9bc322b6-6abfd88b265f1b622f0c0b1c_6abfd87d59092e46abb40531_copyfy-v2-thumbnail-image-shopify-thema-detector-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00%2F6ac51387549aa185036dc0e2_WhatsApp%20Video%202026-10-06%20at%2016.25.08_poster.0000000.jpg\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/2f31598bf700-66bf717325c1db31e2aded00_6ac51387549aa185036dc0e2_WhatsApp_Video_2026-10-06_at_16.25.08_poster.0000000.jpg",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad7800600268dd60d03191d_6ad77fff41c3b044b01170dc_cpa-v2-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/b53152ab696c-6ad7800600268dd60d03191d_6ad77fff41c3b044b01170dc_cpa-v2-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad2657a296217fb227165cc_6ad265716f7bb9fd6a8a853e_spa-v2-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/c993b7d2ed5a-6ad2657a296217fb227165cc_6ad265716f7bb9fd6a8a853e_spa-v2-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd91db9df9e90a2d29047_6abfd91433d7973477257ad3_copyfy-v2-thumbnail-image-beroas-rechner-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/a3b6e065daea-6abfd91db9df9e90a2d29047_6abfd91433d7973477257ad3_copyfy-v2-thumbnail-image-beroas-rechner-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd7c12f9e066aabf348d2_6abfd7b94caafc17459de7b4_copyfy-v2-thumbnail-image-ecommerce-roi-rechner-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/46e9b0dc482c-6abfd7c12f9e066aabf348d2_6abfd7b94caafc17459de7b4_copyfy-v2-thumbnail-image-ecommerce-roi-rechner-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abf8cc87b69d78666587e2c_6abf8cc42eea08b4f868543e_copyfy-mi-v2-gethookd-opiniao-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/9942a743694e-6abf8cc87b69d78666587e2c_6abf8cc42eea08b4f868543e_copyfy-mi-v2-gethookd-opiniao-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abf8d32dcf35b4e2227f1d2_6abf8d17b0482f63c9ebcca6_copyfy-mi-v2-free-adspy-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/bc53574791f7-6abf8d32dcf35b4e2227f1d2_6abf8d17b0482f63c9ebcca6_copyfy-mi-v2-free-adspy-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfda2e4caafc17459f551b_6abfda26e8fd01dbaf5d7708_copyfy-v2-free-tool-imagd-roas-calculator-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/6cbfa1ef553d-6abfda2e4caafc17459f551b_6abfda26e8fd01dbaf5d7708_copyfy-v2-free-tool-imagd-roas-calculator-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd8b8b9503c9e9a22e17c_6abfd8a66fb280f68c3012d5_copyfy-v2-thumbnail-image-detector-apps-shopify-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/685e600cdc18-6abfd8b8b9503c9e9a22e17c_6abfd8a66fb280f68c3012d5_copyfy-v2-thumbnail-image-detector-apps-shopify-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abf9252ec6b09e89c5cdae0_6abf924ff2265edfa67b29ab_copyfy-mi-v2-yomi-denzel-avis-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/7989a7983e31-6abf9252ec6b09e89c5cdae0_6abf924ff2265edfa67b29ab_copyfy-mi-v2-yomi-denzel-avis-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abf9e7ddf94889531b1e6ad_6abf9e665d2986027a084e1d_copyfy-mi-v2-dropshipping-ia-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/dee12d65cea2-6abf9e7ddf94889531b1e6ad_6abf9e665d2986027a084e1d_copyfy-mi-v2-dropshipping-ia-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad1f00bfe220a5f51ec3a8f_6ad1eff859b2943df7166ef8_adplexity-main-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/c7613106d8e1-6ad1f00bfe220a5f51ec3a8f_6ad1eff859b2943df7166ef8_adplexity-main-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd94f8709b85528671e44_6abfd94b7783495664e3af1e_copyfy-v2-free-tool-imagd-calculadora-roi-ecommerce-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/62de63e0a043-6abfd94f8709b85528671e44_6abfd94b7783495664e3af1e_copyfy-v2-free-tool-imagd-calculadora-roi-ecommerce-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd8b8b9503c9e9a22e180_6abfd89c8709b8552866d7a9_copyfy-v2-thumbnail-image-detecteur-apps-shopify-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/2b8dd36675ee-6abfd8b8b9503c9e9a22e180_6abfd89c8709b8552866d7a9_copyfy-v2-thumbnail-image-detecteur-apps-shopify-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd85b085b9c7902ec047e_6abfd84e7c2095f66cd89803_copyfy-v2-thumbnail-image-shopify-abonnement-calculator-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/eee17a0621a5-6abfd85b085b9c7902ec047e_6abfd84e7c2095f66cd89803_copyfy-v2-thumbnail-image-shopify-abonnement-calculator-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abf9e7ddf94889531b1e69e_6abf9e6dc49f6b72eae213c2_copyfy-mi-v2-ai-dropshipping-gids-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/8202be98d6ab-6abf9e7ddf94889531b1e69e_6abf9e6dc49f6b72eae213c2_copyfy-mi-v2-ai-dropshipping-gids-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfda2e4caafc17459f5515_6abfda174caafc17459f4c90_copyfy-v2-free-tool-imagd-roas-calculator-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/b61848ddf26e-6abfda2e4caafc17459f5515_6abfda174caafc17459f4c90_copyfy-v2-free-tool-imagd-roas-calculator-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd82a7f4aa8ad24ff8eb1_6abfd8135e83a53dab1a83de_copyfy-v2-thumbnail-image-shopify-product-exporter-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/0533f0e3ae34-6abfd82a7f4aa8ad24ff8eb1_6abfd8135e83a53dab1a83de_copyfy-v2-thumbnail-image-shopify-product-exporter-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd9d6e8fd01dbaf5d54af_6abfd9c351ae4e0d424cee23_copyfy-v2-free-tool-imagd-shopify-product-exporter-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/78839a123076-6abfd9d6e8fd01dbaf5d54af_6abfd9c351ae4e0d424cee23_copyfy-v2-free-tool-imagd-shopify-product-exporter-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad260a705128697419c59ec_6ad260a0da1a0f4b529bd52a_metadl-v2-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/e1b9cbd971c0-6ad260a705128697419c59ec_6ad260a0da1a0f4b529bd52a_metadl-v2-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abf8cfe7b7b48c9b2440f1c_6abf8cefa02b4d45bd85e8b0_copyfy-mi-v2-atria-ai-review-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/3aeda7ee8a5e-6abf8cfe7b7b48c9b2440f1c_6abf8cefa02b4d45bd85e8b0_copyfy-mi-v2-atria-ai-review-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfda5cf8a16155cfeafc90_6abfda490b3e60f68cc86303_copyfy-v2-free-tool-imagd-shopify-app-detector-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/68161985d5f1-6abfda5cf8a16155cfeafc90_6abfda490b3e60f68cc86303_copyfy-v2-free-tool-imagd-shopify-app-detector-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abf8cc77b69d78666587e11_6abf8cb3a02b4d45bd85d7f4_copyfy-mi-v2-gethookd-opiniones-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/6f67943f9753-6abf8cc77b69d78666587e11_6abf8cb3a02b4d45bd85d7f4_copyfy-mi-v2-gethookd-opiniones-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad7800600268dd60d031920_6ad780004b78580c7aa21a56_cpa-v2-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/c882957470f0-6ad7800600268dd60d031920_6ad780004b78580c7aa21a56_cpa-v2-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00%2F69d6a54df817c85db10494a4_Copyfy-Section-2_mp4.mp4,https://cdn.prod.website-files.com/66bf717325c1db31e2aded00%2F69d6a54df817c85db10494a4_Copyfy-Section-2_webm.webm",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/857ecb7e5bdd-66bf717325c1db31e2aded00_69d6a54df817c85db10494a4_Copyfy-Section-2_poster.0000000.jpg",
+      "method": "matching Webflow asset ID; original candidate was truncated"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad7800600268dd60d03191a_6ad77ffd32415550d23b004e_cpa-v2-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/67a79455d3df-6ad7800600268dd60d03191a_6ad77ffd32415550d23b004e_cpa-v2-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd7c12f9e066aabf348c6_6abfd7a499ad80ecd2041fd1_copyfy-v2-thumbnail-image-calculateur-roi-ecommerce-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/670807df78ee-6abfd7c12f9e066aabf348c6_6abfd7a499ad80ecd2041fd1_copyfy-v2-thumbnail-image-calculateur-roi-ecommerce-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd97bb818077c397333f3_6abfd95db9df9e90a2d2b4d5_copyfy-v2-free-tool-imagd-best-customer-lifetime-value-calculator-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/07ea8d97889e-6abfd97bb818077c397333f3_6abfd95db9df9e90a2d2b4d5_copyfy-v2-free-tool-imagd-best-customer-lifetime-value-calculator-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abf8cc77b69d78666587e17_6abf8cad0a732361cdc3a2e5_copyfy-mi-v2-gethookd-review-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/30ac52168ece-6abf8cc77b69d78666587e17_6abf8cad0a732361cdc3a2e5_copyfy-mi-v2-gethookd-review-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfda2e4caafc17459f5511_6abfda21f8a16155cfeadc4b_copyfy-v2-free-tool-imagd-roas-calculator-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/33deff9adb91-6abfda2e4caafc17459f5511_6abfda21f8a16155cfeadc4b_copyfy-v2-free-tool-imagd-roas-calculator-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd88b265f1b622f0c0b16_6abfd87735f65ccbc35ffe58_copyfy-v2-thumbnail-image-detector-tema-shopify-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/ed0a42557b73-6abfd88b265f1b622f0c0b16_6abfd87735f65ccbc35ffe58_copyfy-v2-thumbnail-image-detector-tema-shopify-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfda5cf8a16155cfeafc8a_6abfda4f5e83a53dab1b7ad9_copyfy-v2-free-tool-imagd-shopify-app-detector-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/ed39e40a15b2-6abfda5cf8a16155cfeafc8a_6abfda4f5e83a53dab1b7ad9_copyfy-v2-free-tool-imagd-shopify-app-detector-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfda0224be0c0bc0281ed9_6abfd9faa6873730b60c022f_copyfy-v2-free-tool-imagd-cpa-calculator-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/2d5f1b1edf54-6abfda0224be0c0bc0281ed9_6abfd9faa6873730b60c022f_copyfy-v2-free-tool-imagd-cpa-calculator-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad1f00afe220a5f51ec3a7d_6ad1eff46bf6c22531c43e88_adplexity-main-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/8ca1ac973e7b-6ad1f00afe220a5f51ec3a7d_6ad1eff46bf6c22531c43e88_adplexity-main-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ac7896980ba3df5a1989dfb_6ac78959bb70b8e20818e6b0_ttdl-v2-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/d457c991defa-6ac7896980ba3df5a1989dfb_6ac78959bb70b8e20818e6b0_ttdl-v2-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00%2F6ac4a6f5f8c79b75d8830c61_carte-boutique-ia_mp4.mp4,https://cdn.prod.website-files.com/66bf717325c1db31e2aded00%2F6ac4a6f5f8c79b75d8830c61_carte-boutique-ia_webm.webm",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/c4d9b6a4ab60-66bf717325c1db31e2aded00_6ac4a6f5f8c79b75d8830c61_carte-boutique-ia_poster.0000000.jpg",
+      "method": "matching Webflow asset ID; original candidate was truncated"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd88ee8fd01dbaf5cbc36_6abfd8834caafc17459e6678_copyfy-v2-thumbnail-image-shopify-theme-detektor-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/811f26654800-6abfd88ee8fd01dbaf5cbc36_6abfd8834caafc17459e6678_copyfy-v2-thumbnail-image-shopify-theme-detektor-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abf8cc87b69d78666587e29_6abf8cbfdcb13e77fabc99bf_copyfy-mi-v2-gethookd-erfahrungen-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/b13dc60e0a92-6abf8cc87b69d78666587e29_6abf8cbfdcb13e77fabc99bf_copyfy-mi-v2-gethookd-erfahrungen-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ada23f4ead44a6160e2fcff_6ada23f244da225d2b8f4623_ecom-blueprint-avis-main-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/1fbe482aa183-6ada23f4ead44a6160e2fcff_6ada23f244da225d2b8f4623_ecom-blueprint-avis-main-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd97bb818077c397333f9_6abfd9784caafc17459eed4d_copyfy-v2-free-tool-imagd-calculadora-valor-vitalicio-cliente-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/870bd62ec4ee-6abfd97bb818077c397333f9_6abfd9784caafc17459eed4d_copyfy-v2-free-tool-imagd-calculadora-valor-vitalicio-cliente-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd88b265f1b622f0c0b19_6abfd872b517d719f770201d_copyfy-v2-thumbnail-image-shopify-theme-detector-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/4b7f0ea11828-6abfd88b265f1b622f0c0b19_6abfd872b517d719f770201d_copyfy-v2-thumbnail-image-shopify-theme-detector-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd7f621789f55f38428e3_6abfd7e14f90ea18e19dee13_copyfy-v2-thumbnail-image-calculadora-valor-vida-cliente-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/2980884f76ce-6abfd7f621789f55f38428e3_6abfd7e14f90ea18e19dee13_copyfy-v2-thumbnail-image-calculadora-valor-vida-cliente-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd8e96fb280f68c303a43_6abfd8da6d1cff2c2c3df251_copyfy-v2-thumbnail-image-dropshipping-margecalculator-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/1bc773b1beb4-6abfd8e96fb280f68c303a43_6abfd8da6d1cff2c2c3df251_copyfy-v2-thumbnail-image-dropshipping-margecalculator-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd8e86fb280f68c303a25_6abfd8d0b9df9e90a2d266f5_copyfy-v2-thumbnail-image-dropshipping-profit-margin-calculator-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/2ae323c3733c-6abfd8e86fb280f68c303a25_6abfd8d0b9df9e90a2d266f5_copyfy-v2-thumbnail-image-dropshipping-profit-margin-calculator-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd8e86fb280f68c303a1f_6abfd8cb7783495664e369ff_copyfy-v2-thumbnail-image-calculateur-de-marges-dropshipping-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/b9356cc20be9-6abfd8e86fb280f68c303a1f_6abfd8cb7783495664e369ff_copyfy-v2-thumbnail-image-calculateur-de-marges-dropshipping-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd9d6e8fd01dbaf5d54b5_6abfd9c9b9503c9e9a23410b_copyfy-v2-free-tool-imagd-shopify-product-exporter-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/a88bbccfbc43-6abfd9d6e8fd01dbaf5d54b5_6abfd9c9b9503c9e9a23410b_copyfy-v2-free-tool-imagd-shopify-product-exporter-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfda883030d8d225960bdc_6abfda814f8027ad9c78a202_copyfy-v2-free-tool-imagd-shopify-theme-detector-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/99e77d178a4c-6abfda883030d8d225960bdc_6abfda814f8027ad9c78a202_copyfy-v2-free-tool-imagd-shopify-theme-detector-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfda0224be0c0bc0281ed0_6abfd9f03030d8d22595ba60_copyfy-v2-free-tool-imagd-cpa-calculator-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/cb96a2391ad8-6abfda0224be0c0bc0281ed0_6abfd9f03030d8d22595ba60_copyfy-v2-free-tool-imagd-cpa-calculator-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abf8d33dcf35b4e2227f1e2_6abf8d2e5e8ecf6a6f47891d_copyfy-mi-v2-ferramentas-adspy-gratuitas-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/1dd60a2a0319-6abf8d33dcf35b4e2227f1e2_6abf8d2e5e8ecf6a6f47891d_copyfy-mi-v2-ferramentas-adspy-gratuitas-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfda5cf8a16155cfeafc96_6abfda54ae49e62d9d282c69_copyfy-v2-free-tool-imagd-shopify-app-detector-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/cea1ae5d2eaf-6abfda5cf8a16155cfeafc96_6abfda54ae49e62d9d282c69_copyfy-v2-free-tool-imagd-shopify-app-detector-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ae349b1a8b756a4330e0696_6ae349afc86a6ade34d98259_ecom-master-avis-main-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/5f849e8dcd8e-6ae349b1a8b756a4330e0696_6ae349afc86a6ade34d98259_ecom-master-avis-main-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad1f00bfe220a5f51ec3a9b_6ad1f002fe0c8506aca294f7_adplexity-main-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/49232e8ab932-6ad1f00bfe220a5f51ec3a9b_6ad1f002fe0c8506aca294f7_adplexity-main-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00%2F69d6a4074f1fe3acae347bf3_Copfyfy%20-%20Section%201_poster.0000000.jpg\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/5bfff17458cd-66bf717325c1db31e2aded00_69d6a4074f1fe3acae347bf3_Copfyfy_-_Section_1_poster.0000000.jpg",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ae06dc82c2e414fcffd5531_6ae06dbcedc7a72bdda48184_november-products-main-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/5fec5d778f88-6ae06dc82c2e414fcffd5531_6ae06dbcedc7a72bdda48184_november-products-main-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad5f879d03030a3b8d90c85_6ad5f86844e29293ac21e07a_pubs-facebook-ia-main-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/adff42709d58-6ad5f879d03030a3b8d90c85_6ad5f86844e29293ac21e07a_pubs-facebook-ia-main-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad5f878d03030a3b8d90c78_6ad5f85b5f0d1f89a949a7f0_pubs-facebook-ia-main-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/c618e4174e14-6ad5f878d03030a3b8d90c78_6ad5f85b5f0d1f89a949a7f0_pubs-facebook-ia-main-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ae06dc82c2e414fcffd552b_6ae06dbb5a5c4b8a36961847_november-products-main-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/096e2460851d-6ae06dc82c2e414fcffd552b_6ae06dbb5a5c4b8a36961847_november-products-main-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abf8d32dcf35b4e2227f1ce_6abf8d2329f9636ef2786025_copyfy-mi-v2-gratis-adspy-tools-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/4fbaee4a8d68-6abf8d32dcf35b4e2227f1ce_6abf8d2329f9636ef2786025_copyfy-mi-v2-gratis-adspy-tools-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ace604e77f52d0b692e61a6_6ace6036e44feccab9dcc4e2_scaler-meta-ads-main-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/2e14e3a3bad9-6ace604e77f52d0b692e61a6_6ace6036e44feccab9dcc4e2_scaler-meta-ads-main-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd8b9b9503c9e9a22e191_6abfd8b06b406c850ee33daf_copyfy-v2-thumbnail-image-shopify-apps-detektor-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/9ab1ca414643-6abfd8b9b9503c9e9a22e191_6abfd8b06b406c850ee33daf_copyfy-v2-thumbnail-image-shopify-apps-detektor-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd85b085b9c7902ec0478_6abfd843d4fb553ba7a7da3a_copyfy-v2-thumbnail-image-shopify-subscription-calculator-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/b08d25e0b499-6abfd85b085b9c7902ec0478_6abfd843d4fb553ba7a7da3a_copyfy-v2-thumbnail-image-shopify-subscription-calculator-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd9a80b3e60f68cc82267_6abfd9966d1cff2c2c3e3947_copyfy-v2-free-tool-imagd-best-shopify-subscription-calculator-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/daf14d472540-6abfd9a80b3e60f68cc82267_6abfd9966d1cff2c2c3e3947_copyfy-v2-free-tool-imagd-best-shopify-subscription-calculator-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd97bb818077c397333ff_6abfd9734caafc17459eeab6_copyfy-v2-free-tool-imagd-best-customer-lifetime-value-calculator-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/a5fac05eecd7-6abfd97bb818077c397333ff_6abfd9734caafc17459eeab6_copyfy-v2-free-tool-imagd-best-customer-lifetime-value-calculator-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfda0224be0c0bc0281edf_6abfd9ff047a8bce16f8190f_copyfy-v2-free-tool-imagd-calculadora-margens-dropshipping-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/27bddd0e5557-6abfda0224be0c0bc0281edf_6abfd9ff047a8bce16f8190f_copyfy-v2-free-tool-imagd-calculadora-margens-dropshipping-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abf992347998b5d73bb5122_6abf98ff883f894857929dcf_copyfy-mi-v2-formation-dropshipping-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/3806a6cac825-6abf992347998b5d73bb5122_6abf98ff883f894857929dcf_copyfy-mi-v2-formation-dropshipping-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd85b085b9c7902ec047b_6abfd8534caafc17459e45d5_copyfy-v2-thumbnail-image-shopify-abo-rechner-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/5c4ad8657dce-6abfd85b085b9c7902ec047b_6abfd8534caafc17459e45d5_copyfy-v2-thumbnail-image-shopify-abo-rechner-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad1f00afe220a5f51ec3a83_6ad1efef9120b85cd846fe26_adplexity-main-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/6ba449ff4c62-6ad1f00afe220a5f51ec3a83_6ad1efef9120b85cd846fe26_adplexity-main-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad260a705128697419c59f2_6ad2609fb50ea892641dade2_metadl-v2-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/6c334c81c2d4-6ad260a705128697419c59f2_6ad2609fb50ea892641dade2_metadl-v2-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd8e86fb280f68c303a2f_6abfd8d53030d8d225952f21_copyfy-v2-thumbnail-image-calculadora-margenes-dropshipping-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/f1531538573a-6abfd8e86fb280f68c303a2f_6abfd8d53030d8d225952f21_copyfy-v2-thumbnail-image-calculadora-margenes-dropshipping-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfda5cf8a16155cfeafc8d_6abfda444f8027ad9c7887a3_copyfy-v2-free-tool-imagd-shopify-app-detector-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/ec578daa5d01-6abfda5cf8a16155cfeafc8d_6abfda444f8027ad9c7887a3_copyfy-v2-free-tool-imagd-shopify-app-detector-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfda2e4caafc17459f550e_6abfda124caafc17459f49a8_copyfy-v2-free-tool-imagd-roas-calculator-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/5a1b35414900-6abfda2e4caafc17459f550e_6abfda124caafc17459f49a8_copyfy-v2-free-tool-imagd-roas-calculator-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd8b9b9503c9e9a22e195_6abfd8b5d6b0196c4e3c77fb_copyfy-v2-thumbnail-image-detetor-apps-shopify-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/a51d6f56cfa7-6abfd8b9b9503c9e9a22e195_6abfd8b5d6b0196c4e3c77fb_copyfy-v2-thumbnail-image-detetor-apps-shopify-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfda883030d8d225960bd9_6abfda714caafc17459f79a9_copyfy-v2-free-tool-imagd-shopify-theme-detector-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/b93cb21eddc7-6abfda883030d8d225960bd9_6abfda714caafc17459f79a9_copyfy-v2-free-tool-imagd-shopify-theme-detector-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd8b8b9503c9e9a22e186_6abfd8ab6b406c850ee339d5_copyfy-v2-thumbnail-image-shopify-apps-detector-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/f581cd4a5eed-6abfd8b8b9503c9e9a22e186_6abfd8ab6b406c850ee339d5_copyfy-v2-thumbnail-image-shopify-apps-detector-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd94f8709b85528671e47_6abfd9375e83a53dab1b0225_copyfy-v2-free-tool-imagd-calculateur-roi-ecommerce-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/66624b639cca-6abfd94f8709b85528671e47_6abfd9375e83a53dab1b0225_copyfy-v2-free-tool-imagd-calculateur-roi-ecommerce-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad2657a296217fb227165d8_6ad265751afed3d9be8a359c_spa-v2-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/14ed827f5e3d-6ad2657a296217fb227165d8_6ad265751afed3d9be8a359c_spa-v2-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00%2F6ac537f56d9ee3881de68e72_Screen%20Recording%202026-10-06%20at%2019.03.13_mp4.mp4,https://cdn.prod.website-files.com/66bf717325c1db31e2aded00%2F6ac537f56d9ee3881de68e72_Screen%20Recording%202026-10-06%20at%2019.03.13_webm.webm",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/38fb5b399c8f-66bf717325c1db31e2aded00_6ac537f56d9ee3881de68e72_Screen_Recording_2026-10-06_at_19.03.13_poster.0000000.jpg",
+      "method": "matching Webflow asset ID; original candidate was truncated"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfda5cf8a16155cfeafc87_6abfda3e4caafc17459f5f37_copyfy-v2-free-tool-imagd-shopify-app-detector-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/268be8dd2a9c-6abfda5cf8a16155cfeafc87_6abfda3e4caafc17459f5f37_copyfy-v2-free-tool-imagd-shopify-app-detector-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ace605077f52d0b692e61cc_6ace6046e79ef9f9e238e9e5_scaler-meta-ads-main-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/d66c9b6b15f5-6ace605077f52d0b692e61cc_6ace6046e79ef9f9e238e9e5_scaler-meta-ads-main-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ac7896a80ba3df5a1989e15_6ac7895da58e1c30672c1e26_ttdl-v2-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/882b05e6cc4f-6ac7896a80ba3df5a1989e15_6ac7895da58e1c30672c1e26_ttdl-v2-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd97bb818077c397333f6_6abfd96db9df9e90a2d2bba4_copyfy-v2-free-tool-imagd-best-customer-lifetime-value-calculator-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/47de3990908f-6abfd97bb818077c397333f6_6abfd96db9df9e90a2d2bba4_copyfy-v2-free-tool-imagd-best-customer-lifetime-value-calculator-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00%2F6ac537f56d9ee3881de68e72_Screen%20Recording%202026-10-06%20at%2019.03.13_poster.0000000.jpg\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/38fb5b399c8f-66bf717325c1db31e2aded00_6ac537f56d9ee3881de68e72_Screen_Recording_2026-10-06_at_19.03.13_poster.0000000.jpg",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd94f8709b85528671e3e_6abfd9468709b85528671bdc_copyfy-v2-free-tool-imagd-calculateur-roi-ecommerce-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/34d1dd6992d9-6abfd94f8709b85528671e3e_6abfd9468709b85528671bdc_copyfy-v2-free-tool-imagd-calculateur-roi-ecommerce-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abf8cff7b7b48c9b2440f3f_6abf8cfba4a59c1af1b88eff_copyfy-mi-v2-atria-ai-opiniao-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/3af5294607a0-6abf8cff7b7b48c9b2440f3f_6abf8cfba4a59c1af1b88eff_copyfy-mi-v2-atria-ai-opiniao-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd9a80b3e60f68cc82273_6abfd9a05e83a53dab1b30dc_copyfy-v2-free-tool-imagd-best-shopify-subscription-calculator-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/b493f15a57aa-6abfd9a80b3e60f68cc82273_6abfd9a05e83a53dab1b30dc_copyfy-v2-free-tool-imagd-best-shopify-subscription-calculator-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abf8c0f20292e0a8adf3226_6abf8bf4639e21e1c1da7e87_copyfy-mi-v2-best-dropshipping-products-to-sell-in-october-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/b71299d5096e-6abf8c0f20292e0a8adf3226_6abf8bf4639e21e1c1da7e87_copyfy-mi-v2-best-dropshipping-products-to-sell-in-october-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abf8cfe7b7b48c9b2440f19_6abf8ce332b9dfb77bd1c271_copyfy-mi-v2-atria-ai-review-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/f95818a6016c-6abf8cfe7b7b48c9b2440f19_6abf8ce332b9dfb77bd1c271_copyfy-mi-v2-atria-ai-review-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ac7896980ba3df5a1989dff_6ac7895b76961d265b459736_ttdl-v2-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/240b9f990553-6ac7896980ba3df5a1989dff_6ac7895b76961d265b459736_ttdl-v2-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad2657a296217fb227165c9_6ad2657315bf9f8cee575fa1_spa-v2-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/b1f0fa264335-6ad2657a296217fb227165c9_6ad2657315bf9f8cee575fa1_spa-v2-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad1f00bfe220a5f51ec3a98_6ad1effeec49bdce8ec4337d_adplexity-main-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/391b8779c2d8-6ad1f00bfe220a5f51ec3a98_6ad1effeec49bdce8ec4337d_adplexity-main-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abf9e7ddf94889531b1e6aa_6abf9e7a4b94c22222c9be85_copyfy-mi-v2-dropshipping-com-ia-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/0f84f07968a3-6abf9e7ddf94889531b1e6aa_6abf9e7a4b94c22222c9be85_copyfy-mi-v2-dropshipping-com-ia-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abf8d32dcf35b4e2227f1dc_6abf8d287b69d7866658927c_copyfy-mi-v2-kostenlose-adspy-tools-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/0350130e055b-6abf8d32dcf35b4e2227f1dc_6abf8d287b69d7866658927c_copyfy-mi-v2-kostenlose-adspy-tools-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abf9e7ddf94889531b1e6a4_6abf9e73cffac04094d16987_copyfy-mi-v2-ki-dropshipping-leitfaden-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/63d8028fb5dd-6abf9e7ddf94889531b1e6a4_6abf9e73cffac04094d16987_copyfy-mi-v2-ki-dropshipping-leitfaden-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ae06dc82c2e414fcffd5534_6ae06dc1edc7a72bdda4839f_november-products-main-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/0a6f9be863f2-6ae06dc82c2e414fcffd5534_6ae06dc1edc7a72bdda4839f_november-products-main-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd5239431f24790ae1109_6abfd520265f1b622f0b9ee4_copyfy-v2-main-image-beste-dropshipping-produkte-zum-verkauf-im-oktober-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/6115b6904246-6abfd5239431f24790ae1109_6abfd520265f1b622f0b9ee4_copyfy-v2-main-image-beste-dropshipping-produkte-zum-verkauf-im-oktober-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd7c12f9e066aabf348cc_6abfd7aa59a9967f922b18f3_copyfy-v2-thumbnail-image-ecommerce-roi-calculator-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/a376d69a27b7-6abfd7c12f9e066aabf348cc_6abfd7aa59a9967f922b18f3_copyfy-v2-thumbnail-image-ecommerce-roi-calculator-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd94f8709b85528671e4d_6abfd9312f9e066aabf378f1_copyfy-v2-free-tool-imagd-calculateur-roi-ecommerce-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/e050a657e97d-6abfd94f8709b85528671e4d_6abfd9312f9e066aabf378f1_copyfy-v2-free-tool-imagd-calculateur-roi-ecommerce-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfda0224be0c0bc0281edc_6abfd9ea33d797347725b040_copyfy-v2-free-tool-imagd-cpa-calculator-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/0f904f355c3b-6abfda0224be0c0bc0281edc_6abfd9ea33d797347725b040_copyfy-v2-free-tool-imagd-cpa-calculator-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd7f621789f55f38428e0_6abfd7d56fb280f68c2fb06f_copyfy-v2-thumbnail-image-calculateur-valeur-vie-client-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/b5f2bc265958-6abfd7f621789f55f38428e0_6abfd7d56fb280f68c2fb06f_copyfy-v2-thumbnail-image-calculateur-valeur-vie-client-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd88b265f1b622f0c0b12_6abfd86dd4fb553ba7a7ebdd_copyfy-v2-thumbnail-image-detecteur-theme-shopify-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/38522c4740c9-6abfd88b265f1b622f0c0b12_6abfd86dd4fb553ba7a7ebdd_copyfy-v2-thumbnail-image-detecteur-theme-shopify-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad260a705128697419c59e9_6ad260a13e40e07c1833f922_metadl-v2-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/75386f76a90f-6ad260a705128697419c59e9_6ad260a13e40e07c1833f922_metadl-v2-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abf9e7ddf94889531b1e6a1_6abf9e60191b81e8c9eb42cc_copyfy-mi-v2-ai-dropshipping-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/44f711d6a9ac-6abf9e7ddf94889531b1e6a1_6abf9e60191b81e8c9eb42cc_copyfy-mi-v2-ai-dropshipping-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfda2e4caafc17459f5518_6abfda1c51ae4e0d424d1585_copyfy-v2-free-tool-imagd-roas-calculator-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/bec74c52b312-6abfda2e4caafc17459f5518_6abfda1c51ae4e0d424d1585_copyfy-v2-free-tool-imagd-roas-calculator-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ae06dc82c2e414fcffd552e_6ae06dbed49dd25b9c74d3b8_november-products-main-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/c5c727fc146b-6ae06dc82c2e414fcffd552e_6ae06dbed49dd25b9c74d3b8_november-products-main-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd82a7f4aa8ad24ff8eae_6abfd818999ac0a3dc21e0d8_copyfy-v2-thumbnail-image-exportador-de-productos-shopify-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/4e835b6e08b9-6abfd82a7f4aa8ad24ff8eae_6abfd818999ac0a3dc21e0d8_copyfy-v2-thumbnail-image-exportador-de-productos-shopify-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00%2F69d6a54df817c85db10494a4_Copyfy-Section-2_poster.0000000.jpg\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/857ecb7e5bdd-66bf717325c1db31e2aded00_69d6a54df817c85db10494a4_Copyfy-Section-2_poster.0000000.jpg",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00%2F6ac51387549aa185036dc0e2_WhatsApp%20Video%202026-10-06%20at%2016.25.08_mp4.mp4,https://cdn.prod.website-files.com/66bf717325c1db31e2aded00%2F6ac51387549aa185036dc0e2_WhatsApp%20Video%202026-10-06%20at%2016.25.08_webm.webm",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/2f31598bf700-66bf717325c1db31e2aded00_6ac51387549aa185036dc0e2_WhatsApp_Video_2026-10-06_at_16.25.08_poster.0000000.jpg",
+      "method": "matching Webflow asset ID; original candidate was truncated"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad2657a296217fb227165cf_6ad26574f158564eac408d50_spa-v2-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/b264c608a400-6ad2657a296217fb227165cf_6ad26574f158564eac408d50_spa-v2-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad7800600268dd60d031914_6ad78002a3264f6aa6969070_cpa-v2-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/6b7b7acd45c9-6ad7800600268dd60d031914_6ad78002a3264f6aa6969070_cpa-v2-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abf8c0f20292e0a8adf324f_6abf8c0b20292e0a8adf3030_copyfy-mi-v2-melhores-produtos-dropshipping-vender-outubro-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/ce599ab3222c-6abf8c0f20292e0a8adf324f_6abf8c0b20292e0a8adf3030_copyfy-mi-v2-melhores-produtos-dropshipping-vender-outubro-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd91db9df9e90a2d29041_6abfd90a35f65ccbc36043c6_copyfy-v2-thumbnail-image-calculadora-beroas-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/b64cb7aced19-6abfd91db9df9e90a2d29041_6abfd90a35f65ccbc36043c6_copyfy-v2-thumbnail-image-calculadora-beroas-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad2657a296217fb227165d2_6ad26576a9e437ede28bb4a5_spa-v2-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/402a4a249f0e-6ad2657a296217fb227165d2_6ad26576a9e437ede28bb4a5_spa-v2-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd7f621789f55f38428e9_6abfd7dbb9df9e90a2d1db1f_copyfy-v2-thumbnail-image-customer-lifetime-value-calculator-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/6d5de37e2be0-6abfd7f621789f55f38428e9_6abfd7dbb9df9e90a2d1db1f_copyfy-v2-thumbnail-image-customer-lifetime-value-calculator-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd9a80b3e60f68cc8226d_6abfd98b3030d8d22595776f_copyfy-v2-free-tool-imagd-best-shopify-subscription-calculator-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/9d284ca6ea3d-6abfd9a80b3e60f68cc8226d_6abfd98b3030d8d22595776f_copyfy-v2-free-tool-imagd-best-shopify-subscription-calculator-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad5f8732195c69dd948ec46_6ad5f84b3cb63f93c3703bcd_pubs-facebook-ia-main-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/87fb61618ea3-6ad5f8732195c69dd948ec46_6ad5f84b3cb63f93c3703bcd_pubs-facebook-ia-main-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd94f8709b85528671e4a_6abfd9413030d8d2259556b4_copyfy-v2-free-tool-imagd-calculateur-roi-ecommerce-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/7c93c5bdd142-6abfd94f8709b85528671e4a_6abfd9413030d8d2259556b4_copyfy-v2-free-tool-imagd-calculateur-roi-ecommerce-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd9d6e8fd01dbaf5d54a6_6abfd9bee8fd01dbaf5d4939_copyfy-v2-free-tool-imagd-shopify-product-exporter-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/112fd5e8c891-6abfd9d6e8fd01dbaf5d54a6_6abfd9bee8fd01dbaf5d4939_copyfy-v2-free-tool-imagd-shopify-product-exporter-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ae06dc82c2e414fcffd5528_6ae06dbfd2a417be251d3fe1_november-products-main-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/a2f35e3cdd53-6ae06dc82c2e414fcffd5528_6ae06dbfd2a417be251d3fe1_november-products-main-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd7c12f9e066aabf348d5_6abfd7bec8e57642f6894339_copyfy-v2-thumbnail-image-calculadora-roi-ecommerce-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/1e6d80c61239-6abfd7c12f9e066aabf348d5_6abfd7bec8e57642f6894339_copyfy-v2-thumbnail-image-calculadora-roi-ecommerce-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ac7896a80ba3df5a1989e18_6ac7895ef16ee3a82e8b0211_ttdl-v2-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/b9c1cf836463-6ac7896a80ba3df5a1989e18_6ac7895ef16ee3a82e8b0211_ttdl-v2-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ac7896a80ba3df5a1989e1b_6ac789621b304f584bb0d164_ttdl-v2-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/21f1b36e38cc-6ac7896a80ba3df5a1989e1b_6ac789621b304f584bb0d164_ttdl-v2-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ace605077f52d0b692e61c9_6ace604151a486eb5879cd43_scaler-meta-ads-main-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/e5f8856f52d2-6ace605077f52d0b692e61c9_6ace604151a486eb5879cd43_scaler-meta-ads-main-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfda883030d8d225960bdf_6abfda850b3e60f68cc881ea_copyfy-v2-free-tool-imagd-detetor-temas-shopify-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/6a88cc61d482-6abfda883030d8d225960bdf_6abfda850b3e60f68cc881ea_copyfy-v2-free-tool-imagd-detetor-temas-shopify-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad5f87bd03030a3b8d90c96_6ad5f86d4ded27f4aa02dd4b_pubs-facebook-ia-main-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/7fbed27392d1-6ad5f87bd03030a3b8d90c96_6ad5f86d4ded27f4aa02dd4b_pubs-facebook-ia-main-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad2657a296217fb227165d5_6ad26572ec4b913f30d9f498_spa-v2-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/3b86ca52b245-6ad2657a296217fb227165d5_6ad26572ec4b913f30d9f498_spa-v2-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abf8c0f20292e0a8adf322c_6abf8c000a732361cdc354ea_copyfy-mi-v2-beste-dropshipping-producten-om-te-verkopen-in-oktober-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/253bb262f9cd-6abf8c0f20292e0a8adf322c_6abf8c000a732361cdc354ea_copyfy-mi-v2-beste-dropshipping-producten-om-te-verkopen-in-oktober-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd9d6e8fd01dbaf5d54ac_6abfd9b959a9967f922c08ae_copyfy-v2-free-tool-imagd-shopify-product-exporter-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/064146f006d7-6abfd9d6e8fd01dbaf5d54ac_6abfd9b959a9967f922c08ae_copyfy-v2-free-tool-imagd-shopify-product-exporter-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ac7896a80ba3df5a1989e1e_6ac78960f16ee3a82e8b02ac_ttdl-v2-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/529b2951e764-6ac7896a80ba3df5a1989e1e_6ac78960f16ee3a82e8b02ac_ttdl-v2-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd88b265f1b622f0c0b24_6abfd888b9df9e90a2d22b73_copyfy-v2-thumbnail-image-detetor-temas-shopify-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/422cb4b59fb0-6abfd88b265f1b622f0c0b24_6abfd888b9df9e90a2d22b73_copyfy-v2-thumbnail-image-detetor-temas-shopify-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd9d6e8fd01dbaf5d54b2_6abfd9ceb9503c9e9a23425e_copyfy-v2-free-tool-imagd-shopify-product-exporter-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/dae223580e24-6abfd9d6e8fd01dbaf5d54b2_6abfd9ceb9503c9e9a23425e_copyfy-v2-free-tool-imagd-shopify-product-exporter-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad5f878d03030a3b8d90c72_6ad5f8524ded27f4aa02cd8f_pubs-facebook-ia-main-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/796ad1b3c1cb-6ad5f878d03030a3b8d90c72_6ad5f8524ded27f4aa02cd8f_pubs-facebook-ia-main-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd97bb818077c397333f0_6abfd963d4fb553ba7a85b32_copyfy-v2-free-tool-imagd-best-customer-lifetime-value-calculator-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/cde96acf010f-6abfd97bb818077c397333f0_6abfd963d4fb553ba7a85b32_copyfy-v2-free-tool-imagd-best-customer-lifetime-value-calculator-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ace604e77f52d0b692e6192_6ace603151a486eb5879c7d9_scaler-meta-ads-main-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/e3d92351f240-6ace604e77f52d0b692e6192_6ace603151a486eb5879c7d9_scaler-meta-ads-main-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfda0224be0c0bc0281ed6_6abfd9f54caafc17459f3792_copyfy-v2-free-tool-imagd-cpa-calculator-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/dc8248742a37-6abfda0224be0c0bc0281ed6_6abfd9f54caafc17459f3792_copyfy-v2-free-tool-imagd-cpa-calculator-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd91db9df9e90a2d29044_6abfd8fe24be0c0bc027cfd3_copyfy-v2-thumbnail-image-calculateur-beroas-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/6510ac184d0d-6abfd91db9df9e90a2d29044_6abfd8fe24be0c0bc027cfd3_copyfy-v2-thumbnail-image-calculateur-beroas-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad260a705128697419c59e3_6ad2609ea26d76ba9ca6991d_metadl-v2-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/4b338d517277-6ad260a705128697419c59e3_6ad2609ea26d76ba9ca6991d_metadl-v2-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abf8c0f20292e0a8adf3232_6abf8bfadcb13e77fabc32a5_copyfy-mi-v2-mejores-productos-dropshipping-para-vender-en-octubre-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/7c56c6c2bd72-6abf8c0f20292e0a8adf3232_6abf8bfadcb13e77fabc32a5_copyfy-mi-v2-mejores-productos-dropshipping-para-vender-en-octubre-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00%2F6ac4a6f5057560f0b3cb70ef_hero-motion-design_mp4.mp4,https://cdn.prod.website-files.com/66bf717325c1db31e2aded00%2F6ac4a6f5057560f0b3cb70ef_hero-motion-design_webm.webm",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/de117a13230b-66bf717325c1db31e2aded00_6ac4a6f5057560f0b3cb70ef_hero-motion-design_poster.0000000.jpg",
+      "method": "matching Webflow asset ID; original candidate was truncated"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00%2F69d6a553cad13f215903acac_Copyfy-Section-3_mp4.mp4,https://cdn.prod.website-files.com/66bf717325c1db31e2aded00%2F69d6a553cad13f215903acac_Copyfy-Section-3_webm.webm",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/b7d4f0a4dcbe-66bf717325c1db31e2aded00_69d6a553cad13f215903acac_Copyfy-Section-3_poster.0000000.jpg",
+      "method": "matching Webflow asset ID; original candidate was truncated"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd7c12f9e066aabf348cf_6abfd7ae59a9967f922b1ba1_copyfy-v2-thumbnail-image-calculadora-roi-ecommerce-es.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/25fba02e5787-6abfd7c12f9e066aabf348cf_6abfd7ae59a9967f922b1ba1_copyfy-v2-thumbnail-image-calculadora-roi-ecommerce-es.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd82a7f4aa8ad24ff8eb4_6abfd827b517d719f7700f2d_copyfy-v2-thumbnail-image-exportador-produtos-shopify-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/b513413a8a6a-6abfd82a7f4aa8ad24ff8eb4_6abfd827b517d719f7700f2d_copyfy-v2-thumbnail-image-exportador-produtos-shopify-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd82a7f4aa8ad24ff8ebd_6abfd80e6d1cff2c2c3d8cf8_copyfy-v2-thumbnail-image-exporteur-de-produits-shopify-fr.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/95e60d5bab69-6abfd82a7f4aa8ad24ff8ebd_6abfd80e6d1cff2c2c3d8cf8_copyfy-v2-thumbnail-image-exporteur-de-produits-shopify-fr.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd91db9df9e90a2d2903b_6abfd90f6d1cff2c2c3e061f_copyfy-v2-thumbnail-image-beroas-calculator-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/496dfdc5a7b8-6abfd91db9df9e90a2d2903b_6abfd90f6d1cff2c2c3e061f_copyfy-v2-thumbnail-image-beroas-calculator-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6ad7800600268dd60d031926_6ad78001563f3628b8ff5e70_cpa-v2-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/a49c4b367cf1-6ad7800600268dd60d031926_6ad78001563f3628b8ff5e70_cpa-v2-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd7f621789f55f38428ec_6abfd7f3b9df9e90a2d1e87c_copyfy-v2-thumbnail-image-calculadora-valor-vitalicio-cliente-pt.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/4eb96d5870d3-6abfd7f621789f55f38428ec_6abfd7f3b9df9e90a2d1e87c_copyfy-v2-thumbnail-image-calculadora-valor-vitalicio-cliente-pt.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd7f621789f55f38428e6_6abfd7e679b9c2891fad01b9_copyfy-v2-thumbnail-image-clv-calculator-nl.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/57f939b1b832-6abfd7f621789f55f38428e6_6abfd7e679b9c2891fad01b9_copyfy-v2-thumbnail-image-clv-calculator-nl.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd8e96fb280f68c303a4d_6abfd8df59092e46abb42d82_copyfy-v2-thumbnail-image-dropshipping-margenrechner-de.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/3fa1cce633ff-6abfd8e96fb280f68c303a4d_6abfd8df59092e46abb42d82_copyfy-v2-thumbnail-image-dropshipping-margenrechner-de.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6abfd8b8b9503c9e9a22e183_6abfd8a1c8e57642f6897402_copyfy-v2-thumbnail-image-shopify-apps-detector-en.webp\"",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/792c610c7699-6abfd8b8b9503c9e9a22e183_6abfd8a1c8e57642f6897402_copyfy-v2-thumbnail-image-shopify-apps-detector-en.webp",
+      "method": "normalized URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/6a7b654930991b19afc8b8b6_unnamed%20(4%5C",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/8a0e2110df15-6a7b654930991b19afc8b8b6_unnamed__4_.avif",
+      "method": "recovered escaped CSS URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/6a7b6549ddb2e00ca8a7ba27_unnamed%20(5%5C",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/ffa9c7b80b7c-6a7b6549ddb2e00ca8a7ba27_unnamed__5_.avif",
+      "method": "recovered escaped CSS URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/6a7b65493edd2eb4fd48b00c_unnamed%20(7%5C",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/fb41aadb903e-6a7b65493edd2eb4fd48b00c_unnamed__7_.avif",
+      "method": "recovered escaped CSS URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/66c7c26ca4d3ff1c743c4669_Frame%202147223464%20(1%5C",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/1e05a08d9150-66c7c26ca4d3ff1c743c4669_Frame_2147223464__1_.avif",
+      "method": "recovered escaped CSS URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/6a7b65499fa60848552ff3a1_unnamed%20(1%5C",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/f82e6e8bd996-6a7b65499fa60848552ff3a1_unnamed__1_.avif",
+      "method": "recovered escaped CSS URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/6a7b6549eefc753ec5c230c8_unnamed%20(2%5C",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/74038987697c-6a7b6549eefc753ec5c230c8_unnamed__2_.avif",
+      "method": "recovered escaped CSS URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/6a7b6548ed782f24a49acd20_unnamed%20(3%5C",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/3fe6aeabad22-6a7b6548ed782f24a49acd20_unnamed__3_.avif",
+      "method": "recovered escaped CSS URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/6a7b654a67995372c28d5b58_unnamed%20(8%5C",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/cca71cd2729f-6a7b654a67995372c28d5b58_unnamed__8_.avif",
+      "method": "recovered escaped CSS URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/6a7b6549764c503cbd8a3331_unnamed%20(6%5C",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/0362bcdfc8fd-6a7b6549764c503cbd8a3331_unnamed__6_.avif",
+      "method": "recovered escaped CSS URL"
+    },
+    {
+      "requested": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/66c64af125f154bfd35034b1_Vector%20(44%5C",
+      "saved": "03-published-site/assets/cdn.prod.website-files.com/50a35b49b8fd-66c64af125f154bfd35034b1_Vector__44_.webp",
+      "method": "recovered escaped CSS URL"
+    }
+  ],
+  "ignored_non_resource_candidates": [
+    {
+      "url": "https://fonts.googleapis.com",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://fonts.gstatic.com",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://fonts.gstatic.com",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "unresolved": [
+    {
+      "url": "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ]
+}

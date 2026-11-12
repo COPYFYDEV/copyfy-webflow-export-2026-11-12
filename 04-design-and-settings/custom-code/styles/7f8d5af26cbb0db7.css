@@ -1,0 +1,21 @@
+
+#wip-blog-design+.page_wrapper[hidden]{display:none!important}
+#wip-blog-design.copyfy-resource-index{background:#fff;color:#0b0d14;font-family:Inter,system-ui,sans-serif}
+#wip-blog-design .for-hero>.wrapper{padding-bottom:80px}
+#wip-blog-design .for-hero .hero{gap:16px}
+#wip-blog-design .h1-v2{font-family:"Inter Tight",Inter,system-ui,sans-serif;font-weight:600}
+#wip-blog-design .collection-list-blog{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+#wip-blog-design .blog_card-top{display:block;flex:0 0 auto;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:12px;margin:0;background:#f8f9fc}
+#wip-blog-design .blog_card-bottom .resource-card-title{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;max-height:2.4em;margin:0;color:#0b0d14;font-family:"Inter Tight",Inter,system-ui,sans-serif;font-size:18px;font-weight:600;letter-spacing:-.6px;line-height:1.2}
+#wip-blog-design .blog_card-bottom .resource-card-excerpt{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;max-height:3.1em;margin:0;color:#5b6475;font-family:Inter,system-ui,sans-serif;font-size:14px;font-weight:400;line-height:1.55}
+#wip-blog-design .navbar_component{position:relative;background:transparent;border:0;width:100%;max-width:1024px;margin:auto;padding:0}
+#wip-blog-design .navbar_container{max-width:none;width:100%;padding:0;min-height:96px}
+#wip-blog-design .navbar_logo-link img{width:112px;height:auto;max-height:40px;object-fit:contain}
+#wip-blog-design .navbar_menu,#wip-blog-design .navbar_menu-left{background:transparent}
+#wip-blog-design .navbar_link,#wip-blog-design .navbar_dropdown-toggle{color:#fff;font:500 14px/1.4 Inter,system-ui,sans-serif}
+#wip-blog-design .navbar_button-wrapper .button{border-radius:9999px;white-space:nowrap}
+#wip-blog-design .collection-list-wrapper-blog{width:100%}
+#wip-blog-design .w-pagination-wrapper{margin-top:32px}
+@media(max-width:991px){#wip-blog-design .collection-list-blog{grid-template-columns:repeat(2,minmax(0,1fr))}#wip-blog-design .navbar_container{min-height:80px}#wip-blog-design .navbar_menu.w--nav-menu-open{background:#0e0e0f}}
+@media(max-width:767px){#wip-blog-design .for-hero>.wrapper{padding-bottom:48px}}
+@media(max-width:479px){#wip-blog-design .collection-list-blog{grid-template-columns:minmax(0,1fr)}}

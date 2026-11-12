@@ -1,0 +1,44 @@
+{
+  "captured_on": "2026-11-12",
+  "timezone": "Europe/Paris",
+  "mode": "data_export_and_developer_context_only",
+  "webflow_site_id": "66bf717325c1db31e2aded00",
+  "native_archives": 2,
+  "html_files_per_native_archive": 48,
+  "cms_collections": 13,
+  "cms_locales": [
+    "fr",
+    "en",
+    "es",
+    "nl",
+    "de",
+    "pt"
+  ],
+  "cms_csv_exports": 78,
+  "cms_json_exports": 78,
+  "cms_localized_rows": 2367,
+  "owner_ui_collection_item_count": 2367,
+  "cms_total_matches_owner_ui": true,
+  "sitemap_url_count": 1410,
+  "captured_page_requests": 1411,
+  "page_download_failures": 0,
+  "downloaded_resource_records": 3873,
+  "embedded_tool_html_documents": 60,
+  "redirects": 280,
+  "unresolved_resources": [
+    {
+      "url": "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "not_included": [
+    "Framework implementation or CodePen publication",
+    "Private API tokens and account access",
+    "Historical form submissions",
+    "Backend implementations and analytics histories",
+    "Complete historical Webflow backups and unreferenced asset library",
+    "Exhaustive visual and functional parity testing"
+  ],
+  "captured_unique_page_files": 1410,
+  "forms_inventoried": 16
+}

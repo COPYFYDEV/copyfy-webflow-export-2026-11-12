@@ -1,0 +1,46 @@
+
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.copyfy.io/#organization",
+      "name": "Copyfy",
+      "url": "https://www.copyfy.io/",
+      "description": "Analyze high-performing products, ads, and stores, then build an optimized Shopify store with Copyfy AI.",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/68c30b4a9127a29885405a96_logo_white_in_blue_box.svg"
+      },
+      "image": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/68c30b4a9127a29885405a96_logo_white_in_blue_box.svg"
+    },
+    {
+      "@type": [
+        "SoftwareApplication",
+        "WebApplication"
+      ],
+      "@id": "https://www.copyfy.io/#software",
+      "name": "Copyfy",
+      "url": "https://www.copyfy.io/en",
+      "description": "Analyze high-performing products, ads, and stores, then build an optimized Shopify store with Copyfy AI.",
+      "operatingSystem": "Web",
+      "applicationCategory": "BusinessApplication",
+      "inLanguage": "en",
+      "image": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/68c30b4a9127a29885405a96_logo_white_in_blue_box.svg",
+      "publisher": {
+        "@id": "https://www.copyfy.io/#organization"
+      },
+      "offers": {
+        "@type": "Offer",
+        "name": "Copyfy Starter",
+        "url": "https://www.copyfy.io/en/pricing",
+        "price": "39",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@id": "https://www.copyfy.io/#organization"
+        }
+      }
+    }
+  ]
+}

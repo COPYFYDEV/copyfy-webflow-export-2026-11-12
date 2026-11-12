@@ -1,0 +1,28 @@
+
+/* CMS rendering in the independent draft. */
+#wip-blog-design [hidden]{display:none!important}
+#wip-blog-design .wip-blog-hero-grid-3{width:100%;max-width:1024px;margin-inline:auto}
+#wip-blog-design .wip-blog-hero-grid-3>*{min-width:0}
+@media(min-width:992px){#wip-blog-design .wip-blog-hero-grid-3{grid-template-columns:minmax(0,1fr) minmax(0,1fr);padding-inline:0}}
+@media(max-width:991px){#wip-blog-design .wip-blog-hero-grid-3{grid-template-columns:1fr}}
+#wip-blog-design .wip-blog-main,#wip-blog-design .wip-blog-sidebar{min-width:0}
+#wip-blog-design-rich-text{color:#39414f;font-size:16px;line-height:1.7}
+#wip-blog-design-rich-text>p{margin:0 0 20px}
+#wip-blog-design-rich-text>h2{color:#17202e;font-size:28px;margin:40px 0 20px;scroll-margin-top:120px}
+#wip-blog-design-rich-text>h3{color:#17202e;font-size:22px;margin:28px 0 16px;scroll-margin-top:120px}
+#wip-blog-design-rich-text>ul,#wip-blog-design-rich-text>ol{padding-left:24px;margin:0 0 24px}
+#wip-blog-design-rich-text>ul li,#wip-blog-design-rich-text>ol li{margin-bottom:8px}
+#wip-blog-design-rich-text figure{max-width:100%;margin:24px 0}
+#wip-blog-design-rich-text figure img{max-width:100%;height:auto;border-radius:12px}
+#wip-blog-design .wip-cms-table-scroll{width:100%;overflow-x:auto;margin:24px 0;overscroll-behavior-inline:contain}
+#wip-blog-design .wip-cms-table-scroll table{width:100%;border-collapse:collapse;font-size:14px;line-height:1.5}
+#wip-blog-design .wip-cms-table-scroll td,#wip-blog-design .wip-cms-table-scroll th{padding:12px;border:1px solid #e4e8f1;min-width:120px;vertical-align:top}
+#wip-blog-design .wip-cms-table-scroll tr:first-child{background:#f2f6fc;font-weight:600;color:#17202e}
+#wip-blog-design .wip-blog-div-041{max-height:45vh;overflow-y:auto}
+#wip-blog-design .wip-cms-toc-link{display:block;color:#64748b;font-size:12px;line-height:1.5;padding:7px 0 7px 12px;border-left:2px solid transparent}
+#wip-blog-design .wip-cms-toc-link[aria-current="location"]{color:#0c6cfb;border-left-color:#0c6cfb;font-weight:600}
+#wip-blog-design .wip-blog-div-074::before{content:"Écrit par ";font-weight:400}
+#wip-cms-read-time{display:block;margin:0}
+#wip-cms-metadata>p{margin:0}
+#wip-blog-design .wip-cms-related-category{display:none!important}
+@media(max-width:767px){#wip-blog-design .wip-cms-breadcrumb-title{max-width:150px}#wip-blog-design-rich-text>h2{font-size:24px}#wip-blog-design-rich-text>h3{font-size:20px}}

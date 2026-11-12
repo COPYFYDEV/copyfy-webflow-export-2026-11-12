@@ -1,0 +1,62 @@
+[
+  {
+    "Name": "Contenu Engageant",
+    "Slug": "contenu-engageant",
+    "Collection ID": "68eed2109d590febd2cab360",
+    "Locale ID": "6932a718bcb050f83738706e",
+    "Item ID": "68eed3300565a754ac91d67c",
+    "Archived": "false",
+    "Draft": "false",
+    "Created On": "Fri Dec 05 2025 09:34:17 GMT+0000 (Coordinated Universal Time)",
+    "Updated On": "Fri Dec 05 2025 09:34:17 GMT+0000 (Coordinated Universal Time)",
+    "Published On": "Thu Jun 04 2026 11:59:55 GMT+0000 (Coordinated Universal Time)"
+  },
+  {
+    "Name": "Innovations Ecommerce",
+    "Slug": "ecommerce-innovations",
+    "Collection ID": "68eed2109d590febd2cab360",
+    "Locale ID": "6932a718bcb050f83738706e",
+    "Item ID": "68eed3300565a754ac91d678",
+    "Archived": "false",
+    "Draft": "false",
+    "Created On": "Fri Dec 05 2025 09:34:17 GMT+0000 (Coordinated Universal Time)",
+    "Updated On": "Fri Dec 05 2025 09:34:17 GMT+0000 (Coordinated Universal Time)",
+    "Published On": "Thu Jun 04 2026 11:59:55 GMT+0000 (Coordinated Universal Time)"
+  },
+  {
+    "Name": "Inspirations Publicitaires",
+    "Slug": "inspirations-publicitaires",
+    "Collection ID": "68eed2109d590febd2cab360",
+    "Locale ID": "6932a718bcb050f83738706e",
+    "Item ID": "68eed3300565a754ac91d670",
+    "Archived": "false",
+    "Draft": "false",
+    "Created On": "Fri Dec 05 2025 09:34:17 GMT+0000 (Coordinated Universal Time)",
+    "Updated On": "Fri Dec 05 2025 09:34:17 GMT+0000 (Coordinated Universal Time)",
+    "Published On": "Thu Jun 04 2026 11:59:55 GMT+0000 (Coordinated Universal Time)"
+  },
+  {
+    "Name": "Marketing Numérique",
+    "Slug": "marketing-numerique",
+    "Collection ID": "68eed2109d590febd2cab360",
+    "Locale ID": "6932a718bcb050f83738706e",
+    "Item ID": "68eed3300565a754ac91d674",
+    "Archived": "false",
+    "Draft": "false",
+    "Created On": "Fri Dec 05 2025 09:34:17 GMT+0000 (Coordinated Universal Time)",
+    "Updated On": "Fri Dec 05 2025 09:34:17 GMT+0000 (Coordinated Universal Time)",
+    "Published On": "Thu Jun 04 2026 11:59:55 GMT+0000 (Coordinated Universal Time)"
+  },
+  {
+    "Name": "Stratégie Créative",
+    "Slug": "strategie-creative",
+    "Collection ID": "68eed2109d590febd2cab360",
+    "Locale ID": "6932a718bcb050f83738706e",
+    "Item ID": "68eed3300565a754ac91d66c",
+    "Archived": "false",
+    "Draft": "false",
+    "Created On": "Fri Dec 05 2025 09:34:17 GMT+0000 (Coordinated Universal Time)",
+    "Updated On": "Fri Dec 05 2025 09:34:17 GMT+0000 (Coordinated Universal Time)",
+    "Published On": "Thu Jun 04 2026 11:59:55 GMT+0000 (Coordinated Universal Time)"
+  }
+]

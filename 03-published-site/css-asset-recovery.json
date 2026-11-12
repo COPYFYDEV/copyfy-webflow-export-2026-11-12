@@ -1,0 +1,72 @@
+[
+  {
+    "url": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/6a7b6549ddb2e00ca8a7ba27_unnamed%20(5).avif",
+    "path": "03-published-site/assets/cdn.prod.website-files.com/ffa9c7b80b7c-6a7b6549ddb2e00ca8a7ba27_unnamed__5_.avif",
+    "status": 200,
+    "bytes": 15201,
+    "content_type": "image/avif"
+  },
+  {
+    "url": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/6a7b654930991b19afc8b8b6_unnamed%20(4).avif",
+    "path": "03-published-site/assets/cdn.prod.website-files.com/8a0e2110df15-6a7b654930991b19afc8b8b6_unnamed__4_.avif",
+    "status": 200,
+    "bytes": 9313,
+    "content_type": "image/avif"
+  },
+  {
+    "url": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/6a7b65493edd2eb4fd48b00c_unnamed%20(7).avif",
+    "path": "03-published-site/assets/cdn.prod.website-files.com/fb41aadb903e-6a7b65493edd2eb4fd48b00c_unnamed__7_.avif",
+    "status": 200,
+    "bytes": 9114,
+    "content_type": "image/avif"
+  },
+  {
+    "url": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/66c7c26ca4d3ff1c743c4669_Frame%202147223464%20(1).avif",
+    "path": "03-published-site/assets/cdn.prod.website-files.com/1e05a08d9150-66c7c26ca4d3ff1c743c4669_Frame_2147223464__1_.avif",
+    "status": 200,
+    "bytes": 152414,
+    "content_type": "image/avif"
+  },
+  {
+    "url": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/6a7b654a67995372c28d5b58_unnamed%20(8).avif",
+    "path": "03-published-site/assets/cdn.prod.website-files.com/cca71cd2729f-6a7b654a67995372c28d5b58_unnamed__8_.avif",
+    "status": 200,
+    "bytes": 9333,
+    "content_type": "image/avif"
+  },
+  {
+    "url": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/6a7b65499fa60848552ff3a1_unnamed%20(1).avif",
+    "path": "03-published-site/assets/cdn.prod.website-files.com/f82e6e8bd996-6a7b65499fa60848552ff3a1_unnamed__1_.avif",
+    "status": 200,
+    "bytes": 11042,
+    "content_type": "image/avif"
+  },
+  {
+    "url": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/6a7b6549764c503cbd8a3331_unnamed%20(6).avif",
+    "path": "03-published-site/assets/cdn.prod.website-files.com/0362bcdfc8fd-6a7b6549764c503cbd8a3331_unnamed__6_.avif",
+    "status": 200,
+    "bytes": 10199,
+    "content_type": "image/avif"
+  },
+  {
+    "url": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/6a7b6549eefc753ec5c230c8_unnamed%20(2).avif",
+    "path": "03-published-site/assets/cdn.prod.website-files.com/74038987697c-6a7b6549eefc753ec5c230c8_unnamed__2_.avif",
+    "status": 200,
+    "bytes": 14564,
+    "content_type": "image/avif"
+  },
+  {
+    "url": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/6a7b6548ed782f24a49acd20_unnamed%20(3).avif",
+    "path": "03-published-site/assets/cdn.prod.website-files.com/3fe6aeabad22-6a7b6548ed782f24a49acd20_unnamed__3_.avif",
+    "status": 200,
+    "bytes": 10158,
+    "content_type": "image/avif"
+  },
+  {
+    "url": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/66c64af125f154bfd35034b1_Vector%20(44).webp",
+    "path": "03-published-site/assets/cdn.prod.website-files.com/50a35b49b8fd-66c64af125f154bfd35034b1_Vector__44_.webp",
+    "status": 200,
+    "bytes": 144626,
+    "content_type": "image/webp"
+  }
+]

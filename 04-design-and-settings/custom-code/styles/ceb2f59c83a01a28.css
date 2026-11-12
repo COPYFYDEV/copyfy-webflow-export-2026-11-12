@@ -1,0 +1,299 @@
+
+    .copyfy-quiz-container {
+      max-width: 900px !important;
+      margin: 32px auto !important;
+      padding: 32px !important;
+      background: linear-gradient(180deg, #060506 0%, #20317B 100%) !important;
+      border-radius: 16px !important;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+      color: #FFFFFF !important;
+      box-sizing: border-box !important;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25) !important;
+    }
+    .copyfy-quiz-container *,
+    .copyfy-quiz-container *::before,
+    .copyfy-quiz-container *::after {
+      box-sizing: border-box !important;
+    }
+    .copyfy-quiz-intro {
+      text-align: center !important;
+      padding: 16px 0 !important;
+    }
+    .copyfy-quiz-badge {
+      display: inline-block !important;
+      background: rgba(255, 255, 255, 0.1) !important;
+      color: #FFFFFF !important;
+      font-size: 12px !important;
+      font-weight: 600 !important;
+      letter-spacing: 1px !important;
+      text-transform: uppercase !important;
+      padding: 6px 14px !important;
+      border-radius: 30px !important;
+      margin-bottom: 16px !important;
+    }
+    .copyfy-quiz-title {
+      font-size: 28px !important;
+      font-weight: 700 !important;
+      color: #FFFFFF !important;
+      margin: 0 0 12px 0 !important;
+      line-height: 1.2 !important;
+    }
+    .copyfy-quiz-subtitle {
+      font-size: 16px !important;
+      color: #FFFFFF !important;
+      opacity: 0.85 !important;
+      margin: 0 0 28px 0 !important;
+      line-height: 1.5 !important;
+    }
+    .copyfy-quiz-progress-wrap {
+      margin-bottom: 24px !important;
+    }
+    .copyfy-quiz-progress-text {
+      display: flex !important;
+      justify-content: space-between !important;
+      font-size: 13px !important;
+      color: #FFFFFF !important;
+      opacity: 0.7 !important;
+      margin-bottom: 8px !important;
+      font-weight: 500 !important;
+    }
+    .copyfy-quiz-progress-bar {
+      width: 100% !important;
+      height: 6px !important;
+      background: rgba(255, 255, 255, 0.15) !important;
+      border-radius: 30px !important;
+      overflow: hidden !important;
+    }
+    .copyfy-quiz-progress-fill {
+      height: 100% !important;
+      background: #0A6CFB !important;
+      border-radius: 30px !important;
+      width: 0% !important;
+      transition: width 300ms cubic-bezier(0.4, 0, 0.2, 1) !important;
+    }
+    .copyfy-quiz-question {
+      font-size: 20px !important;
+      font-weight: 600 !important;
+      color: #FFFFFF !important;
+      margin: 0 0 20px 0 !important;
+      line-height: 1.4 !important;
+    }
+    .copyfy-quiz-options {
+      display: grid !important;
+      grid-template-columns: 1fr 1fr !important;
+      gap: 12px !important;
+      margin-bottom: 28px !important;
+    }
+    .copyfy-quiz-option {
+      background: #1C1D1E !important;
+      color: #FFFFFF !important;
+      border: 2px solid transparent !important;
+      border-radius: 12px !important;
+      padding: 18px 20px !important;
+      font-size: 15px !important;
+      font-weight: 500 !important;
+      font-family: inherit !important;
+      cursor: pointer !important;
+      text-align: left !important;
+      line-height: 1.4 !important;
+      transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) !important;
+      width: 100% !important;
+    }
+    .copyfy-quiz-option:hover {
+      background: #0A6CFB !important;
+      color: #FFFFFF !important;
+      transform: translateY(-2px) !important;
+      box-shadow: 0 8px 20px rgba(10, 108, 251, 0.3) !important;
+    }
+    .copyfy-quiz-option.copyfy-selected {
+      background: #0A6CFB !important;
+      color: #FFFFFF !important;
+      border-color: #FFFFFF !important;
+    }
+    .copyfy-quiz-nav {
+      display: flex !important;
+      gap: 12px !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+    }
+    .copyfy-quiz-btn {
+      padding: 12px 24px !important;
+      font-size: 16px !important;
+      font-weight: 600 !important;
+      font-family: inherit !important;
+      border-radius: 30px !important;
+      border: none !important;
+      cursor: pointer !important;
+      transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) !important;
+      min-width: 140px !important;
+    }
+    .copyfy-quiz-btn-primary {
+      background: #FFFFFF !important;
+      color: #0F0F10 !important;
+    }
+    .copyfy-quiz-btn-primary:hover:not(:disabled) {
+      transform: translateY(-1px) !important;
+      box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2) !important;
+    }
+    .copyfy-quiz-btn-secondary {
+      background: #0A6CFB !important;
+      color: #FFFFFF !important;
+    }
+    .copyfy-quiz-btn-secondary:hover:not(:disabled) {
+      transform: translateY(-1px) !important;
+      box-shadow: 0 8px 20px rgba(10, 108, 251, 0.3) !important;
+    }
+    .copyfy-quiz-btn:disabled {
+      opacity: 0.4 !important;
+      cursor: not-allowed !important;
+    }
+    .copyfy-quiz-start-btn {
+      display: inline-block !important;
+      padding: 14px 32px !important;
+      font-size: 16px !important;
+      font-weight: 600 !important;
+      font-family: inherit !important;
+      background: #FFFFFF !important;
+      color: #0F0F10 !important;
+      border: none !important;
+      border-radius: 30px !important;
+      cursor: pointer !important;
+      transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) !important;
+    }
+    .copyfy-quiz-start-btn:hover {
+      transform: translateY(-1px) !important;
+      box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2) !important;
+    }
+    .copyfy-quiz-result {
+      text-align: center !important;
+      padding: 8px 0 !important;
+    }
+    .copyfy-quiz-result-badge {
+      display: inline-block !important;
+      background: rgba(255, 255, 255, 0.1) !important;
+      color: #FFFFFF !important;
+      font-size: 12px !important;
+      font-weight: 600 !important;
+      letter-spacing: 1px !important;
+      text-transform: uppercase !important;
+      padding: 6px 14px !important;
+      border-radius: 30px !important;
+      margin-bottom: 16px !important;
+    }
+    .copyfy-quiz-result-title {
+      font-size: 32px !important;
+      font-weight: 700 !important;
+      color: #FFFFFF !important;
+      margin: 0 0 16px 0 !important;
+      line-height: 1.2 !important;
+    }
+    .copyfy-quiz-result-score {
+      display: inline-flex !important;
+      align-items: center !important;
+      gap: 16px !important;
+      background: #1C1D1E !important;
+      padding: 12px 20px !important;
+      border-radius: 12px !important;
+      margin: 0 auto 24px auto !important;
+      font-size: 14px !important;
+      font-weight: 600 !important;
+    }
+    .copyfy-quiz-score-item {
+      display: flex !important;
+      align-items: center !important;
+      gap: 8px !important;
+      color: #FFFFFF !important;
+    }
+    .copyfy-quiz-score-divider {
+      width: 1px !important;
+      height: 20px !important;
+      background: rgba(255, 255, 255, 0.2) !important;
+    }
+    .copyfy-quiz-result-text {
+      font-size: 16px !important;
+      color: #FFFFFF !important;
+      opacity: 0.9 !important;
+      line-height: 1.6 !important;
+      margin: 0 auto 24px auto !important;
+      max-width: 640px !important;
+    }
+    .copyfy-quiz-result-buttons {
+      display: flex !important;
+      gap: 12px !important;
+      justify-content: center !important;
+      flex-wrap: wrap !important;
+    }
+    .copyfy-quiz-cta-link {
+      text-decoration: none !important;
+      display: inline-block !important;
+    }
+    .copyfy-quiz-restart {
+      background: transparent !important;
+      color: #FFFFFF !important;
+      border: 1px solid rgba(255, 255, 255, 0.3) !important;
+      padding: 12px 24px !important;
+      font-size: 14px !important;
+      font-weight: 500 !important;
+      font-family: inherit !important;
+      border-radius: 30px !important;
+      cursor: pointer !important;
+      transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) !important;
+    }
+    .copyfy-quiz-restart:hover {
+      background: rgba(255, 255, 255, 0.1) !important;
+      transform: translateY(-1px) !important;
+    }
+    .copyfy-quiz-hidden {
+      display: none !important;
+    }
+    .copyfy-quiz-fade-in {
+      animation: copyfyFadeIn 300ms cubic-bezier(0.4, 0, 0.2, 1) !important;
+    }
+    @keyframes copyfyFadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @media (max-width: 640px) {
+      .copyfy-quiz-container {
+        padding: 24px 20px !important;
+        margin: 20px 12px !important;
+      }
+      .copyfy-quiz-title {
+        font-size: 22px !important;
+      }
+      .copyfy-quiz-question {
+        font-size: 17px !important;
+      }
+      .copyfy-quiz-options {
+        grid-template-columns: 1fr !important;
+      }
+      .copyfy-quiz-nav {
+        flex-direction: column-reverse !important;
+        gap: 10px !important;
+      }
+      .copyfy-quiz-btn {
+        width: 100% !important;
+      }
+      .copyfy-quiz-result-title {
+        font-size: 24px !important;
+      }
+      .copyfy-quiz-result-score {
+        flex-direction: column !important;
+        gap: 8px !important;
+      }
+      .copyfy-quiz-score-divider {
+        width: 30px !important;
+        height: 1px !important;
+      }
+      .copyfy-quiz-result-buttons {
+        flex-direction: column !important;
+        width: 100% !important;
+      }
+      .copyfy-quiz-cta-link, .copyfy-quiz-restart {
+        width: 100% !important;
+      }
+      .copyfy-quiz-btn-primary, .copyfy-quiz-btn-secondary {
+        width: 100% !important;
+      }
+    }
+  

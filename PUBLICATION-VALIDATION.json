@@ -1,0 +1,8 @@
+{
+  "personal_identifier_findings": 0,
+  "private_credential_findings": 0,
+  "native_archives_crc_passed": true,
+  "cms_csv_json_pairs_checked": 78,
+  "dataset_index_files": 7599,
+  "all_original_relative_paths_preserved": true
+}

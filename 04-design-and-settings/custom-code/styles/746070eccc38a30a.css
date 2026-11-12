@@ -1,0 +1,6 @@
+
+/* Copyfy home typography, isolated to the blog WIP. */
+#wip-blog-design{font-family:Inter,system-ui,sans-serif;letter-spacing:-.2px}
+#wip-blog-design [class*="wip-blog-"],#wip-blog-design .wip-blog-rich-text *,#wip-blog-design .wip-blog-tldr-text *{font-family:Inter,system-ui,sans-serif}
+#wip-blog-design h1,#wip-blog-design h2,#wip-blog-design h3,#wip-blog-design h4,#wip-blog-design h5,#wip-blog-design h6,#wip-blog-design .wip-blog-footer-heading,#wip-blog-design .wip-blog-div-081,#wip-blog-design .wip-blog-div-101,#wip-blog-design .wip-blog-div-107,#wip-blog-design .wip-blog-div-113,#wip-blog-design .wip-blog-p-069{font-family:"Inter Tight",Inter,system-ui,sans-serif!important;font-weight:600;letter-spacing:-.6px;line-height:1.2}
+#wip-blog-design :is(h1,h2,h3,h4,h5,h6) *{font-family:inherit}

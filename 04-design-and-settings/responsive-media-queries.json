@@ -1,0 +1,9 @@
+[
+  "(min-width: 768px) ",
+  "screen and (max-width: 479px) ",
+  "screen and (max-width: 767px) ",
+  "screen and (max-width: 991px) ",
+  "screen and (min-width: 1280px) ",
+  "screen and (min-width: 1440px) ",
+  "screen and (min-width: 1920px) "
+]

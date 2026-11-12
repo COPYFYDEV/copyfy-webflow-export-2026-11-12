@@ -1,0 +1,62 @@
+[
+  {
+    "Name": "Advertising Inspirations",
+    "Slug": "inspirations-publicitaires",
+    "Collection ID": "68eed2109d590febd2cab360",
+    "Locale ID": "68014b7f36ec4a9e0f06d59b",
+    "Item ID": "68eed3300565a754ac91d670",
+    "Archived": "false",
+    "Draft": "false",
+    "Created On": "Tue Oct 14 2025 22:48:16 GMT+0000 (Coordinated Universal Time)",
+    "Updated On": "Wed Oct 29 2025 09:36:49 GMT+0000 (Coordinated Universal Time)",
+    "Published On": "Wed Oct 29 2025 10:09:53 GMT+0000 (Coordinated Universal Time)"
+  },
+  {
+    "Name": "Creative strategy",
+    "Slug": "strategie-creative",
+    "Collection ID": "68eed2109d590febd2cab360",
+    "Locale ID": "68014b7f36ec4a9e0f06d59b",
+    "Item ID": "68eed3300565a754ac91d66c",
+    "Archived": "false",
+    "Draft": "false",
+    "Created On": "Tue Oct 14 2025 22:48:16 GMT+0000 (Coordinated Universal Time)",
+    "Updated On": "Wed Oct 29 2025 09:36:49 GMT+0000 (Coordinated Universal Time)",
+    "Published On": "Wed Oct 29 2025 10:09:53 GMT+0000 (Coordinated Universal Time)"
+  },
+  {
+    "Name": "Digital marketing",
+    "Slug": "marketing-numerique",
+    "Collection ID": "68eed2109d590febd2cab360",
+    "Locale ID": "68014b7f36ec4a9e0f06d59b",
+    "Item ID": "68eed3300565a754ac91d674",
+    "Archived": "false",
+    "Draft": "false",
+    "Created On": "Tue Oct 14 2025 22:48:16 GMT+0000 (Coordinated Universal Time)",
+    "Updated On": "Wed Oct 29 2025 09:36:49 GMT+0000 (Coordinated Universal Time)",
+    "Published On": "Wed Oct 29 2025 10:09:53 GMT+0000 (Coordinated Universal Time)"
+  },
+  {
+    "Name": "Ecommerce Innovations",
+    "Slug": "ecommerce-innovations",
+    "Collection ID": "68eed2109d590febd2cab360",
+    "Locale ID": "68014b7f36ec4a9e0f06d59b",
+    "Item ID": "68eed3300565a754ac91d678",
+    "Archived": "false",
+    "Draft": "false",
+    "Created On": "Tue Oct 14 2025 22:48:16 GMT+0000 (Coordinated Universal Time)",
+    "Updated On": "Wed Oct 29 2025 09:36:49 GMT+0000 (Coordinated Universal Time)",
+    "Published On": "Wed Oct 29 2025 10:09:53 GMT+0000 (Coordinated Universal Time)"
+  },
+  {
+    "Name": "Engaging content",
+    "Slug": "contenu-engageant",
+    "Collection ID": "68eed2109d590febd2cab360",
+    "Locale ID": "68014b7f36ec4a9e0f06d59b",
+    "Item ID": "68eed3300565a754ac91d67c",
+    "Archived": "false",
+    "Draft": "false",
+    "Created On": "Tue Oct 14 2025 22:48:16 GMT+0000 (Coordinated Universal Time)",
+    "Updated On": "Wed Oct 29 2025 09:36:49 GMT+0000 (Coordinated Universal Time)",
+    "Published On": "Wed Oct 29 2025 10:09:53 GMT+0000 (Coordinated Universal Time)"
+  }
+]

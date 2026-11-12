@@ -1,0 +1,24 @@
+
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://www.copyfy.io/google-btn#person",
+    "name": "Thomas Salic",
+    "url": "https://www.copyfy.io/google-btn",
+    "image": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/69d948e43e08631317fa5453_546512664_18280967017277839_908400875743488148_n.jpg",
+    "jobTitle": "Co-fondateur de Copyfy",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Copyfy",
+      "url": "https://www.copyfy.io/"
+    },
+    "sameAs": [
+      "https://www.buildwiththomas.com/",
+      "https://x.com/tom_builders",
+      "https://www.youtube.com/@thomas.builders",
+      "https://www.linkedin.com/in/thomas-salic/"
+    ]
+  }
+}

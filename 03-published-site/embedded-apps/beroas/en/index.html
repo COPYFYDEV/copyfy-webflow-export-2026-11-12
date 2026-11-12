@@ -1,0 +1,833 @@
+<style>
+    html,body{margin:0 !important;padding:0 !important;}
+/* ============================================
+       BEROAS Calculator — Copyfy Freetool
+       Conforme à freetools/DESIGN-RULES.md
+       ============================================ */
+
+    .copyfy-beroas * {
+        box-sizing: border-box !important;
+        margin: 0;
+        padding: 0;
+    }
+
+    .copyfy-beroas {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+        color: #FFFFFF !important;
+        background: transparent !important;
+        padding: 0 !important;
+        max-width: none !important;
+        padding-bottom: 100px !important;
+        width: 100% !important;
+        margin: 0 auto !important;
+        overflow: hidden !important;
+        line-height: 1.5;
+    }
+
+    /* ---------- Inputs ---------- */
+    .copyfy-beroas-inputs {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 14px;
+        margin-bottom: 20px;
+    }
+
+    @media (min-width: 640px) {
+        .copyfy-beroas-inputs { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (min-width: 1024px) {
+        .copyfy-beroas-inputs { grid-template-columns: repeat(4, 1fr); }
+    }
+
+    .copyfy-beroas-field { position: relative; min-width: 0; }
+
+    .copyfy-beroas-label {
+        display: block;
+        font-size: 13px;
+        font-weight: 600;
+        color: #FFFFFF !important;
+        margin-bottom: 6px;
+    }
+
+    .copyfy-beroas-input-wrap { position: relative; }
+
+    .copyfy-beroas-icon {
+        position: absolute;
+        left: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #0F0F10 !important;
+        font-size: 15px;
+        pointer-events: none;
+        transition: color 200ms ease;
+    }
+
+    .copyfy-beroas-input {
+        width: 100% !important;
+        padding: 12px 14px 12px 32px !important;
+        background: #FFFFFF !important;
+        color: #0F0F10 !important;
+        border: 1px solid #FFFFFF !important;
+        border-radius: 12px !important;
+        font-size: 15px !important;
+        font-family: inherit !important;
+        transition: all 200ms ease;
+        -webkit-appearance: none;
+        appearance: none;
+    }
+
+    .copyfy-beroas-input:hover {
+        border-color: #0A6CFB !important;
+    }
+
+    .copyfy-beroas-input:focus {
+        outline: none !important;
+        border-color: #0A6CFB !important;
+        background: #0A6CFB !important;
+        color: #FFFFFF !important;
+    }
+
+    .copyfy-beroas-input:focus + .copyfy-beroas-icon,
+    .copyfy-beroas-input-wrap:focus-within .copyfy-beroas-icon {
+        color: #FFFFFF !important;
+    }
+
+    .copyfy-beroas-input::-webkit-outer-spin-button,
+    .copyfy-beroas-input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    .copyfy-beroas-input[type=number] { -moz-appearance: textfield; }
+
+    /* ---------- Hero card ---------- */
+    .copyfy-beroas-hero {
+        padding: 28px 24px !important;
+        background: #FFFFFF !important;
+        border-radius: 12px !important;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-bottom: 14px;
+    }
+
+    .copyfy-beroas-hero-left { flex: 1 1 200px; min-width: 0; }
+
+    .copyfy-beroas-hero-label {
+        font-size: 12px !important;
+        font-weight: 600 !important;
+        color: #0F0F10 !important;
+        opacity: 0.6;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin-bottom: 6px;
+    }
+
+    .copyfy-beroas-hero-value {
+        font-size: 48px !important;
+        font-weight: 800 !important;
+        color: #0F0F10 !important;
+        line-height: 1;
+    }
+
+    .copyfy-beroas-hero-value-good { color: #0A6CFB !important; }
+    .copyfy-beroas-hero-value-bad { color: #DC2626 !important; }
+
+    .copyfy-beroas-hero-sub {
+        font-size: 13px;
+        color: #0F0F10 !important;
+        opacity: 0.65;
+        margin-top: 6px;
+    }
+
+    @media (max-width: 639px) {
+        .copyfy-beroas-hero-value { font-size: 36px !important; }
+    }
+
+    /* ---------- Benchmark badge ---------- */
+    .copyfy-beroas-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 14px !important;
+        background: #0F0F10 !important;
+        color: #FFFFFF !important;
+        border-radius: 30px !important;
+        font-size: 12px !important;
+        font-weight: 700 !important;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        white-space: nowrap;
+    }
+
+    .copyfy-beroas-badge-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #FFFFFF;
+    }
+
+    .copyfy-beroas-badge-good { background: #0A6CFB !important; }
+    .copyfy-beroas-badge-tight { background: #0F0F10 !important; }
+    .copyfy-beroas-badge-bad { background: #DC2626 !important; }
+
+    /* ---------- Interpretation ---------- */
+    .copyfy-beroas-interp {
+        padding: 16px 24px !important;
+        background: #FFFFFF !important;
+        border-radius: 12px !important;
+        font-size: 14px !important;
+        color: #0F0F10 !important;
+        line-height: 1.6;
+        margin-bottom: 22px;
+    }
+
+    .copyfy-beroas-interp-loss {
+        border-left: 4px solid #DC2626 !important;
+        padding-left: 20px !important;
+    }
+
+    .copyfy-beroas-interp strong { color: #0F0F10 !important; font-weight: 700; }
+
+    /* ---------- Matrix (transparent section) ---------- */
+    .copyfy-beroas-matrix-section {
+        background: transparent !important;
+        padding: 0 !important;
+        width: 100% !important;
+    }
+
+    @media (max-width: 639px) {
+        .copyfy-beroas-matrix-section { padding: 0 !important; }
+    }
+
+    .copyfy-beroas-matrix-title {
+        font-size: 16px;
+        font-weight: 700;
+        color: #FFFFFF !important;
+        margin-bottom: 4px;
+    }
+
+    .copyfy-beroas-matrix-desc {
+        font-size: 13px;
+        color: #FFFFFF !important;
+        opacity: 0.7;
+        margin-bottom: 16px;
+    }
+
+    .copyfy-beroas-matrix-container { width: 100%; min-width: 0; }
+    .copyfy-beroas-matrix-wrapper { display: flex; width: 100%; min-width: 0; }
+
+    .copyfy-beroas-matrix-y-label {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 6px;
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+        font-size: 11px;
+        font-weight: 700;
+        color: #FFFFFF !important;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+
+    @media (max-width: 639px) {
+        .copyfy-beroas-matrix-y-label { display: none; }
+    }
+
+    .copyfy-beroas-matrix-y-axis {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .copyfy-beroas-matrix-y-value {
+        padding: 4px 6px;
+        text-align: right;
+        font-size: clamp(10px, 0.9vw, 12px);
+        font-weight: 500;
+        white-space: nowrap;
+        color: #FFFFFF !important;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        height: 36px;
+        border-radius: 6px;
+    }
+
+    @media (max-width: 639px) {
+        .copyfy-beroas-matrix-y-value {
+            font-size: 10px;
+            height: 28px;
+            padding: 2px 3px;
+            max-width: 56px;
+        }
+    }
+
+    .copyfy-beroas-matrix-y-value-current {
+        background: #0A6CFB !important;
+        color: #FFFFFF !important;
+    }
+
+    .copyfy-beroas-matrix-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        width: 100%;
+        min-width: 0;
+    }
+
+    .copyfy-beroas-matrix-row {
+        display: flex;
+        gap: 4px;
+        width: 100%;
+        height: 36px;
+        min-width: 0;
+    }
+
+    @media (max-width: 639px) {
+        .copyfy-beroas-matrix-row {
+            height: 28px;
+            gap: 2px;
+        }
+    }
+
+    .copyfy-beroas-matrix-cell {
+        position: relative;
+        text-align: center;
+        font-size: clamp(11px, 1vw, 14px);
+        font-weight: 600;
+        cursor: pointer;
+        flex: 1 1 0%;
+        min-width: 0;
+        overflow: hidden;
+        border: 2px solid;
+        border-radius: 8px;
+        background: #FFFFFF;
+        color: #0F0F10;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 150ms ease;
+    }
+
+    .copyfy-beroas-matrix-cell:hover {
+        transform: scale(1.06);
+        z-index: 5;
+    }
+
+    @media (max-width: 639px) {
+        .copyfy-beroas-matrix-cell {
+            font-size: clamp(9px, 2.4vw, 11px);
+            border-radius: 5px;
+            border-width: 1.5px;
+        }
+    }
+
+    .copyfy-beroas-cell-below {
+        border-color: rgba(10, 108, 251, 0.45);
+        color: #0A6CFB;
+        background: #FFFFFF;
+    }
+
+    .copyfy-beroas-cell-above {
+        border-color: rgba(220, 38, 38, 0.45);
+        color: #DC2626;
+        background: #FFFFFF;
+    }
+
+    .copyfy-beroas-cell-current {
+        border-color: #0A6CFB;
+        border-width: 3px;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.4), 0 0 0 5px #0A6CFB, 0 0 18px rgba(10, 108, 251, 0.4);
+        font-weight: 700;
+        background: rgba(10, 108, 251, 0.15);
+        color: #0A6CFB;
+        z-index: 10;
+        transform: scale(1.06);
+    }
+
+    .copyfy-beroas-cell-invalid {
+        background: rgba(220, 38, 38, 0.08);
+        color: #DC2626;
+        border-color: rgba(220, 38, 38, 0.45);
+    }
+
+    .copyfy-beroas-matrix-x-axis {
+        display: flex;
+        gap: 4px;
+        margin-top: 6px;
+        width: 100%;
+        min-width: 0;
+    }
+
+    .copyfy-beroas-matrix-x-value {
+        padding: 4px 0;
+        text-align: center;
+        font-size: clamp(10px, 0.9vw, 12px);
+        font-weight: 500;
+        flex: 1 1 0%;
+        min-width: 0;
+        color: #FFFFFF !important;
+        border-radius: 6px;
+    }
+
+    @media (max-width: 639px) {
+        .copyfy-beroas-matrix-x-value {
+            font-size: 10px;
+            padding: 3px 0;
+        }
+    }
+
+    .copyfy-beroas-matrix-x-value-current {
+        background: #0A6CFB !important;
+        color: #FFFFFF !important;
+    }
+
+    .copyfy-beroas-matrix-x-label {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 11px;
+        font-weight: 700;
+        color: #FFFFFF !important;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+
+    .copyfy-beroas-scroll-hint {
+        display: block;
+        text-align: center;
+        font-size: 11px;
+        color: #FFFFFF !important;
+        opacity: 0.6;
+        margin-top: 10px;
+    }
+
+    @media (min-width: 768px) {
+        .copyfy-beroas-scroll-hint { display: none; }
+    }
+
+    /* ---------- Bottombar ---------- */
+    .copyfy-beroas-bottombar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        margin-top: 24px;
+        flex-wrap: wrap;
+    }
+
+    @media (max-width: 479px) {
+        .copyfy-beroas-bottombar {
+            flex-direction: column;
+            align-items: stretch;
+        }
+        .copyfy-beroas-bottombar .copyfy-beroas-btn {
+            justify-content: center;
+        }
+    }
+
+    .copyfy-beroas-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 12px 24px !important;
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        border-radius: 30px !important;
+        border: none !important;
+        cursor: pointer;
+        font-family: inherit !important;
+        transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+        text-decoration: none !important;
+    }
+
+    .copyfy-beroas-btn-primary {
+        background: #FFFFFF !important;
+        color: #0F0F10 !important;
+    }
+
+    .copyfy-beroas-btn-secondary {
+        background: #0A6CFB !important;
+        color: #FFFFFF !important;
+    }
+
+    .copyfy-beroas-btn:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+    }
+</style>
+
+<div class="copyfy-beroas">
+    <!-- Inputs -->
+    <div class="copyfy-beroas-inputs">
+        <div class="copyfy-beroas-field">
+            <label for="copyfy-beroas-selling-price" class="copyfy-beroas-label">Selling Price</label>
+            <div class="copyfy-beroas-input-wrap">
+                <input type="number" id="copyfy-beroas-selling-price" class="copyfy-beroas-input" min="0.01" step="0.01" value="45">
+                <span class="copyfy-beroas-icon">$</span>
+            </div>
+        </div>
+
+        <div class="copyfy-beroas-field">
+            <label for="copyfy-beroas-product-cost" class="copyfy-beroas-label">Product Cost</label>
+            <div class="copyfy-beroas-input-wrap">
+                <input type="number" id="copyfy-beroas-product-cost" class="copyfy-beroas-input" min="0" step="0.01" value="13">
+                <span class="copyfy-beroas-icon">$</span>
+            </div>
+        </div>
+
+        <div class="copyfy-beroas-field">
+            <label for="copyfy-beroas-target" class="copyfy-beroas-label">Target BEROAS</label>
+            <div class="copyfy-beroas-input-wrap">
+                <input type="number" id="copyfy-beroas-target" class="copyfy-beroas-input" min="0.01" step="0.01" value="1.35">
+                <span class="copyfy-beroas-icon">×</span>
+            </div>
+        </div>
+
+        <div class="copyfy-beroas-field">
+            <label for="copyfy-beroas-shipping" class="copyfy-beroas-label">Shipping Cost</label>
+            <div class="copyfy-beroas-input-wrap">
+                <input type="number" id="copyfy-beroas-shipping" class="copyfy-beroas-input" min="0" step="0.01" value="0">
+                <span class="copyfy-beroas-icon">$</span>
+            </div>
+        </div>
+
+        <div class="copyfy-beroas-field">
+            <label for="copyfy-beroas-transaction" class="copyfy-beroas-label">Transaction Fees</label>
+            <div class="copyfy-beroas-input-wrap">
+                <input type="number" id="copyfy-beroas-transaction" class="copyfy-beroas-input" min="0" step="0.1" value="2.9">
+                <span class="copyfy-beroas-icon">%</span>
+            </div>
+        </div>
+
+        <div class="copyfy-beroas-field">
+            <label for="copyfy-beroas-platform" class="copyfy-beroas-label">Platform Fees</label>
+            <div class="copyfy-beroas-input-wrap">
+                <input type="number" id="copyfy-beroas-platform" class="copyfy-beroas-input" min="0" step="0.1" value="0">
+                <span class="copyfy-beroas-icon">%</span>
+            </div>
+        </div>
+
+        <div class="copyfy-beroas-field">
+            <label for="copyfy-beroas-return" class="copyfy-beroas-label">Return Rate</label>
+            <div class="copyfy-beroas-input-wrap">
+                <input type="number" id="copyfy-beroas-return" class="copyfy-beroas-input" min="0" max="100" step="0.1" value="5">
+                <span class="copyfy-beroas-icon">%</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero -->
+    <div class="copyfy-beroas-hero">
+        <div class="copyfy-beroas-hero-left">
+            <div class="copyfy-beroas-hero-label">Calculated BEROAS</div>
+            <div class="copyfy-beroas-hero-value" id="copyfy-beroas-hero-value">—</div>
+            <div class="copyfy-beroas-hero-sub">Minimum ROAS to reach ad break-even</div>
+        </div>
+        <div class="copyfy-beroas-badge" id="copyfy-beroas-badge">
+            <span class="copyfy-beroas-badge-dot"></span>
+            <span id="copyfy-beroas-badge-text">—</span>
+        </div>
+    </div>
+
+    <!-- Interpretation -->
+    <div id="copyfy-beroas-interp" class="copyfy-beroas-interp">
+        <strong>Interpretation:</strong> <span id="copyfy-beroas-interp-text">Calculating…</span>
+    </div>
+
+    <!-- Matrix -->
+    <div class="copyfy-beroas-matrix-section">
+        <div class="copyfy-beroas-matrix-title">Sensitivity Matrix</div>
+        <div class="copyfy-beroas-matrix-desc">BEROAS based on selling price and product cost. Click a cell to apply these values.</div>
+
+        <div class="copyfy-beroas-matrix-container">
+            <div id="copyfy-beroas-matrix" class="copyfy-beroas-matrix-wrapper"></div>
+        </div>
+
+        <span class="copyfy-beroas-scroll-hint">← Scroll horizontally →</span>
+    </div>
+</div>
+
+<script>
+(function() {
+    'use strict';
+
+    const STORAGE_KEY = 'copyfy-beroas-en-state';
+
+    const DEFAULTS = {
+        sellingPrice: 45,
+        productCost: 13,
+        targetBeroas: 1.35,
+        shippingCost: 0,
+        transactionFees: 2.9,
+        platformFees: 0,
+        returnRate: 5
+    };
+
+    const state = Object.assign({}, DEFAULTS);
+
+    const FIELDS = {
+        'copyfy-beroas-selling-price': ['sellingPrice',    v => parseFloat(v) || 0],
+        'copyfy-beroas-product-cost':  ['productCost',     v => parseFloat(v) || 0],
+        'copyfy-beroas-target':        ['targetBeroas',    v => parseFloat(v) || 0],
+        'copyfy-beroas-shipping':      ['shippingCost',    v => parseFloat(v) || 0],
+        'copyfy-beroas-transaction':   ['transactionFees', v => parseFloat(v) || 0],
+        'copyfy-beroas-platform':      ['platformFees',    v => parseFloat(v) || 0],
+        'copyfy-beroas-return':        ['returnRate',      v => parseFloat(v) || 0]
+    };
+
+    function loadState() {
+        try {
+            const saved = localStorage.getItem(STORAGE_KEY);
+            if (saved) Object.assign(state, JSON.parse(saved));
+        } catch (e) { /* ignore */ }
+    }
+
+    function saveState() {
+        try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch (e) {}
+    }
+
+    /**
+     * BEROAS = sellingPrice / (sellingPrice - totalCost)
+     * where totalCost = product + shipping + fees % + return %
+     * Returns null if margin is negative or zero.
+     */
+    function calculateBeroas(sellingPrice, productCost) {
+        if (sellingPrice <= 0 || productCost < 0) return null;
+
+        const variableCost = sellingPrice * (state.transactionFees + state.platformFees + state.returnRate) / 100;
+        const totalCost = productCost + state.shippingCost + variableCost;
+
+        if (totalCost >= sellingPrice) return null;
+        return sellingPrice / (sellingPrice - totalCost);
+    }
+
+    function formatBeroas(b) {
+        if (b === null) return 'N/A';
+        if (!isFinite(b)) return '∞';
+        return b.toFixed(2);
+    }
+
+    function formatCurrency(v) {
+        if (v === null || !isFinite(v)) return '—';
+        return new Intl.NumberFormat('en-US', {
+            style: 'currency', currency: 'USD',
+            minimumFractionDigits: 0, maximumFractionDigits: 2
+        }).format(v);
+    }
+
+    function generateAxis(base, count, minPct, maxPct) {
+        const values = [];
+        const step = (maxPct - minPct) / (count - 1);
+        for (let i = 0; i < count; i++) {
+            const pct = minPct + step * i;
+            values.push(Math.max(0, Math.round(base * (1 + pct / 100) * 100) / 100));
+        }
+        return values;
+    }
+
+    function applyHeroTone(b) {
+        const el = document.getElementById('copyfy-beroas-hero-value');
+        el.classList.remove('copyfy-beroas-hero-value-good', 'copyfy-beroas-hero-value-bad');
+        if (b === null) { el.classList.add('copyfy-beroas-hero-value-bad'); return; }
+        if (b <= state.targetBeroas) el.classList.add('copyfy-beroas-hero-value-good');
+        else el.classList.add('copyfy-beroas-hero-value-bad');
+    }
+
+    function applyBadge(b) {
+        const badge = document.getElementById('copyfy-beroas-badge');
+        const text = document.getElementById('copyfy-beroas-badge-text');
+
+        ['copyfy-beroas-badge-good', 'copyfy-beroas-badge-tight', 'copyfy-beroas-badge-bad']
+            .forEach(c => badge.classList.remove(c));
+
+        if (b === null) {
+            badge.classList.add('copyfy-beroas-badge-bad');
+            text.textContent = 'Negative margin';
+        } else if (b <= state.targetBeroas) {
+            badge.classList.add('copyfy-beroas-badge-good');
+            text.textContent = 'Below target';
+        } else if (b <= state.targetBeroas * 1.1) {
+            badge.classList.add('copyfy-beroas-badge-tight');
+            text.textContent = 'Tight margin';
+        } else {
+            badge.classList.add('copyfy-beroas-badge-bad');
+            text.textContent = 'Above target';
+        }
+    }
+
+    function applyInterp(b) {
+        const interp = document.getElementById('copyfy-beroas-interp');
+        const text = document.getElementById('copyfy-beroas-interp-text');
+        interp.classList.remove('copyfy-beroas-interp-loss');
+
+        if (b === null) {
+            interp.classList.add('copyfy-beroas-interp-loss');
+            text.innerHTML = 'Your margin is negative: with this selling price and these costs, you\'re losing money <strong>before you even spend on ads</strong>. Raise the price or cut costs.';
+            return;
+        }
+
+        const formatted = formatBeroas(b);
+        const compare = b <= state.targetBeroas
+            ? `You're <strong>below your target</strong> of ${formatBeroas(state.targetBeroas)} — comfortable margin.`
+            : `You're <strong>above your target</strong> of ${formatBeroas(state.targetBeroas)} — you need a higher ROAS to stay profitable.`;
+
+        text.innerHTML = `You need to reach a minimum ROAS of <strong>${formatted}</strong> to break even. Every dollar spent on ads must generate at least <strong>$${formatted}</strong> in revenue. ${compare}`;
+    }
+
+    function updateResult() {
+        const b = calculateBeroas(state.sellingPrice, state.productCost);
+
+        document.getElementById('copyfy-beroas-hero-value').textContent = formatBeroas(b);
+        applyHeroTone(b);
+        applyBadge(b);
+        applyInterp(b);
+
+        saveState();
+        renderMatrix();
+    }
+
+    function renderMatrix() {
+        const w = window.innerWidth;
+        const gridSize = w < 640 ? 6 : w < 1024 ? 8 : 10;
+        const priceAxis = generateAxis(state.sellingPrice, gridSize, -50, 50);
+        const costAxis = generateAxis(state.productCost, gridSize, -50, 100);
+
+        const container = document.getElementById('copyfy-beroas-matrix');
+        container.innerHTML = '';
+
+        // Y-axis vertical label
+        const yLabel = document.createElement('div');
+        yLabel.className = 'copyfy-beroas-matrix-y-label';
+        yLabel.textContent = 'Selling price';
+        container.appendChild(yLabel);
+
+        // Y-axis values
+        const yAxis = document.createElement('div');
+        yAxis.className = 'copyfy-beroas-matrix-y-axis';
+        priceAxis.forEach(price => {
+            const v = document.createElement('div');
+            v.className = 'copyfy-beroas-matrix-y-value';
+            if (Math.abs(price - state.sellingPrice) < 0.01) {
+                v.className += ' copyfy-beroas-matrix-y-value-current';
+            }
+            v.textContent = formatCurrency(price);
+            yAxis.appendChild(v);
+        });
+        container.appendChild(yAxis);
+
+        // Grid + X-axis wrapper
+        const wrap = document.createElement('div');
+        wrap.style.display = 'flex';
+        wrap.style.flexDirection = 'column';
+        wrap.style.flex = '1 1 0';
+        wrap.style.minWidth = '0';
+        wrap.style.marginLeft = '6px';
+
+        const grid = document.createElement('div');
+        grid.className = 'copyfy-beroas-matrix-grid';
+
+        priceAxis.forEach(price => {
+            const row = document.createElement('div');
+            row.className = 'copyfy-beroas-matrix-row';
+
+            costAxis.forEach(cost => {
+                const b = calculateBeroas(price, cost);
+                const isCurrent =
+                    Math.abs(price - state.sellingPrice) < 0.01 &&
+                    Math.abs(cost - state.productCost) < 0.01;
+                const isAbove = b !== null && b > state.targetBeroas;
+
+                const cell = document.createElement('div');
+                cell.className = 'copyfy-beroas-matrix-cell';
+
+                if (b === null) cell.className += ' copyfy-beroas-cell-invalid';
+                else if (isCurrent) cell.className += ' copyfy-beroas-cell-current';
+                else if (isAbove) cell.className += ' copyfy-beroas-cell-above';
+                else cell.className += ' copyfy-beroas-cell-below';
+
+                cell.textContent = formatBeroas(b);
+                cell.title = `Price: ${formatCurrency(price)} · Cost: ${formatCurrency(cost)} · BEROAS: ${formatBeroas(b)}`;
+
+                cell.addEventListener('click', () => {
+                    state.sellingPrice = price;
+                    state.productCost = cost;
+                    document.getElementById('copyfy-beroas-selling-price').value = price;
+                    document.getElementById('copyfy-beroas-product-cost').value = cost;
+                    updateResult();
+                });
+
+                row.appendChild(cell);
+            });
+
+            grid.appendChild(row);
+        });
+
+        wrap.appendChild(grid);
+
+        // X-axis values
+        const xAxis = document.createElement('div');
+        xAxis.className = 'copyfy-beroas-matrix-x-axis';
+        costAxis.forEach(cost => {
+            const v = document.createElement('div');
+            v.className = 'copyfy-beroas-matrix-x-value';
+            if (Math.abs(cost - state.productCost) < 0.01) {
+                v.className += ' copyfy-beroas-matrix-x-value-current';
+            }
+            v.textContent = formatCurrency(cost);
+            xAxis.appendChild(v);
+        });
+        wrap.appendChild(xAxis);
+
+        // X-axis label
+        const xLabel = document.createElement('div');
+        xLabel.className = 'copyfy-beroas-matrix-x-label';
+        xLabel.textContent = 'Product cost';
+        wrap.appendChild(xLabel);
+
+        container.appendChild(wrap);
+    }
+
+    function init() {
+        loadState();
+
+        Object.entries(FIELDS).forEach(([id, [key, parser]]) => {
+            const el = document.getElementById(id);
+            el.value = state[key];
+            el.addEventListener('input', (e) => {
+                state[key] = parser(e.target.value);
+                updateResult();
+            });
+        });
+
+        let resizeTimer;
+        window.addEventListener('resize', () => {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(renderMatrix, 200);
+        });
+
+        updateResult();
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+})();
+</script>
+
+<script>
+(function(){
+  function ph(){ try{ parent.postMessage({copyfyToolHeight: Math.ceil((document.querySelector(".copyfy-beroas,.copyfy-dpm")||document.body).getBoundingClientRect().bottom)}, "*"); }catch(e){} }
+  window.addEventListener("load", ph);
+  window.addEventListener("resize", ph);
+  document.addEventListener("input", ph, true);
+  if(window.ResizeObserver){ new ResizeObserver(ph).observe(document.documentElement); }
+  setTimeout(ph,200); setTimeout(ph,800);
+})();
+</script>

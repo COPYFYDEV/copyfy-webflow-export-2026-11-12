@@ -1,0 +1,876 @@
+<style>
+    html,body{margin:0 !important;padding:0 !important;}
+.copyfy-cpa * {
+        box-sizing: border-box !important;
+        margin: 0;
+        padding: 0;
+    }
+
+    .copyfy-cpa {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+        color: #FFFFFF !important;
+        background: transparent !important;
+        padding: 0 !important;
+        max-width: none !important;
+        padding-bottom: 100px !important;
+        margin: 0 auto !important;
+        line-height: 1.5;
+        overflow: hidden !important;
+    }
+
+    /* Main horizontal layout */
+    .copyfy-cpa-layout {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        align-items: start;
+    }
+
+    @media (min-width: 900px) {
+        .copyfy-cpa-layout {
+            grid-template-columns: minmax(300px, 400px) 1fr;
+            gap: 28px;
+        }
+    }
+
+    /* Inputs column */
+    .copyfy-cpa-inputs {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+    }
+
+    @media (max-width: 479px) {
+        .copyfy-cpa-inputs { grid-template-columns: 1fr; }
+    }
+
+    .copyfy-cpa-field { position: relative; min-width: 0; }
+    .copyfy-cpa-field-wide { grid-column: span 2; }
+
+    @media (max-width: 479px) {
+        .copyfy-cpa-field-wide { grid-column: span 1; }
+    }
+
+    .copyfy-cpa-label {
+        display: block;
+        font-size: 13px !important;
+        font-weight: 600 !important;
+        color: #FFFFFF !important;
+        margin-bottom: 6px;
+    }
+
+    .copyfy-cpa-input-wrap { position: relative; }
+
+    .copyfy-cpa-icon {
+        position: absolute;
+        left: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #0F0F10 !important;
+        font-size: 15px;
+        pointer-events: none;
+        transition: color 200ms ease;
+    }
+
+    .copyfy-cpa-input {
+        width: 100% !important;
+        padding: 12px 14px 12px 32px !important;
+        background: #FFFFFF !important;
+        color: #0F0F10 !important;
+        border: 1px solid #FFFFFF !important;
+        border-radius: 12px !important;
+        font-size: 15px !important;
+        font-family: inherit !important;
+        transition: all 200ms ease;
+        -webkit-appearance: none;
+        appearance: none;
+    }
+
+    .copyfy-cpa-input:hover { border-color: #0A6CFB !important; }
+
+    .copyfy-cpa-input:focus {
+        outline: none !important;
+        border-color: #0A6CFB !important;
+        background: #0A6CFB !important;
+        color: #FFFFFF !important;
+    }
+
+    .copyfy-cpa-input:focus + .copyfy-cpa-icon,
+    .copyfy-cpa-input-wrap:focus-within .copyfy-cpa-icon { color: #FFFFFF !important; }
+
+    .copyfy-cpa-input::-webkit-outer-spin-button,
+    .copyfy-cpa-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+    .copyfy-cpa-input[type=number] { -moz-appearance: textfield; }
+
+    /* Reset */
+    .copyfy-cpa-bottombar {
+        display: flex;
+        justify-content: center;
+        margin-top: 24px;
+    }
+
+    @media (max-width: 479px) {
+        .copyfy-cpa-bottombar { align-items: stretch; }
+        .copyfy-cpa-bottombar .copyfy-cpa-btn { width: 100%; justify-content: center; }
+    }
+
+    .copyfy-cpa-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 12px 24px !important;
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        border-radius: 30px !important;
+        border: none !important;
+        cursor: pointer;
+        font-family: inherit !important;
+        transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+        text-decoration: none !important;
+    }
+
+    .copyfy-cpa-btn-secondary {
+        background: #0A6CFB !important;
+        color: #FFFFFF !important;
+    }
+
+    .copyfy-cpa-btn:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+    }
+
+    /* Results column */
+    .copyfy-cpa-results {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        min-width: 0;
+    }
+
+    /* Hero card */
+    .copyfy-cpa-hero {
+        padding: 28px 24px !important;
+        background: #FFFFFF !important;
+        border-radius: 12px !important;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .copyfy-cpa-hero-left { flex: 1; min-width: 0; }
+
+    .copyfy-cpa-hero-label {
+        font-size: 12px !important;
+        font-weight: 600 !important;
+        color: #0F0F10 !important;
+        opacity: 0.6;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin-bottom: 6px;
+    }
+
+    .copyfy-cpa-hero-value {
+        font-size: 40px !important;
+        font-weight: 800 !important;
+        color: #0F0F10 !important;
+        line-height: 1;
+    }
+
+    .copyfy-cpa-hero-value-positive { color: #0A6CFB !important; }
+    .copyfy-cpa-hero-value-negative { color: #DC2626 !important; }
+
+    .copyfy-cpa-hero-sub {
+        font-size: 13px !important;
+        color: #0F0F10 !important;
+        opacity: 0.65;
+        margin-top: 6px;
+    }
+
+    @media (max-width: 639px) {
+        .copyfy-cpa-hero-value { font-size: 32px !important; }
+    }
+
+    /* Benchmark badge */
+    .copyfy-cpa-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 14px !important;
+        background: #0F0F10 !important;
+        color: #FFFFFF !important;
+        border-radius: 30px !important;
+        font-size: 12px !important;
+        font-weight: 700 !important;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        white-space: nowrap;
+    }
+
+    .copyfy-cpa-badge-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #FFFFFF;
+    }
+
+    .copyfy-cpa-badge-loss { background: #DC2626 !important; }
+    .copyfy-cpa-badge-low { background: #0F0F10 !important; opacity: 0.7; }
+    .copyfy-cpa-badge-good { background: #0A6CFB !important; }
+    .copyfy-cpa-badge-great { background: #0A6CFB !important; box-shadow: 0 0 0 3px rgba(10, 108, 251, 0.25); }
+
+    /* Sub-stats grid */
+    .copyfy-cpa-stats {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+
+    @media (max-width: 639px) {
+        .copyfy-cpa-stats { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    .copyfy-cpa-stat {
+        padding: 14px 12px !important;
+        background: #FFFFFF !important;
+        border-radius: 12px !important;
+        text-align: center;
+        min-width: 0;
+    }
+
+    .copyfy-cpa-stat-label {
+        font-size: 11px !important;
+        font-weight: 600 !important;
+        color: #0F0F10 !important;
+        opacity: 0.6;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        margin-bottom: 4px;
+    }
+
+    .copyfy-cpa-stat-value {
+        font-size: 18px !important;
+        font-weight: 700 !important;
+        color: #0F0F10 !important;
+        line-height: 1.2;
+    }
+
+    .copyfy-cpa-stat-value-positive { color: #0A6CFB !important; }
+    .copyfy-cpa-stat-value-negative { color: #DC2626 !important; }
+
+    /* Target helper */
+    .copyfy-cpa-target {
+        padding: 14px 18px !important;
+        background: #FFFFFF !important;
+        border-radius: 12px !important;
+        font-size: 13px !important;
+        color: #0F0F10 !important;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .copyfy-cpa-target-icon {
+        flex-shrink: 0;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background: #0A6CFB;
+        color: #FFFFFF;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .copyfy-cpa-target strong { color: #0A6CFB !important; font-weight: 700; }
+
+    /* Interpretation */
+    .copyfy-cpa-interp {
+        padding: 16px 18px !important;
+        background: #FFFFFF !important;
+        border-radius: 12px !important;
+        font-size: 14px !important;
+        color: #0F0F10 !important;
+        line-height: 1.6;
+    }
+
+    .copyfy-cpa-interp-loss {
+        border-left: 4px solid #DC2626 !important;
+        padding-left: 16px !important;
+    }
+
+    .copyfy-cpa-interp strong { color: #0F0F10 !important; font-weight: 700; }
+
+    /* Retention sensitivity strip */
+    .copyfy-cpa-strip {
+        margin-top: 10px;
+        padding: 0 !important;
+    }
+
+    .copyfy-cpa-strip-title {
+        font-size: 14px !important;
+        font-weight: 700 !important;
+        color: #FFFFFF !important;
+    }
+
+    .copyfy-cpa-strip-desc {
+        font-size: 12px !important;
+        color: #FFFFFF !important;
+        opacity: 0.6;
+        margin-bottom: 10px;
+    }
+
+    .copyfy-cpa-cells {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 8px;
+    }
+
+    @media (max-width: 639px) {
+        .copyfy-cpa-cells { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    .copyfy-cpa-cell {
+        padding: 12px 6px !important;
+        background: #FFFFFF !important;
+        border: 1px solid rgba(255, 255, 255, 0.35) !important;
+        border-radius: 12px !important;
+        text-align: center;
+        cursor: pointer;
+        min-width: 0;
+        transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .copyfy-cpa-cell:hover { transform: scale(1.05); z-index: 5; }
+
+    .copyfy-cpa-cell-ret {
+        font-size: 11px !important;
+        font-weight: 600 !important;
+        color: #0F0F10 !important;
+        opacity: 0.6;
+        margin-bottom: 3px;
+    }
+
+    .copyfy-cpa-cell-val {
+        font-size: 14px !important;
+        font-weight: 700 !important;
+        color: #0F0F10 !important;
+        line-height: 1.2;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .copyfy-cpa-cell-good { border-color: rgba(10, 108, 251, 0.45) !important; }
+    .copyfy-cpa-cell-good .copyfy-cpa-cell-val { color: #0A6CFB !important; }
+    .copyfy-cpa-cell-bad { border-color: rgba(220, 38, 38, 0.45) !important; }
+    .copyfy-cpa-cell-bad .copyfy-cpa-cell-val { color: #DC2626 !important; }
+
+    .copyfy-cpa-cell-current {
+        border: 3px solid #0A6CFB !important;
+        box-shadow: 0 0 0 3px rgba(10, 108, 251, 0.25);
+    }
+
+    /* Note */
+    .copyfy-cpa-note {
+        margin-top: 12px;
+        font-size: 12px !important;
+        color: #FFFFFF !important;
+        opacity: 0.55;
+        line-height: 1.5;
+        padding: 0 !important;
+    }
+
+    /* Input groups */
+    .copyfy-cpa-group {
+        grid-column: span 2;
+        font-size: 12px !important;
+        font-weight: 700 !important;
+        color: #FFFFFF !important;
+        opacity: 0.6;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        padding-top: 4px !important;
+    }
+
+    .copyfy-cpa-group-first { padding-top: 0 !important; }
+
+    @media (max-width: 479px) {
+        .copyfy-cpa-group { grid-column: span 1; }
+    }
+
+    .copyfy-cpa-optional {
+        font-weight: 400 !important;
+        opacity: 0.6;
+    }
+
+    /* Read-only scenario cells */
+    .copyfy-cpa-cell { cursor: default; }
+    .copyfy-cpa-cell:hover { transform: none; }
+</style>
+
+<div class="copyfy-cpa">
+    <div class="copyfy-cpa-layout">
+
+        <!-- LEFT: inputs -->
+        <div class="copyfy-cpa-left">
+            <div class="copyfy-cpa-inputs">
+                <div class="copyfy-cpa-group copyfy-cpa-group-first">Your campaign</div>
+
+                <div class="copyfy-cpa-field">
+                    <label for="copyfy-cpa-spend" class="copyfy-cpa-label">Ad spend</label>
+                    <div class="copyfy-cpa-input-wrap">
+                        <input type="number" id="copyfy-cpa-spend" class="copyfy-cpa-input" min="0" step="0.01" value="0">
+                        <span class="copyfy-cpa-icon">€</span>
+                    </div>
+                </div>
+
+                <div class="copyfy-cpa-field">
+                    <label for="copyfy-cpa-purchases" class="copyfy-cpa-label">Purchases</label>
+                    <div class="copyfy-cpa-input-wrap">
+                        <input type="number" id="copyfy-cpa-purchases" class="copyfy-cpa-input" min="0" step="1" value="0">
+                        <span class="copyfy-cpa-icon">#</span>
+                    </div>
+                </div>
+
+                <div class="copyfy-cpa-field copyfy-cpa-field-wide">
+                    <label for="copyfy-cpa-clicks" class="copyfy-cpa-label">Clicks <span class="copyfy-cpa-optional">(optional)</span></label>
+                    <div class="copyfy-cpa-input-wrap">
+                        <input type="number" id="copyfy-cpa-clicks" class="copyfy-cpa-input" min="0" step="1" value="0">
+                        <span class="copyfy-cpa-icon">#</span>
+                    </div>
+                </div>
+
+                <div class="copyfy-cpa-group">Your order</div>
+
+                <div class="copyfy-cpa-field">
+                    <label for="copyfy-cpa-aov" class="copyfy-cpa-label">Average order value</label>
+                    <div class="copyfy-cpa-input-wrap">
+                        <input type="number" id="copyfy-cpa-aov" class="copyfy-cpa-input" min="0" step="0.01" value="0">
+                        <span class="copyfy-cpa-icon">€</span>
+                    </div>
+                </div>
+
+                <div class="copyfy-cpa-field">
+                    <label for="copyfy-cpa-cogs" class="copyfy-cpa-label">Product cost</label>
+                    <div class="copyfy-cpa-input-wrap">
+                        <input type="number" id="copyfy-cpa-cogs" class="copyfy-cpa-input" min="0" step="0.01" value="0">
+                        <span class="copyfy-cpa-icon">€</span>
+                    </div>
+                </div>
+
+                <div class="copyfy-cpa-field">
+                    <label for="copyfy-cpa-shipping" class="copyfy-cpa-label">Shipping / order</label>
+                    <div class="copyfy-cpa-input-wrap">
+                        <input type="number" id="copyfy-cpa-shipping" class="copyfy-cpa-input" min="0" step="0.01" value="0">
+                        <span class="copyfy-cpa-icon">€</span>
+                    </div>
+                </div>
+
+                <div class="copyfy-cpa-field">
+                    <label for="copyfy-cpa-fees" class="copyfy-cpa-label">Payment fees</label>
+                    <div class="copyfy-cpa-input-wrap">
+                        <input type="number" id="copyfy-cpa-fees" class="copyfy-cpa-input" min="0" max="100" step="0.1" value="0">
+                        <span class="copyfy-cpa-icon">%</span>
+                    </div>
+                </div>
+
+                <div class="copyfy-cpa-field copyfy-cpa-field-wide">
+                    <label for="copyfy-cpa-target" class="copyfy-cpa-label">Target net margin <span class="copyfy-cpa-optional">(optional)</span></label>
+                    <div class="copyfy-cpa-input-wrap">
+                        <input type="number" id="copyfy-cpa-target" class="copyfy-cpa-input" min="0" max="100" step="0.5" value="0">
+                        <span class="copyfy-cpa-icon">%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyfy-cpa-bottombar">
+                <button type="button" class="copyfy-cpa-btn copyfy-cpa-btn-secondary" id="copyfy-cpa-reset">
+                    <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                    </svg>
+                    Reset
+                </button>
+            </div>
+        </div>
+
+        <!-- RIGHT: results -->
+        <div class="copyfy-cpa-results">
+            <div class="copyfy-cpa-hero">
+                <div class="copyfy-cpa-hero-left">
+                    <div class="copyfy-cpa-hero-label">Your actual CPA</div>
+                    <div class="copyfy-cpa-hero-value" id="copyfy-cpa-hero-value">—</div>
+                    <div class="copyfy-cpa-hero-sub" id="copyfy-cpa-hero-sub">Enter your ad spend and number of purchases.</div>
+                </div>
+                <div class="copyfy-cpa-badge" id="copyfy-cpa-badge">
+                    <span class="copyfy-cpa-badge-dot"></span>
+                    <span id="copyfy-cpa-badge-text">—</span>
+                </div>
+            </div>
+
+            <div class="copyfy-cpa-stats">
+                <div class="copyfy-cpa-stat">
+                    <div class="copyfy-cpa-stat-label">Break-even CPA</div>
+                    <div class="copyfy-cpa-stat-value" id="copyfy-cpa-stat-be">—</div>
+                </div>
+                <div class="copyfy-cpa-stat">
+                    <div class="copyfy-cpa-stat-label">Target CPA</div>
+                    <div class="copyfy-cpa-stat-value" id="copyfy-cpa-stat-target">—</div>
+                </div>
+                <div class="copyfy-cpa-stat">
+                    <div class="copyfy-cpa-stat-label">Profit / order</div>
+                    <div class="copyfy-cpa-stat-value" id="copyfy-cpa-stat-profit">—</div>
+                </div>
+                <div class="copyfy-cpa-stat">
+                    <div class="copyfy-cpa-stat-label">Campaign profit</div>
+                    <div class="copyfy-cpa-stat-value" id="copyfy-cpa-stat-total">—</div>
+                </div>
+                <div class="copyfy-cpa-stat">
+                    <div class="copyfy-cpa-stat-label">ROAS</div>
+                    <div class="copyfy-cpa-stat-value" id="copyfy-cpa-stat-roas">—</div>
+                </div>
+                <div class="copyfy-cpa-stat">
+                    <div class="copyfy-cpa-stat-label">BEROAS</div>
+                    <div class="copyfy-cpa-stat-value" id="copyfy-cpa-stat-beroas">—</div>
+                </div>
+                <div class="copyfy-cpa-stat">
+                    <div class="copyfy-cpa-stat-label">CPC</div>
+                    <div class="copyfy-cpa-stat-value" id="copyfy-cpa-stat-cpc">—</div>
+                </div>
+                <div class="copyfy-cpa-stat">
+                    <div class="copyfy-cpa-stat-label">Conversion</div>
+                    <div class="copyfy-cpa-stat-value" id="copyfy-cpa-stat-cvr">—</div>
+                </div>
+            </div>
+
+            <div class="copyfy-cpa-target">
+                <span class="copyfy-cpa-target-icon">🎯</span>
+                <span id="copyfy-cpa-target-text">Enter your average order value and costs to find your maximum CPA.</span>
+            </div>
+
+            <div id="copyfy-cpa-interp" class="copyfy-cpa-interp">
+                <strong>Interpretation:</strong> <span id="copyfy-cpa-interp-text">Enter your ad spend and purchases, then your average order value and costs to see if your CPA is profitable.</span>
+            </div>
+
+            <div class="copyfy-cpa-strip">
+                <div class="copyfy-cpa-strip-title">Your CPA by conversion rate</div>
+                <div class="copyfy-cpa-strip-desc" id="copyfy-cpa-strip-desc">Add your clicks to see your CPA at each conversion rate.</div>
+                <div class="copyfy-cpa-cells" id="copyfy-cpa-cells"></div>
+            </div>
+
+            <div class="copyfy-cpa-note">CPA = ad spend / purchases. Break-even CPA = average order value − product cost − shipping − payment fees: above it, every sale costs you money. The calculation covers the first order only, with no repeat purchase.</div>
+        </div>
+    </div>
+</div>
+
+<script>
+(function() {
+    'use strict';
+
+    const LOCALE = 'en-GB';
+
+    const L = {
+        empty: 'Enter your ad spend and purchases, then your average order value and costs to see if your CPA is profitable.',
+        emptySub: 'Enter your ad spend and number of purchases.',
+        emptyTarget: 'Enter your average order value and costs to find your maximum CPA.',
+        badgeLoss: 'Loss',
+        badgeGood: 'Profitable',
+        badgeGreat: 'Target hit',
+        badgeNoCampaign: 'Pre-launch',
+        badgeNoMargin: 'No threshold',
+        heroSub: (s, n) => s + ' spent for ' + n + ' purchases',
+        goalTarget: 'your target CPA',
+        goalBe: 'your break-even CPA',
+        targetNoOrder: 'Add your average order value and costs to see how high your CPA can go.',
+        targetLoss: 'Your average order value does not cover your costs: even at €0 ad spend, every sale loses money.',
+        targetTooHigh: 'Your target net margin is higher than what the order leaves before ads. Lower it or raise your average order value.',
+        targetNoClicks: (g, v) => 'To stay under ' + g + ', your CPA must not exceed <strong>' + v + '</strong>. Add your clicks to see which CPC or conversion rate to aim for.',
+        targetMet: (g, v, cpcMax) => 'You are under ' + g + ' (<strong>' + v + '</strong>). At your current conversion rate, your CPC can rise to <strong>' + cpcMax + '</strong>: you have room to scale.',
+        targetLevers: (g, v, cpcMax, cvr, cvrMin, cpc) => 'To reach ' + g + ' (<strong>' + v + '</strong>): max CPC <strong>' + cpcMax + '</strong> at your current conversion rate (' + cvr + '), or min conversion rate <strong>' + cvrMin + '</strong> at your current CPC (' + cpc + ').',
+        interpNoMargin: 'your order leaves no margin before advertising. Review your selling price, product cost or shipping before you launch a campaign.',
+        interpNoCampaign: 'no campaign results yet. Your break-even CPA is the ceiling not to cross from the first day of testing.',
+        interpNoOrder: 'your CPA alone does not tell you if you make money. Add your average order value and costs to compare it with your break-even point.',
+        interpLoss: 'your CPA is above your break-even CPA: every sale costs you money. Cut the most expensive audiences or creatives, improve your product page to convert better, or raise your average order value with a bundle or an upsell.',
+        interpTight: 'you are profitable, but below your target net margin. There is little room left for fixed costs and creative tests. Improve your conversion rate before you increase the budget.',
+        interpHealthy: 'profitable CPA. You can increase the budget in steps of 20 to 30% while you check that the CPA stays under your threshold.',
+        interpWide: 'your CPA is less than half of your threshold. Plenty of room: this is the time to scale or test broader audiences.',
+        stripEmpty: 'Add your clicks to see your CPA at each conversion rate.',
+        stripDesc: (cpc) => 'At your current CPC (' + cpc + '). Blue: under your break-even CPA. Red: above it.',
+        stripDescNoBe: (cpc) => 'At your current CPC (' + cpc + ').'
+    };
+
+    const DEFAULTS = {
+        spend: 0,
+        purchases: 0,
+        clicks: 0,
+        aov: 0,
+        cogs: 0,
+        shipping: 0,
+        fees: 0,
+        target: 0
+    };
+
+    const CVR_STEPS = [0.5, 1, 1.5, 2, 3, 4];
+
+    const state = Object.assign({}, DEFAULTS);
+
+    const clamp = (v, lo, hi) => Math.min(hi, Math.max(lo, v));
+    const pos = v => Math.max(0, parseFloat(v) || 0);
+
+    const FIELDS = {
+        'copyfy-cpa-spend':     ['spend',     pos],
+        'copyfy-cpa-purchases': ['purchases', pos],
+        'copyfy-cpa-clicks':    ['clicks',    pos],
+        'copyfy-cpa-aov':       ['aov',       pos],
+        'copyfy-cpa-cogs':      ['cogs',      pos],
+        'copyfy-cpa-shipping':  ['shipping',  pos],
+        'copyfy-cpa-fees':      ['fees',      v => clamp(parseFloat(v) || 0, 0, 100)],
+        'copyfy-cpa-target':    ['target',    v => clamp(parseFloat(v) || 0, 0, 100)]
+    };
+
+    /**
+     * Break-even CPA = what one order leaves before advertising:
+     * AOV - product cost - shipping - payment fees (% of AOV).
+     * Target CPA keeps a net margin (% of AOV) on top of that.
+     */
+    function compute() {
+        const s = state;
+        const hasCampaign = s.spend > 0 && s.purchases > 0;
+        const hasOrder = s.aov > 0;
+        const hasClicks = s.clicks > 0 && s.spend > 0;
+        if (!hasCampaign && !hasOrder) return null;
+
+        const cpa = hasCampaign ? s.spend / s.purchases : null;
+        const beCpa = hasOrder ? s.aov - s.cogs - s.shipping - s.aov * s.fees / 100 : null;
+        const targetCpa = hasOrder ? beCpa - s.aov * s.target / 100 : null;
+        const profitOrder = cpa !== null && beCpa !== null ? beCpa - cpa : null;
+        const profitTotal = profitOrder !== null ? profitOrder * s.purchases : null;
+        const roas = cpa !== null && hasOrder ? s.aov / cpa : null;
+        const beroas = beCpa !== null && beCpa > 0 ? s.aov / beCpa : null;
+        const cpc = hasClicks ? s.spend / s.clicks : null;
+        const cvr = hasClicks && s.purchases > 0 ? s.purchases / s.clicks : null;
+
+        return { cpa, beCpa, targetCpa, profitOrder, profitTotal, roas, beroas, cpc, cvr };
+    }
+
+    function money(value) {
+        if (value === null || !isFinite(value)) return '—';
+        const decimals = Math.abs(value) < 1000 ? 2 : 0;
+        return new Intl.NumberFormat(LOCALE, {
+            style: 'currency', currency: 'EUR',
+            minimumFractionDigits: decimals, maximumFractionDigits: decimals
+        }).format(value);
+    }
+
+    // Whole amounts (ad spend) without cents, the rest like money().
+    function moneyWhole(value) {
+        if (value === null || !isFinite(value) || value % 1) return money(value);
+        return new Intl.NumberFormat(LOCALE, {
+            style: 'currency', currency: 'EUR',
+            minimumFractionDigits: 0, maximumFractionDigits: 0
+        }).format(value);
+    }
+
+    function num(value, decimals) {
+        if (value === null || !isFinite(value)) return '—';
+        return new Intl.NumberFormat(LOCALE, {
+            minimumFractionDigits: decimals, maximumFractionDigits: decimals
+        }).format(value);
+    }
+
+    function pct(ratio) {
+        if (ratio === null || !isFinite(ratio)) return '—';
+        const d = ratio < 0.1 ? 2 : 1;
+        return new Intl.NumberFormat(LOCALE, {
+            style: 'percent', minimumFractionDigits: d, maximumFractionDigits: d
+        }).format(ratio);
+    }
+
+    function setText(id, text, tone) {
+        const el = document.getElementById(id);
+        el.textContent = text;
+        el.classList.remove('copyfy-cpa-stat-value-positive', 'copyfy-cpa-stat-value-negative',
+                            'copyfy-cpa-hero-value-positive', 'copyfy-cpa-hero-value-negative');
+        if (tone === null || tone === undefined) return;
+        const prefix = id === 'copyfy-cpa-hero-value' ? 'copyfy-cpa-hero-value-' : 'copyfy-cpa-stat-value-';
+        el.classList.add(prefix + (tone ? 'positive' : 'negative'));
+    }
+
+    function applyBadge(r) {
+        const badge = document.getElementById('copyfy-cpa-badge');
+        const text = document.getElementById('copyfy-cpa-badge-text');
+        ['copyfy-cpa-badge-loss', 'copyfy-cpa-badge-low',
+         'copyfy-cpa-badge-good', 'copyfy-cpa-badge-great']
+            .forEach(c => badge.classList.remove(c));
+
+        let b;
+        if (!r || (r.cpa === null && r.beCpa === null)) b = { label: '—', cls: 'copyfy-cpa-badge-low' };
+        else if (r.beCpa !== null && r.beCpa <= 0) b = { label: L.badgeLoss, cls: 'copyfy-cpa-badge-loss' };
+        else if (r.cpa === null) b = { label: L.badgeNoCampaign, cls: 'copyfy-cpa-badge-low' };
+        else if (r.beCpa === null) b = { label: L.badgeNoMargin, cls: 'copyfy-cpa-badge-low' };
+        else if (r.cpa > r.beCpa) b = { label: L.badgeLoss, cls: 'copyfy-cpa-badge-loss' };
+        else if (state.target > 0 && r.cpa <= r.targetCpa) b = { label: L.badgeGreat, cls: 'copyfy-cpa-badge-great' };
+        else b = { label: L.badgeGood, cls: 'copyfy-cpa-badge-good' };
+
+        badge.classList.add(b.cls);
+        text.textContent = b.label;
+    }
+
+    // CPA at the current CPC for a range of conversion rates: CPA = CPC / CVR.
+    function buildStrip(r) {
+        const wrap = document.getElementById('copyfy-cpa-cells');
+        const desc = document.getElementById('copyfy-cpa-strip-desc');
+        wrap.innerHTML = '';
+        const usable = r && r.cpc !== null;
+        desc.textContent = !usable ? L.stripEmpty
+            : r.beCpa !== null ? L.stripDesc(money(r.cpc)) : L.stripDescNoBe(money(r.cpc));
+
+        const current = usable && r.cvr !== null
+            ? CVR_STEPS.reduce((best, step) =>
+                Math.abs(step - r.cvr * 100) < Math.abs(best - r.cvr * 100) ? step : best, CVR_STEPS[0])
+            : null;
+
+        CVR_STEPS.forEach(step => {
+            const cpa = usable ? r.cpc / (step / 100) : null;
+            const cell = document.createElement('div');
+            cell.className = 'copyfy-cpa-cell';
+            if (usable && r.beCpa !== null) {
+                cell.classList.add(cpa <= r.beCpa && r.beCpa > 0 ? 'copyfy-cpa-cell-good' : 'copyfy-cpa-cell-bad');
+            }
+            if (step === current) cell.classList.add('copyfy-cpa-cell-current');
+
+            const head = document.createElement('div');
+            head.className = 'copyfy-cpa-cell-ret';
+            head.textContent = new Intl.NumberFormat(LOCALE, {
+                style: 'percent', minimumFractionDigits: 0, maximumFractionDigits: 1
+            }).format(step / 100);
+
+            const val = document.createElement('div');
+            val.className = 'copyfy-cpa-cell-val';
+            val.textContent = usable ? money(cpa) : '—';
+
+            cell.appendChild(head);
+            cell.appendChild(val);
+            wrap.appendChild(cell);
+        });
+    }
+
+    function targetMessage(r) {
+        if (r.beCpa === null) return L.targetNoOrder;
+        if (r.beCpa <= 0) return L.targetLoss;
+        const goal = r.targetCpa;
+        const goalLabel = state.target > 0 ? L.goalTarget : L.goalBe;
+        if (goal <= 0) return L.targetTooHigh;
+        if (r.cpc === null || r.cvr === null) return L.targetNoClicks(goalLabel, money(goal));
+        const cpcMax = goal * r.cvr;
+        const cvrMin = r.cpc / goal;
+        if (r.cpa !== null && r.cpa <= goal) return L.targetMet(goalLabel, money(goal), money(cpcMax));
+        return L.targetLevers(goalLabel, money(goal), money(cpcMax), pct(r.cvr), pct(cvrMin), money(r.cpc));
+    }
+
+    function interpretation(r) {
+        if (r.beCpa !== null && r.beCpa <= 0) return L.interpNoMargin;
+        if (r.cpa === null) return L.interpNoCampaign;
+        if (r.beCpa === null) return L.interpNoOrder;
+        if (r.cpa > r.beCpa) return L.interpLoss;
+        if (state.target > 0 && r.cpa > r.targetCpa) return L.interpTight;
+        if (r.cpa <= r.beCpa * 0.5) return L.interpWide;
+        return L.interpHealthy;
+    }
+
+    function updateResult() {
+        const r = compute();
+        const heroSub = document.getElementById('copyfy-cpa-hero-sub');
+        const target = document.getElementById('copyfy-cpa-target-text');
+        const interp = document.getElementById('copyfy-cpa-interp');
+        const interpText = document.getElementById('copyfy-cpa-interp-text');
+        const ids = ['copyfy-cpa-hero-value', 'copyfy-cpa-stat-be', 'copyfy-cpa-stat-target',
+                     'copyfy-cpa-stat-profit', 'copyfy-cpa-stat-total', 'copyfy-cpa-stat-roas',
+                     'copyfy-cpa-stat-beroas', 'copyfy-cpa-stat-cpc', 'copyfy-cpa-stat-cvr'];
+
+        if (!r) {
+            ids.forEach(id => setText(id, '—', null));
+            heroSub.textContent = L.emptySub;
+            target.innerHTML = L.emptyTarget;
+            interp.classList.remove('copyfy-cpa-interp-loss');
+            interpText.textContent = L.empty;
+            applyBadge(null);
+            buildStrip(null);
+            return;
+        }
+
+        const beOk = r.beCpa !== null && r.beCpa > 0;
+        setText('copyfy-cpa-hero-value', money(r.cpa),
+                r.cpa !== null && r.beCpa !== null ? r.cpa <= r.beCpa && beOk : null);
+        heroSub.textContent = r.cpa !== null
+            ? L.heroSub(moneyWhole(state.spend), num(state.purchases, 0))
+            : L.emptySub;
+
+        setText('copyfy-cpa-stat-be', money(r.beCpa), r.beCpa !== null ? beOk : null);
+        setText('copyfy-cpa-stat-target', state.target > 0 ? money(r.targetCpa) : '—',
+                state.target > 0 && r.targetCpa !== null ? r.targetCpa > 0 : null);
+        setText('copyfy-cpa-stat-profit', money(r.profitOrder),
+                r.profitOrder !== null ? r.profitOrder >= 0 : null);
+        setText('copyfy-cpa-stat-total', money(r.profitTotal),
+                r.profitTotal !== null ? r.profitTotal >= 0 : null);
+        setText('copyfy-cpa-stat-roas', r.roas !== null ? num(r.roas, 2) : '—',
+                r.roas !== null && r.beroas !== null ? r.roas >= r.beroas : null);
+        setText('copyfy-cpa-stat-beroas', r.beroas !== null ? num(r.beroas, 2) : '—', null);
+        setText('copyfy-cpa-stat-cpc', money(r.cpc), null);
+        setText('copyfy-cpa-stat-cvr', pct(r.cvr), null);
+
+        target.innerHTML = targetMessage(r);
+
+        interp.classList.toggle('copyfy-cpa-interp-loss',
+            (r.beCpa !== null && r.beCpa <= 0) || (r.cpa !== null && r.beCpa !== null && r.cpa > r.beCpa));
+        interpText.textContent = interpretation(r);
+
+        applyBadge(r);
+        buildStrip(r);
+    }
+
+    function init() {
+        /* localStorage disabled: always start at 0 */
+        Object.entries(FIELDS).forEach(([id, [key, parser]]) => {
+            const el = document.getElementById(id);
+            el.value = state[key];
+            el.addEventListener('input', (e) => {
+                state[key] = parser(e.target.value);
+                updateResult();
+            });
+        });
+
+        document.getElementById('copyfy-cpa-reset').addEventListener('click', () => {
+            Object.assign(state, DEFAULTS);
+            Object.entries(FIELDS).forEach(([id, [key]]) => {
+                document.getElementById(id).value = state[key];
+            });
+            updateResult();
+        });
+
+        updateResult();
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+})();
+</script>
+
+<script>
+(function(){
+  function ph(){ try{ parent.postMessage({copyfyToolHeight: Math.ceil((document.querySelector(".copyfy-cpa")||document.body).getBoundingClientRect().bottom)}, "*"); }catch(e){} }
+  window.addEventListener("load", ph);
+  window.addEventListener("resize", ph);
+  document.addEventListener("input", ph, true);
+  document.addEventListener("click", ph, true);
+  if(window.ResizeObserver){ new ResizeObserver(ph).observe(document.documentElement); }
+  setTimeout(ph,200); setTimeout(ph,800);
+})();
+</script>

@@ -1,0 +1,819 @@
+<style>
+    html,body{margin:0 !important;padding:0 !important;}
+.copyfy-clv * {
+        box-sizing: border-box !important;
+        margin: 0;
+        padding: 0;
+    }
+
+    .copyfy-clv {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+        color: #FFFFFF !important;
+        background: transparent !important;
+        padding: 0 !important;
+        max-width: none !important;
+        padding-bottom: 100px !important;
+        margin: 0 auto !important;
+        line-height: 1.5;
+        overflow: hidden !important;
+    }
+
+    /* Main horizontal layout */
+    .copyfy-clv-layout {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        align-items: start;
+    }
+
+    @media (min-width: 900px) {
+        .copyfy-clv-layout {
+            grid-template-columns: minmax(300px, 400px) 1fr;
+            gap: 28px;
+        }
+    }
+
+    /* Inputs column */
+    .copyfy-clv-inputs {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+    }
+
+    @media (max-width: 479px) {
+        .copyfy-clv-inputs { grid-template-columns: 1fr; }
+    }
+
+    .copyfy-clv-field { position: relative; min-width: 0; }
+    .copyfy-clv-field-wide { grid-column: span 2; }
+
+    @media (max-width: 479px) {
+        .copyfy-clv-field-wide { grid-column: span 1; }
+    }
+
+    .copyfy-clv-label {
+        display: block;
+        font-size: 13px !important;
+        font-weight: 600 !important;
+        color: #FFFFFF !important;
+        margin-bottom: 6px;
+    }
+
+    .copyfy-clv-input-wrap { position: relative; }
+
+    .copyfy-clv-icon {
+        position: absolute;
+        left: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #0F0F10 !important;
+        font-size: 15px;
+        pointer-events: none;
+        transition: color 200ms ease;
+    }
+
+    .copyfy-clv-input {
+        width: 100% !important;
+        padding: 12px 14px 12px 32px !important;
+        background: #FFFFFF !important;
+        color: #0F0F10 !important;
+        border: 1px solid #FFFFFF !important;
+        border-radius: 12px !important;
+        font-size: 15px !important;
+        font-family: inherit !important;
+        transition: all 200ms ease;
+        -webkit-appearance: none;
+        appearance: none;
+    }
+
+    .copyfy-clv-input:hover { border-color: #0A6CFB !important; }
+
+    .copyfy-clv-input:focus {
+        outline: none !important;
+        border-color: #0A6CFB !important;
+        background: #0A6CFB !important;
+        color: #FFFFFF !important;
+    }
+
+    .copyfy-clv-input:focus + .copyfy-clv-icon,
+    .copyfy-clv-input-wrap:focus-within .copyfy-clv-icon { color: #FFFFFF !important; }
+
+    .copyfy-clv-input::-webkit-outer-spin-button,
+    .copyfy-clv-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+    .copyfy-clv-input[type=number] { -moz-appearance: textfield; }
+
+    /* Reset */
+    .copyfy-clv-bottombar {
+        display: flex;
+        justify-content: center;
+        margin-top: 24px;
+    }
+
+    @media (max-width: 479px) {
+        .copyfy-clv-bottombar { align-items: stretch; }
+        .copyfy-clv-bottombar .copyfy-clv-btn { width: 100%; justify-content: center; }
+    }
+
+    .copyfy-clv-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 12px 24px !important;
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        border-radius: 30px !important;
+        border: none !important;
+        cursor: pointer;
+        font-family: inherit !important;
+        transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+        text-decoration: none !important;
+    }
+
+    .copyfy-clv-btn-secondary {
+        background: #0A6CFB !important;
+        color: #FFFFFF !important;
+    }
+
+    .copyfy-clv-btn:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+    }
+
+    /* Results column */
+    .copyfy-clv-results {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        min-width: 0;
+    }
+
+    /* Hero card */
+    .copyfy-clv-hero {
+        padding: 28px 24px !important;
+        background: #FFFFFF !important;
+        border-radius: 12px !important;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .copyfy-clv-hero-left { flex: 1; min-width: 0; }
+
+    .copyfy-clv-hero-label {
+        font-size: 12px !important;
+        font-weight: 600 !important;
+        color: #0F0F10 !important;
+        opacity: 0.6;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin-bottom: 6px;
+    }
+
+    .copyfy-clv-hero-value {
+        font-size: 40px !important;
+        font-weight: 800 !important;
+        color: #0F0F10 !important;
+        line-height: 1;
+    }
+
+    .copyfy-clv-hero-value-positive { color: #0A6CFB !important; }
+    .copyfy-clv-hero-value-negative { color: #DC2626 !important; }
+
+    .copyfy-clv-hero-sub {
+        font-size: 13px !important;
+        color: #0F0F10 !important;
+        opacity: 0.65;
+        margin-top: 6px;
+    }
+
+    @media (max-width: 639px) {
+        .copyfy-clv-hero-value { font-size: 32px !important; }
+    }
+
+    /* Benchmark badge */
+    .copyfy-clv-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 14px !important;
+        background: #0F0F10 !important;
+        color: #FFFFFF !important;
+        border-radius: 30px !important;
+        font-size: 12px !important;
+        font-weight: 700 !important;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        white-space: nowrap;
+    }
+
+    .copyfy-clv-badge-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #FFFFFF;
+    }
+
+    .copyfy-clv-badge-loss { background: #DC2626 !important; }
+    .copyfy-clv-badge-low { background: #0F0F10 !important; opacity: 0.7; }
+    .copyfy-clv-badge-good { background: #0A6CFB !important; }
+    .copyfy-clv-badge-great { background: #0A6CFB !important; box-shadow: 0 0 0 3px rgba(10, 108, 251, 0.25); }
+
+    /* Sub-stats grid */
+    .copyfy-clv-stats {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+
+    @media (max-width: 639px) {
+        .copyfy-clv-stats { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    .copyfy-clv-stat {
+        padding: 14px 12px !important;
+        background: #FFFFFF !important;
+        border-radius: 12px !important;
+        text-align: center;
+        min-width: 0;
+    }
+
+    .copyfy-clv-stat-label {
+        font-size: 11px !important;
+        font-weight: 600 !important;
+        color: #0F0F10 !important;
+        opacity: 0.6;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        margin-bottom: 4px;
+    }
+
+    .copyfy-clv-stat-value {
+        font-size: 18px !important;
+        font-weight: 700 !important;
+        color: #0F0F10 !important;
+        line-height: 1.2;
+    }
+
+    .copyfy-clv-stat-value-positive { color: #0A6CFB !important; }
+    .copyfy-clv-stat-value-negative { color: #DC2626 !important; }
+
+    /* Target helper */
+    .copyfy-clv-target {
+        padding: 14px 18px !important;
+        background: #FFFFFF !important;
+        border-radius: 12px !important;
+        font-size: 13px !important;
+        color: #0F0F10 !important;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .copyfy-clv-target-icon {
+        flex-shrink: 0;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background: #0A6CFB;
+        color: #FFFFFF;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .copyfy-clv-target strong { color: #0A6CFB !important; font-weight: 700; }
+
+    /* Interpretation */
+    .copyfy-clv-interp {
+        padding: 16px 18px !important;
+        background: #FFFFFF !important;
+        border-radius: 12px !important;
+        font-size: 14px !important;
+        color: #0F0F10 !important;
+        line-height: 1.6;
+    }
+
+    .copyfy-clv-interp-loss {
+        border-left: 4px solid #DC2626 !important;
+        padding-left: 16px !important;
+    }
+
+    .copyfy-clv-interp strong { color: #0F0F10 !important; font-weight: 700; }
+
+    /* Retention sensitivity strip */
+    .copyfy-clv-strip {
+        margin-top: 10px;
+        padding: 0 !important;
+    }
+
+    .copyfy-clv-strip-title {
+        font-size: 14px !important;
+        font-weight: 700 !important;
+        color: #FFFFFF !important;
+    }
+
+    .copyfy-clv-strip-desc {
+        font-size: 12px !important;
+        color: #FFFFFF !important;
+        opacity: 0.6;
+        margin-bottom: 10px;
+    }
+
+    .copyfy-clv-cells {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 8px;
+    }
+
+    @media (max-width: 639px) {
+        .copyfy-clv-cells { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    .copyfy-clv-cell {
+        padding: 12px 6px !important;
+        background: #FFFFFF !important;
+        border: 1px solid rgba(255, 255, 255, 0.35) !important;
+        border-radius: 12px !important;
+        text-align: center;
+        cursor: pointer;
+        min-width: 0;
+        transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .copyfy-clv-cell:hover { transform: scale(1.05); z-index: 5; }
+
+    .copyfy-clv-cell-ret {
+        font-size: 11px !important;
+        font-weight: 600 !important;
+        color: #0F0F10 !important;
+        opacity: 0.6;
+        margin-bottom: 3px;
+    }
+
+    .copyfy-clv-cell-val {
+        font-size: 14px !important;
+        font-weight: 700 !important;
+        color: #0F0F10 !important;
+        line-height: 1.2;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .copyfy-clv-cell-good { border-color: rgba(10, 108, 251, 0.45) !important; }
+    .copyfy-clv-cell-good .copyfy-clv-cell-val { color: #0A6CFB !important; }
+    .copyfy-clv-cell-bad { border-color: rgba(220, 38, 38, 0.45) !important; }
+    .copyfy-clv-cell-bad .copyfy-clv-cell-val { color: #DC2626 !important; }
+
+    .copyfy-clv-cell-current {
+        border: 3px solid #0A6CFB !important;
+        box-shadow: 0 0 0 3px rgba(10, 108, 251, 0.25);
+    }
+
+    /* Note */
+    .copyfy-clv-note {
+        margin-top: 12px;
+        font-size: 12px !important;
+        color: #FFFFFF !important;
+        opacity: 0.55;
+        line-height: 1.5;
+        padding: 0 !important;
+    }
+</style>
+
+<div class="copyfy-clv">
+    <div class="copyfy-clv-layout">
+
+        <!-- LEFT: inputs -->
+        <div class="copyfy-clv-left">
+            <div class="copyfy-clv-inputs">
+                <div class="copyfy-clv-field">
+                    <label for="copyfy-clv-aov" class="copyfy-clv-label">Durchschnittlicher Bestellwert</label>
+                    <div class="copyfy-clv-input-wrap">
+                        <input type="number" id="copyfy-clv-aov" class="copyfy-clv-input" min="0" step="0.01" value="0">
+                        <span class="copyfy-clv-icon">€</span>
+                    </div>
+                </div>
+
+                <div class="copyfy-clv-field">
+                    <label for="copyfy-clv-freq" class="copyfy-clv-label">Bestellungen / Jahr pro Kunde</label>
+                    <div class="copyfy-clv-input-wrap">
+                        <input type="number" id="copyfy-clv-freq" class="copyfy-clv-input" min="0" step="0.1" value="0">
+                        <span class="copyfy-clv-icon">#</span>
+                    </div>
+                </div>
+
+                <div class="copyfy-clv-field">
+                    <label for="copyfy-clv-margin" class="copyfy-clv-label">Bruttomarge</label>
+                    <div class="copyfy-clv-input-wrap">
+                        <input type="number" id="copyfy-clv-margin" class="copyfy-clv-input" min="0" max="100" step="0.1" value="0">
+                        <span class="copyfy-clv-icon">%</span>
+                    </div>
+                </div>
+
+                <div class="copyfy-clv-field">
+                    <label for="copyfy-clv-retention" class="copyfy-clv-label">Jährliche Bindungsrate</label>
+                    <div class="copyfy-clv-input-wrap">
+                        <input type="number" id="copyfy-clv-retention" class="copyfy-clv-input" min="0" max="99" step="1" value="0">
+                        <span class="copyfy-clv-icon">%</span>
+                    </div>
+                </div>
+
+                <div class="copyfy-clv-field">
+                    <label for="copyfy-clv-cac" class="copyfy-clv-label">Akquisekosten (CAC)</label>
+                    <div class="copyfy-clv-input-wrap">
+                        <input type="number" id="copyfy-clv-cac" class="copyfy-clv-input" min="0" step="0.01" value="0">
+                        <span class="copyfy-clv-icon">€</span>
+                    </div>
+                </div>
+
+                <div class="copyfy-clv-field">
+                    <label for="copyfy-clv-service" class="copyfy-clv-label">Servicekosten / Jahr</label>
+                    <div class="copyfy-clv-input-wrap">
+                        <input type="number" id="copyfy-clv-service" class="copyfy-clv-input" min="0" step="0.01" value="0">
+                        <span class="copyfy-clv-icon">€</span>
+                    </div>
+                </div>
+
+                <div class="copyfy-clv-field copyfy-clv-field-wide">
+                    <label for="copyfy-clv-discount" class="copyfy-clv-label">Diskontsatz (optional)</label>
+                    <div class="copyfy-clv-input-wrap">
+                        <input type="number" id="copyfy-clv-discount" class="copyfy-clv-input" min="0" max="50" step="0.5" value="0">
+                        <span class="copyfy-clv-icon">%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyfy-clv-bottombar">
+                <button type="button" class="copyfy-clv-btn copyfy-clv-btn-secondary" id="copyfy-clv-reset">
+                    <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                    </svg>
+                    Zurücksetzen
+                </button>
+            </div>
+        </div>
+
+        <!-- RIGHT: results -->
+        <div class="copyfy-clv-results">
+            <div class="copyfy-clv-hero">
+                <div class="copyfy-clv-hero-left">
+                    <div class="copyfy-clv-hero-label">Kundenwert über die Lebensdauer (Marge)</div>
+                    <div class="copyfy-clv-hero-value" id="copyfy-clv-hero-value">—</div>
+                    <div class="copyfy-clv-hero-sub" id="copyfy-clv-hero-sub">Trage Bestellwert, Frequenz und Bindungsrate ein.</div>
+                </div>
+                <div class="copyfy-clv-badge" id="copyfy-clv-badge">
+                    <span class="copyfy-clv-badge-dot"></span>
+                    <span id="copyfy-clv-badge-text">—</span>
+                </div>
+            </div>
+
+            <div class="copyfy-clv-stats">
+                <div class="copyfy-clv-stat">
+                    <div class="copyfy-clv-stat-label">Netto-CLV</div>
+                    <div class="copyfy-clv-stat-value" id="copyfy-clv-stat-net">—</div>
+                </div>
+                <div class="copyfy-clv-stat">
+                    <div class="copyfy-clv-stat-label">CLV:CAC-Verhältnis</div>
+                    <div class="copyfy-clv-stat-value" id="copyfy-clv-stat-ratio">—</div>
+                </div>
+                <div class="copyfy-clv-stat">
+                    <div class="copyfy-clv-stat-label">Lebensdauer</div>
+                    <div class="copyfy-clv-stat-value" id="copyfy-clv-stat-lifespan">—</div>
+                </div>
+                <div class="copyfy-clv-stat">
+                    <div class="copyfy-clv-stat-label">CAC-Amortisation</div>
+                    <div class="copyfy-clv-stat-value" id="copyfy-clv-stat-payback">—</div>
+                </div>
+            </div>
+
+            <div class="copyfy-clv-target">
+                <span class="copyfy-clv-target-icon">🎯</span>
+                <span id="copyfy-clv-target-text">Trage deine Zahlen ein, um deinen maximalen CAC zu sehen.</span>
+            </div>
+
+            <div id="copyfy-clv-interp" class="copyfy-clv-interp">
+                <strong>Interpretation:</strong> <span id="copyfy-clv-interp-text">Trage deinen durchschnittlichen Bestellwert, deine Kauffrequenz und deine Bindungsrate ein.</span>
+            </div>
+
+            <div class="copyfy-clv-strip">
+                <div class="copyfy-clv-strip-title">Wirkung der Kundenbindung</div>
+                <div class="copyfy-clv-strip-desc">Klicke auf ein Feld, um diese Bindungsrate zu übernehmen.</div>
+                <div class="copyfy-clv-cells" id="copyfy-clv-cells"></div>
+            </div>
+
+            <div class="copyfy-clv-note">
+                Der CLV wird auf die Bruttomarge gerechnet, nicht auf den Umsatz. Durchschnittliche Lebensdauer = 1 / (1 − Bindungsrate). Der Diskontsatz bringt künftige Margen auf ihren heutigen Wert, lass ihn auf 0, wenn du in laufenden Euro rechnest.
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+(function() {
+    'use strict';
+
+    const LOCALE = 'de-DE';
+
+    const L = {
+        empty: 'Trage deinen durchschnittlichen Bestellwert, deine Kauffrequenz und deine Bindungsrate ein.',
+        emptySub: 'Trage Bestellwert, Frequenz und Bindungsrate ein.',
+        emptyTarget: 'Trage deine Zahlen ein, um deinen maximalen CAC zu sehen.',
+        badgeLoss: 'Verlust',
+        badgeLow: 'Niedrig',
+        badgeGood: 'Gesund',
+        badgeGreat: 'Ausgezeichnet',
+        badgeNoCac: 'Ohne CAC',
+        years: 'Jahre',
+        months: 'Monate',
+        heroSub: (m, y) => m + ' Marge pro Jahr über ' + y + ' ' + L.years,
+        targetLoss: 'Deine Jahresmarge pro Kunde ist negativ. So rechnet sich kein Akquisebudget.',
+        targetRoom: (v) => 'Du hast Luft: Du kannst bis <strong>' + v + '</strong> CAC gehen und bleibst bei 3:1.',
+        targetTight: (v) => 'Für ein Verhältnis von 3:1 darf dein CAC <strong>' + v + '</strong> pro Kunde nicht überschreiten.',
+        interpLoss: 'jeder Kunde kostet dich über seine gesamte Lebensdauer Geld. Hebe deinen Bestellwert oder deine Bruttomarge an, oder kürze die Servicekosten, bevor du einen Euro in Akquise steckst.',
+        interpNoCac: 'trage deinen CAC ein, um zu sehen, ob deine Akquise tragfähig ist. Ohne ihn kennst du den Wert eines Kunden, aber nicht seine Kosten.',
+        interpBad: 'du zahlst für die Akquise mehr, als der Kunde über seine gesamte Lebensdauer einbringt. Jeder neue Verkauf vergrößert den Verlust.',
+        interpTight: 'du bist profitabel, aber knapp. Unter 3:1 bleibt wenig Spielraum für Fixkosten, Creative-Tests und Rückschläge.',
+        interpHealthy: 'gesundes Verhältnis. Deine Akquise ist tragfähig, du kannst Volumen aufdrehen, ohne die Unit Economics zu brechen.',
+        interpWide: 'sehr weites Verhältnis. Oft ein Zeichen, dass du zu wenig in Akquise investierst: Du könntest mehr pro Kunde zahlen und mehr Marktanteil holen.',
+        payback: (v) => ' CAC-Amortisation: ' + v + ' ' + L.months + '.'
+    };
+
+    const DEFAULTS = {
+        aov: 0,
+        freq: 0,
+        margin: 0,
+        retention: 0,
+        cac: 0,
+        service: 0,
+        discount: 0
+    };
+
+    // Benchmark on the CLV:CAC ratio. 3:1 is the classic sustainable threshold,
+    // under 1:1 each acquired customer destroys value.
+    const BENCHMARKS = [
+        { max: 1,        label: L.badgeLoss,  cls: 'copyfy-clv-badge-loss' },
+        { max: 3,        label: L.badgeLow,   cls: 'copyfy-clv-badge-low' },
+        { max: 5,        label: L.badgeGood,  cls: 'copyfy-clv-badge-good' },
+        { max: Infinity, label: L.badgeGreat, cls: 'copyfy-clv-badge-great' }
+    ];
+
+    const TARGET_RATIO = 3;
+    const RETENTION_STEPS = [20, 30, 40, 50, 60, 70];
+
+    const state = Object.assign({}, DEFAULTS);
+
+    const clamp = (v, lo, hi) => Math.min(hi, Math.max(lo, v));
+
+    const FIELDS = {
+        'copyfy-clv-aov':       ['aov',       v => parseFloat(v) || 0],
+        'copyfy-clv-freq':      ['freq',      v => parseFloat(v) || 0],
+        'copyfy-clv-margin':    ['margin',    v => clamp(parseFloat(v) || 0, 0, 100)],
+        'copyfy-clv-retention': ['retention', v => clamp(parseFloat(v) || 0, 0, 99)],
+        'copyfy-clv-cac':       ['cac',       v => parseFloat(v) || 0],
+        'copyfy-clv-service':   ['service',   v => parseFloat(v) || 0],
+        'copyfy-clv-discount':  ['discount',  v => clamp(parseFloat(v) || 0, 0, 50)]
+    };
+
+    /**
+     * Annual gross margin per active customer.
+     */
+    function annualMargin(s) {
+        return s.aov * s.freq * (s.margin / 100) - s.service;
+    }
+
+    /**
+     * CLV = m * (1 + d) / (1 + d - r)
+     * Retention-based model: the first year is cashed at t=0, each later year is
+     * weighted by the survival probability r^n and discounted at d.
+     * With d = 0 it collapses to m / (1 - r), i.e. annual margin x average lifespan.
+     */
+    function clvFor(s) {
+        const r = s.retention / 100;
+        const d = s.discount / 100;
+        const m = annualMargin(s);
+        return m * (1 + d) / (1 + d - r);
+    }
+
+    function compute() {
+        const { aov, freq, retention, cac } = state;
+        if (aov <= 0 || freq <= 0 || retention <= 0) return null;
+
+        const m = annualMargin(state);
+        const lifespan = 1 / (1 - retention / 100);
+        const clv = clvFor(state);
+        const netClv = clv - cac;
+        const ratio = cac > 0 ? clv / cac : null;
+        const paybackMonths = m > 0 ? (cac / (m / 12)) : null;
+        const maxCac = clv > 0 ? clv / TARGET_RATIO : null;
+
+        return { m, lifespan, clv, netClv, ratio, paybackMonths, maxCac };
+    }
+
+    function money(value) {
+        if (value === null || !isFinite(value)) return '—';
+        const decimals = Math.abs(value) < 1000 ? 2 : 0;
+        return new Intl.NumberFormat(LOCALE, {
+            style: 'currency', currency: 'EUR',
+            minimumFractionDigits: decimals, maximumFractionDigits: decimals
+        }).format(value);
+    }
+
+    function moneyCompact(value) {
+        if (value === null || !isFinite(value)) return '—';
+        return new Intl.NumberFormat(LOCALE, {
+            style: 'currency', currency: 'EUR',
+            minimumFractionDigits: 0, maximumFractionDigits: 0
+        }).format(value);
+    }
+
+    function num(value, decimals) {
+        if (value === null || !isFinite(value)) return '—';
+        return new Intl.NumberFormat(LOCALE, {
+            minimumFractionDigits: decimals, maximumFractionDigits: decimals
+        }).format(value);
+    }
+
+    function setTone(id, isPositive) {
+        const el = document.getElementById(id);
+        el.classList.remove('copyfy-clv-stat-value-positive', 'copyfy-clv-stat-value-negative',
+                            'copyfy-clv-hero-value-positive', 'copyfy-clv-hero-value-negative');
+        if (isPositive === null) return;
+        const prefix = id === 'copyfy-clv-hero-value' ? 'copyfy-clv-hero-value-' : 'copyfy-clv-stat-value-';
+        el.classList.add(prefix + (isPositive ? 'positive' : 'negative'));
+    }
+
+    function applyBadge(r) {
+        const badge = document.getElementById('copyfy-clv-badge');
+        const text = document.getElementById('copyfy-clv-badge-text');
+        ['copyfy-clv-badge-loss', 'copyfy-clv-badge-low',
+         'copyfy-clv-badge-good', 'copyfy-clv-badge-great']
+            .forEach(c => badge.classList.remove(c));
+
+        let b;
+        if (!r) b = { label: '—', cls: 'copyfy-clv-badge-low' };
+        else if (r.clv <= 0) b = { label: L.badgeLoss, cls: 'copyfy-clv-badge-loss' };
+        else if (r.ratio === null) b = { label: L.badgeNoCac, cls: 'copyfy-clv-badge-low' };
+        else b = BENCHMARKS.find(x => r.ratio < x.max) || BENCHMARKS[BENCHMARKS.length - 1];
+
+        badge.classList.add(b.cls);
+        text.textContent = b.label;
+    }
+
+    function buildStrip(r) {
+        const wrap = document.getElementById('copyfy-clv-cells');
+        wrap.innerHTML = '';
+
+        const current = RETENTION_STEPS.reduce((best, step) =>
+            Math.abs(step - state.retention) < Math.abs(best - state.retention) ? step : best,
+            RETENTION_STEPS[0]);
+
+        RETENTION_STEPS.forEach(step => {
+            const sim = Object.assign({}, state, { retention: step });
+            const clv = clvFor(sim);
+            const usable = state.aov > 0 && state.freq > 0;
+            const ratio = state.cac > 0 ? clv / state.cac : null;
+
+            const cell = document.createElement('div');
+            cell.className = 'copyfy-clv-cell';
+            if (usable && ratio !== null) {
+                if (ratio >= TARGET_RATIO) cell.classList.add('copyfy-clv-cell-good');
+                else if (ratio < 1) cell.classList.add('copyfy-clv-cell-bad');
+            } else if (usable && clv <= 0) {
+                cell.classList.add('copyfy-clv-cell-bad');
+            }
+            if (r && step === current) cell.classList.add('copyfy-clv-cell-current');
+
+            const ret = document.createElement('div');
+            ret.className = 'copyfy-clv-cell-ret';
+            ret.textContent = step + ' %';
+
+            const val = document.createElement('div');
+            val.className = 'copyfy-clv-cell-val';
+            val.textContent = usable ? moneyCompact(clv) : '—';
+
+            cell.appendChild(ret);
+            cell.appendChild(val);
+            cell.addEventListener('click', () => {
+                state.retention = step;
+                document.getElementById('copyfy-clv-retention').value = step;
+                updateResult();
+            });
+            wrap.appendChild(cell);
+        });
+    }
+
+    function updateResult() {
+        const r = compute();
+        const heroValue = document.getElementById('copyfy-clv-hero-value');
+        const heroSub = document.getElementById('copyfy-clv-hero-sub');
+        const target = document.getElementById('copyfy-clv-target-text');
+        const interp = document.getElementById('copyfy-clv-interp');
+        const interpText = document.getElementById('copyfy-clv-interp-text');
+
+        if (!r) {
+            ['copyfy-clv-hero-value', 'copyfy-clv-stat-net', 'copyfy-clv-stat-ratio',
+             'copyfy-clv-stat-lifespan', 'copyfy-clv-stat-payback']
+                .forEach(id => { document.getElementById(id).textContent = '—'; setTone(id, null); });
+            heroSub.textContent = L.emptySub;
+            target.innerHTML = L.emptyTarget;
+            interp.classList.remove('copyfy-clv-interp-loss');
+            interpText.textContent = L.empty;
+            applyBadge(null);
+            buildStrip(null);
+            return;
+        }
+
+        heroValue.textContent = money(r.clv);
+        setTone('copyfy-clv-hero-value', r.clv > 0);
+        heroSub.textContent = L.heroSub(money(r.m), num(r.lifespan, 1));
+
+        document.getElementById('copyfy-clv-stat-net').textContent = money(r.netClv);
+        setTone('copyfy-clv-stat-net', r.netClv > 0);
+
+        const showRatio = r.ratio !== null && r.clv > 0;
+        document.getElementById('copyfy-clv-stat-ratio').textContent =
+            showRatio ? num(r.ratio, 1) + ':1' : '—';
+        setTone('copyfy-clv-stat-ratio', showRatio ? r.ratio >= TARGET_RATIO : null);
+
+        document.getElementById('copyfy-clv-stat-lifespan').textContent = num(r.lifespan, 1) + ' ' + L.years;
+        setTone('copyfy-clv-stat-lifespan', null);
+
+        const showPayback = r.paybackMonths !== null && isFinite(r.paybackMonths) && state.cac > 0;
+        document.getElementById('copyfy-clv-stat-payback').textContent =
+            showPayback ? num(r.paybackMonths, 1) + ' ' + L.months : '—';
+        setTone('copyfy-clv-stat-payback', showPayback ? r.paybackMonths <= 12 : null);
+
+        if (r.clv <= 0) {
+            target.innerHTML = L.targetLoss;
+        } else if (r.ratio !== null && r.ratio >= TARGET_RATIO) {
+            target.innerHTML = L.targetRoom(money(r.maxCac));
+        } else {
+            target.innerHTML = L.targetTight(money(r.maxCac));
+        }
+
+        let msg;
+        if (r.clv <= 0) msg = L.interpLoss;
+        else if (r.ratio === null) msg = L.interpNoCac;
+        else if (r.ratio < 1) msg = L.interpBad;
+        else if (r.ratio < TARGET_RATIO) msg = L.interpTight;
+        else if (r.ratio < 5) msg = L.interpHealthy;
+        else msg = L.interpWide;
+
+        if (r.paybackMonths !== null && isFinite(r.paybackMonths) && state.cac > 0 && r.clv > 0) {
+            msg += L.payback(num(r.paybackMonths, 1));
+        }
+
+        interp.classList.toggle('copyfy-clv-interp-loss', r.clv <= 0 || (r.ratio !== null && r.ratio < 1));
+        interpText.textContent = msg;
+
+        applyBadge(r);
+        buildStrip(r);
+    }
+
+    function init() {
+        /* localStorage disabled: always start at 0 */
+        Object.entries(FIELDS).forEach(([id, [key, parser]]) => {
+            const el = document.getElementById(id);
+            el.value = state[key];
+            el.addEventListener('input', (e) => {
+                state[key] = parser(e.target.value);
+                updateResult();
+            });
+        });
+
+        document.getElementById('copyfy-clv-reset').addEventListener('click', () => {
+            Object.assign(state, DEFAULTS);
+            Object.entries(FIELDS).forEach(([id, [key]]) => {
+                document.getElementById(id).value = state[key];
+            });
+            updateResult();
+        });
+
+        updateResult();
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+})();
+</script>
+
+<script>
+(function(){
+  function ph(){ try{ parent.postMessage({copyfyToolHeight: Math.ceil((document.querySelector(".copyfy-clv")||document.body).getBoundingClientRect().bottom)}, "*"); }catch(e){} }
+  window.addEventListener("load", ph);
+  window.addEventListener("resize", ph);
+  document.addEventListener("input", ph, true);
+  document.addEventListener("click", ph, true);
+  if(window.ResizeObserver){ new ResizeObserver(ph).observe(document.documentElement); }
+  setTimeout(ph,200); setTimeout(ph,800);
+})();
+</script>

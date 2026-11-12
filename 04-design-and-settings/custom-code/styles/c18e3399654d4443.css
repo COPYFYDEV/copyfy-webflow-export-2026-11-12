@@ -1,0 +1,9 @@
+
+#wip-blog-design #resource-grid-slot{flex-direction:column;align-items:stretch}
+#wip-blog-design #resource-grid-slot>.collection-list-wrapper-blog,#wip-blog-design #resource-grid-slot>.resource-pagination{width:100%;flex-shrink:0}
+#wip-blog-design #resource-grid-slot .w-dyn-item[hidden]{display:none!important}
+#wip-blog-design .resource-pagination{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px;margin:32px 0 0}
+#wip-blog-design .resource-pagination button{display:inline-flex;justify-content:center;align-items:center;min-width:40px;min-height:40px;padding:9px 14px;border:1px solid #dce2ed;border-radius:9999px;background:#fff;color:#0b0d14;font:500 14px/20px Inter,system-ui,sans-serif;cursor:pointer}
+#wip-blog-design .resource-pagination button[aria-current="page"]{color:#fff;background:#0c6cfb;border-color:#0c6cfb}
+#wip-blog-design .resource-pagination button:disabled{opacity:.4;cursor:default}
+#wip-blog-design .resource-pagination button:focus-visible{outline:2px solid #0c6cfb;outline-offset:3px}

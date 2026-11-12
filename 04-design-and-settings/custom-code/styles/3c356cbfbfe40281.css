@@ -1,0 +1,5 @@
+
+/* Blog hero title: compact size approved by Eric. */
+#wip-blog-design h1.wip-blog-title-3{font-size:34px;line-height:1.2}
+@media(max-width:767px){#wip-blog-design h1.wip-blog-title-3{font-size:28px}}
+@media(max-width:479px){#wip-blog-design h1.wip-blog-title-3{font-size:25px}}

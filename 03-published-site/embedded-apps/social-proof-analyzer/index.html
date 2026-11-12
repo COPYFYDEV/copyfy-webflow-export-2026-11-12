@@ -1,0 +1,601 @@
+<style>
+    html,body{margin:0 !important;padding:0 !important;}
+    .copyfy-spa *{box-sizing:border-box !important;margin:0;padding:0;}
+    .copyfy-spa{
+        font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
+        color:#FFFFFF !important;background:transparent !important;
+        padding:0 !important;padding-bottom:100px !important;max-width:none !important;width:100% !important;margin:0 auto !important;
+        overflow:hidden !important;line-height:1.5;
+    }
+    .copyfy-spa-bar{display:flex;gap:12px;flex-wrap:wrap;align-items:stretch;}
+    .copyfy-spa-field{position:relative;flex:1 1 320px;min-width:0;}
+    .copyfy-spa-icon{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:#0F0F10;font-size:15px;pointer-events:none;}
+    .copyfy-spa-input{
+        width:100% !important;background:#FFFFFF !important;color:#0F0F10 !important;
+        border:1px solid #FFFFFF !important;border-radius:12px !important;
+        padding:14px 14px 14px 34px !important;font-size:15px !important;font-family:inherit !important;
+        transition:border-color .2s ease;
+    }
+    .copyfy-spa-input::placeholder{color:#8a8a8a;}
+    .copyfy-spa-input:hover{border-color:#d1d5db !important;}
+    .copyfy-spa-input:focus{outline:none;background:#FFFFFF !important;color:#0F0F10 !important;border-color:#6B7280 !important;}
+    .copyfy-spa-btn{
+        display:inline-flex;align-items:center;justify-content:center;gap:8px;
+        border:none !important;border-radius:30px !important;padding:12px 24px !important;
+        font-size:14px !important;font-weight:700 !important;font-family:inherit !important;
+        cursor:pointer;text-decoration:none;background:#0A6CFB !important;color:#FFFFFF !important;
+        transition:transform .2s ease,box-shadow .2s ease,opacity .2s ease;
+    }
+    .copyfy-spa-btn:hover{transform:translateY(-1px);box-shadow:0 6px 16px rgba(0,0,0,.25);}
+    .copyfy-spa-btn[disabled]{opacity:.6;cursor:default;transform:none;box-shadow:none;}
+    .copyfy-spa-btn.is-alt{background:#FFFFFF !important;color:#0F0F10 !important;border:1px solid #D1D5DB !important;border-radius:10px !important;padding:10px 16px !important;font-size:13px !important;}
+    .copyfy-spa-spin{width:16px;height:16px;border:2px solid rgba(255,255,255,.35);border-top-color:#FFFFFF;border-radius:50%;animation:copyfy-spa-rot .7s linear infinite;flex:0 0 auto;}
+    @keyframes copyfy-spa-rot{to{transform:rotate(360deg);}}
+    .copyfy-spa-hint{margin-top:10px;font-size:13px;color:#B8BCC6;}
+    .copyfy-spa-results{margin-top:16px;display:flex;flex-direction:column;gap:16px;}
+    .copyfy-spa-card{background:#FFFFFF !important;border-radius:12px;padding:24px;color:#0F0F10;min-width:0;}
+    .copyfy-spa-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+    .copyfy-spa-h{font-size:17px;font-weight:700;color:#0F0F10;margin-bottom:4px;}
+    .copyfy-spa-sub{font-size:13px;color:#6B7280;margin-bottom:16px;}
+    .copyfy-spa-label{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#6B7280;margin-bottom:6px;}
+    .copyfy-spa-head{display:flex;gap:24px;flex-wrap:wrap;align-items:flex-start;}
+    .copyfy-spa-head-main{flex:1 1 300px;min-width:0;}
+    .copyfy-spa-badge{display:inline-block;font-size:12px;font-weight:700;color:#0A6CFB;background:#EAF2FF;border-radius:999px;padding:3px 10px;margin-bottom:8px;}
+    .copyfy-spa-title{font-size:18px;font-weight:700;line-height:1.35;word-break:break-word;}
+    .copyfy-spa-title a{color:#0F0F10;text-decoration:none;}
+    .copyfy-spa-title a:hover{color:#0A6CFB;}
+    .copyfy-spa-kpis{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;}
+    .copyfy-spa-kpi{background:#F5F6F8;border-radius:10px;padding:10px 14px;min-width:110px;}
+    .copyfy-spa-kpi b{display:block;font-size:20px;font-weight:800;color:#0F0F10;}
+    .copyfy-spa-kpi span{font-size:12px;color:#6B7280;}
+    .copyfy-spa-hist{flex:0 1 260px;min-width:220px;}
+    .copyfy-spa-hrow{display:flex;align-items:center;gap:8px;font-size:12px;color:#374151;margin-bottom:5px;}
+    .copyfy-spa-hrow span:first-child{width:24px;flex:0 0 auto;font-weight:700;}
+    .copyfy-spa-hrow span:last-child{width:36px;text-align:right;flex:0 0 auto;color:#6B7280;}
+    .copyfy-spa-track{flex:1 1 auto;height:8px;background:#EDEEF1;border-radius:99px;overflow:hidden;}
+    .copyfy-spa-fill{display:block;height:100%;background:#0A6CFB;border-radius:99px;}
+    .copyfy-spa-fill.is-neg{background:#E5484D;}
+    .copyfy-spa-summary{margin-top:16px;font-size:14px;color:#374151;background:#F5F6F8;border-radius:10px;padding:12px 14px;}
+    .copyfy-spa-summary b{color:#0F0F10;}
+    .copyfy-spa-chips{display:flex;flex-wrap:wrap;gap:6px;}
+    .copyfy-spa-chip{font-size:13px;font-weight:600;color:#0F0F10;background:#F1F3F6;border-radius:999px;padding:4px 11px;}
+    .copyfy-spa-chip i{font-style:normal;color:#6B7280;font-weight:500;margin-left:4px;}
+    .copyfy-spa-chip.is-pos{background:#EAF2FF;}
+    .copyfy-spa-chip.is-neg{background:#FDECEC;}
+    .copyfy-spa-persona{border-left:4px solid #0A6CFB;}
+    .copyfy-spa-prow{display:flex;gap:16px;padding:12px 0;border-bottom:1px solid #EDEEF1;}
+    .copyfy-spa-prow:last-child{border-bottom:none;padding-bottom:0;}
+    .copyfy-spa-prow-k{flex:0 0 190px;font-size:13px;font-weight:700;color:#6B7280;}
+    .copyfy-spa-prow-v{flex:1 1 auto;min-width:0;font-size:14px;color:#0F0F10;}
+    .copyfy-spa-theme{margin-bottom:14px;}
+    .copyfy-spa-theme:last-child{margin-bottom:0;}
+    .copyfy-spa-theme-top{display:flex;justify-content:space-between;gap:12px;font-size:14px;font-weight:700;margin-bottom:5px;}
+    .copyfy-spa-theme-top span:last-child{color:#6B7280;font-weight:600;font-size:13px;white-space:nowrap;}
+    .copyfy-spa-quote{font-size:13px;color:#4B5563;font-style:italic;margin-top:6px;word-break:break-word;}
+    .copyfy-spa-empty{font-size:14px;color:#6B7280;}
+    .copyfy-spa-list{list-style:none;}
+    .copyfy-spa-list li{position:relative;padding:8px 0 8px 22px;font-size:14px;border-bottom:1px solid #EDEEF1;}
+    .copyfy-spa-list li:last-child{border-bottom:none;}
+    .copyfy-spa-list li:before{content:"";position:absolute;left:4px;top:15px;width:8px;height:8px;border-radius:50%;background:#0A6CFB;}
+    .copyfy-spa-list.is-neg li:before{background:#E5484D;}
+    .copyfy-spa-list li em{display:block;font-size:13px;color:#4B5563;margin-top:3px;}
+    .copyfy-spa-verb{background:#F5F6F8;border-radius:10px;padding:12px 14px;font-size:14px;color:#1F2937;margin-bottom:10px;word-break:break-word;}
+    .copyfy-spa-verb:last-child{margin-bottom:0;}
+    .copyfy-spa-verb small{display:block;font-size:12px;color:#6B7280;margin-top:6px;font-weight:600;}
+    .copyfy-spa-table{width:100%;border-collapse:collapse;font-size:14px;}
+    .copyfy-spa-table th{text-align:left;font-size:12px;color:#6B7280;font-weight:700;padding:0 8px 8px 0;border-bottom:1px solid #EDEEF1;}
+    .copyfy-spa-table td{padding:9px 8px 9px 0;border-bottom:1px solid #EDEEF1;vertical-align:middle;}
+    .copyfy-spa-table tr:last-child td{border-bottom:none;}
+    .copyfy-spa-table td:first-child{font-weight:600;}
+    .copyfy-spa-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px;}
+    .copyfy-spa-note{font-size:12px;color:#6B7280;margin-top:12px;}
+    .copyfy-spa-msg{background:#FFFFFF !important;border-radius:12px;padding:16px 20px;font-size:14px;color:#0F0F10;border-left:4px solid #DC2626;}
+    @media (max-width:760px){
+        .copyfy-spa-grid{grid-template-columns:1fr;}
+    }
+    @media (max-width:560px){
+        .copyfy-spa-card{padding:16px;}
+        .copyfy-spa-prow{flex-direction:column;gap:4px;}
+        .copyfy-spa-prow-k{flex:none;}
+        .copyfy-spa-hist{flex:1 1 100%;min-width:0;}
+        .copyfy-spa-kpi{flex:1 1 40%;min-width:0;}
+        .copyfy-spa-bar .copyfy-spa-btn{flex:1 1 100%;}
+    }
+</style>
+
+<div class="copyfy-spa">
+    <div class="copyfy-spa-bar">
+        <div class="copyfy-spa-field">
+            <input type="text" id="copyfy-spa-url" class="copyfy-spa-input" autocomplete="off" spellcheck="false">
+            <span class="copyfy-spa-icon">&#128269;</span>
+        </div>
+        <button type="button" id="copyfy-spa-run" class="copyfy-spa-btn"></button>
+    </div>
+    <p class="copyfy-spa-hint" id="copyfy-spa-hint"></p>
+    <div class="copyfy-spa-results" id="copyfy-spa-results" hidden></div>
+</div>
+
+<script>
+(function(){
+    'use strict';
+
+    var LOCALE = 'fr';
+    var T = {
+        placeholder: 'Lien d’un produit AliExpress, Amazon ou Shopify',
+        run: 'Analyser les avis',
+        loading: 'Lecture des avis…',
+        hint: 'Colle l’URL d’une fiche produit : aliexpress.com/item/…, amazon.fr/dp/… ou une boutique Shopify (…/products/…).',
+        reviews: 'avis',
+        avgLabel: 'note moyenne',
+        totalLabel: 'avis au total',
+        analyzedLabel: 'avis analysés',
+        photosLabel: 'avis avec photo',
+        histLabel: 'Répartition des notes',
+        openProduct: 'Voir le produit',
+        summaryLabel: 'Résumé de la plateforme',
+        tagsLabel: 'Ce que les acheteurs cochent le plus',
+        personaTitle: 'Portrait de l’acheteur',
+        personaSub: 'Synthèse tirée des avis. À croiser avec tes propres données avant de lancer une campagne.',
+        pWho: 'Pour qui il achète',
+        pEntourage: 'Qui il mentionne',
+        pSelf: 'Comment il se décrit',
+        pDeclared: 'Profil déclaré',
+        pWhy: 'Ce qui le fait acheter',
+        pFear: 'Ce qui le freine',
+        pWhere: 'Où et quand il l’utilise',
+        pMarkets: 'Marchés des acheteurs',
+        pLoyalty: 'Fidélité',
+        whoGift: 'Achat cadeau dans {p} % des avis',
+        whoSelf: 'Surtout pour lui-même (cadeau dans {p} % des avis seulement)',
+        loyalty: '{r} % recommandent le produit, {b} % parlent d’un rachat',
+        none: 'Pas assez de signaux dans les avis',
+        gainsTitle: 'Motivations d’achat',
+        gainsSub: 'Thèmes cités dans les avis 4 et 5 étoiles',
+        painsTitle: 'Freins et frustrations',
+        painsSub: 'Thèmes cités dans les avis 1 à 3 étoiles',
+        noPains: 'Presque aucun avis négatif sur l’échantillon : les frustrations ne ressortent pas.',
+        ofPos: 'des avis positifs',
+        ofNeg: 'des avis négatifs',
+        anglesTitle: 'Angles publicitaires à tester',
+        anglesSub: 'Déduits des motivations les plus citées, avec une phrase client comme accroche.',
+        objTitle: 'Objections à traiter sur ta fiche produit',
+        objSub: 'Déduites des freins et des attentes déçues.',
+        expectLabel: 'Attente déçue',
+        nuanceLabel: 'Bémol dans un avis positif',
+        wordsTitle: 'Les mots de tes clients',
+        wordsSub: 'Expressions qui reviennent le plus, à reprendre dans tes pubs et ta fiche produit.',
+        wordsPos: 'Côté positif',
+        wordsNeg: 'Côté négatif',
+        verbTitle: 'Verbatims',
+        verbBest: 'Avis positifs les plus détaillés',
+        verbWorst: 'Avis négatifs les plus détaillés',
+        stars: '{n} étoiles',
+        star1: '1 étoile',
+        aspectsTitle: 'Aspects relevés par Amazon',
+        aspectsSub: 'Calcul d’Amazon sur l’ensemble des avis du produit.',
+        thAspect: 'Aspect',
+        thMentions: 'Mentions',
+        thPositive: 'Part positive',
+        variantsTitle: 'Variantes les plus commandées',
+        copy: 'Copier le persona',
+        copied: 'Persona copié',
+        sampleNote: 'Amazon n’affiche qu’un échantillon d’avis sans connexion : l’analyse s’appuie sur cet échantillon et sur les aspects calculés par Amazon.',
+        sourceNote: 'Analyse automatique de {n} avis publics. Les pourcentages portent sur les avis analysés, pas sur toutes les ventes.',
+        errInvalid: 'Ce lien n’est pas reconnu. Colle l’URL complète d’une fiche produit AliExpress, Amazon ou Shopify.',
+        errShort: 'Les liens raccourcis (amzn.to, a.aliexpress.com) ne sont pas lus. Ouvre le lien puis colle l’URL complète de la fiche produit.',
+        errNotProduct: 'Ce lien ne mène pas à une fiche produit. Ouvre la page du produit et colle son URL (…/products/… pour Shopify).',
+        errNotFound: 'Produit introuvable. Vérifie que la fiche est toujours en ligne.',
+        errNoReviews: 'Aucun avis lisible sur ce produit. La boutique n’affiche peut-être pas d’avis, ou utilise une appli d’avis non prise en charge.',
+        errBlocked: 'Amazon a bloqué la lecture de la page. Réessaie dans une minute ou teste un autre produit.',
+        errFetch: 'La page n’a pas répondu. Réessaie dans quelques secondes.',
+        themes: {
+            quality: 'Qualité', value: 'Rapport qualité-prix', ease: 'Facilité d’utilisation', comfort: 'Confort',
+            look: 'Esthétique', results: 'Efficacité', durability: 'Durabilité', size: 'Taille et ajustement',
+            shipping: 'Livraison', service: 'Service client', smell_taste: 'Odeur et goût', battery: 'Batterie et autonomie',
+            as_described: 'Conforme aux photos'
+        },
+        people: { partner: 'son ou sa partenaire', kids: 'ses enfants', parents: 'ses parents', friends: 'ses amis et collègues', pets: 'son animal' },
+        contexts: { home: 'à la maison', work: 'au travail', car: 'en voiture', travel: 'en voyage', sport: 'au sport', outdoor: 'en extérieur', sleep: 'la nuit et au coucher', daily: 'au quotidien' },
+        angles: {
+            quality: 'Qualité perçue : gros plans sur la matière et les finitions.',
+            value: 'Rapport qualité-prix : compare au prix d’une alternative plus chère.',
+            ease: 'Simplicité : montre la prise en main en moins de 10 secondes.',
+            comfort: 'Confort : filme le produit porté ou utilisé en situation réelle.',
+            look: 'Esthétique : mise en scène lifestyle et toutes les couleurs.',
+            results: 'Efficacité : démonstration ou avant / après.',
+            durability: 'Durabilité : le produit après plusieurs mois d’usage.',
+            size: 'Format : le produit à côté d’objets connus ou sur plusieurs morphologies.',
+            shipping: 'Livraison rapide : mets le délai dans l’accroche.',
+            service: 'Réassurance : garantie et retours simples en avant.',
+            smell_taste: 'Sensoriel : fais ressentir l’odeur ou le goût par la réaction à l’écran.',
+            battery: 'Autonomie : affiche la durée réelle d’utilisation.',
+            as_described: 'UGC : déballage sans filtre, le produit tel qu’il arrive.'
+        },
+        objections: {
+            quality: 'Rassure sur la qualité : matière, finitions, garantie.',
+            value: 'Justifie le prix : ce qui est inclus, durée d’usage, comparaison.',
+            ease: 'Ajoute un tutoriel ou un GIF d’installation sur la fiche.',
+            comfort: 'Précise la sensation (épaisseur, douceur) avec des photos portées.',
+            look: 'Ajoute des photos réelles non retouchées de chaque couleur.',
+            results: 'Fixe des attentes réalistes : délai et conditions d’usage.',
+            durability: 'Mets en avant la garantie et les conseils d’entretien.',
+            size: 'Ajoute un guide des tailles précis, mesures à l’appui.',
+            shipping: 'Affiche des délais de livraison honnêtes et un suivi de colis.',
+            service: 'Rends le contact et la politique de retour visibles.',
+            smell_taste: 'Décris l’odeur ou le goût avec précision.',
+            battery: 'Indique l’autonomie réelle et le temps de charge.',
+            as_described: 'Aligne photos et description sur le produit réellement livré.'
+        },
+        expectFix: 'Clarifie ce point dans la description et la FAQ :',
+        qOpen: '« ', qClose: ' »', pct: ' %', colon: ' : '
+    };
+
+    function $(id){ return document.getElementById(id); }
+    function el(tag, cls, text){ var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+    function fill(s, o){ return String(s).replace(/\{(\w+)\}/g, function(_, k){ return o[k] != null ? o[k] : ''; }); }
+    function q(t){ return T.qOpen + t + T.qClose; }
+    function pc(n){ return n + T.pct; }
+    function fmt(n){ try { return Number(n).toLocaleString(LOCALE); } catch(e){ return String(n); } }
+    function countryName(c){ try { return new Intl.DisplayNames([LOCALE], {type: 'region'}).of(c) || c; } catch(e){ return c; } }
+
+    function postHeight(){
+        try { parent.postMessage({copyfyToolHeight: Math.ceil((document.querySelector('.copyfy-spa')||document.body).getBoundingClientRect().bottom)}, '*'); } catch(e){}
+    }
+
+    function card(title, sub, extraCls){
+        var c = el('div', 'copyfy-spa-card' + (extraCls ? ' ' + extraCls : ''));
+        if (title) c.appendChild(el('div', 'copyfy-spa-h', title));
+        if (sub) c.appendChild(el('div', 'copyfy-spa-sub', sub));
+        return c;
+    }
+
+    function bar(pct, neg){
+        var t = el('div', 'copyfy-spa-track');
+        var f = el('span', 'copyfy-spa-fill' + (neg ? ' is-neg' : ''));
+        f.style.width = (pct > 0 ? Math.max(2, Math.min(100, pct)) : 0) + '%';
+        t.appendChild(f);
+        return t;
+    }
+
+    function chips(list, cls){
+        var w = el('div', 'copyfy-spa-chips');
+        list.forEach(function(x){
+            var c = el('span', 'copyfy-spa-chip' + (cls ? ' ' + cls : ''), x.text);
+            if (x.count) c.appendChild(el('i', null, '×' + x.count));
+            w.appendChild(c);
+        });
+        return w;
+    }
+
+    function joinList(arr){
+        if (arr.length < 2) return arr.join('');
+        return arr.join(', ');
+    }
+
+    function renderHeader(d){
+        var s = d.stats || {}, a = d.analysis || {}, src = d.source || {};
+        var c = card();
+        var head = el('div', 'copyfy-spa-head');
+        var main = el('div', 'copyfy-spa-head-main');
+        main.appendChild(el('span', 'copyfy-spa-badge', src.app || ''));
+        var t = el('div', 'copyfy-spa-title');
+        var link = el('a', null, src.title || T.openProduct);
+        link.href = src.url; link.target = '_blank'; link.rel = 'noopener nofollow';
+        t.appendChild(link);
+        main.appendChild(t);
+        var k = el('div', 'copyfy-spa-kpis');
+        function kpi(v, l){ var b = el('div', 'copyfy-spa-kpi'); b.appendChild(el('b', null, v)); b.appendChild(el('span', null, l)); k.appendChild(b); }
+        if (s.average) kpi(fmt(s.average) + ' ★', T.avgLabel);
+        if (s.total) kpi(fmt(s.total), T.totalLabel);
+        kpi(fmt(a.analyzed || 0), T.analyzedLabel);
+        if (a.analyzed && a.withPhotos) kpi(pc(Math.round(a.withPhotos * 100 / a.analyzed)), T.photosLabel);
+        main.appendChild(k);
+        head.appendChild(main);
+
+        var h = s.histogram || {};
+        var tot = [1,2,3,4,5].reduce(function(x, n){ return x + (h[n] || 0); }, 0);
+        if (tot){
+            var hist = el('div', 'copyfy-spa-hist');
+            hist.appendChild(el('div', 'copyfy-spa-label', T.histLabel));
+            [5,4,3,2,1].forEach(function(n){
+                var pct = Math.round((h[n] || 0) * 100 / tot);
+                var r = el('div', 'copyfy-spa-hrow');
+                r.appendChild(el('span', null, n + '★'));
+                r.appendChild(bar(pct, n <= 2));
+                r.appendChild(el('span', null, pc(pct)));
+                hist.appendChild(r);
+            });
+            head.appendChild(hist);
+        }
+        c.appendChild(head);
+
+        var p = d.platform || {};
+        if (p.summary){
+            var sm = el('div', 'copyfy-spa-summary');
+            sm.appendChild(el('b', null, T.summaryLabel + T.colon));
+            sm.appendChild(document.createTextNode(p.summary));
+            c.appendChild(sm);
+        }
+        if (p.tags && p.tags.length){
+            var tg = el('div', null);
+            tg.style.marginTop = '16px';
+            tg.appendChild(el('div', 'copyfy-spa-label', T.tagsLabel));
+            tg.appendChild(chips(p.tags.map(function(x){ return {text: x.text, count: x.count}; }), 'is-pos'));
+            c.appendChild(tg);
+        }
+        return c;
+    }
+
+    function personaRows(d){
+        var a = d.analysis || {}, au = a.audience || {};
+        var rows = [];
+        var gift = au.gift || {pct: 0};
+        rows.push([T.pWho, gift.pct >= 10 ? fill(T.whoGift, {p: gift.pct}) : fill(T.whoSelf, {p: gift.pct})]);
+        var ent = (au.people || []).filter(function(x){ return x.pct >= 2 || x.count >= 2; });
+        if (ent.length) rows.push([T.pEntourage, joinList(ent.map(function(x){ return T.people[x.key] + ' (' + pc(x.pct) + ')'; }))]);
+        if (au.selfIds && au.selfIds.length) rows.push([T.pSelf, au.selfIds.map(function(x){ return q(x.text); }).join(', ')]);
+        if (a.attributes && a.attributes.length){
+            // "Age Range : 65+" x23 -> "Age Range : 65+ (23), Under 18 (16)"
+            var groups = {}, order = [];
+            a.attributes.forEach(function(x){
+                var i = x.text.indexOf(' : '), k = x.text.slice(0, i), v = x.text.slice(i + 3);
+                if (!groups[k]){ groups[k] = []; order.push(k); }
+                groups[k].push(v + ' (' + x.count + ')');
+            });
+            rows.push([T.pDeclared, order.map(function(k){ return k + T.colon + groups[k].join(', '); }).join(' · ')]);
+        }
+        var gains = (a.gains || []).slice(0, 3);
+        rows.push([T.pWhy, gains.length ? gains.map(function(x){ return T.themes[x.key]; }).join(', ') : T.none]);
+        var pains = (a.pains || []).slice(0, 3);
+        if (pains.length) rows.push([T.pFear, pains.map(function(x){ return T.themes[x.key]; }).join(', ')]);
+        var ctx = (au.contexts || []).filter(function(x){ return x.count >= 2; }).slice(0, 3);
+        if (ctx.length) rows.push([T.pWhere, ctx.map(function(x){ return T.contexts[x.key] + ' (' + pc(x.pct) + ')'; }).join(', ')]);
+        if (a.countries && a.countries.length) rows.push([T.pMarkets, a.countries.slice(0, 6).map(function(x){ return countryName(x.text) + ' (' + x.count + ')'; }).join(', ')]);
+        if (au.recommendPct || au.repeatPct) rows.push([T.pLoyalty, fill(T.loyalty, {r: au.recommendPct || 0, b: au.repeatPct || 0})]);
+        return rows;
+    }
+
+    function renderPersona(d){
+        var c = card(T.personaTitle, T.personaSub, 'copyfy-spa-persona');
+        personaRows(d).forEach(function(r){
+            var row = el('div', 'copyfy-spa-prow');
+            row.appendChild(el('div', 'copyfy-spa-prow-k', r[0]));
+            row.appendChild(el('div', 'copyfy-spa-prow-v', r[1]));
+            c.appendChild(row);
+        });
+        var actions = el('div', 'copyfy-spa-actions');
+        if (navigator.clipboard){
+            var cp = el('button', 'copyfy-spa-btn is-alt', T.copy);
+            cp.type = 'button';
+            cp.addEventListener('click', function(){
+                navigator.clipboard.writeText(personaText(d)).then(function(){
+                    cp.textContent = T.copied;
+                    setTimeout(function(){ cp.textContent = T.copy; }, 1800);
+                }).catch(function(){});
+            });
+            actions.appendChild(cp);
+            c.appendChild(actions);
+        }
+        return c;
+    }
+
+    function renderThemes(list, title, sub, neg, ofLabel){
+        var c = card(title, sub);
+        if (!list.length){ c.appendChild(el('p', 'copyfy-spa-empty', T.noPains)); return c; }
+        list.forEach(function(x){
+            var w = el('div', 'copyfy-spa-theme');
+            var top = el('div', 'copyfy-spa-theme-top');
+            top.appendChild(el('span', null, T.themes[x.key]));
+            top.appendChild(el('span', null, pc(x.pct) + ' ' + ofLabel));
+            w.appendChild(top);
+            w.appendChild(bar(x.pct, neg));
+            if (x.quotes && x.quotes[0]) w.appendChild(el('div', 'copyfy-spa-quote', q(x.quotes[0])));
+            c.appendChild(w);
+        });
+        return c;
+    }
+
+    function renderAngles(d){
+        var a = d.analysis || {};
+        var grid = el('div', 'copyfy-spa-grid');
+        var c1 = card(T.anglesTitle, T.anglesSub);
+        var ul = el('ul', 'copyfy-spa-list');
+        (a.gains || []).slice(0, 4).forEach(function(x){
+            var li = el('li', null, T.angles[x.key]);
+            if (x.quotes && x.quotes[0]) li.appendChild(el('em', null, q(x.quotes[0])));
+            ul.appendChild(li);
+        });
+        if (!ul.children.length) c1.appendChild(el('p', 'copyfy-spa-empty', T.none)); else c1.appendChild(ul);
+        grid.appendChild(c1);
+
+        var c2 = card(T.objTitle, T.objSub);
+        var ol = el('ul', 'copyfy-spa-list is-neg');
+        (a.pains || []).slice(0, 4).forEach(function(x){
+            var li = el('li', null, T.objections[x.key]);
+            if (x.quotes && x.quotes[0]) li.appendChild(el('em', null, q(x.quotes[0])));
+            ol.appendChild(li);
+        });
+        (a.expectations || []).slice(0, 3).forEach(function(x){
+            var li = el('li', null, T.expectFix);
+            li.appendChild(el('em', null, q(x.text)));
+            ol.appendChild(li);
+        });
+        (a.nuances || []).slice(0, 2).forEach(function(x){
+            var li = el('li', null, T.nuanceLabel);
+            li.appendChild(el('em', null, q(x)));
+            ol.appendChild(li);
+        });
+        if (!ol.children.length) c2.appendChild(el('p', 'copyfy-spa-empty', T.noPains)); else c2.appendChild(ol);
+        grid.appendChild(c2);
+        return grid;
+    }
+
+    function renderWords(d){
+        var v = (d.analysis || {}).vocabulary || {};
+        if (!(v.positive || []).length && !(v.negative || []).length) return null;
+        var c = card(T.wordsTitle, T.wordsSub);
+        if ((v.positive || []).length){
+            c.appendChild(el('div', 'copyfy-spa-label', T.wordsPos));
+            c.appendChild(chips(v.positive, 'is-pos'));
+        }
+        if ((v.negative || []).length){
+            var l = el('div', 'copyfy-spa-label', T.wordsNeg);
+            l.style.marginTop = '14px';
+            c.appendChild(l);
+            c.appendChild(chips(v.negative, 'is-neg'));
+        }
+        return c;
+    }
+
+    function renderVerbatims(d){
+        var vb = (d.analysis || {}).verbatims || {};
+        var grid = el('div', 'copyfy-spa-grid');
+        function col(title, list){
+            var c = card(title);
+            c.querySelector('.copyfy-spa-h').style.marginBottom = '14px';
+            if (!list || !list.length){ c.appendChild(el('p', 'copyfy-spa-empty', T.noPains)); return c; }
+            list.slice(0, 3).forEach(function(x){
+                var q = el('div', 'copyfy-spa-verb', x.text);
+                var meta = [];
+                if (x.rating) meta.push(x.rating === 1 ? T.star1 : fill(T.stars, {n: x.rating}));
+                if (x.country) meta.push(countryName(x.country));
+                if (meta.length) q.appendChild(el('small', null, meta.join(' · ')));
+                c.appendChild(q);
+            });
+            return c;
+        }
+        grid.appendChild(col(T.verbBest, vb.best));
+        grid.appendChild(col(T.verbWorst, vb.worst));
+        return grid;
+    }
+
+    function renderAspects(d){
+        var asp = (d.platform || {}).aspects || [];
+        if (!asp.length) return null;
+        var c = card(T.aspectsTitle, T.aspectsSub);
+        var tb = el('table', 'copyfy-spa-table');
+        var tr = el('tr');
+        [T.thAspect, T.thMentions, T.thPositive].forEach(function(h){ tr.appendChild(el('th', null, h)); });
+        tb.appendChild(tr);
+        asp.slice(0, 10).forEach(function(x){
+            var r = el('tr');
+            r.appendChild(el('td', null, x.label));
+            r.appendChild(el('td', null, fmt(x.mentions)));
+            var td = el('td');
+            if (x.positivePct != null){
+                var wrap = el('div', 'copyfy-spa-hrow');
+                wrap.style.margin = '0';
+                wrap.appendChild(bar(x.positivePct, x.positivePct < 50));
+                wrap.appendChild(el('span', null, pc(x.positivePct)));
+                td.appendChild(wrap);
+            }
+            r.appendChild(td);
+            tb.appendChild(r);
+        });
+        c.appendChild(tb);
+        return c;
+    }
+
+    function renderVariants(d){
+        var v = (d.analysis || {}).variants || [];
+        if (v.length < 2) return null;
+        var c = card(T.variantsTitle);
+        c.querySelector('.copyfy-spa-h').style.marginBottom = '14px';
+        c.appendChild(chips(v));
+        return c;
+    }
+
+    function personaText(d){
+        var src = d.source || {}, a = d.analysis || {};
+        var out = [T.personaTitle + (src.title ? T.colon + src.title : ''), src.url || '', ''];
+        personaRows(d).forEach(function(r){ out.push('- ' + r[0] + T.colon + r[1]); });
+        out.push('', T.anglesTitle);
+        (a.gains || []).slice(0, 4).forEach(function(x){ out.push('- ' + T.angles[x.key] + (x.quotes[0] ? ' ' + q(x.quotes[0]) : '')); });
+        out.push('', T.objTitle);
+        (a.pains || []).slice(0, 4).forEach(function(x){ out.push('- ' + T.objections[x.key] + (x.quotes[0] ? ' ' + q(x.quotes[0]) : '')); });
+        (a.expectations || []).slice(0, 3).forEach(function(x){ out.push('- ' + T.expectFix + ' ' + q(x.text)); });
+        var v = a.vocabulary || {};
+        if ((v.positive || []).length) out.push('', T.wordsTitle + T.colon + v.positive.map(function(x){ return x.text; }).join(', '));
+        return out.join('\n');
+    }
+
+    function renderResult(d){
+        var host = $('copyfy-spa-results');
+        var a = d.analysis || {};
+        host.appendChild(renderHeader(d));
+        host.appendChild(renderPersona(d));
+        var g = el('div', 'copyfy-spa-grid');
+        g.appendChild(renderThemes(a.gains || [], T.gainsTitle, T.gainsSub, false, T.ofPos));
+        g.appendChild(renderThemes(a.pains || [], T.painsTitle, T.painsSub, true, T.ofNeg));
+        host.appendChild(g);
+        host.appendChild(renderAngles(d));
+        [renderAspects(d), renderWords(d)].forEach(function(n){ if (n) host.appendChild(n); });
+        host.appendChild(renderVerbatims(d));
+        var vr = renderVariants(d);
+        if (vr) host.appendChild(vr);
+        var note = el('p', 'copyfy-spa-note', (d.platform && d.platform.sampleOnly ? T.sampleNote + ' ' : '') + fill(T.sourceNote, {n: fmt(a.analyzed || 0)}));
+        note.style.color = '#B8BCC6';
+        note.style.marginTop = '0';
+        host.appendChild(note);
+    }
+
+    function renderError(data){
+        var e = data.error;
+        var text = e === 'invalid_url' ? T.errInvalid
+            : e === 'short_link' ? T.errShort
+            : e === 'not_product' ? T.errNotProduct
+            : e === 'not_found' ? T.errNotFound
+            : e === 'no_reviews' ? T.errNoReviews
+            : e === 'blocked' ? T.errBlocked
+            : T.errFetch;
+        $('copyfy-spa-results').appendChild(el('div', 'copyfy-spa-msg', text));
+    }
+
+    function render(data){
+        var host = $('copyfy-spa-results');
+        host.innerHTML = '';
+        host.hidden = false;
+        if (data && data.analysis) renderResult(data); else renderError(data || {});
+        postHeight();
+    }
+
+    function run(){
+        var url = $('copyfy-spa-url').value.trim();
+        if (!url) return;
+        var btn = $('copyfy-spa-run');
+        btn.disabled = true;
+        btn.innerHTML = '';
+        btn.appendChild(el('span', 'copyfy-spa-spin'));
+        btn.appendChild(el('span', null, T.loading));
+        fetch('/api/social-proof?lang=' + LOCALE + '&url=' + encodeURIComponent(url))
+            .then(function(r){ return r.json(); })
+            .then(render)
+            .catch(function(){ render({error: 'fetch_failed'}); })
+            .then(function(){ btn.disabled = false; btn.textContent = T.run; });
+    }
+
+    function init(){
+        $('copyfy-spa-url').placeholder = T.placeholder;
+        $('copyfy-spa-run').textContent = T.run;
+        $('copyfy-spa-hint').textContent = T.hint;
+        $('copyfy-spa-run').addEventListener('click', run);
+        $('copyfy-spa-url').addEventListener('keydown', function(e){ if (e.key === 'Enter') run(); });
+        postHeight();
+    }
+
+    if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', init); }
+    else { init(); }
+})();
+</script>
+
+<script>
+(function(){
+    function ph(){ try{ parent.postMessage({copyfyToolHeight: Math.ceil((document.querySelector('.copyfy-spa')||document.body).getBoundingClientRect().bottom)}, '*'); }catch(e){} }
+    window.addEventListener('load', ph);
+    window.addEventListener('resize', ph);
+    document.addEventListener('input', ph, true);
+    document.addEventListener('click', ph, true);
+    if (window.ResizeObserver){ new ResizeObserver(ph).observe(document.documentElement); }
+    setTimeout(ph,200); setTimeout(ph,800);
+})();
+</script>

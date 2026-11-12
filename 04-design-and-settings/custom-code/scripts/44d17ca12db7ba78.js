@@ -1,0 +1,34 @@
+
+  (function(){
+    var root=document.getElementById("copyfyQuizSW");
+    if(!root||root.dataset.copyfyInit)return;root.dataset.copyfyInit="1";
+    var ICONS={
+      bolt:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9z"/></svg>',
+      crown:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7l4 4 5-7 5 7 4-4-1.5 12.5h-15z"/></svg>',
+      wrench:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18v3h3l6.3-6.3a4 4 0 0 0 5.4-5.4l-2.3 2.3-2-2z"/></svg>',
+      pen:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg>',
+      cart:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></svg>',
+      clock:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>',
+      cog:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg>',
+      coins:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg>',
+      rocket:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13c-3 1-3 5-3 5s4 0 5-3M9 15l-3-3c1-5 5-9 12-10 0 7-5 11-10 12z"/><circle cx="14" cy="10" r="1.5"/></svg>',
+      layers:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5z"/><path d="M2 12l10 5 10-5M2 17l10 5 10-5"/></svg>'
+    };
+    var QUESTIONS=[
+      {q:"Auf welchen Netzwerken laufen die Anzeigen, die du ausspähen willst?",opts:[{t:"Facebook und Instagram, sonst nichts",ic:"layers",s:{D:3,G:1}},{t:"TikTok wiegt genauso schwer wie Meta",ic:"rocket",s:{C:4}},{t:"Meta, aber ich will den tiefsten Index am Markt",ic:"crown",s:{A:3}},{t:"Ich fange gerade an, ich weiß es noch nicht",ic:"clock",s:{G:3}}]},
+      {q:"Dein Monatsbudget für ein AdSpy-Tool?",opts:[{t:"Null, ich teste bevor ich zahle",ic:"coins",s:{G:3}},{t:"Rund 30 $, wenn das Tool liefert",ic:"cart",s:{D:3}},{t:"150 $ gehen, sofern der Index mithält",ic:"crown",s:{A:3}},{t:"Etwa 50 €, um die ganze Kette abzudecken",ic:"layers",s:{C:4}}]},
+      {q:"Sobald das Produkt gefunden ist, wo hakt es?",opts:[{t:"Nirgends, ich kann sourcen und starten",ic:"bolt",s:{D:3}},{t:"Den Shop bauen, der konvertiert",ic:"wrench",s:{C:4}},{t:"Ich brauche mehr Creatives und Historie",ic:"pen",s:{A:3,C:1}},{t:"Ich habe noch keinen Shop gestartet",ic:"clock",s:{G:2,C:2}}]},
+      {q:"Für wen arbeitest du?",opts:[{t:"Für mich, ein Shop, ein Markt",ic:"cog",s:{D:3}},{t:"Mehrere Kunden, aus einer Agentur",ic:"crown",s:{A:3,C:3}},{t:"Ich skaliere über Märkte und Netzwerke",ic:"rocket",s:{C:4}},{t:"Noch für niemanden, ich lerne",ic:"clock",s:{G:3}}]}
+    ];
+    var RESULTS={D:{verdict:"Dropispy Premium",title:"Das Tool passt zu deinem Setup",desc:"Nur Meta, Konkurrenten auf Shopify, ein Betreiber am Ruder: genau das ist Dropispys Terrain. Für 29,90 $ pro Monat führt Shop Spy von der Anzeige zum Shop und zum Bestseller. Behalte <strong>die kurze Historie im Kopf, selten weiter zurück als drei Monate</strong>."},
+      G:{verdict:"Erst der Gratisplan",title:"Teste die Oberfläche, bevor du zahlst",desc:"Keine Karte bei der Anmeldung, und die Chrome-Erweiterung läuft ab dieser Stufe. Aber <strong>die letzten zwei Monate an Anzeigen bleiben verborgen</strong> und Shop Spy ist gesperrt: du lernst das Tool kennen, findest damit aber kein Gewinnerprodukt."},
+      A:{verdict:"AdSpy",title:"Du brauchst die tiefste Datenbank",desc:"Der reichste Meta-Index am Markt und die Suche nach Domain, die Dropispy nicht hat. Das Ticket liegt bei 149 $ pro Monat, dem Fünffachen, für <strong>eine Reichweite, die auf ein Netzwerk beschränkt bleibt</strong>."},
+      C:{verdict:"Copyfy",title:"Dein Bedarf geht über das Erkennen von Anzeigen hinaus",desc:"Meta und TikTok, Produktrecherche mit echten Verkaufsdaten, Traffic und Umsatz der Konkurrenzshops, und danach der Shop rund um das gefundene Produkt. <strong>Fünf Tage Test ohne Karte</strong>, um zu sehen, ob die gesparte Zeit den Wechsel rechtfertigt."}};
+    var idx=0,scores={D:0,G:0,A:0,C:0};
+    var stage=document.getElementById("copyfyQuizStage"),resultEl=document.getElementById("copyfyQuizResult"),qEl=document.getElementById("copyfyQuizQuestion"),optsEl=document.getElementById("copyfyQuizOptions"),badgeEl=document.getElementById("copyfyQuizBadge"),fillEl=document.getElementById("copyfyQuizFill");
+    function render(){var item=QUESTIONS[idx];badgeEl.textContent="Frage "+(idx+1)+" / "+QUESTIONS.length;fillEl.style.width=Math.round(((idx)/QUESTIONS.length)*100)+"%";qEl.textContent=item.q;optsEl.innerHTML="";item.opts.forEach(function(o){var btn=document.createElement("button");btn.type="button";btn.className="copyfy-quiz-opt";btn.innerHTML='<span class="copyfy-quiz-opt-ic">'+(ICONS[o.ic]||"")+'</span><span>'+o.t+'</span>';btn.addEventListener("click",function(){for(var k in o.s){scores[k]=(scores[k]||0)+o.s[k];}idx++;if(idx<QUESTIONS.length){render();}else{showResult();}});optsEl.appendChild(btn);});}
+    function showResult(){fillEl.style.width="100%";var winner=["D","G","A","C"][0],max=-1;["D","G","A","C"].forEach(function(k){if(scores[k]>max){max=scores[k];winner=k;}});var r=RESULTS[winner];document.getElementById("copyfyQuizRVerdict").textContent=r.verdict;document.getElementById("copyfyQuizRTitle").textContent=r.title;document.getElementById("copyfyQuizRDesc").innerHTML=r.desc;stage.style.display="none";resultEl.className="copyfy-quiz-result copyfy-active";}
+    document.getElementById("copyfyQuizRestart").addEventListener("click",function(){idx=0;scores={D:0,G:0,A:0,C:0};resultEl.className="copyfy-quiz-result";stage.style.display="block";render();});
+    render();
+  })();
+  

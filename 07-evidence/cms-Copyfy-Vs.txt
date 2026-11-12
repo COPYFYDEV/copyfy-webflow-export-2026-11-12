@@ -1,0 +1,1155 @@
+- generic: Desktop
+- generic: Affects all resolutions
+- iframe [id="site-iframe-next"]:
+  - main:
+    - main:
+      - banner:
+        - link "Copyfy":
+          - /url: /
+          - img "Copyfy"
+        - link:
+          - /url: /
+        - navigation:
+          - button "Solutions":
+            - generic: Solutions
+          - button "Ressources":
+            - generic: Ressources
+          - link "Tarifs":
+            - /url: /pricing
+          - link "Affiliation":
+            - /url: /affiliate
+        - link "Connexion":
+          - /url: https://app.copyfy.io/login
+        - link "Lance ta boutique":
+          - /url: https://app.copyfy.io/store-ai
+          - generic: Lance ta boutique
+      - strong: NOUVEAU
+      - link "Copyfy V3 vient de sortir →":
+        - /url: "#"
+        - strong: Copyfy V3 vient de sortir →
+      - heading "Génère ta boutique qui convertit." [level=1]
+      - generic: Pas besoin de lien produit. Un clic, et l'IA de Claude génère ta boutique Shopify complète, prête à vendre et pensée pour convertir.
+      - generic: +
+      - generic: =
+      - link "Lance ta boutique avec l'IA →":
+        - /url: https://app.copyfy.io/store-ai
+        - strong: Lance ta boutique avec l'IA →
+      - generic: "1"
+      - generic: Clique sur « Lance ta boutique avec l'IA »
+      - generic: "2"
+      - generic: Choisis ton produit, ou laisse Copyfy te trouver un winner
+      - generic: "3"
+      - generic: Claude génère ta boutique et la publie sur Shopify
+      - generic: ✓
+      - generic: Annule quand tu veux
+      - generic: ✓
+      - generic: Sans engagement
+      - generic: ✓
+      - generic: Conçu pour Shopify
+      - generic: ✓
+      - strong: Boutique en ligne
+      - generic: Générée en 1 clic par Copyfy
+      - heading "Un seul clic suffit." [level=2]
+      - generic: "Regarde ta page produit se construire : chaque élément apparaît, sans que tu touches à rien."
+      - generic: GÉNÉRÉ PAR COPYFY EN 1 CLIC
+      - heading "Des pages produits prêtes à vendre en 1 clic" [level=2]
+      - generic: "Maison, beauté, tech, fitness, outdoor : voici 5 pages produits générées par l'IA de Copyfy."
+      - generic: Maison et déco
+      - generic: Beauté
+      - generic: Tech et gadgets
+      - generic: Fitness
+      - generic: Outdoor et jardin
+      - link "Génère la tienne en 1 clic":
+        - /url: https://app.copyfy.io/store-ai
+        - strong: Génère la tienne en 1 clic
+      - generic: GÉNÉRÉS PAR LES BOUTIQUES COPYFY
+      - generic: "0"
+      - heading "0" [level=2]
+      - generic: boutiques générées avec Copyfy
+      - heading "Tout ce qu'il faut pour vendre, créé par l'IA." [level=2]
+      - generic: "Boutique, pubs, visuels et stratégie : Copyfy s'occupe du travail, toi tu te concentres sur les ventes."
+      - heading "Crée boutiques et landing pages avec l'IA" [level=4]
+      - generic: Pages, fiches produit, offres et design optimisés, générés pour toi.
+      - link "Lance ta boutique avec l'IA":
+        - /url: https://app.copyfy.io/store-ai
+        - generic: Lance ta boutique avec l'IA
+      - generic: This <script> embed only displays in preview mode (with custom code enabled) or on the published/exported site.
+      - generic: Crée tes pubs avec l'IA
+      - generic: Génère des publicités qui convertissent en quelques secondes.
+      - generic: https://fr.aliexpress.com/item/
+      - generic: Creating Product Images
+      - generic: Visuels produits avec l'IA
+      - generic: Crée des images produits pro, sans studio ni photographe.
+      - generic: This <script> embed only displays in preview mode (with custom code enabled) or on the published/exported site.
+      - generic: Stratégie marketing avec l'IA
+      - generic: Obtiens un plan marketing clair, adapté à ta boutique.
+      - heading "Copyfy sait aussi trouver ton produit winner, grâce à sa data." [level=2]
+      - generic: ✓
+      - generic: Trouve les produits au plus fort potentiel du marché
+      - generic: ✓
+      - generic: Inspire-toi des boutiques qui génèrent le plus d'argent
+      - generic: ✓
+      - generic: Suis leurs résultats dans le temps
+      - generic: ✓
+      - generic: Vois leur trafic et leurs pubs actives
+      - strong: Recherche poussée avec le MCP Claude
+      - strong: Produit ou boutique trouvé ? En 1 clic, ta boutique est générée.
+      - link "Générer ma boutique en 1 clic":
+        - /url: https://app.copyfy.io/store-ai
+        - strong: Générer ma boutique en 1 clic
+      - heading "Flexible, et sans risque" [level=2]
+      - paragraph: Tarifs simples et transparents qui s'adaptent à tes besoins. Annule quand tu veux.
+      - tablist:
+        - strong: Mensuel
+        - strong: Trimestriel · −15 %
+        - strong: Annuel · −40 %
+      - heading "Starter" [level=2]
+      - generic: Tout ce qu'il faut pour tester et lancer vos premières boutiques
+      - generic: 49€
+      - generic: / mois
+      - link "Lance ta boutique":
+        - /url: https://app.copyfy.io/store-ai
+        - strong: Lance ta boutique
+      - generic: Annule à tout moment
+      - generic: Création
+      - generic: Boutique IA
+      - generic: Créative IA
+      - generic: Exports de produits
+      - generic: "20"
+      - generic: Crédits IA
+      - strong: 50/mois
+      - generic: Recherche & Analyse
+      - generic: Recherches
+      - strong: 30/mois
+      - generic: Produits
+      - generic: Analyse de boutique
+      - strong: "2"
+      - generic: Boutiques
+      - generic: Publicités
+      - generic: Intégrations
+      - generic: Accès MCP
+      - strong: LE PLUS CHOISI
+      - heading "Growth" [level=2]
+      - generic: Le plus populaire pour passer au niveau supérieur
+      - generic: 89€
+      - generic: / mois
+      - link "Lance ta boutique":
+        - /url: https://app.copyfy.io/store-ai
+        - strong: Lance ta boutique
+      - generic: Annule à tout moment
+      - generic: Création
+      - generic: Boutique IA
+      - generic: Créative IA
+      - generic: Exports de produits
+      - generic: "50"
+      - generic: Crédits IA
+      - strong: 80/mois
+      - generic: Recherche & Analyse
+      - generic: Recherches
+      - strong: 80/mois
+      - generic: Produits
+      - generic: Analyse de boutique
+      - strong: "25"
+      - generic: Boutiques
+      - generic: Publicités
+      - generic: Intégrations
+      - generic: Accès MCP
+      - generic: 300/mois
+      - heading "Pro" [level=2]
+      - generic: Pour les utilisateurs avancés qui veulent scaler
+      - generic: 129€
+      - generic: / mois
+      - link "Lance ta boutique":
+        - /url: https://app.copyfy.io/store-ai
+        - strong: Lance ta boutique
+      - generic: Annule à tout moment
+      - generic: Création
+      - generic: Boutique IA
+      - generic: Créative IA
+      - generic: Exports de produits
+      - strong: Illimité
+      - generic: Crédits IA
+      - strong: 150/mois
+      - generic: Recherche & Analyse
+      - generic: Recherches
+      - strong: Illimité
+      - generic: Produits
+      - generic: Analyse de boutique
+      - strong: "100"
+      - generic: Boutiques
+      - generic: Publicités
+      - generic: Intégrations
+      - generic: Accès MCP
+      - generic: 3 000/mois
+      - heading "Les experts, eux, ont choisi" [level=2]
+      - generic: Des milliers d'e-commerçants lancent et font grandir leur boutique avec Copyfy. Voici ce qu'ils en disent.
+      - link "Lance ta boutique":
+        - /url: https://app.copyfy.io/store-ai
+        - generic: Lance ta boutique
+      - generic: « Avant, il fallait plusieurs jours entre le produit et la boutique en ligne. Aujourd'hui, c'est un après-midi. Je teste trois fois plus d'angles pour le même budget. »
+      - link "Marcuus Lawrence":
+        - /url: https://www.trustpilot.com/users/66ae57c2561038fddce303e9
+        - strong: Marcuus Lawrence
+      - generic: Expert e-commerce
+      - generic: FR
+      - generic: "« Ma boutique est passée à six chiffres. Copyfy m'accompagne du début à la fin : produit, angles, boutique, créas. »"
+      - link "Gaspard Grosjean":
+        - /url: https://www.trustpilot.com/users/66ae57c2561038fddce303e9
+        - strong: Gaspard Grosjean
+      - generic: 150k+ abonnés
+      - generic: FR
+      - generic: "« En e-com, celui qui itère le plus vite gagne. Avec Copyfy, tu ne perds plus ton temps dans le setup : tu passes directement aux tests.»"
+      - link "Tom Salic":
+        - /url: https://www.trustpilot.com/users/66ae57c2561038fddce303e9
+        - strong: Tom Salic
+      - generic: +10 millions générés en e-commerce
+      - generic: FR
+      - generic: "« J'ai testé presque tous les outils du marché. Copyfy est le seul que j'ai gardé : il sort la boutique, les fiches produits et les angles. »"
+      - link "Jo Ecom":
+        - /url: https://www.trustpilot.com/users/66ae57c2561038fddce303e9
+        - strong: Jo Ecom
+      - generic: 80k+ abonnés
+      - generic: FR
+      - generic: « Ça fait des années que je fais du e-com. En quelques secondes, j'obtiens ce qui me prenait 10 heures avant. C'est un game changer. »
+      - link "Javier Ecom":
+        - /url: https://www.trustpilot.com/users/66ae57c2561038fddce303e9
+        - strong: Javier Ecom
+      - generic: Propriétaire de marque à 6 chiffres
+      - generic: USA
+      - generic: "« Tout est au même endroit : je valide le produit, je trouve l'angle et je sors la boutique dans la foulée. Avant, j'avais trois abonnements pour ça. »"
+      - link "Luigi Vera":
+        - /url: https://www.trustpilot.com/users/66ae57c2561038fddce303e9
+        - strong: Luigi Vera
+      - generic: 56k+ abonnés
+      - generic: USA
+      - generic: « La qualité des fiches produits m'a bluffé. L'IA comprend l'avatar et sort des angles qui m'auraient pris des heures. »
+      - link "Pierre Jung":
+        - /url: https://www.trustpilot.com/users/66ae57c2561038fddce303e9
+        - strong: Pierre Jung
+      - generic: Expert Google Ads
+      - generic: FR
+      - generic: "« Le seul outil que j'ouvre tous les jours. Recherche produit, boutique, fiches produits : tout y passe, sans compétence technique. »"
+      - link "Takzr":
+        - /url: https://www.trustpilot.com/users/66ae57c2561038fddce303e9
+        - strong: Takzr
+      - generic: 206k+ abonnés
+      - generic: USA
+      - generic: LES DERNIERS RÉSULTATS DE NOS MEMBRES
+      - heading "Tableau de bord des membres" [level=2]
+      - generic: Captures Shopify de nos membres · août et septembre 2026
+      - heading "31 162 €" [level=3]:
+        - strong: 31 162 €
+      - generic: 30 derniers jours · 471 commandes
+      - heading "4 732 $" [level=3]:
+        - strong: 4 732 $
+      - generic: 30 derniers jours · 89 commandes
+      - heading "2 860 €" [level=3]:
+        - strong: 2 860 €
+      - generic: 7 jours · 72 commandes
+      - heading "578,50 €" [level=3]:
+        - strong: 578,50 €
+      - generic: en une journée · 15 commandes
+      - heading "305,24 €" [level=3]:
+        - strong: 305,24 €
+      - generic: en une journée · 3 commandes
+      - heading "2 908 €" [level=3]:
+        - strong: 2 908 €
+      - generic: 7 jours · 76 commandes
+      - heading "938,77 €" [level=3]:
+        - strong: 938,77 €
+      - generic: du 1er au 9 sept. · 20 commandes
+      - heading "13 524,69 €" [level=3]:
+        - strong: 13 524,69 €
+      - generic: du 20 juin au 1er sept. · 396 commandes
+      - heading "2 631 €" [level=3]:
+        - strong: 2 631 €
+      - generic: du 29 août au 9 sept. · 82 commandes
+      - generic: ✓
+      - strong: Sans engagement
+      - generic: pour commencer
+      - generic: ✓
+      - strong: Annule quand tu veux
+      - generic: sans engagement
+      - generic: ✓
+      - strong: Conçu pour Shopify
+      - generic: publication en 1 clic
+      - generic: ✓
+      - strong: 4,8/5
+      - generic: +200 000 e-commerçants
+      - heading "Questions fréquentes" [level=2]
+      - list:
+        - link "Faut-il des compétences techniques ?":
+          - /url: "#"
+          - generic: Faut-il des compétences techniques ?
+        - paragraph: Non. Tu colles le lien de ton produit, Copyfy génère la boutique et la publie sur Shopify. Aucune ligne de code.
+        - paragraph: ‍
+        - link "Combien de temps pour avoir ma boutique ?":
+          - /url: "#"
+          - generic: Combien de temps pour avoir ma boutique ?
+        - paragraph: Environ 2 minutes entre le clic et une boutique prête à vendre.
+        - paragraph: ‍
+        - link "D'où peuvent venir mes produits ?":
+          - /url: "#"
+          - generic: D'où peuvent venir mes produits ?
+        - paragraph: AliExpress, Alibaba, Amazon ou une boutique Shopify existante.
+        - paragraph: ‍
+        - link "Puis-je modifier ma boutique après la génération ?":
+          - /url: "#"
+          - generic: Puis-je modifier ma boutique après la génération ?
+        - paragraph: "Oui. Textes, images, couleurs et offres restent modifiables à tout moment : tu demandes, Claude applique."
+        - paragraph: ‍
+        - link "Est-ce que j'ai besoin d'un compte Shopify ?":
+          - /url: "#"
+          - generic: Est-ce que j'ai besoin d'un compte Shopify ?
+        - paragraph: Oui, il faut un compte Shopify mais nous vous recommandons d'abord de créer votre boutique avec Copyfy puis de l'importer dans Shopify. Nous vous guiderons à chaque étape pour que tout se déroule de la manière la plus fluide.
+        - paragraph: ‍
+        - link "Et si Copyfy ne me convient pas ?":
+          - /url: "#"
+          - generic: Et si Copyfy ne me convient pas ?
+        - paragraph: Tu peux annuler quand tu veux, sans engagement.
+        - paragraph: ‍
+      - heading "Une autre question ?" [level=3]:
+        - strong: Une autre question ?
+      - paragraph: Notre équipe te répond rapidement.
+      - link "Nous contacter":
+        - /url: mailto:contact@copyfy.io
+        - generic: Nous contacter
+      - link "Copyfy":
+        - /url: /
+        - generic: Copyfy
+      - generic: Ressources
+      - link "Blog":
+        - /url: https://www.copyfy.io/blog
+        - generic: Blog
+      - link "FAQ":
+        - /url: https://www.copyfy.io/faq
+        - generic: FAQ
+      - link "Coaching en live":
+        - /url: about:blank#redacted-personal-contact
+        - generic: Coaching en live
+      - link "Avis clients":
+        - /url: https://www.trustpilot.com/review/copyfy.io
+        - generic: Avis clients
+      - link "Copyfy vs":
+        - /url: https://www.copyfy.io/copyfy-vs
+        - generic: Copyfy vs
+      - link "Alternatives":
+        - /url: https://www.copyfy.io/alternatives
+        - generic: Alternatives
+      - link "Countik":
+        - /url: https://www.copyfy.io/alternatives/5-best-countik-alternatives
+        - generic: Countik
+      - link "Trendrocket":
+        - /url: https://www.copyfy.io/alternatives/5-best-trend-rocket-alternatives
+        - generic: Trendrocket
+      - link "Kalodata":
+        - /url: https://www.copyfy.io/alternatives/5-best-kalodata-alternatives
+        - generic: Kalodata
+      - link "Foreplay":
+        - /url: https://www.copyfy.io/alternatives/5-best-foreplay-alternatives
+        - generic: Foreplay
+      - link "Adsparo":
+        - /url: https://www.copyfy.io/alternatives/5-best-adsparo-alternatives
+        - generic: Adsparo
+      - link "Outils gratuits":
+        - /url: https://www.copyfy.io/tools
+        - generic: Outils gratuits
+      - link "Exporteur de produits":
+        - /url: https://www.copyfy.io/tools/exporteur-de-produits-shopify
+        - generic: Exporteur de produits
+      - link "Calculateur d’abonnement":
+        - /url: https://www.copyfy.io/tools/calculateur-abonnement-shopify
+        - generic: Calculateur d’abonnement
+      - link "Détecteur de thème":
+        - /url: https://www.copyfy.io/tools/detecteur-theme-shopify
+        - generic: Détecteur de thème
+      - link "Détecteur d’apps":
+        - /url: https://www.copyfy.io/tools/detecteur-apps-shopify
+        - generic: Détecteur d’apps
+      - link "Calculateur de marges":
+        - /url: https://www.copyfy.io/tools/calculateur-de-marges-dropshipping
+        - generic: Calculateur de marges
+      - generic: Entreprise
+      - link "Carrières":
+        - /url: https://www.copyfy.io/careers
+        - generic: Carrières
+      - link "Affiliation":
+        - /url: https://www.copyfy.io/affiliate
+        - generic: Affiliation
+      - link "Politique de confidentialité":
+        - /url: https://www.copyfy.io/politique-de-confidentialite
+        - generic: Politique de confidentialité
+      - link "Conditions d'utilisation":
+        - /url: https://www.copyfy.io/conditions-dutilisation
+        - generic: Conditions d'utilisation
+      - link "CGV":
+        - /url: https://www.copyfy.io/conditions-generales-de-vente
+        - generic: CGV
+      - generic: © 2026 Copyfy. Tous droits réservés.
+      - list:
+        - link "fr":
+          - /url: /
+        - link "en":
+          - /url: /
+        - link "es":
+          - /url: /
+        - link "nl":
+          - /url: /
+        - link "de":
+          - /url: /
+        - link "pt":
+          - /url: /
+      - generic: This <script> embed only displays in preview mode (with custom code enabled) or on the published/exported site.
+- iframe [id="responsive-images-iframe"]:
+  - main:
+    - main:
+      - banner:
+        - link "Copyfy":
+          - /url: /
+          - img "Copyfy"
+        - link:
+          - /url: /
+        - link "Connexion":
+          - /url: https://app.copyfy.io/login
+        - link "Lance ta boutique":
+          - /url: https://app.copyfy.io/store-ai
+          - generic: Lance ta boutique
+        - button "menu"
+      - strong: NOUVEAU
+      - link "Copyfy V3 vient de sortir →":
+        - /url: "#"
+        - strong: Copyfy V3 vient de sortir →
+      - heading "Génère ta boutique qui convertit." [level=1]
+      - generic: Pas besoin de lien produit. Un clic, et l'IA de Claude génère ta boutique Shopify complète, prête à vendre et pensée pour convertir.
+      - generic: +
+      - generic: =
+      - link "Lance ta boutique avec l'IA →":
+        - /url: https://app.copyfy.io/store-ai
+        - strong: Lance ta boutique avec l'IA →
+      - generic: "1"
+      - generic: Clique sur « Lance ta boutique avec l'IA »
+      - generic: "2"
+      - generic: Choisis ton produit, ou laisse Copyfy te trouver un winner
+      - generic: "3"
+      - generic: Claude génère ta boutique et la publie sur Shopify
+      - generic: ✓
+      - generic: Annule quand tu veux
+      - generic: ✓
+      - generic: Sans engagement
+      - generic: ✓
+      - generic: Conçu pour Shopify
+      - generic: ✓
+      - strong: Boutique en ligne
+      - generic: Générée en 1 clic par Copyfy
+      - heading "Un seul clic suffit." [level=2]
+      - generic: "Regarde ta page produit se construire : chaque élément apparaît, sans que tu touches à rien."
+      - strong: 1 clic
+      - generic: =
+      - generic: GÉNÉRÉ PAR COPYFY EN 1 CLIC
+      - heading "Des pages produits prêtes à vendre en 1 clic" [level=2]
+      - generic: "Maison, beauté, tech, fitness, outdoor : voici 5 pages produits générées par l'IA de Copyfy."
+      - generic: Maison et déco
+      - generic: Beauté
+      - generic: Tech et gadgets
+      - generic: Fitness
+      - generic: Outdoor et jardin
+      - link "Génère la tienne en 1 clic":
+        - /url: https://app.copyfy.io/store-ai
+        - strong: Génère la tienne en 1 clic
+      - generic: GÉNÉRÉS PAR LES BOUTIQUES COPYFY
+      - generic: "0"
+      - heading "0" [level=2]
+      - generic: boutiques générées avec Copyfy
+      - generic: Création
+      - heading "Tout ce qu'il faut pour vendre, créé par l'IA." [level=2]
+      - generic: "Boutique, pubs, visuels et stratégie : Copyfy s'occupe du travail, toi tu te concentres sur les ventes."
+      - heading "Crée boutiques et landing pages avec l'IA" [level=4]
+      - generic: Pages, fiches produit, offres et design optimisés, générés pour toi.
+      - link "Lance ta boutique avec l'IA":
+        - /url: https://app.copyfy.io/store-ai
+        - generic: Lance ta boutique avec l'IA
+      - generic: Crée tes pubs avec l'IA
+      - generic: Génère des publicités qui convertissent en quelques secondes.
+      - generic: https://fr.aliexpress.com/item/
+      - generic: Creating Product Images
+      - generic: Visuels produits avec l'IA
+      - generic: Crée des images produits pro, sans studio ni photographe.
+      - generic: Stratégie marketing avec l'IA
+      - generic: Obtiens un plan marketing clair, adapté à ta boutique.
+      - generic: Création
+      - heading "Copyfy sait aussi trouver ton produit winner, grâce à sa data." [level=2]
+      - generic: ✓
+      - generic: Trouve les produits au plus fort potentiel du marché
+      - generic: ✓
+      - generic: Inspire-toi des boutiques qui génèrent le plus d'argent
+      - generic: ✓
+      - generic: Suis leurs résultats dans le temps
+      - generic: ✓
+      - generic: Vois leur trafic et leurs pubs actives
+      - strong: Recherche poussée avec le MCP Claude
+      - strong: Produit ou boutique trouvé ? En 1 clic, ta boutique est générée.
+      - link "Générer ma boutique en 1 clic":
+        - /url: https://app.copyfy.io/store-ai
+        - strong: Générer ma boutique en 1 clic
+      - heading "Flexible, et sans risque" [level=2]
+      - paragraph: Tarifs simples et transparents qui s'adaptent à tes besoins. Annule quand tu veux.
+      - tablist:
+        - strong: Mensuel
+        - strong: Trimestriel · −15 %
+        - strong: Annuel · −40 %
+      - heading "Starter" [level=2]
+      - generic: Tout ce qu'il faut pour tester et lancer vos premières boutiques
+      - generic: 49€
+      - generic: / mois
+      - link "Lance ta boutique":
+        - /url: https://app.copyfy.io/store-ai
+        - strong: Lance ta boutique
+      - generic: Annule à tout moment
+      - generic: Création
+      - generic: Boutique IA
+      - generic: Créative IA
+      - generic: Exports de produits
+      - generic: "20"
+      - generic: Crédits IA
+      - strong: 50/mois
+      - generic: Recherche & Analyse
+      - generic: Recherches
+      - strong: 30/mois
+      - generic: Produits
+      - generic: Analyse de boutique
+      - strong: "2"
+      - generic: Boutiques
+      - generic: Publicités
+      - generic: Intégrations
+      - generic: Accès MCP
+      - strong: LE PLUS CHOISI
+      - heading "Growth" [level=2]
+      - generic: Le plus populaire pour passer au niveau supérieur
+      - generic: 89€
+      - generic: / mois
+      - link "Lance ta boutique":
+        - /url: https://app.copyfy.io/store-ai
+        - strong: Lance ta boutique
+      - generic: Annule à tout moment
+      - generic: Création
+      - generic: Boutique IA
+      - generic: Créative IA
+      - generic: Exports de produits
+      - generic: "50"
+      - generic: Crédits IA
+      - strong: 80/mois
+      - generic: Recherche & Analyse
+      - generic: Recherches
+      - strong: 80/mois
+      - generic: Produits
+      - generic: Analyse de boutique
+      - strong: "25"
+      - generic: Boutiques
+      - generic: Publicités
+      - generic: Intégrations
+      - generic: Accès MCP
+      - generic: 300/mois
+      - heading "Pro" [level=2]
+      - generic: Pour les utilisateurs avancés qui veulent scaler
+      - generic: 129€
+      - generic: / mois
+      - link "Lance ta boutique":
+        - /url: https://app.copyfy.io/store-ai
+        - strong: Lance ta boutique
+      - generic: Annule à tout moment
+      - generic: Création
+      - generic: Boutique IA
+      - generic: Créative IA
+      - generic: Exports de produits
+      - strong: Illimité
+      - generic: Crédits IA
+      - strong: 150/mois
+      - generic: Recherche & Analyse
+      - generic: Recherches
+      - strong: Illimité
+      - generic: Produits
+      - generic: Analyse de boutique
+      - strong: "100"
+      - generic: Boutiques
+      - generic: Publicités
+      - generic: Intégrations
+      - generic: Accès MCP
+      - generic: 3 000/mois
+      - generic: NOUVEAU
+      - generic: Le Copilot arrive dans 2 jours
+      - heading "Les experts, eux, ont choisi" [level=2]
+      - generic: Des milliers d'e-commerçants lancent et font grandir leur boutique avec Copyfy. Voici ce qu'ils en disent.
+      - link "Lance ta boutique":
+        - /url: https://app.copyfy.io/store-ai
+        - generic: Lance ta boutique
+      - strong: $200k
+      - text: with Copyfy
+      - generic: Le support est excellent et réactif, je le recommande vivement ; Copyfy m'a aidé à créer mes pages produits ainsi que d'autres services.
+      - link "djodjo Lorenc":
+        - /url: https://www.trustpilot.com/users/66ae57c2561038fddce303e9
+      - generic: Founder
+      - strong: +12K€
+      - text: en 2 mois
+      - generic: Lancer ma boutique a été un jeu d'enfant. L'outil « Store AI » fait des merveilles, tout comme les nouvelles fonctionnalités d'IA. Une expérience de lancement d'une fluidité absolue.
+      - link "Yash Ayyagari":
+        - /url: https://www.trustpilot.com/users/6a439c2c0a188fd157925e92
+      - generic: Founder
+      - strong: $200k
+      - text: with Copyfy
+      - generic: Une excellente expérience. Le site qu'ils ont créé pour moi était parfait.
+      - generic: Cherlus Pierre
+      - generic: Founder
+      - generic: +40K€ générés
+      - generic: Cette plateforme est le meilleur outil d'espionnage pour les entrepreneurs du e-commerce. Les fonctionnalités de suivi des boutiques, de repérage des meilleures publicités et des produits phares sont exceptionnelles pour réaliser une étude de marché.
+      - link "Javier Gonzalez":
+        - /url: https://www.trustpilot.com/users/66b124d1f9334809ad8cb818
+      - generic: Founder
+      - strong: $210k
+      - text: with Copyfy
+      - generic: Je partais de zéro. Aujourd'hui ma boutique tourne et génère des ventes chaque jour.
+      - generic: Sofia Novak
+      - generic: Co-Founder
+      - strong: $92k
+      - text: with Copyfy
+      - generic: L'analyse de boutiques m'a évité de cramer mon budget sur de mauvais produits et de trouver des winners
+      - generic: Emma Whitfield
+      - generic: Founder
+      - strong: $85k
+      - text: with Copyfy
+      - generic: "Produits, pubs, boutique : tout au même endroit. Je ne lance plus rien sans Copyfy. Incroyable."
+      - generic: Priya Sharma
+      - generic: Founder
+      - strong: $340k
+      - text: with Copyfy
+      - generic: En quelques clics j'ai une boutique propre et prête à vendre. Un vrai gain de temps.
+      - generic: Marcus Chen
+      - generic: Founder
+      - strong: $140k
+      - text: with Copyfy
+      - generic: Ma toute première boutique lancée en 5 minutes. Première vente 2 jours plus tard.
+      - generic: Lucas Ferreira
+      - generic: Founder
+      - generic: « Avant, il fallait plusieurs jours entre le produit et la boutique en ligne. Aujourd'hui, c'est un après-midi. Je teste trois fois plus d'angles pour le même budget. »
+      - link "Marcuus Lawrence":
+        - /url: https://www.trustpilot.com/users/66ae57c2561038fddce303e9
+        - strong: Marcuus Lawrence
+      - generic: Expert e-commerce
+      - generic: FR
+      - generic: "« Ma boutique est passée à six chiffres. Copyfy m'accompagne du début à la fin : produit, angles, boutique, créas. »"
+      - link "Gaspard Grosjean":
+        - /url: https://www.trustpilot.com/users/66ae57c2561038fddce303e9
+        - strong: Gaspard Grosjean
+      - generic: 150k+ abonnés
+      - generic: FR
+      - generic: "« En e-com, celui qui itère le plus vite gagne. Avec Copyfy, tu ne perds plus ton temps dans le setup : tu passes directement aux tests.»"
+      - link "Tom Salic":
+        - /url: https://www.trustpilot.com/users/66ae57c2561038fddce303e9
+        - strong: Tom Salic
+      - generic: +10 millions générés en e-commerce
+      - generic: FR
+      - generic: "« J'ai testé presque tous les outils du marché. Copyfy est le seul que j'ai gardé : il sort la boutique, les fiches produits et les angles. »"
+      - link "Jo Ecom":
+        - /url: https://www.trustpilot.com/users/66ae57c2561038fddce303e9
+        - strong: Jo Ecom
+      - generic: 80k+ abonnés
+      - generic: FR
+      - generic: « Ça fait des années que je fais du e-com. En quelques secondes, j'obtiens ce qui me prenait 10 heures avant. C'est un game changer. »
+      - link "Javier Ecom":
+        - /url: https://www.trustpilot.com/users/66ae57c2561038fddce303e9
+        - strong: Javier Ecom
+      - generic: Propriétaire de marque à 6 chiffres
+      - generic: USA
+      - generic: "« Tout est au même endroit : je valide le produit, je trouve l'angle et je sors la boutique dans la foulée. Avant, j'avais trois abonnements pour ça. »"
+      - link "Luigi Vera":
+        - /url: https://www.trustpilot.com/users/66ae57c2561038fddce303e9
+        - strong: Luigi Vera
+      - generic: 56k+ abonnés
+      - generic: USA
+      - generic: « La qualité des fiches produits m'a bluffé. L'IA comprend l'avatar et sort des angles qui m'auraient pris des heures. »
+      - link "Pierre Jung":
+        - /url: https://www.trustpilot.com/users/66ae57c2561038fddce303e9
+        - strong: Pierre Jung
+      - generic: Expert Google Ads
+      - generic: FR
+      - generic: "« Le seul outil que j'ouvre tous les jours. Recherche produit, boutique, fiches produits : tout y passe, sans compétence technique. »"
+      - link "Takzr":
+        - /url: https://www.trustpilot.com/users/66ae57c2561038fddce303e9
+        - strong: Takzr
+      - generic: 206k+ abonnés
+      - generic: USA
+      - generic: LES DERNIERS RÉSULTATS DE NOS MEMBRES
+      - heading "Tableau de bord des membres" [level=2]
+      - generic: Captures Shopify de nos membres · août et septembre 2026
+      - heading "31 162 €" [level=3]:
+        - strong: 31 162 €
+      - generic: 30 derniers jours · 471 commandes
+      - heading "4 732 $" [level=3]:
+        - strong: 4 732 $
+      - generic: 30 derniers jours · 89 commandes
+      - heading "2 860 €" [level=3]:
+        - strong: 2 860 €
+      - generic: 7 jours · 72 commandes
+      - heading "578,50 €" [level=3]:
+        - strong: 578,50 €
+      - generic: en une journée · 15 commandes
+      - heading "305,24 €" [level=3]:
+        - strong: 305,24 €
+      - generic: en une journée · 3 commandes
+      - heading "2 908 €" [level=3]:
+        - strong: 2 908 €
+      - generic: 7 jours · 76 commandes
+      - heading "938,77 €" [level=3]:
+        - strong: 938,77 €
+      - generic: du 1er au 9 sept. · 20 commandes
+      - heading "13 524,69 €" [level=3]:
+        - strong: 13 524,69 €
+      - generic: du 20 juin au 1er sept. · 396 commandes
+      - heading "2 631 €" [level=3]:
+        - strong: 2 631 €
+      - generic: du 29 août au 9 sept. · 82 commandes
+      - generic: ✓
+      - strong: Sans engagement
+      - generic: pour commencer
+      - generic: ✓
+      - strong: Annule quand tu veux
+      - generic: sans engagement
+      - generic: ✓
+      - strong: Conçu pour Shopify
+      - generic: publication en 1 clic
+      - generic: ✓
+      - strong: 4,8/5
+      - generic: +200 000 e-commerçants
+      - heading "Questions fréquentes" [level=2]
+      - list:
+        - link "Faut-il des compétences techniques ?":
+          - /url: "#"
+          - generic: Faut-il des compétences techniques ?
+        - paragraph: Non. Tu colles le lien de ton produit, Copyfy génère la boutique et la publie sur Shopify. Aucune ligne de code.
+        - paragraph: ‍
+        - link "Combien de temps pour avoir ma boutique ?":
+          - /url: "#"
+          - generic: Combien de temps pour avoir ma boutique ?
+        - paragraph: Environ 2 minutes entre le clic et une boutique prête à vendre.
+        - paragraph: ‍
+        - link "D'où peuvent venir mes produits ?":
+          - /url: "#"
+          - generic: D'où peuvent venir mes produits ?
+        - paragraph: AliExpress, Alibaba, Amazon ou une boutique Shopify existante.
+        - paragraph: ‍
+        - link "Puis-je modifier ma boutique après la génération ?":
+          - /url: "#"
+          - generic: Puis-je modifier ma boutique après la génération ?
+        - paragraph: "Oui. Textes, images, couleurs et offres restent modifiables à tout moment : tu demandes, Claude applique."
+        - paragraph: ‍
+        - link "Est-ce que j'ai besoin d'un compte Shopify ?":
+          - /url: "#"
+          - generic: Est-ce que j'ai besoin d'un compte Shopify ?
+        - paragraph: Oui, il faut un compte Shopify mais nous vous recommandons d'abord de créer votre boutique avec Copyfy puis de l'importer dans Shopify. Nous vous guiderons à chaque étape pour que tout se déroule de la manière la plus fluide.
+        - paragraph: ‍
+        - link "Et si Copyfy ne me convient pas ?":
+          - /url: "#"
+          - generic: Et si Copyfy ne me convient pas ?
+        - paragraph: Tu peux annuler quand tu veux, sans engagement.
+        - paragraph: ‍
+      - heading "Une autre question ?" [level=3]:
+        - strong: Une autre question ?
+      - paragraph: Notre équipe te répond rapidement.
+      - link "Nous contacter":
+        - /url: mailto:contact@copyfy.io
+        - generic: Nous contacter
+      - link "Copyfy":
+        - /url: /
+        - generic: Copyfy
+      - generic: Ressources
+      - link "Blog":
+        - /url: https://www.copyfy.io/blog
+        - generic: Blog
+      - link "FAQ":
+        - /url: https://www.copyfy.io/faq
+        - generic: FAQ
+      - link "Coaching en live":
+        - /url: about:blank#redacted-personal-contact
+        - generic: Coaching en live
+      - link "Avis clients":
+        - /url: https://www.trustpilot.com/review/copyfy.io
+        - generic: Avis clients
+      - link "Copyfy vs":
+        - /url: https://www.copyfy.io/copyfy-vs
+        - generic: Copyfy vs
+      - link "Alternatives":
+        - /url: https://www.copyfy.io/alternatives
+        - generic: Alternatives
+      - link "Countik":
+        - /url: https://www.copyfy.io/alternatives/5-best-countik-alternatives
+        - generic: Countik
+      - link "Trendrocket":
+        - /url: https://www.copyfy.io/alternatives/5-best-trend-rocket-alternatives
+        - generic: Trendrocket
+      - link "Kalodata":
+        - /url: https://www.copyfy.io/alternatives/5-best-kalodata-alternatives
+        - generic: Kalodata
+      - link "Foreplay":
+        - /url: https://www.copyfy.io/alternatives/5-best-foreplay-alternatives
+        - generic: Foreplay
+      - link "Adsparo":
+        - /url: https://www.copyfy.io/alternatives/5-best-adsparo-alternatives
+        - generic: Adsparo
+      - link "Outils gratuits":
+        - /url: https://www.copyfy.io/tools
+        - generic: Outils gratuits
+      - link "Exporteur de produits":
+        - /url: https://www.copyfy.io/tools/exporteur-de-produits-shopify
+        - generic: Exporteur de produits
+      - link "Calculateur d’abonnement":
+        - /url: https://www.copyfy.io/tools/calculateur-abonnement-shopify
+        - generic: Calculateur d’abonnement
+      - link "Détecteur de thème":
+        - /url: https://www.copyfy.io/tools/detecteur-theme-shopify
+        - generic: Détecteur de thème
+      - link "Détecteur d’apps":
+        - /url: https://www.copyfy.io/tools/detecteur-apps-shopify
+        - generic: Détecteur d’apps
+      - link "Calculateur de marges":
+        - /url: https://www.copyfy.io/tools/calculateur-de-marges-dropshipping
+        - generic: Calculateur de marges
+      - generic: Entreprise
+      - link "Carrières":
+        - /url: https://www.copyfy.io/careers
+        - generic: Carrières
+      - link "Affiliation":
+        - /url: https://www.copyfy.io/affiliate
+        - generic: Affiliation
+      - link "Politique de confidentialité":
+        - /url: https://www.copyfy.io/politique-de-confidentialite
+        - generic: Politique de confidentialité
+      - link "Conditions d'utilisation":
+        - /url: https://www.copyfy.io/conditions-dutilisation
+        - generic: Conditions d'utilisation
+      - link "CGV":
+        - /url: https://www.copyfy.io/conditions-generales-de-vente
+        - generic: CGV
+      - generic: © 2026 Copyfy. Tous droits réservés.
+      - list:
+        - link "fr":
+          - /url: /
+        - link "en":
+          - /url: /
+        - link "es":
+          - /url: /
+        - link "nl":
+          - /url: /
+        - link "de":
+          - /url: /
+        - link "pt":
+          - /url: /
+- button "File menu button":
+- button "Design":
+  - generic: Design
+- button "CMS" [pressed]:
+  - generic: CMS
+- button "Insights":
+  - generic: Insights
+- button "Select a locale":
+  - generic: FR
+- separator
+- generic: Copyfy
+- group "Users and agents currently viewing this site":
+  - button "Thomas Salic (active) on page Home":
+    - generic: Thomas Salic
+    - generic: TS
+- button "Preview (⌥P)":
+- button "Share":
+  - generic: Share
+- generic: CSV export in progress
+- generic: Large exports can take some time. We'll email you a download link when it's ready.
+- generic: CSV export in progress
+- generic: Large exports can take some time. We'll email you a download link when it's ready.
+- generic: CSV export in progress
+- generic: Large exports can take some time. We'll email you a download link when it's ready.
+- generic: CSV export in progress
+- generic: Large exports can take some time. We'll email you a download link when it's ready.
+- generic: CSV export in progress
+- generic: Large exports can take some time. We'll email you a download link when it's ready.
+- generic: CSV export in progress
+- generic: Large exports can take some time. We'll email you a download link when it's ready.
+- generic: CSV export in progress
+- generic: Large exports can take some time. We'll email you a download link when it's ready.
+- heading "CMS Collections" [level=2]
+- button "More menu":
+- button "Create collection":
+- textbox "Search Collections":
+  - /placeholder: Search Collections...
+- status
+- button:
+- button "Free Tool Lists 12 items":
+  - generic: Free Tool Lists
+  - generic: 12 items
+- button:
+- button "FreeTools 12 items":
+  - generic: FreeTools
+  - generic: 12 items
+- button:
+- button "Careers 1 item":
+  - generic: Careers
+  - generic: 1 item
+- button:
+- button "Demo shops 2 items":
+  - generic: Demo shops
+  - generic: 2 items
+- button:
+- button "Features Copies 5 items":
+  - generic: Features Copies
+  - generic: 5 items
+- button:
+- button "Features 6 items":
+  - generic: Features
+  - generic: 6 items
+- button:
+- button "FAQs 154 items":
+  - generic: FAQs
+  - generic: 154 items
+- button:
+- button "Tags 5 items":
+  - generic: Tags
+  - generic: 5 items
+- button:
+- button "Authors 1 item":
+  - generic: Authors
+  - generic: 1 item
+- button:
+- button "Alternatives 45 items":
+  - generic: Alternatives
+  - generic: 45 items
+- button:
+- button "Blogs 125 items":
+  - generic: Blogs
+  - generic: 125 items
+- button:
+- button "Copyfy Vs 30 items":
+  - generic: Copyfy Vs
+  - generic: 30 items
+- button:
+- button "Categories 8 items":
+  - generic: Categories
+  - generic: 8 items
+- status
+- separator
+- heading "Ecommerce" [level=2]
+- button "Open":
+- heading "Copyfy Vs" [level=2]:
+  - heading "Copyfy Vs" [level=2]:
+    - heading "Copyfy Vs" [level=2]
+- textbox "Search copyfy vs..."
+- button "Filter":
+  - generic: Filter
+- button "Select...":
+  - generic: Select...
+- button "Export" [active]:
+  - generic: Export
+- button "Import":
+  - generic: Import
+- button "Settings":
+  - generic: Settings
+- button "New item":
+  - generic: New item
+- button "More":
+- table:
+  - columnheader "Name":
+    - button "Name":
+      - generic: Name
+  - columnheader "Published":
+    - button "Published":
+      - generic: Published
+  - columnheader "Status":
+    - button "Status":
+      - generic: Status
+  - columnheader "Created":
+    - button "Created":
+      - text: Created
+  - columnheader "Modified":
+    - button "Modified":
+      - generic: Modified
+  - button "Toggle column visibility":
+  - rowgroup:
+    - row "Dropispy Oct 3, 2026 4:38 PM Published Aug 18, 2026 8:34 PM Oct 3, 2026 4:31 PM":
+      - generic: Dropispy
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Aug 18, 2026 8:34 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "SellerCenter Oct 3, 2026 4:38 PM Published Sep 3, 2025 9:56 PM Oct 3, 2026 4:31 PM":
+      - generic: SellerCenter
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Sep 3, 2025 9:56 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "DiffShop Oct 3, 2026 4:38 PM Published Sep 3, 2025 9:50 PM Oct 3, 2026 4:31 PM":
+      - generic: DiffShop
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Sep 3, 2025 9:50 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "Spysales Oct 3, 2026 4:38 PM Published Sep 3, 2025 9:46 PM Oct 3, 2026 4:31 PM":
+      - generic: Spysales
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Sep 3, 2025 9:46 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "Anstrex Oct 3, 2026 4:38 PM Published Sep 3, 2025 9:40 PM Oct 3, 2026 4:31 PM":
+      - generic: Anstrex
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Sep 3, 2025 9:40 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "Shophunter Oct 3, 2026 4:38 PM Published Sep 3, 2025 9:37 PM Oct 3, 2026 4:31 PM":
+      - generic: Shophunter
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Sep 3, 2025 9:37 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "Foreplay Oct 3, 2026 4:38 PM Published Sep 3, 2025 9:33 PM Oct 3, 2026 4:31 PM":
+      - generic: Foreplay
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Sep 3, 2025 9:33 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "NicheScraper Oct 3, 2026 4:38 PM Published Sep 3, 2025 9:28 PM Oct 3, 2026 4:31 PM":
+      - generic: NicheScraper
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Sep 3, 2025 9:28 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "Sell The Trend Oct 3, 2026 4:38 PM Published Aug 31, 2025 8:42 PM Oct 3, 2026 4:31 PM":
+      - generic: Sell The Trend
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Aug 31, 2025 8:42 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "Peeksta Oct 3, 2026 4:38 PM Published Aug 31, 2025 8:39 PM Oct 3, 2026 4:31 PM":
+      - generic: Peeksta
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Aug 31, 2025 8:39 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "PowerAdSpy Oct 3, 2026 4:38 PM Published Aug 31, 2025 8:35 PM Oct 3, 2026 4:31 PM":
+      - generic: PowerAdSpy
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Aug 31, 2025 8:35 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "BigSpy Oct 3, 2026 4:38 PM Published Aug 31, 2025 8:32 PM Oct 3, 2026 4:31 PM":
+      - generic: BigSpy
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Aug 31, 2025 8:32 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "Winninghunter Oct 3, 2026 4:38 PM Published Aug 31, 2025 8:28 PM Oct 3, 2026 4:31 PM":
+      - generic: Winninghunter
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Aug 31, 2025 8:28 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "Adheart Oct 3, 2026 4:38 PM Published Aug 31, 2025 8:24 PM Oct 3, 2026 4:31 PM":
+      - generic: Adheart
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Aug 31, 2025 8:24 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "FastMoss Oct 3, 2026 4:38 PM Published Aug 31, 2025 8:21 PM Oct 3, 2026 4:31 PM":
+      - generic: FastMoss
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Aug 31, 2025 8:21 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "Kalodata Oct 3, 2026 4:38 PM Published Aug 31, 2025 8:18 PM Oct 3, 2026 4:31 PM":
+      - generic: Kalodata
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Aug 31, 2025 8:18 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "Echotik Oct 3, 2026 4:38 PM Published Aug 31, 2025 8:15 PM Oct 3, 2026 4:31 PM":
+      - generic: Echotik
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Aug 31, 2025 8:15 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "Adflex Oct 3, 2026 4:38 PM Published Aug 31, 2025 7:57 PM Oct 3, 2026 4:31 PM":
+      - generic: Adflex
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Aug 31, 2025 7:57 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "Countik Oct 3, 2026 4:38 PM Published Aug 31, 2025 7:53 PM Oct 3, 2026 4:31 PM":
+      - generic: Countik
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Aug 31, 2025 7:53 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "TabCut Oct 3, 2026 4:38 PM Published Aug 31, 2025 7:50 PM Oct 3, 2026 4:31 PM":
+      - generic: TabCut
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Aug 31, 2025 7:50 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "Shoplus Oct 3, 2026 4:38 PM Published Aug 31, 2025 7:44 PM Oct 3, 2026 4:31 PM":
+      - generic: Shoplus
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Aug 31, 2025 7:44 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "IconMe Oct 3, 2026 4:38 PM Published Aug 31, 2025 7:31 PM Oct 3, 2026 4:31 PM":
+      - generic: IconMe
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Aug 31, 2025 7:31 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "Adespresso Oct 3, 2026 4:38 PM Published Aug 31, 2025 7:26 PM Oct 3, 2026 4:31 PM":
+      - generic: Adespresso
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Aug 31, 2025 7:26 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "Tryatria Oct 3, 2026 4:38 PM Published Aug 31, 2025 7:23 PM Oct 3, 2026 4:31 PM":
+      - generic: Tryatria
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Aug 31, 2025 7:23 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "Dropship Spy Oct 3, 2026 4:38 PM Published Aug 23, 2025 3:19 PM Oct 3, 2026 4:31 PM":
+      - generic: Dropship Spy
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Aug 23, 2025 3:19 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "Ecomhunt Oct 3, 2026 4:38 PM Published Aug 23, 2025 3:15 PM Oct 3, 2026 4:31 PM":
+      - generic: Ecomhunt
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Aug 23, 2025 3:15 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "Minea Oct 3, 2026 4:38 PM Published Aug 23, 2025 3:04 PM Oct 3, 2026 4:31 PM":
+      - generic: Minea
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Aug 23, 2025 3:04 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "PiPiADS Oct 3, 2026 4:38 PM Published Aug 23, 2025 2:58 PM Oct 3, 2026 4:31 PM":
+      - generic: PiPiADS
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Aug 23, 2025 2:58 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "Spocket Oct 3, 2026 4:38 PM Published Aug 23, 2025 1:56 PM Oct 3, 2026 4:31 PM":
+      - generic: Spocket
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Aug 23, 2025 1:56 PM
+      - generic: Oct 3, 2026 4:31 PM
+    - row "AdSpy Oct 3, 2026 4:38 PM Published Aug 19, 2025 9:16 PM Oct 3, 2026 4:31 PM":
+      - generic: AdSpy
+      - generic: Oct 3, 2026 4:38 PM
+      - generic: Published
+      - generic: Aug 19, 2025 9:16 PM
+      - generic: Oct 3, 2026 4:31 PM
+  - generic: Showing 1-30 of 30
+- region "Notifications Alt+T"

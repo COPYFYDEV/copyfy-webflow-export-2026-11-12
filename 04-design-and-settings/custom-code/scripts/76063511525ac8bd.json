@@ -1,0 +1,56 @@
+
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.copyfy.io/#organization",
+      "name": "Copyfy",
+      "url": "https://www.copyfy.io/",
+      "description": "Analyse les produits, publicités et boutiques qui fonctionnent, puis crée une boutique Shopify optimisée avec Copyfy AI.",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/68c30b4a9127a29885405a96_logo_white_in_blue_box.svg"
+      },
+      "image": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/68c30b4a9127a29885405a96_logo_white_in_blue_box.svg"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.copyfy.io/#website",
+      "url": "https://www.copyfy.io/",
+      "name": "Copyfy",
+      "alternateName": "Copyfy.io",
+      "publisher": {
+        "@id": "https://www.copyfy.io/#organization"
+      }
+    },
+    {
+      "@type": [
+        "SoftwareApplication",
+        "WebApplication"
+      ],
+      "@id": "https://www.copyfy.io/#software",
+      "name": "Copyfy",
+      "url": "https://www.copyfy.io/",
+      "description": "Analyse les produits, publicités et boutiques qui fonctionnent, puis crée une boutique Shopify optimisée avec Copyfy AI.",
+      "operatingSystem": "Web",
+      "applicationCategory": "BusinessApplication",
+      "inLanguage": "fr",
+      "image": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/68c30b4a9127a29885405a96_logo_white_in_blue_box.svg",
+      "publisher": {
+        "@id": "https://www.copyfy.io/#organization"
+      },
+      "offers": {
+        "@type": "Offer",
+        "name": "Copyfy Starter",
+        "url": "https://www.copyfy.io/pricing",
+        "price": "39",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@id": "https://www.copyfy.io/#organization"
+        }
+      }
+    }
+  ]
+}

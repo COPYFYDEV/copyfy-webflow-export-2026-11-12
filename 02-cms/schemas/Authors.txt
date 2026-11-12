@@ -1,0 +1,96 @@
+- heading "Author Settings" [level=2]
+- heading [level=2]
+- button "Duplicate Collection":
+- button "Cancel":
+  - generic: Cancel
+- button "Save Collection":
+  - generic: Save Collection
+- generic: Collection Settings
+- generic: Collection ID
+- generic: 68eecd77c62d5aa47ba8ecb1
+- button "Copy Collection ID":
+- generic: Collection Name
+- button:
+- textbox "E.g. Blog Posts": Authors
+- generic: "Plural version:"
+- generic: Authors
+- generic: "Singular version:"
+- generic: Author
+- generic: Collection URL
+- button:
+- text: The name of the folder that your Author pages will be stored in
+- textbox "E.g. post": author
+- generic: www.copyfy.io/author/author-page
+- button "Copy Collection URL":
+- generic: A Collection Page is created for Authors in the Pages panel.
+- generic: Collaborators can create and edit Authors in the Editor.
+- generic: Collection fields
+- button:
+- button "Add group":
+  - generic: Add group
+- separator
+- heading "Basic info" [level=3]:
+  - button "Basic info" [expanded]:
+    - generic: Basic info
+- region "Basic info":
+  - generic: Name
+  - generic: (Plain text)
+  - generic: Required Field
+  - generic: Slug
+  - generic: (Plain text)
+  - generic: Required Field
+- separator
+- heading "Custom fields" [level=3]:
+  - button "Custom fields" [expanded]:
+    - generic: Custom fields
+- region "Custom fields":
+  - button "Reorder field":
+  - generic: Picture
+  - generic: (Image)
+  - button "Reorder field":
+  - generic: Role
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Description
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Twitter Profile Link
+  - generic: (Link)
+  - button "Reorder field":
+  - generic: Website
+  - generic: (Link)
+  - button "Reorder field":
+  - generic: Telegram
+  - generic: (Link)
+  - button "Reorder field":
+  - generic: Youtube
+  - generic: (Link)
+  - button "Reorder field":
+  - generic: Linkedin
+  - generic: (Link)
+  - button "Add Field":
+    - generic: Add Field
+- status
+- note:
+  - generic: 52/60 fields left.
+- generic: We also added Date Created, Date Edited and Date Published fields for you. You can use these to filter and sort Collection Lists in Webflow. These don't count against your field limit.
+- button "Delete Collection" [disabled]:
+  - generic: Delete Collection
+- button "View Connections":
+  - generic: View Connections
+- heading "Editor Preview" [level=2]
+- paragraph: This is the form that Collaborators will see when creating a new Author
+- heading "Basic Info" [level=3]
+- generic: Name *
+- generic: Slug *
+- generic: webflow.com/author/example
+- heading "Custom fields" [level=3]
+- generic: Picture
+- generic: Role
+- generic: Description
+- generic: Twitter Profile Link
+- generic: Website
+- generic: Telegram
+- generic: Youtube
+- generic: Linkedin
+- region "Notifications Alt+T"

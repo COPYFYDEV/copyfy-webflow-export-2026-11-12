@@ -1,0 +1,267 @@
+- heading "Feature Settings" [level=2]
+- heading [level=2]
+- button "Duplicate Collection":
+- button "Cancel":
+  - generic: Cancel
+- button "Save Collection":
+  - generic: Save Collection
+- generic: Collection Settings
+- generic: Collection ID
+- generic: 6900c734482afef468f5b0cd
+- button "Copy Collection ID":
+- generic: Collection Name
+- button:
+- textbox "E.g. Blog Posts": Features
+- generic: "Plural version:"
+- generic: Features
+- generic: "Singular version:"
+- generic: Feature
+- generic: Collection URL
+- button:
+- text: The name of the folder that your Feature pages will be stored in
+- textbox "E.g. post": features
+- generic: www.copyfy.io/features/feature-page
+- button "Copy Collection URL":
+- generic: A Collection Page is created for Features in the Pages panel.
+- generic: Collaborators can create and edit Features in the Editor.
+- generic: Collection fields
+- button:
+- button "Add group":
+  - generic: Add group
+- separator
+- heading "Basic info" [level=3]:
+  - button "Basic info" [expanded]:
+    - generic: Basic info
+- region "Basic info":
+  - generic: Name
+  - generic: (Plain text)
+  - generic: Required Field
+  - generic: Slug
+  - generic: (Plain text)
+  - generic: Required Field
+- separator
+- heading "Custom fields" [level=3]:
+  - button "Custom fields" [expanded]:
+    - generic: Custom fields
+- region "Custom fields":
+  - button "Reorder field":
+  - generic: Hero - Label
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Hero - Title
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Hero - Description
+  - generic: (Rich text)
+  - button "Reorder field":
+  - generic: Hero - Button Text
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Hero - Image
+  - generic: (Image)
+  - button "Reorder field":
+  - generic: Use case - Title
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Use case - Description
+  - generic: (Rich text)
+  - button "Reorder field":
+  - generic: Card 1 - Title - Use Case
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Card 1 - Description - Use Case
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Card 1 - Image - Use Case
+  - generic: (Image)
+  - button "Reorder field":
+  - generic: Card 2 - Title - Use Case
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Card 2 - Description - Use Case
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Card 2 - Image - Use Case
+  - generic: (Image)
+  - button "Reorder field":
+  - generic: Card 3 - Title - Use Case
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Card 3 - Description - Use Case
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Card 3 - Image - Use Case
+  - generic: (Image)
+  - button "Reorder field":
+  - generic: Card 4 - Title - Use Case
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Card 4 - Description - Use Case
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Card 4 - Image - Use Case
+  - generic: (Image)
+  - button "Reorder field":
+  - generic: Card 5 - Title - Use Case
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Card 5 - Description - Use Case
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Card 5 - Image - Use Case
+  - generic: (Image)
+  - button "Reorder field":
+  - generic: Card 6 - Title - Use Case
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Card 6 - Description - Use Case
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Card 6 - Image - Use Case
+  - generic: (Image)
+  - button "Reorder field":
+  - generic: Feature - Title
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Feature - Description
+  - generic: (Rich text)
+  - button "Reorder field":
+  - generic: Card 1 - Title - Feature
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Card 1 - Description - Feature
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Card 1 - Image - Feature
+  - generic: (Image)
+  - button "Reorder field":
+  - generic: Card 2 - Title - Feature
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Card 2 - Description - Feature
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Card 2 - Image - Feature
+  - generic: (Image)
+  - button "Reorder field":
+  - generic: Card 3 - Title - Feature
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Card 3 - Description - Feature
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Card 3 - Image - Feature
+  - generic: (Image)
+  - button "Reorder field":
+  - generic: Card 4 - Title - Feature
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Card 4 - Description - Feature
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Card 4 - Image - Feature
+  - generic: (Image)
+  - button "Reorder field":
+  - generic: Card 5 - Title - Feature
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Card 5 - Description - Feature
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Card 5 - Image - Feature
+  - generic: (Image)
+  - button "Reorder field":
+  - generic: Card 6 - Title - Feature
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Card 6 - Description - Feature
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Card 6 - Image - Feature
+  - generic: (Image)
+  - button "Reorder field":
+  - generic: Meta Description
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Meta Title
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Link icon
+  - generic: (Image)
+  - button "Reorder field":
+  - generic: Link description
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Tracking & Creation
+  - generic: (Switch)
+  - button "Add Field":
+    - generic: Add Field
+- status
+- note:
+  - generic: 10/60 fields left.
+- generic: We also added Date Created, Date Edited and Date Published fields for you. You can use these to filter and sort Collection Lists in Webflow. These don't count against your field limit.
+- button "Delete Collection" [disabled]:
+  - generic: Delete Collection
+- button "View Connections":
+  - generic: View Connections
+- heading "Editor Preview" [level=2]
+- paragraph: This is the form that Collaborators will see when creating a new Feature
+- heading "Basic Info" [level=3]
+- generic: Name *
+- generic: Slug *
+- generic: webflow.com/features/example
+- heading "Custom fields" [level=3]
+- generic: Hero - Label
+- generic: Hero - Title
+- generic: Hero - Description
+- generic: Hero - Button Text
+- generic: Hero - Image
+- generic: Use case - Title
+- generic: Use case - Description
+- generic: Card 1 - Title - Use Case
+- generic: Card 1 - Description - Use Case
+- generic: Card 1 - Image - Use Case
+- generic: Card 2 - Title - Use Case
+- generic: Card 2 - Description - Use Case
+- generic: Card 2 - Image - Use Case
+- generic: Card 3 - Title - Use Case
+- generic: Card 3 - Description - Use Case
+- generic: Card 3 - Image - Use Case
+- generic: Card 4 - Title - Use Case
+- generic: Card 4 - Description - Use Case
+- generic: Card 4 - Image - Use Case
+- generic: Card 5 - Title - Use Case
+- generic: Card 5 - Description - Use Case
+- generic: Card 5 - Image - Use Case
+- generic: Card 6 - Title - Use Case
+- generic: Card 6 - Description - Use Case
+- generic: Card 6 - Image - Use Case
+- generic: Feature - Title
+- generic: Feature - Description
+- generic: Card 1 - Title - Feature
+- generic: Card 1 - Description - Feature
+- generic: Card 1 - Image - Feature
+- generic: Card 2 - Title - Feature
+- generic: Card 2 - Description - Feature
+- generic: Card 2 - Image - Feature
+- generic: Card 3 - Title - Feature
+- generic: Card 3 - Description - Feature
+- generic: Card 3 - Image - Feature
+- generic: Card 4 - Title - Feature
+- generic: Card 4 - Description - Feature
+- generic: Card 4 - Image - Feature
+- generic: Card 5 - Title - Feature
+- generic: Card 5 - Description - Feature
+- generic: Card 5 - Image - Feature
+- generic: Card 6 - Title - Feature
+- generic: Card 6 - Description - Feature
+- generic: Card 6 - Image - Feature
+- generic: Meta Description
+- generic: Meta Title
+- generic: Link icon
+- generic: Link description
+- generic: This is the description for the nav link title
+- generic: Tracking & Creation
+- generic: This is a filter for the nav links selection
+- generic: "No"
+- region "Notifications Alt+T"

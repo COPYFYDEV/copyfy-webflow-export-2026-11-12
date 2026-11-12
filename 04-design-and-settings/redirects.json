@@ -1,0 +1,1122 @@
+[
+  {
+    "source": "/dashboard",
+    "target": "https://app.copyfy.io/dashboard"
+  },
+  {
+    "source": "/login",
+    "target": "https://app.copyfy.io/login"
+  },
+  {
+    "source": "/es/terms",
+    "target": "/es/conditions-dutilisation"
+  },
+  {
+    "source": "/it/features/adspy",
+    "target": "/en/features/adspy"
+  },
+  {
+    "source": "/change-language/es",
+    "target": "/es"
+  },
+  {
+    "source": "/fr/alternatives/5-best-pipiads-alternatives",
+    "target": "/alternatives/5-best-pipiads-alternatives"
+  },
+  {
+    "source": "/fr/alternatives/5-best-minea-alternatives",
+    "target": "/alternatives/5-best-minea-alternatives"
+  },
+  {
+    "source": "/change-language/nl",
+    "target": "/en"
+  },
+  {
+    "source": "/fr/affiliate",
+    "target": "/affiliate"
+  },
+  {
+    "source": "/en/terms",
+    "target": "/en/conditions-dutilisation"
+  },
+  {
+    "source": "/reset/password",
+    "target": "https://app.copyfy.io/reset/password"
+  },
+  {
+    "source": "/fr/terms",
+    "target": "/conditions-dutilisation"
+  },
+  {
+    "source": "/en/privacy",
+    "target": "/en/politique-de-confidentialite"
+  },
+  {
+    "source": "/change-language/de",
+    "target": "/en"
+  },
+  {
+    "source": "/checkout/register",
+    "target": "https://app.copyfy.io/checkout/register"
+  },
+  {
+    "source": "/(.*)/login",
+    "target": "https://app.copyfy.io/login"
+  },
+  {
+    "source": "/(.*)/checkout/register",
+    "target": "https://app.copyfy.io/checkout/register"
+  },
+  {
+    "source": "/dashboard/(.*)",
+    "target": "https://app.copyfy.io/dashboard/%1"
+  },
+  {
+    "source": "/(.*)/dashboard",
+    "target": "https://app.copyfy.io/dashboard"
+  },
+  {
+    "source": "/(.*)/dashboard/(.*)",
+    "target": "https://app.copyfy.io/dashboard/%2"
+  },
+  {
+    "source": "/fr",
+    "target": "/"
+  },
+  {
+    "source": "/fr/features/competitor-research",
+    "target": "/features/competitor-research"
+  },
+  {
+    "source": "/blog/tiktok-shop-enfin-en-france-le-guide-pour-booster-vos-ventes-en-ligne",
+    "target": "/blog/tiktok-shop-france"
+  },
+  {
+    "source": "/features/copyfy-fonctionnalite---creer-votre-boutique-avec-lia",
+    "target": "/features/creer-une-boutique-dropshipping-avec-ia"
+  },
+  {
+    "source": "/free-tools/telecharger-video-facebooke",
+    "target": "/"
+  },
+  {
+    "source": "/free-tools/tiktok-hashtag-generator",
+    "target": "/free-tools/tiktok-hashtag-generators"
+  },
+  {
+    "source": "/free-tools/telecharger-video-tiktok-sans-filigrane",
+    "target": "/free-tools/tiktok-hashtag-generator"
+  },
+  {
+    "source": "/features/copyfy-fonctionnalite---copier-coller-des-produits",
+    "target": "/features/copy-dropshipping-shops-and-products"
+  },
+  {
+    "source": "/features/creer-une-boutique-dropshipping-avec-ia",
+    "target": "/features/create-e-commerce-shop-with-ai"
+  },
+  {
+    "source": "/les-avantage-de-shopify-copyfy",
+    "target": "/shopify-avantages-et-inconvenients-copyfy"
+  },
+  {
+    "source": "/blog/les-avantage-de-shopify-copyfy",
+    "target": "/blog/shopify-avantages-et-inconvenients-copyfy"
+  },
+  {
+    "source": "/www.copyfy.io/shopify-3-months-for-1-dollar",
+    "target": "/"
+  },
+  {
+    "source": "/blog/blog-test",
+    "target": "/"
+  },
+  {
+    "source": "/free-tool-inner-page-v2",
+    "target": "/"
+  },
+  {
+    "source": "/blog/test-blog",
+    "target": "/"
+  },
+  {
+    "source": "/nl/privacy",
+    "target": "/"
+  },
+  {
+    "source": "/en/blog/test-blog",
+    "target": "/"
+  },
+  {
+    "source": "/es/blog/test-blog",
+    "target": "/"
+  },
+  {
+    "source": "/es/features/copyfy-fonctionnalite---copier-coller-des-produits",
+    "target": "/"
+  },
+  {
+    "source": "/blog/test",
+    "target": "/"
+  },
+  {
+    "source": "/change-language/en",
+    "target": "/en"
+  },
+  {
+    "source": "/blog/top-5-winning-dropshipping-products-march-2025",
+    "target": "/blog/best-dropshiping-product-of-march-2025"
+  },
+  {
+    "source": "/change-language/fr",
+    "target": "/"
+  },
+  {
+    "source": "/lang/de",
+    "target": "/en"
+  },
+  {
+    "source": "/privacy",
+    "target": "/politique-de-confidentialite"
+  },
+  {
+    "source": "/it/affiliate.html",
+    "target": "/en/affiliate"
+  },
+  {
+    "source": "/de/affiliate.html",
+    "target": "/en/affiliate"
+  },
+  {
+    "source": "/nl/affiliate.html",
+    "target": "/en/affiliate"
+  },
+  {
+    "source": "/en/affiliate.html",
+    "target": "/en/affiliate"
+  },
+  {
+    "source": "/fr/affiliate.html",
+    "target": "/affiliate"
+  },
+  {
+    "source": "/affiliate.html",
+    "target": "/affiliate"
+  },
+  {
+    "source": "/fr/features/product-database",
+    "target": "/features/product-database"
+  },
+  {
+    "source": "/lang/en",
+    "target": "/en"
+  },
+  {
+    "source": "/it/terms",
+    "target": "/en/conditions-dutilisation"
+  },
+  {
+    "source": "/fr/conditions-dutilisation",
+    "target": "/conditions-dutilisation"
+  },
+  {
+    "source": "/lang/fr",
+    "target": "/"
+  },
+  {
+    "source": "/lang/es",
+    "target": "/es"
+  },
+  {
+    "source": "/fr/features/adspy",
+    "target": "/features/adspy"
+  },
+  {
+    "source": "/es/privacy",
+    "target": "/es/politique-de-confidentialite"
+  },
+  {
+    "source": "/alternatives/foreplay",
+    "target": "/alternatives/5-best-foreplay-alternatives"
+  },
+  {
+    "source": "/es/travaillez-avec-nous",
+    "target": "/"
+  },
+  {
+    "source": "/en/blog/test",
+    "target": "/"
+  },
+  {
+    "source": "/en/blog/test-michel",
+    "target": "/"
+  },
+  {
+    "source": "/en/travaillez-avec-nous",
+    "target": "/"
+  },
+  {
+    "source": "/es/free-tools/theme-detector",
+    "target": "/"
+  },
+  {
+    "source": "/blog/test-michel",
+    "target": "/"
+  },
+  {
+    "source": "/es/blog/test",
+    "target": "/"
+  },
+  {
+    "source": "/es/free-tools/product-description-generator",
+    "target": "/"
+  },
+  {
+    "source": "/es/free-tools/roas-calculator",
+    "target": "/"
+  },
+  {
+    "source": "/es/free-tool-inner-page-v2",
+    "target": "/"
+  },
+  {
+    "source": "/en/free-tool-inner-page-v2",
+    "target": "/"
+  },
+  {
+    "source": "/lang/it",
+    "target": "/"
+  },
+  {
+    "source": "/nl/terms",
+    "target": "/"
+  },
+  {
+    "source": "/es/alternativess/5-best-dropship-spy-alternatives",
+    "target": "/alternatives/5-best-dropship-alternatives"
+  },
+  {
+    "source": "/es/alternativess/5-best-foreplay-alternatives",
+    "target": "/alternatives/5-best-foreplay-alternatives"
+  },
+  {
+    "source": "/es/alternatives/peeksta",
+    "target": "/alternatives/5-best-peeksta-alternatives"
+  },
+  {
+    "source": "/es/alternatives/poweradspy",
+    "target": "/alternatives/5-best-poweradspy-alternatives"
+  },
+  {
+    "source": "/es/alternatives/ecomhunt",
+    "target": "/alternatives/5-best-ecomhunt-alternatives"
+  },
+  {
+    "source": "/blogss/tiktok-shop-france",
+    "target": "/"
+  },
+  {
+    "source": "/es/alternatives/dropship",
+    "target": "/alternatives/5-best-dropship-alternatives"
+  },
+  {
+    "source": "/es/blogs/top-5-winning-dropshipping-products-march-2025",
+    "target": "/"
+  },
+  {
+    "source": "/es/alternative/anstrex",
+    "target": "/alternatives/5-best-anstrex-alternatives"
+  },
+  {
+    "source": "/it/features/product-database",
+    "target": "/"
+  },
+  {
+    "source": "/es/alternatives/shophunter",
+    "target": "/alternatives/5-best-shophunter-alternatives"
+  },
+  {
+    "source": "/es/blogss/les-meilleurs-fournisseurs-dropshipping",
+    "target": "/"
+  },
+  {
+    "source": "/es/alternatives/minea",
+    "target": "/alternatives/5-best-minea-alternatives"
+  },
+  {
+    "source": "/videos/VIDEO-1-transcode.webm",
+    "target": "/"
+  },
+  {
+    "source": "/es/alternative/adspy",
+    "target": "/alternatives/5-best-adspy-alternatives"
+  },
+  {
+    "source": "/es/blogs/why-are-my-tiktok-views-so-low-what-you-can-do-about-it",
+    "target": "/"
+  },
+  {
+    "source": "/es/alternative/peeksta",
+    "target": "/alternatives/5-best-peeksta-alternatives"
+  },
+  {
+    "source": "/es/blog/comment-faire-du-dropshipping-organique",
+    "target": "/"
+  },
+  {
+    "source": "/es/blog/comment-faire-une-recherche-de-produit-en-dropshipping",
+    "target": "/"
+  },
+  {
+    "source": "/es/blogs/comment-faire-une-recherche-de-produit-en-dropshipping",
+    "target": "/"
+  },
+  {
+    "source": "/es/alternative/minea",
+    "target": "/alternatives/5-best-minea-alternatives"
+  },
+  {
+    "source": "/en/testing-components",
+    "target": "/"
+  },
+  {
+    "source": "/es/blog/test-michel",
+    "target": "/"
+  },
+  {
+    "source": "/es/features/copyfy-fonctionnalite---creer-votre-boutique-avec-lia",
+    "target": "/"
+  },
+  {
+    "source": "/testing-components",
+    "target": "/"
+  },
+  {
+    "source": "/en/blog/test2",
+    "target": "/"
+  },
+  {
+    "source": "/es/blog/test2",
+    "target": "/"
+  },
+  {
+    "source": "/es/free-tools/telecharger-video-tiktok",
+    "target": "/"
+  },
+  {
+    "source": "/es/blogss/organic-dropshipping",
+    "target": "/"
+  },
+  {
+    "source": "/es/blogss/tiktok-shop-france",
+    "target": "/"
+  },
+  {
+    "source": "/it",
+    "target": "/"
+  },
+  {
+    "source": "/es/alternativess/5-best-minea-alternatives",
+    "target": "/alternatives/5-best-minea-alternatives"
+  },
+  {
+    "source": "/es/testing-components",
+    "target": "/"
+  },
+  {
+    "source": "/es/blogss/best-dropshiping-product-of-march-2025",
+    "target": "/"
+  },
+  {
+    "source": "/en/blogss/best-dropshiping-product-of-march-2025",
+    "target": "/"
+  },
+  {
+    "source": "/blogss/best-dropshiping-product-of-march-2025",
+    "target": "/"
+  },
+  {
+    "source": "/es/blogs/tiktok-shop-enfin-en-france-le-guide-pour-booster-vos-ventes-en-ligne",
+    "target": "/"
+  },
+  {
+    "source": "/es/alternatives/spocket",
+    "target": "/alternatives/5-best-spocket-alternatives"
+  },
+  {
+    "source": "/es/alternativess/5-best-shophunter-alternatives",
+    "target": "/alternatives/5-best-shophunter-alternatives"
+  },
+  {
+    "source": "/landing_theme/css/custom-style.css",
+    "target": "/"
+  },
+  {
+    "source": "/es/alternatives/anstrex",
+    "target": "/alternatives/5-best-anstrex-alternatives"
+  },
+  {
+    "source": "/es/blogss/dropshipping-product-research",
+    "target": "/"
+  },
+  {
+    "source": "/en/alternativess/5-best-minea-alternatives",
+    "target": "/en/alternatives/5-best-minea-alternatives"
+  },
+  {
+    "source": "/en/alternatives/foreplay",
+    "target": "/en/alternatives/5-best-foreplay-alternatives"
+  },
+  {
+    "source": "/alternativess/5-best-adspy-alternatives",
+    "target": "/alternatives/5-best-adspy-alternatives"
+  },
+  {
+    "source": "/en/alternativess/5-best-spocket-alternatives",
+    "target": "/en/alternatives/5-best-spocket-alternatives"
+  },
+  {
+    "source": "/en/alternatives/ecomhunt",
+    "target": "/en/alternatives/5-best-ecomhunt-alternatives"
+  },
+  {
+    "source": "/es/alternatives/sell-the-trend",
+    "target": "/alternatives/5-best-sell-the-trend-alternatives"
+  },
+  {
+    "source": "/en/alternatives/spocket",
+    "target": "/en/alternatives/5-best-spocket-alternatives"
+  },
+  {
+    "source": "/es/alternatives/foreplay",
+    "target": "/alternatives/5-best-foreplay-alternatives"
+  },
+  {
+    "source": "/alternativess/5-best-pipiads-alternatives",
+    "target": "/en/alternatives/5-best-pipiads-alternatives"
+  },
+  {
+    "source": "/alternativess/5-best-dropship-spy-alternatives",
+    "target": "/alternatives/5-best-dropship-spy-alternatives"
+  },
+  {
+    "source": "/en/alternatives/minea",
+    "target": "/en/alternatives/5-best-minea-alternatives"
+  },
+  {
+    "source": "/en/alternativess/5-best-dropship-alternatives",
+    "target": "/en/alternatives/5-best-dropship-spy-alternatives"
+  },
+  {
+    "source": "/en/alternatives/dropship",
+    "target": "/en/alternatives/5-best-dropship-alternatives"
+  },
+  {
+    "source": "/alternatives/minea",
+    "target": "/alternatives/5-best-minea-alternatives"
+  },
+  {
+    "source": "/en/alternatives/nichescraper",
+    "target": "/en/alternatives/5-best-nichescraper-alternatives"
+  },
+  {
+    "source": "/es/alternatives/nichescraper",
+    "target": "/alternatives/5-best-nichescraper-alternatives"
+  },
+  {
+    "source": "/en/alternatives/poweradspy",
+    "target": "/en/alternatives/5-best-poweradspy-alternatives"
+  },
+  {
+    "source": "/terms",
+    "target": "/en/conditions-dutilisation"
+  },
+  {
+    "source": "/alternativess/5-best-dropship-alternatives",
+    "target": "/alternatives/5-best-dropship-alternatives"
+  },
+  {
+    "source": "/en/alternativess/5-best-nichescraper-alternatives",
+    "target": "/en/alternatives/5-best-nichescraper-alternatives"
+  },
+  {
+    "source": "/alternativess/5-best-foreplay-alternatives",
+    "target": "/alternatives/5-best-foreplay-alternatives"
+  },
+  {
+    "source": "/fr/politique-de-confidentialite",
+    "target": "/politique-de-confidentialite"
+  },
+  {
+    "source": "/es/blog/les-meilleurs-fournisseurs-dropshipping-notre-comparatif-pour-booster-votre-boutique-en-ligne",
+    "target": "/"
+  },
+  {
+    "source": "/es/alternatives/dropship-spy",
+    "target": "/alternatives/5-best-dropship-spy-alternatives"
+  },
+  {
+    "source": "/en/www.copyfy.io/shopify-3-months-for-1-dollar",
+    "target": "/"
+  },
+  {
+    "source": "/es/blogs/les-meilleurs-fournisseurs-dropshipping-notre-comparatif-pour-booster-votre-boutique-en-ligne",
+    "target": "/"
+  },
+  {
+    "source": "/es/alternatives/adspy",
+    "target": "/alternatives/5-best-adspy-alternatives"
+  },
+  {
+    "source": "/es/www.copyfy.io/shopify-3-months-for-1-dollar",
+    "target": "/"
+  },
+  {
+    "source": "/it/blog/dropshipping-product-research",
+    "target": "/"
+  },
+  {
+    "source": "/change-language/it",
+    "target": "/"
+  },
+  {
+    "source": "/en/features/creer-une-boutique-dropshipping-avec-ia",
+    "target": "/en/features/create-e-commerce-shop-with-ai"
+  },
+  {
+    "source": "/alternativess/5-best-peeksta-alternatives",
+    "target": "/alternatives/5-best-peeksta-alternatives"
+  },
+  {
+    "source": "/es/alternativess/5-best-peeksta-alternatives",
+    "target": "/alternatives/5-best-peeksta-alternatives"
+  },
+  {
+    "source": "/en/features/copyfy-fonctionnalite---creer-votre-boutique-avec-lia",
+    "target": "/en/features/create-e-commerce-shop-with-ai"
+  },
+  {
+    "source": "/es/alternativess/5-best-ecomhunt-alternatives",
+    "target": "/alternatives/5-best-ecomhunt-alternatives"
+  },
+  {
+    "source": "/alternativess/5-best-ecomhunt-alternatives",
+    "target": "/alternatives/5-best-ecomhunt-alternatives"
+  },
+  {
+    "source": "/en/alternativess/5-best-pipiads-alternatives",
+    "target": "/en/alternatives/5-best-pipiads-alternatives"
+  },
+  {
+    "source": "/blogs/why-are-my-tiktok-views-so-low-what-you-can-do-about-it",
+    "target": "/"
+  },
+  {
+    "source": "/en/alternatives/pipiads",
+    "target": "/en/alternatives/5-best-pipiads-alternatives"
+  },
+  {
+    "source": "/en/alternatives/sell-the-trend",
+    "target": "/en/alternatives/5-best-sell-the-trend-alternatives"
+  },
+  {
+    "source": "/es/alternativess/5-best-adspy-alternatives",
+    "target": "/alternatives/5-best-adspy-alternatives"
+  },
+  {
+    "source": "/en/alternativess/5-best-dropship-spy-alternatives",
+    "target": "/en/alternatives/5-best-dropship-spy-alternatives"
+  },
+  {
+    "source": "/alternatives/spocket",
+    "target": "/alternatives/5-best-spocket-alternatives"
+  },
+  {
+    "source": "/alternativess/5-best-sell-the-trend-alternatives",
+    "target": "/alternatives/5-best-sell-the-trend-alternatives"
+  },
+  {
+    "source": "/alternatives/sell-the-trend",
+    "target": "/alternatives/5-best-sell-the-trend-alternatives"
+  },
+  {
+    "source": "/en/alternatives/shophunter",
+    "target": "/en/alternatives/5-best-shophunter-alternatives"
+  },
+  {
+    "source": "/alternative/dropship",
+    "target": "/alternatives/5-best-dropship-alternatives"
+  },
+  {
+    "source": "/alternatives/dropship-spy",
+    "target": "/alternatives/5-best-dropship-spy-alternatives"
+  },
+  {
+    "source": "/alternative/minea",
+    "target": "/alternatives/5-best-minea-alternatives"
+  },
+  {
+    "source": "/alternatives/ecomhunt",
+    "target": "/alternatives/5-best-ecomhunt-alternatives"
+  },
+  {
+    "source": "/alternativess/5-best-nichescraper-alternatives",
+    "target": "/alternatives/5-best-nichescraper-alternatives"
+  },
+  {
+    "source": "/alternative/spocket",
+    "target": "/alternatives/5-best-spocket-alternatives"
+  },
+  {
+    "source": "/en/alternativess/5-best-poweradspy-alternatives",
+    "target": "/en/alternatives/5-best-dropship-spy-alternatives"
+  },
+  {
+    "source": "/alternativess/5-best-shophunter-alternatives",
+    "target": "/alternatives/5-best-shophunter-alternatives"
+  },
+  {
+    "source": "/alternative/sell-the-trend",
+    "target": "/alternatives/5-best-sell-the-trend-alternatives"
+  },
+  {
+    "source": "/alternative/ecomhunt",
+    "target": "/alternatives/5-best-ecomhunt-alternatives"
+  },
+  {
+    "source": "/en/alternative/nichescraper",
+    "target": "/en/alternatives/5-best-nichescraper-alternatives"
+  },
+  {
+    "source": "/alternative/nichescraper",
+    "target": "/alternatives/5-best-nichescraper-alternatives"
+  },
+  {
+    "source": "/alternative/anstrex",
+    "target": "/alternatives/5-best-anstrex-alternatives"
+  },
+  {
+    "source": "/en/alternative/anstrex",
+    "target": "/en/alternatives/5-best-anstrex-alternatives"
+  },
+  {
+    "source": "/alternative/pipiads",
+    "target": "/alternatives/5-best-pipiads-alternatives"
+  },
+  {
+    "source": "/en/alternative/dropship",
+    "target": "/en/alternatives/5-best-dropship-spy-alternatives"
+  },
+  {
+    "source": "/en/alternatives/adspy",
+    "target": "/en/alternatives/5-best-adspy-alternatives"
+  },
+  {
+    "source": "/alternatives/dropship",
+    "target": "/alternatives/5-best-dropship-alternatives"
+  },
+  {
+    "source": "/en/alternatives/anstrex",
+    "target": "/en/alternatives/5-best-anstrex-alternatives"
+  },
+  {
+    "source": "/en/alternativess/5-best-adspy-alternatives",
+    "target": "/en/alternatives/5-best-adspy-alternatives"
+  },
+  {
+    "source": "/alternatives/shophunter",
+    "target": "/alternatives/5-best-shophunter-alternatives"
+  },
+  {
+    "source": "/en/alternatives/dropship-spy",
+    "target": "/en/alternatives/5-best-dropship-alternatives"
+  },
+  {
+    "source": "/en/alternativess/5-best-shophunter-alternatives",
+    "target": "/en/alternatives/5-best-shophunter-alternatives"
+  },
+  {
+    "source": "/alternatives/poweradspy",
+    "target": "/alternatives/5-best-poweradspy-alternatives"
+  },
+  {
+    "source": "/en/alternatives/peeksta",
+    "target": "/en/alternatives/5-best-peeksta-alternatives"
+  },
+  {
+    "source": "/en/alternative/poweradspy",
+    "target": "/en/alternatives/5-best-poweradspy-alternatives"
+  },
+  {
+    "source": "/en/alternative/adspy",
+    "target": "/en/alternatives/5-best-adspy-alternatives"
+  },
+  {
+    "source": "/alternatives/pipiads",
+    "target": "/alternatives/5-best-pipiads-alternatives"
+  },
+  {
+    "source": "/en/alternativess/5-best-foreplay-alternatives",
+    "target": "/en/alternatives/5-best-foreplay-alternatives"
+  },
+  {
+    "source": "/alternative/dropship-spy",
+    "target": "/alternatives/5-best-dropship-spy-alternatives"
+  },
+  {
+    "source": "/alternativess/5-best-spocket-alternatives",
+    "target": "/alternatives/5-best-spocket-alternatives"
+  },
+  {
+    "source": "/alternativess/5-best-anstrex-alternatives",
+    "target": "/alternatives/5-best-anstrex-alternatives"
+  },
+  {
+    "source": "/alternativess/5-best-poweradspy-alternatives",
+    "target": "/alternatives/5-best-poweradspy-alternatives"
+  },
+  {
+    "source": "/alternatives/anstrex",
+    "target": "/alternatives/5-best-anstrex-alternatives"
+  },
+  {
+    "source": "/en/alternative/sell-the-trend",
+    "target": "/en/alternatives/5-best-sell-the-trend-alternatives"
+  },
+  {
+    "source": "/alternative/shophunter",
+    "target": "/alternatives/5-best-shophunter-alternatives"
+  },
+  {
+    "source": "/alternatives/adspy",
+    "target": "/alternatives/5-best-adspy-alternatives"
+  },
+  {
+    "source": "/en/alternative/peeksta",
+    "target": "/en/alternatives/5-best-peeksta-alternatives"
+  },
+  {
+    "source": "/blog/les-meilleurs-fournisseurs-dropshipping-notre-comparatif-pour-booster-votre-boutique-en-ligne",
+    "target": "/blog/les-meilleurs-fournisseurs-dropshipping"
+  },
+  {
+    "source": "/alternatives/peeksta",
+    "target": "/alternatives/5-best-peeksta-alternatives"
+  },
+  {
+    "source": "/blog/comment-faire-du-dropshipping-organique",
+    "target": "/blog/organic-dropshipping"
+  },
+  {
+    "source": "/en/alternative/minea",
+    "target": "/en/alternatives/5-best-minea-alternatives"
+  },
+  {
+    "source": "/blog/profitable-dropshipping-tips-for-a-profitable-store",
+    "target": "/blog/dropshipping-rentable"
+  },
+  {
+    "source": "/pricing-v2",
+    "target": "/pricing"
+  },
+  {
+    "source": "/blog/top-5-pets-dropshipping-products",
+    "target": "/"
+  },
+  {
+    "source": "/blog/top-5-gifts-dropshipping-products",
+    "target": "/"
+  },
+  {
+    "source": "/blog/top-5-games-dropshipping-products",
+    "target": "/"
+  },
+  {
+    "source": "/blog/creer-boutique-en-ligne-sans-stock",
+    "target": "/"
+  },
+  {
+    "source": "/blog/calcul-marge-commerciale",
+    "target": "/"
+  },
+  {
+    "source": "/blog/gestion-relation-fournisseur",
+    "target": "/"
+  },
+  {
+    "source": "/blog/best-dropshiping-product-of-may-2025",
+    "target": "/"
+  },
+  {
+    "source": "/blog/copy-dropshipping-shops-and-products",
+    "target": "/"
+  },
+  {
+    "source": "/blog/best-dropshiping-product-of-april-2025",
+    "target": "/"
+  },
+  {
+    "source": "/blog/techniques-de-vente-en-ligne",
+    "target": "/"
+  },
+  {
+    "source": "/blog/lancer-boutique-en-ligne",
+    "target": "/"
+  },
+  {
+    "source": "/blog/espionner-boutique-shopify",
+    "target": "/"
+  },
+  {
+    "source": "/blog/augmenter-ses-ventes-en-ligne",
+    "target": "/"
+  },
+  {
+    "source": "/blog/adspy-dropshipping",
+    "target": "/features/adspy"
+  },
+  {
+    "source": "/blog/dropshipping-product-research",
+    "target": "/category/recherche-produit-ecommerce"
+  },
+  {
+    "source": "/blog/shopify-et-dropshipping-copyfy",
+    "target": "/"
+  },
+  {
+    "source": "/blog/marketing-e-commerce",
+    "target": "/category/marketing-acquisition"
+  },
+  {
+    "source": "/blog/analyse-ecommerce",
+    "target": "/category/analytics-kpis"
+  },
+  {
+    "source": "/blog/remarketing-shopify",
+    "target": "/"
+  },
+  {
+    "source": "/blog/reciblage-publicitaire",
+    "target": "/"
+  },
+  {
+    "source": "/blog/top-5-fitness-dropshipping-products",
+    "target": "/"
+  },
+  {
+    "source": "/blog/top-5-beauty-dropshipping-products",
+    "target": "/"
+  },
+  {
+    "source": "/blog/top-5-apparel-dropshipping-products",
+    "target": "/"
+  },
+  {
+    "source": "/blog/top-5-antiques-dropshipping-products",
+    "target": "/"
+  },
+  {
+    "source": "/blog/top-5-vape-and-smoking-dropshipping-products",
+    "target": "/"
+  },
+  {
+    "source": "/blog/top-5-science-dropshipping-products",
+    "target": "/"
+  },
+  {
+    "source": "/blog/landing-page-performante",
+    "target": "/"
+  },
+  {
+    "source": "/blog/product-research-dropshipping",
+    "target": "/category/recherche-produit-ecommerce"
+  },
+  {
+    "source": "/blog/shopify-sales-tracker",
+    "target": "/"
+  },
+  {
+    "source": "/blog/analyse-site-ecommerce",
+    "target": "/category/analytics-kpis"
+  },
+  {
+    "source": "/blog/top-5-travel-dropshipping-products",
+    "target": "/"
+  },
+  {
+    "source": "/blog/top-5-health-dropshipping-products",
+    "target": "/"
+  },
+  {
+    "source": "/blog/top-5-electronics-dropshipping-products",
+    "target": "/"
+  },
+  {
+    "source": "/blog/top-5-wedding-dropshipping-products",
+    "target": "/"
+  },
+  {
+    "source": "/blog/top-5-firearms-dropshipping-products",
+    "target": "/"
+  },
+  {
+    "source": "/blog/cost-per-acquisition-calculator",
+    "target": "/"
+  },
+  {
+    "source": "/blog/workflow-ecommerce",
+    "target": "/"
+  },
+  {
+    "source": "/blog/automatisation-marketing-digital",
+    "target": "/"
+  },
+  {
+    "source": "/blog/drop-shipping-automation",
+    "target": "/"
+  },
+  {
+    "source": "/blog/fb-ads-library",
+    "target": "/"
+  },
+  {
+    "source": "/blog/dropshipping-for-beginners",
+    "target": "/blog/debuter-le-dropshipping-avec-copyfy"
+  },
+  {
+    "source": "/blog/how-much-do-dropshippers-make",
+    "target": "/"
+  },
+  {
+    "source": "/blog/delete-shopify-store",
+    "target": "/"
+  },
+  {
+    "source": "/blog/dropship-for-dummies",
+    "target": "/blog/debuter-le-dropshipping-avec-copyfy"
+  },
+  {
+    "source": "/blog/dropshipping-facile",
+    "target": "/blog/debuter-le-dropshipping-avec-copyfy"
+  },
+  {
+    "source": "/blog/shopify-ai-website-builder",
+    "target": "/features/create-e-commerce-shop-with-ai"
+  },
+  {
+    "source": "/blog/best-dropshiping-product-of-march-2025",
+    "target": "/"
+  },
+  {
+    "source": "/blog/analyser-un-site-concurrent-avec-copyfy",
+    "target": "/blog/analyser-une-boutique-shopify-avec-copyfy"
+  },
+  {
+    "source": "/fr/blog/organic-dropshipping",
+    "target": "/blog/organic-dropshipping"
+  },
+  {
+    "source": "/en/politique-de-confidentialite",
+    "target": "/en/privacy-policy"
+  },
+  {
+    "source": "/es/politique-de-confidentialite",
+    "target": "/es/politica-de-confidencialidad"
+  },
+  {
+    "source": "/en/conditions-dutilisation",
+    "target": "/en/terms-of-use"
+  },
+  {
+    "source": "/es/conditions-dutilisation",
+    "target": "/es/condiciones-de-uso"
+  },
+  {
+    "source": "/nl/conditions-dutilisation",
+    "target": "/nl/gebruiksvoorwaarden"
+  },
+  {
+    "source": "/legals/politique-de-confidentialite",
+    "target": "/politique-de-confidentialite"
+  },
+  {
+    "source": "/legals/conditions-dutilisation",
+    "target": "/conditions-dutilisation"
+  },
+  {
+    "source": "/en/privacy-policy-copy",
+    "target": "/en/general-terms-and-conditions-of-sale"
+  },
+  {
+    "source": "/blog/dropship-product-finder",
+    "target": "/features/product-database"
+  },
+  {
+    "source": "/blog/trouver-son-fournisseur-avec-copyfy",
+    "target": "/blog/fournisseur-dropshipping"
+  },
+  {
+    "source": "/blog/les-meilleurs-fournisseurs-dropshipping",
+    "target": "/blog/fournisseur-dropshipping"
+  },
+  {
+    "source": "/blog/fonctionnement-du-dropshipping-copyfy",
+    "target": "/blog/definition-dropshipping"
+  },
+  {
+    "source": "/blog/debuter-le-dropshipping-avec-copyfy",
+    "target": "/category/dropshipping"
+  },
+  {
+    "source": "/en/blog/how-to-start-dropshipping",
+    "target": "/en/category/dropshipping"
+  },
+  {
+    "source": "/es/blog/empieza-a-hacer-dropshipping",
+    "target": "/es/category/dropshipping"
+  },
+  {
+    "source": "/careers",
+    "target": "https://humanflow.app/careers/copyfy"
+  },
+  {
+    "source": "/blog/dropshipping-rentable",
+    "target": "/"
+  },
+  {
+    "source": "/courses",
+    "target": "/"
+  },
+  {
+    "source": "/essai-gratuit",
+    "target": "/essai-gratuit-free-trial"
+  },
+  {
+    "source": "/essai-gratuit-free-trial",
+    "target": "/free-trial"
+  },
+  {
+    "source": "/free-trial-en",
+    "target": "/freetrial-en"
+  },
+  {
+    "source": "/home-keystone",
+    "target": "/home"
+  },
+  {
+    "source": "/ai-store/marcuus",
+    "target": "https://www.copyfy.io/ai-store?utm_source=marcuus-kos&utm_medium=influence&utm_campaign=marcuus&utm_content=challenge-aistore&ref=marcuus"
+  },
+  {
+    "source": "/liste-produits/marcuus",
+    "target": "https://www.copyfy.io/liste-produits?utm_source=marcuus-kos&utm_medium=influence&utm_campaign=marcuus&utm_content=challenge-liste&ref=marcuus"
+  },
+  {
+    "source": "/produits/marcuus",
+    "target": "https://app.copyfy.io/en/login?utm_source=marcuus-kos&utm_medium=influence&utm_campaign=marcuus&utm_content=challenge-shops&ref=marcuus&callbackUrl=https%3A%2F%2Fapp.copyfy.io%2Fdashboard%2Fproducts%3Futm_source%3Dmarcuus-kos%26utm_medium%3Dinfluence%26utm_campaign%3Dmarcuus%26utm_content%3Dchallenge-shops%26ref%3Dmarcuus"
+  },
+  {
+    "source": "/recherche-produits/marcuus",
+    "target": "https://app.copyfy.io/login?utm_source=marcuus-kos&utm_medium=influence&utm_campaign=marcuus&utm_content=challenge-shops&ref=marcuus&callbackUrl=https%3A%2F%2Fapp.copyfy.io%2Fdashboard%2Fproducts%3Futm_source%3Dmarcuus-kos%26utm_medium%3Dinfluence%26utm_campaign%3Dmarcuus%26utm_content%3Dchallenge-shops%26ref%3Dmarcuus"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "Name": "Clair'Eau",
+    "Slug": "claireau",
+    "Collection ID": "69024923173d4ce1bb6a79f7",
+    "Locale ID": "67dd3c04f88f95cc9ef2f390",
+    "Item ID": "69024952bd9a450a4d236c73",
+    "Archived": "false",
+    "Draft": "false",
+    "Created On": "Wed Oct 29 2025 17:05:22 GMT+0000 (Coordinated Universal Time)",
+    "Updated On": "Sun Nov 02 2025 06:35:21 GMT+0000 (Coordinated Universal Time)",
+    "Published On": "Sun Nov 02 2025 06:35:21 GMT+0000 (Coordinated Universal Time)",
+    "Image": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/6902bc486e46d65b9e78dc8b_shop_example_2.jpg",
+    "Lien": "https://clair-eau.com/"
+  },
+  {
+    "Name": "SmartBag",
+    "Slug": "smartbag",
+    "Collection ID": "69024923173d4ce1bb6a79f7",
+    "Locale ID": "67dd3c04f88f95cc9ef2f390",
+    "Item ID": "695259656bee72833be8b374",
+    "Archived": "false",
+    "Draft": "false",
+    "Created On": "Mon Dec 29 2025 10:35:17 GMT+0000 (Coordinated Universal Time)",
+    "Updated On": "Mon Feb 16 2026 14:16:22 GMT+0000 (Coordinated Universal Time)",
+    "Published On": "Mon Feb 16 2026 14:35:54 GMT+0000 (Coordinated Universal Time)",
+    "Image": "https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/69525b7523edbd29a56d8be8_Frame%201.webp",
+    "Lien": "https://mysmartbag.com/products/smart-bag%E2%84%A2"
+  }
+]

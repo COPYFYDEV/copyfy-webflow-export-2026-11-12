@@ -1,0 +1,996 @@
+<style>
+    html,body{margin:0 !important;padding:0 !important;}
+.copyfy-roi * {
+        box-sizing: border-box !important;
+        margin: 0;
+        padding: 0;
+    }
+
+    .copyfy-roi {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+        color: #FFFFFF !important;
+        background: transparent !important;
+        padding: 0 !important;
+        max-width: none !important;
+        padding-bottom: 100px !important;
+        margin: 0 auto !important;
+        line-height: 1.5;
+    }
+
+    /* Bottom bar */
+    .copyfy-roi-bottombar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        margin-top: 24px;
+        flex-wrap: wrap;
+    }
+
+    @media (max-width: 479px) {
+        .copyfy-roi-bottombar {
+            flex-direction: column;
+            align-items: stretch;
+        }
+        .copyfy-roi-bottombar .copyfy-roi-btn {
+            justify-content: center;
+        }
+    }
+
+    .copyfy-roi-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 12px 24px !important;
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        border-radius: 30px !important;
+        border: none !important;
+        cursor: pointer;
+        font-family: inherit !important;
+        transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+        text-decoration: none !important;
+    }
+
+    .copyfy-roi-btn-primary {
+        background: #FFFFFF !important;
+        color: #0F0F10 !important;
+    }
+
+    .copyfy-roi-btn-secondary {
+        background: #0A6CFB !important;
+        color: #FFFFFF !important;
+    }
+
+    .copyfy-roi-btn:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+    }
+
+    /* Main horizontal layout */
+    .copyfy-roi-layout {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        align-items: start;
+    }
+
+    @media (min-width: 900px) {
+        .copyfy-roi-layout {
+            grid-template-columns: minmax(300px, 400px) 1fr;
+            gap: 28px;
+        }
+    }
+
+    /* Inputs column */
+    .copyfy-roi-inputs {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+    }
+
+    @media (max-width: 479px) {
+        .copyfy-roi-inputs { grid-template-columns: 1fr; }
+    }
+
+    .copyfy-roi-field { position: relative; }
+
+    .copyfy-roi-label {
+        display: block;
+        font-size: 13px;
+        font-weight: 600;
+        color: #FFFFFF !important;
+        margin-bottom: 6px;
+    }
+
+    .copyfy-roi-input-wrap { position: relative; }
+
+    .copyfy-roi-icon {
+        position: absolute;
+        left: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #0F0F10 !important;
+        font-size: 15px;
+        pointer-events: none;
+        transition: color 200ms ease;
+    }
+
+    .copyfy-roi-input {
+        width: 100% !important;
+        padding: 12px 14px 12px 32px !important;
+        background: #FFFFFF !important;
+        color: #0F0F10 !important;
+        border: 1px solid #FFFFFF !important;
+        border-radius: 12px !important;
+        font-size: 15px !important;
+        font-family: inherit !important;
+        transition: all 200ms ease;
+        -webkit-appearance: none;
+        appearance: none;
+    }
+
+    .copyfy-roi-input:hover {
+        border-color: #0A6CFB !important;
+    }
+
+    .copyfy-roi-input:focus {
+        outline: none !important;
+        border-color: #0A6CFB !important;
+        background: #0A6CFB !important;
+        color: #FFFFFF !important;
+    }
+
+    .copyfy-roi-input:focus + .copyfy-roi-icon,
+    .copyfy-roi-input-wrap:focus-within .copyfy-roi-icon {
+        color: #FFFFFF !important;
+    }
+
+    .copyfy-roi-input::-webkit-outer-spin-button,
+    .copyfy-roi-input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    .copyfy-roi-input[type=number] { -moz-appearance: textfield; }
+
+    /* Results column */
+    .copyfy-roi-results {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    /* Hero card */
+    .copyfy-roi-hero {
+        padding: 28px 24px !important;
+        background: #FFFFFF !important;
+        border-radius: 12px !important;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .copyfy-roi-hero-left { flex: 1; min-width: 0; }
+
+    .copyfy-roi-hero-label {
+        font-size: 12px !important;
+        font-weight: 600 !important;
+        color: #0F0F10 !important;
+        opacity: 0.6;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin-bottom: 6px;
+    }
+
+    .copyfy-roi-hero-value {
+        font-size: 40px !important;
+        font-weight: 800 !important;
+        color: #0F0F10 !important;
+        line-height: 1;
+    }
+
+    .copyfy-roi-hero-value-positive { color: #0A6CFB !important; }
+    .copyfy-roi-hero-value-negative { color: #DC2626 !important; }
+
+    .copyfy-roi-hero-sub {
+        font-size: 13px;
+        color: #0F0F10 !important;
+        opacity: 0.65;
+        margin-top: 6px;
+    }
+
+    @media (max-width: 639px) {
+        .copyfy-roi-hero-value { font-size: 32px !important; }
+    }
+
+    /* Benchmark badge inside hero */
+    .copyfy-roi-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 14px !important;
+        background: #0F0F10 !important;
+        color: #FFFFFF !important;
+        border-radius: 30px !important;
+        font-size: 12px !important;
+        font-weight: 700 !important;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        white-space: nowrap;
+    }
+
+    .copyfy-roi-badge-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #FFFFFF;
+    }
+
+    .copyfy-roi-badge-loss { background: #DC2626 !important; }
+    .copyfy-roi-badge-low { background: #0F0F10 !important; opacity: 0.7; }
+    .copyfy-roi-badge-good { background: #0A6CFB !important; }
+    .copyfy-roi-badge-great { background: #0A6CFB !important; box-shadow: 0 0 0 3px rgba(10, 108, 251, 0.25); }
+
+    /* Sub-stats grid */
+    .copyfy-roi-stats {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+
+    @media (max-width: 639px) {
+        .copyfy-roi-stats { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    .copyfy-roi-stat {
+        padding: 14px 12px !important;
+        background: #FFFFFF !important;
+        border-radius: 12px !important;
+        text-align: center;
+    }
+
+    .copyfy-roi-stat-label {
+        font-size: 11px !important;
+        font-weight: 600 !important;
+        color: #0F0F10 !important;
+        opacity: 0.6;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        margin-bottom: 4px;
+    }
+
+    .copyfy-roi-stat-value {
+        font-size: 18px !important;
+        font-weight: 700 !important;
+        color: #0F0F10 !important;
+        line-height: 1.2;
+    }
+
+    .copyfy-roi-stat-value-positive { color: #0A6CFB !important; }
+    .copyfy-roi-stat-value-negative { color: #DC2626 !important; }
+
+    /* Target price helper */
+    .copyfy-roi-target {
+        padding: 14px 18px !important;
+        background: #FFFFFF !important;
+        border-radius: 12px !important;
+        font-size: 13px !important;
+        color: #0F0F10 !important;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .copyfy-roi-target-icon {
+        flex-shrink: 0;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background: #0A6CFB;
+        color: #FFFFFF;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .copyfy-roi-target strong { color: #0A6CFB !important; font-weight: 700; }
+
+    /* Interpretation */
+    .copyfy-roi-interp {
+        padding: 16px 18px !important;
+        background: #FFFFFF !important;
+        border-radius: 12px !important;
+        font-size: 14px !important;
+        color: #0F0F10 !important;
+        line-height: 1.6;
+    }
+
+    .copyfy-roi-interp-loss {
+        border-left: 4px solid #DC2626 !important;
+        padding-left: 16px !important;
+    }
+
+    .copyfy-roi-interp strong { color: #0F0F10 !important; font-weight: 700; }
+
+    /* ---------- Mode switch ---------- */
+    .copyfy-roi-modes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4px;
+        padding: 4px !important;
+        background: #FFFFFF !important;
+        border-radius: 30px !important;
+        margin-bottom: 14px;
+    }
+
+    .copyfy-roi-mode {
+        padding: 10px 12px !important;
+        border: none !important;
+        border-radius: 30px !important;
+        background: #FFFFFF !important;
+        color: #0F0F10 !important;
+        font-family: inherit !important;
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        cursor: pointer;
+        transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .copyfy-roi-mode:hover { background: rgba(10, 108, 251, 0.10) !important; }
+
+    .copyfy-roi-mode-active,
+    .copyfy-roi-mode-active:hover {
+        background: #0A6CFB !important;
+        color: #FFFFFF !important;
+    }
+
+    .copyfy-roi-group[hidden] { display: none !important; }
+
+    /* ---------- Privacy note ---------- */
+    .copyfy-roi-privacy {
+        margin-top: 12px;
+        font-size: 12px !important;
+        color: #FFFFFF !important;
+        opacity: 0.65;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .copyfy-roi-target-warn .copyfy-roi-target-icon { background: #DC2626 !important; }
+    .copyfy-roi-target-warn strong { color: #DC2626 !important; }
+</style>
+
+<div class="copyfy-roi">
+    <div class="copyfy-roi-layout">
+        <!-- LEFT: mode switch + inputs -->
+        <div class="copyfy-roi-left">
+            <div class="copyfy-roi-modes">
+                <button type="button" class="copyfy-roi-mode copyfy-roi-mode-active" id="copyfy-roi-mode-period" data-mode="period">Par période</button>
+                <button type="button" class="copyfy-roi-mode" id="copyfy-roi-mode-order" data-mode="order">Par commande</button>
+            </div>
+
+            <div class="copyfy-roi-inputs copyfy-roi-group" id="copyfy-roi-group-period">
+                <div class="copyfy-roi-field">
+                    <label for="copyfy-roi-revenue" class="copyfy-roi-label">Chiffre d’affaires</label>
+                    <div class="copyfy-roi-input-wrap">
+                        <input type="number" id="copyfy-roi-revenue" class="copyfy-roi-input" min="0" step="0.01" value="0">
+                        <span class="copyfy-roi-icon">€</span>
+                    </div>
+                </div>
+
+                <div class="copyfy-roi-field">
+                    <label for="copyfy-roi-cogs" class="copyfy-roi-label">Coût des produits vendus</label>
+                    <div class="copyfy-roi-input-wrap">
+                        <input type="number" id="copyfy-roi-cogs" class="copyfy-roi-input" min="0" step="0.01" value="0">
+                        <span class="copyfy-roi-icon">€</span>
+                    </div>
+                </div>
+
+                <div class="copyfy-roi-field">
+                    <label for="copyfy-roi-ad-spend" class="copyfy-roi-label">Dépense publicitaire</label>
+                    <div class="copyfy-roi-input-wrap">
+                        <input type="number" id="copyfy-roi-ad-spend" class="copyfy-roi-input" min="0" step="0.01" value="0">
+                        <span class="copyfy-roi-icon">€</span>
+                    </div>
+                </div>
+
+                <div class="copyfy-roi-field">
+                    <label for="copyfy-roi-platform-fees" class="copyfy-roi-label">Frais de plateforme</label>
+                    <div class="copyfy-roi-input-wrap">
+                        <input type="number" id="copyfy-roi-platform-fees" class="copyfy-roi-input" min="0" step="0.01" value="0">
+                        <span class="copyfy-roi-icon">€</span>
+                    </div>
+                </div>
+
+                <div class="copyfy-roi-field">
+                    <label for="copyfy-roi-shipping" class="copyfy-roi-label">Frais de livraison</label>
+                    <div class="copyfy-roi-input-wrap">
+                        <input type="number" id="copyfy-roi-shipping" class="copyfy-roi-input" min="0" step="0.01" value="0">
+                        <span class="copyfy-roi-icon">€</span>
+                    </div>
+                </div>
+
+                <div class="copyfy-roi-field">
+                    <label for="copyfy-roi-other-costs" class="copyfy-roi-label">Autres coûts</label>
+                    <div class="copyfy-roi-input-wrap">
+                        <input type="number" id="copyfy-roi-other-costs" class="copyfy-roi-input" min="0" step="0.01" value="0">
+                        <span class="copyfy-roi-icon">€</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyfy-roi-inputs copyfy-roi-group" id="copyfy-roi-group-order" hidden>
+                <div class="copyfy-roi-field">
+                    <label for="copyfy-roi-o-ad-spend" class="copyfy-roi-label">Dépense publicitaire</label>
+                    <div class="copyfy-roi-input-wrap">
+                        <input type="number" id="copyfy-roi-o-ad-spend" class="copyfy-roi-input" min="0" step="0.01" value="0">
+                        <span class="copyfy-roi-icon">€</span>
+                    </div>
+                </div>
+
+                <div class="copyfy-roi-field">
+                    <label for="copyfy-roi-o-fixed-costs" class="copyfy-roi-label">Autres coûts fixes</label>
+                    <div class="copyfy-roi-input-wrap">
+                        <input type="number" id="copyfy-roi-o-fixed-costs" class="copyfy-roi-input" min="0" step="0.01" value="0">
+                        <span class="copyfy-roi-icon">€</span>
+                    </div>
+                </div>
+
+                <div class="copyfy-roi-field">
+                    <label for="copyfy-roi-o-orders" class="copyfy-roi-label">Commandes</label>
+                    <div class="copyfy-roi-input-wrap">
+                        <input type="number" id="copyfy-roi-o-orders" class="copyfy-roi-input" min="0" step="1" value="0">
+                        <span class="copyfy-roi-icon">#</span>
+                    </div>
+                </div>
+
+                <div class="copyfy-roi-field">
+                    <label for="copyfy-roi-o-aov" class="copyfy-roi-label">Panier moyen</label>
+                    <div class="copyfy-roi-input-wrap">
+                        <input type="number" id="copyfy-roi-o-aov" class="copyfy-roi-input" min="0" step="0.01" value="0">
+                        <span class="copyfy-roi-icon">€</span>
+                    </div>
+                </div>
+
+                <div class="copyfy-roi-field">
+                    <label for="copyfy-roi-o-product-cost" class="copyfy-roi-label">Coût produit / commande</label>
+                    <div class="copyfy-roi-input-wrap">
+                        <input type="number" id="copyfy-roi-o-product-cost" class="copyfy-roi-input" min="0" step="0.01" value="0">
+                        <span class="copyfy-roi-icon">€</span>
+                    </div>
+                </div>
+
+                <div class="copyfy-roi-field">
+                    <label for="copyfy-roi-o-shipping" class="copyfy-roi-label">Livraison / commande</label>
+                    <div class="copyfy-roi-input-wrap">
+                        <input type="number" id="copyfy-roi-o-shipping" class="copyfy-roi-input" min="0" step="0.01" value="0">
+                        <span class="copyfy-roi-icon">€</span>
+                    </div>
+                </div>
+
+                <div class="copyfy-roi-field">
+                    <label for="copyfy-roi-o-variable-fees" class="copyfy-roi-label">Frais variables</label>
+                    <div class="copyfy-roi-input-wrap">
+                        <input type="number" id="copyfy-roi-o-variable-fees" class="copyfy-roi-input" min="0" step="0.1" value="0">
+                        <span class="copyfy-roi-icon">%</span>
+                    </div>
+                </div>
+
+                <div class="copyfy-roi-field">
+                    <label for="copyfy-roi-o-return-rate" class="copyfy-roi-label">Taux de retour</label>
+                    <div class="copyfy-roi-input-wrap">
+                        <input type="number" id="copyfy-roi-o-return-rate" class="copyfy-roi-input" min="0" max="100" step="0.1" value="0">
+                        <span class="copyfy-roi-icon">%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyfy-roi-bottombar">
+                <button type="button" class="copyfy-roi-btn copyfy-roi-btn-secondary" id="copyfy-roi-reset">
+                    <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                    </svg>
+                    Réinitialiser
+                </button>
+                <button type="button" class="copyfy-roi-btn copyfy-roi-btn-primary" id="copyfy-roi-copy">
+                    <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                    </svg>
+                    <span id="copyfy-roi-copy-text">Copier les résultats</span>
+                </button>
+            </div>
+
+            <div class="copyfy-roi-privacy">Tous les calculs se font dans ton navigateur. Aucune donnée n’est envoyée sur nos serveurs.</div>
+        </div>
+
+        <!-- RIGHT: results -->
+        <div class="copyfy-roi-results">
+            <div class="copyfy-roi-hero">
+                <div class="copyfy-roi-hero-left">
+                    <div class="copyfy-roi-hero-label">ROI global</div>
+                    <div class="copyfy-roi-hero-value" id="copyfy-roi-hero-value">—</div>
+                    <div class="copyfy-roi-hero-sub" id="copyfy-roi-hero-sub">—</div>
+                </div>
+                <div class="copyfy-roi-badge" id="copyfy-roi-badge">
+                    <span class="copyfy-roi-badge-dot"></span>
+                    <span id="copyfy-roi-badge-text">—</span>
+                </div>
+            </div>
+
+            <div class="copyfy-roi-stats">
+                <div class="copyfy-roi-stat">
+                    <div class="copyfy-roi-stat-label" id="copyfy-roi-stat-label-1">Marge brute</div>
+                    <div class="copyfy-roi-stat-value" id="copyfy-roi-stat-1">—</div>
+                </div>
+                <div class="copyfy-roi-stat">
+                    <div class="copyfy-roi-stat-label" id="copyfy-roi-stat-label-2">Profit net</div>
+                    <div class="copyfy-roi-stat-value" id="copyfy-roi-stat-2">—</div>
+                </div>
+                <div class="copyfy-roi-stat">
+                    <div class="copyfy-roi-stat-label" id="copyfy-roi-stat-label-3">ROAS</div>
+                    <div class="copyfy-roi-stat-value" id="copyfy-roi-stat-3">—</div>
+                </div>
+                <div class="copyfy-roi-stat">
+                    <div class="copyfy-roi-stat-label" id="copyfy-roi-stat-label-4">Marge nette</div>
+                    <div class="copyfy-roi-stat-value" id="copyfy-roi-stat-4">—</div>
+                </div>
+            </div>
+
+            <div class="copyfy-roi-target" id="copyfy-roi-target">
+                <span class="copyfy-roi-target-icon">🎯</span>
+                <span id="copyfy-roi-target-text">—</span>
+            </div>
+
+            <div id="copyfy-roi-interp" class="copyfy-roi-interp">
+                <strong>Interprétation :</strong> <span id="copyfy-roi-interp-text">—</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+(function() {
+    'use strict';
+
+    var STORAGE_KEY = 'copyfy-roi-state';
+    var INTL_LOCALE = 'fr-FR';
+    var CURRENCY = 'EUR';
+    var T = {
+            "cur": "euro",
+            "loss": "Perte",
+            "low": "Faible",
+            "good": "Sain",
+            "great": "Excellent",
+            "na": "n/a",
+            "emptyPeriod": "Renseigne un chiffre d’affaires et un coût des produits vendus pour lancer le calcul.",
+            "emptyOrder": "Renseigne un nombre de commandes et un panier moyen pour lancer le calcul.",
+            "heroSubPeriod": "{net} de profit net pour {costs} de coûts totaux",
+            "heroSubOrder": "{net} de profit net pour {costs} investis",
+            "targetPeriodAbove": "Ton seuil de rentabilité est à <strong>{be}</strong> de chiffre d’affaires, tu es <strong>{delta}</strong> au-dessus.",
+            "targetPeriodBelow": "Ton seuil de rentabilité est à <strong>{be}</strong> de chiffre d’affaires, il te manque <strong>{delta}</strong>.",
+            "targetOrderReached": "Ton seuil de rentabilité est à <strong>{be} commandes</strong>, tu en es à <strong>{orders}</strong>. Tout ce qui passe au-dessus est du profit.",
+            "targetOrderMissing": "Il te manque <strong>{missing} commandes</strong> pour couvrir les <strong>{be} commandes</strong> de ton seuil de rentabilité.",
+            "targetOrderImpossible": "Ta marge brute par commande est négative, aucun volume ne rend l’opération rentable. Baisse tes coûts ou monte ton prix.",
+            "interpPeriodPositive": "Chaque {cur} investi te rapporte <strong>{perUnit}</strong> de profit net. Ta marge brute est de <strong>{gross}</strong> avant pub et frais, et ton ROAS ressort à <strong>{roas}</strong>.",
+            "interpPeriodNegative": "Tu perds <strong>{loss}</strong> sur la période. Il te faudrait <strong>{be}</strong> de chiffre d’affaires pour rentrer dans tes frais, soit <strong>{delta}</strong> de plus. Baisse la dépense pub, monte tes prix ou négocie le coût produit.",
+            "interpOrderPositive": "Chaque {cur} investi te rapporte <strong>{perUnit}</strong> de profit net. Ton ROAS est de <strong>{roas}</strong> pour un point mort à <strong>{beroas}</strong>. Tu payes <strong>{cpaReal}</strong> par commande alors que ta marge en absorbe <strong>{cpaMax}</strong>.",
+            "interpOrderNegative": "Tu perds <strong>{loss}</strong> sur la période. Tu payes <strong>{cpaReal}</strong> pour acquérir une commande alors que ta marge brute n’en absorbe que <strong>{cpaMax}</strong>. Baisse le coût pub par commande, monte le panier moyen ou négocie le coût produit.",
+            "copyTitle": "Calculateur de ROI e-commerce",
+            "copyRoi": "ROI global",
+            "copyGross": "Marge brute",
+            "copyNet": "Profit net",
+            "copyRoas": "ROAS",
+            "copyMargin": "Marge nette",
+            "copyBe": "Seuil de rentabilité",
+            "copySource": "Calculé sur"
+    };
+    var MODE_LABELS = {"period":"Par période","order":"Par commande"};
+    var STAT_LABELS = {"period":["Marge brute","Profit net","ROAS","Marge nette"],"order":["Profit net","ROAS","Marge nette","CPA max"]};
+
+    var DEFAULTS = {
+        period: { revenue: 0, cogs: 0, adSpend: 0, platformFees: 0, shipping: 0, otherCosts: 0 },
+        order:  { adSpend: 0, fixedCosts: 0, orders: 0, aov: 0, productCost: 0, shippingCost: 0, variableFees: 0, returnRate: 0 }
+    };
+
+    // Paliers du badge, ROI mesuré sur le capital réellement engagé.
+    var BENCHMARKS = [
+        { max: 0,        key: 'loss',  cls: 'copyfy-roi-badge-loss' },
+        { max: 15,       key: 'low',   cls: 'copyfy-roi-badge-low' },
+        { max: 40,       key: 'good',  cls: 'copyfy-roi-badge-good' },
+        { max: Infinity, key: 'great', cls: 'copyfy-roi-badge-great' }
+    ];
+
+    var mode = 'period';
+    var state = {
+        period: Object.assign({}, DEFAULTS.period),
+        order: Object.assign({}, DEFAULTS.order)
+    };
+
+    var num = function (v) { return parseFloat(v) || 0; };
+    var int = function (v) { return parseInt(v, 10) || 0; };
+
+    var FIELDS = {
+        period: {
+            "copyfy-roi-revenue": "revenue",
+            "copyfy-roi-cogs": "cogs",
+            "copyfy-roi-ad-spend": "adSpend",
+            "copyfy-roi-platform-fees": "platformFees",
+            "copyfy-roi-shipping": "shipping",
+            "copyfy-roi-other-costs": "otherCosts"
+    },
+        order: {
+            "copyfy-roi-o-ad-spend": "adSpend",
+            "copyfy-roi-o-fixed-costs": "fixedCosts",
+            "copyfy-roi-o-orders": "orders",
+            "copyfy-roi-o-aov": "aov",
+            "copyfy-roi-o-product-cost": "productCost",
+            "copyfy-roi-o-shipping": "shippingCost",
+            "copyfy-roi-o-variable-fees": "variableFees",
+            "copyfy-roi-o-return-rate": "returnRate"
+    }
+    };
+
+    function saveState() {
+        try { localStorage.setItem(STORAGE_KEY, JSON.stringify({ mode: mode, state: state })); } catch (e) {}
+    }
+
+    /**
+     * Mode "par période" : ROI = (CA - coûts totaux) / coûts totaux.
+     * Coûts totaux = COGS + pub + frais de plateforme + livraison + autres.
+     */
+    function computePeriod() {
+        var s = state.period;
+        if (s.revenue <= 0 || s.cogs <= 0) return null;
+
+        var totalCosts = s.cogs + s.adSpend + s.platformFees + s.shipping + s.otherCosts;
+        var grossProfit = s.revenue - s.cogs;
+        var netProfit = s.revenue - totalCosts;
+
+        return {
+            base: totalCosts,
+            grossProfit: grossProfit,
+            netProfit: netProfit,
+            roiPct: totalCosts > 0 ? (netProfit / totalCosts) * 100 : null,
+            perUnit: totalCosts > 0 ? netProfit / totalCosts : null,
+            roas: s.adSpend > 0 ? s.revenue / s.adSpend : null,
+            marginPct: (netProfit / s.revenue) * 100,
+            breakEvenRevenue: totalCosts,
+            delta: Math.abs(s.revenue - totalCosts)
+        };
+    }
+
+    /**
+     * Mode "par commande" : unit economics.
+     * Marge brute par commande = panier - coût produit - livraison - panier x (frais variables + retours).
+     */
+    function computeOrder() {
+        var s = state.order;
+        if (s.orders <= 0 || s.aov <= 0) return null;
+
+        var pct = (s.variableFees + s.returnRate) / 100;
+        var revenue = s.orders * s.aov;
+        var variableCost = revenue * pct;
+        var cogs = s.orders * (s.productCost + s.shippingCost);
+
+        var grossPerOrder = s.aov - s.productCost - s.shippingCost - s.aov * pct;
+        var grossProfit = grossPerOrder * s.orders;
+        var totalInvest = s.adSpend + s.fixedCosts + cogs + variableCost;
+        var netProfit = grossProfit - s.adSpend - s.fixedCosts;
+
+        return {
+            base: totalInvest,
+            grossProfit: grossProfit,
+            netProfit: netProfit,
+            roiPct: totalInvest > 0 ? (netProfit / totalInvest) * 100 : null,
+            perUnit: totalInvest > 0 ? netProfit / totalInvest : null,
+            roas: s.adSpend > 0 ? revenue / s.adSpend : null,
+            marginPct: revenue > 0 ? (netProfit / revenue) * 100 : null,
+            beroas: grossPerOrder > 0 ? s.aov / grossPerOrder : null,
+            cpaMax: grossPerOrder,
+            cpaReal: s.adSpend / s.orders,
+            breakEvenOrders: grossPerOrder > 0 ? Math.ceil((s.adSpend + s.fixedCosts) / grossPerOrder) : null
+        };
+    }
+
+    function compute() { return mode === 'period' ? computePeriod() : computeOrder(); }
+
+    function fmt(tpl, vars) {
+        return tpl.replace(/\{(\w+)\}/g, function (m, k) { return vars[k] !== undefined ? vars[k] : m; });
+    }
+
+    function currency(value, digits) {
+        if (value === null || !isFinite(value)) return '—';
+        return new Intl.NumberFormat(INTL_LOCALE, {
+            style: 'currency', currency: CURRENCY,
+            minimumFractionDigits: digits, maximumFractionDigits: digits
+        }).format(value);
+    }
+
+    function money(value) { return currency(value, 2); }
+    function moneyCompact(value) { return currency(value, 0); }
+
+    function pct(value) {
+        if (value === null || !isFinite(value)) return '—';
+        return value.toFixed(1) + '%';
+    }
+
+    function ratio(value) {
+        if (value === null || !isFinite(value)) return T.na;
+        return value.toFixed(2);
+    }
+
+    function nb(value) { return new Intl.NumberFormat(INTL_LOCALE).format(value); }
+
+    function setTone(id, isPositive, posClass, negClass) {
+        var el = document.getElementById(id);
+        el.classList.remove(posClass, negClass);
+        if (isPositive === true) el.classList.add(posClass);
+        else if (isPositive === false) el.classList.add(negClass);
+    }
+
+    function statTone(i, isPositive) {
+        setTone('copyfy-roi-stat-' + i, isPositive,
+                'copyfy-roi-stat-value-positive', 'copyfy-roi-stat-value-negative');
+    }
+
+    function setStat(i, value) { document.getElementById('copyfy-roi-stat-' + i).textContent = value; }
+
+    function applyBenchmark(r) {
+        var badge = document.getElementById('copyfy-roi-badge');
+        var text = document.getElementById('copyfy-roi-badge-text');
+        var b = null;
+
+        if (r && r.roiPct !== null && isFinite(r.roiPct)) {
+            for (var i = 0; i < BENCHMARKS.length; i++) {
+                if (r.roiPct < BENCHMARKS[i].max) { b = BENCHMARKS[i]; break; }
+            }
+            if (!b) b = BENCHMARKS[BENCHMARKS.length - 1];
+        }
+
+        ['copyfy-roi-badge-loss', 'copyfy-roi-badge-low',
+         'copyfy-roi-badge-good', 'copyfy-roi-badge-great']
+            .forEach(function (c) { badge.classList.remove(c); });
+
+        badge.classList.add(b ? b.cls : 'copyfy-roi-badge-low');
+        text.textContent = b ? T[b.key] : '—';
+    }
+
+    function renderStatLabels() {
+        var labels = STAT_LABELS[mode];
+        for (var i = 0; i < 4; i++) {
+            document.getElementById('copyfy-roi-stat-label-' + (i + 1)).textContent = labels[i];
+        }
+    }
+
+    function updateResult() {
+        var r = compute();
+        var target = document.getElementById('copyfy-roi-target');
+        var targetText = document.getElementById('copyfy-roi-target-text');
+        var interp = document.getElementById('copyfy-roi-interp');
+        var interpText = document.getElementById('copyfy-roi-interp-text');
+
+        target.classList.remove('copyfy-roi-target-warn');
+        interp.classList.remove('copyfy-roi-interp-loss');
+
+        if (!r) {
+            document.getElementById('copyfy-roi-hero-value').textContent = '—';
+            document.getElementById('copyfy-roi-hero-sub').textContent = '—';
+            for (var i = 1; i <= 4; i++) { setStat(i, '—'); statTone(i, null); }
+            setTone('copyfy-roi-hero-value', null,
+                    'copyfy-roi-hero-value-positive', 'copyfy-roi-hero-value-negative');
+            targetText.textContent = mode === 'period' ? T.emptyPeriod : T.emptyOrder;
+            interpText.textContent = mode === 'period' ? T.emptyPeriod : T.emptyOrder;
+            applyBenchmark(null);
+            saveState();
+            return;
+        }
+
+        document.getElementById('copyfy-roi-hero-value').textContent = pct(r.roiPct);
+        document.getElementById('copyfy-roi-hero-sub').textContent = fmt(
+            mode === 'period' ? T.heroSubPeriod : T.heroSubOrder,
+            { net: money(r.netProfit), costs: moneyCompact(r.base) }
+        );
+        setTone('copyfy-roi-hero-value', r.roiPct !== null && r.roiPct > 0,
+                'copyfy-roi-hero-value-positive', 'copyfy-roi-hero-value-negative');
+        applyBenchmark(r);
+
+        if (mode === 'period') {
+            setStat(1, moneyCompact(r.grossProfit));
+            setStat(2, moneyCompact(r.netProfit));
+            setStat(3, ratio(r.roas));
+            setStat(4, pct(r.marginPct));
+            statTone(1, r.grossProfit > 0);
+            statTone(2, r.netProfit > 0);
+            statTone(3, r.roas !== null ? r.netProfit > 0 : null);
+            statTone(4, r.marginPct > 0);
+
+            if (r.netProfit >= 0) {
+                targetText.innerHTML = fmt(T.targetPeriodAbove, { be: money(r.breakEvenRevenue), delta: money(r.delta) });
+            } else {
+                target.classList.add('copyfy-roi-target-warn');
+                targetText.innerHTML = fmt(T.targetPeriodBelow, { be: money(r.breakEvenRevenue), delta: money(r.delta) });
+            }
+
+            if (r.netProfit > 0) {
+                interpText.innerHTML = fmt(T.interpPeriodPositive, {
+                    cur: T.cur, perUnit: money(r.perUnit), gross: money(r.grossProfit), roas: ratio(r.roas)
+                });
+            } else {
+                interp.classList.add('copyfy-roi-interp-loss');
+                interpText.innerHTML = fmt(T.interpPeriodNegative, {
+                    loss: money(Math.abs(r.netProfit)), be: money(r.breakEvenRevenue), delta: money(r.delta)
+                });
+            }
+        } else {
+            setStat(1, moneyCompact(r.netProfit));
+            setStat(2, ratio(r.roas));
+            setStat(3, pct(r.marginPct));
+            setStat(4, money(r.cpaMax));
+            statTone(1, r.netProfit > 0);
+            statTone(2, r.roas !== null && r.beroas !== null ? r.roas >= r.beroas : null);
+            statTone(3, r.marginPct !== null && r.marginPct > 0);
+            statTone(4, r.cpaMax > 0);
+
+            if (r.breakEvenOrders === null) {
+                target.classList.add('copyfy-roi-target-warn');
+                targetText.innerHTML = T.targetOrderImpossible;
+            } else if (state.order.orders >= r.breakEvenOrders) {
+                targetText.innerHTML = fmt(T.targetOrderReached, {
+                    be: nb(r.breakEvenOrders), orders: nb(state.order.orders)
+                });
+            } else {
+                target.classList.add('copyfy-roi-target-warn');
+                targetText.innerHTML = fmt(T.targetOrderMissing, {
+                    missing: nb(r.breakEvenOrders - state.order.orders), be: nb(r.breakEvenOrders)
+                });
+            }
+
+            if (r.netProfit > 0) {
+                interpText.innerHTML = fmt(T.interpOrderPositive, {
+                    cur: T.cur, perUnit: money(r.perUnit), roas: ratio(r.roas),
+                    beroas: ratio(r.beroas), cpaReal: money(r.cpaReal), cpaMax: money(r.cpaMax)
+                });
+            } else {
+                interp.classList.add('copyfy-roi-interp-loss');
+                interpText.innerHTML = fmt(T.interpOrderNegative, {
+                    loss: money(Math.abs(r.netProfit)), cpaReal: money(r.cpaReal), cpaMax: money(Math.max(0, r.cpaMax))
+                });
+            }
+        }
+
+        saveState();
+    }
+
+    function resultsAsText() {
+        var r = compute();
+        var lines = [T.copyTitle, ''];
+        if (!r) {
+            lines.push(mode === 'period' ? T.emptyPeriod : T.emptyOrder);
+            return lines.join('\n');
+        }
+        lines.push(T.copyRoi + ': ' + pct(r.roiPct));
+        if (mode === 'period') {
+            lines.push(T.copyGross + ': ' + money(r.grossProfit));
+            lines.push(T.copyNet + ': ' + money(r.netProfit));
+            lines.push(T.copyRoas + ': ' + ratio(r.roas));
+            lines.push(T.copyMargin + ': ' + pct(r.marginPct));
+            lines.push(T.copyBe + ': ' + money(r.breakEvenRevenue));
+        } else {
+            lines.push(T.copyNet + ': ' + money(r.netProfit));
+            lines.push(T.copyRoas + ': ' + ratio(r.roas));
+            lines.push(T.copyMargin + ': ' + pct(r.marginPct));
+            lines.push(T.copyBe + ': ' + (r.breakEvenOrders === null ? T.na : nb(r.breakEvenOrders)));
+        }
+        lines.push('');
+        lines.push(T.copySource + ': ' + MODE_LABELS[mode]);
+        return lines.join('\n');
+    }
+
+    function copyResults() {
+        var text = resultsAsText();
+        var label = document.getElementById('copyfy-roi-copy-text');
+
+        function done() {
+            label.textContent = "Copié";
+            setTimeout(function () { label.textContent = "Copier les résultats"; }, 2000);
+        }
+
+        function fallback() {
+            try {
+                var ta = document.createElement('textarea');
+                ta.value = text;
+                ta.setAttribute('readonly', '');
+                ta.style.position = 'absolute';
+                ta.style.left = '-9999px';
+                document.body.appendChild(ta);
+                ta.select();
+                document.execCommand('copy');
+                document.body.removeChild(ta);
+                done();
+            } catch (e) { /* clipboard indisponible */ }
+        }
+
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(text).then(done, fallback);
+        } else {
+            fallback();
+        }
+    }
+
+    function setMode(next) {
+        mode = next;
+        ['period', 'order'].forEach(function (m) {
+            document.getElementById('copyfy-roi-group-' + m).hidden = (m !== mode);
+            document.getElementById('copyfy-roi-mode-' + m)
+                .classList.toggle('copyfy-roi-mode-active', m === mode);
+        });
+        renderStatLabels();
+        updateResult();
+    }
+
+    function bindGroup(groupMode) {
+        Object.keys(FIELDS[groupMode]).forEach(function (id) {
+            var key = FIELDS[groupMode][id];
+            var el = document.getElementById(id);
+            var parser = (key === 'orders') ? int : num;
+            el.value = state[groupMode][key];
+            el.addEventListener('input', function (e) {
+                state[groupMode][key] = parser(e.target.value);
+                updateResult();
+            });
+        });
+    }
+
+    function init() {
+        /* pas de restauration localStorage : le tool démarre toujours à 0 */
+
+        bindGroup('period');
+        bindGroup('order');
+
+        ['period', 'order'].forEach(function (m) {
+            document.getElementById('copyfy-roi-mode-' + m)
+                .addEventListener('click', function () { setMode(m); });
+        });
+
+        document.getElementById('copyfy-roi-reset').addEventListener('click', function () {
+            state.period = Object.assign({}, DEFAULTS.period);
+            state.order = Object.assign({}, DEFAULTS.order);
+            ['period', 'order'].forEach(function (m) {
+                Object.keys(FIELDS[m]).forEach(function (id) {
+                    document.getElementById(id).value = state[m][FIELDS[m][id]];
+                });
+            });
+            updateResult();
+        });
+
+        document.getElementById('copyfy-roi-copy').addEventListener('click', copyResults);
+
+        renderStatLabels();
+        updateResult();
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+})();
+</script>
+
+<script>
+(function(){
+  function ph(){ try{ parent.postMessage({copyfyToolHeight: Math.ceil((document.querySelector(".copyfy-roi")||document.body).getBoundingClientRect().bottom)}, "*"); }catch(e){} }
+  window.addEventListener("load", ph);
+  window.addEventListener("resize", ph);
+  document.addEventListener("input", ph, true);
+  document.addEventListener("click", ph, true);
+  if(window.ResizeObserver){ new ResizeObserver(ph).observe(document.documentElement); }
+  setTimeout(ph,200); setTimeout(ph,800);
+})();
+</script>

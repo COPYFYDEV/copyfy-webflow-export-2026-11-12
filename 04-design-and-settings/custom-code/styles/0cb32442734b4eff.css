@@ -1,0 +1,7 @@
+
+/* Shared footer width and article WIP finishing. */
+@media(min-width:992px){#wip-blog-design .wip-blog-div-018,#wip-blog-design .wip-blog-hero-grid-4,#wip-blog-design .wip-blog-layout-2,#wip-blog-design .wip-blog-related-4{width:100%;max-width:1090.752px;margin-left:auto;margin-right:auto;padding-left:0;padding-right:0}}
+@media(min-width:768px){#wip-blog-design .wip-blog-hero-grid-4{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}}
+#wip-blog-design .wip-blog-hero-grid-4>*{min-width:0}
+#wip-blog-design .wip-blog-related-title{font-family:"Inter Tight",Inter,system-ui,sans-serif!important;font-size:18px;font-weight:600;letter-spacing:-.6px;line-height:1.2}
+#wip-blog-design .wip-blog-related-intro{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}

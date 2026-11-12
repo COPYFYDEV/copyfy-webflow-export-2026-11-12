@@ -1,0 +1,49 @@
+
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "https://www.copyfy.io/#product",
+  "name": "Copyfy",
+  "url": "https://www.copyfy.io/de/pricing",
+  "description": "KI-gestützte SaaS-Plattform für Produktrecherche, Anzeigenanalyse und die Erstellung von Onlineshops.",
+  "image": "https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/68c30b4a9127a29885405a96_logo_white_in_blue_box.svg",
+  "category": "SaaS",
+  "brand": {
+    "@id": "https://www.copyfy.io/#organization"
+  },
+  "offers": [
+    {
+      "@type": "Offer",
+      "name": "Copyfy Starter",
+      "url": "https://www.copyfy.io/de/pricing",
+      "price": "39",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock",
+      "seller": {
+        "@id": "https://www.copyfy.io/#organization"
+      }
+    },
+    {
+      "@type": "Offer",
+      "name": "Copyfy Growth",
+      "url": "https://www.copyfy.io/de/pricing",
+      "price": "59",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock",
+      "seller": {
+        "@id": "https://www.copyfy.io/#organization"
+      }
+    },
+    {
+      "@type": "Offer",
+      "name": "Copyfy Pro",
+      "url": "https://www.copyfy.io/de/pricing",
+      "price": "89",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock",
+      "seller": {
+        "@id": "https://www.copyfy.io/#organization"
+      }
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+<style>
+    html,body{margin:0 !important;padding:0 !important;}
+    .copyfy-themedet *{box-sizing:border-box !important;margin:0;padding:0;}
+    .copyfy-themedet{
+        font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
+        color:#FFFFFF !important;background:transparent !important;
+        padding:0 !important;padding-bottom:100px !important;max-width:none !important;width:100% !important;margin:0 auto !important;
+        overflow:hidden !important;line-height:1.5;
+    }
+    .copyfy-themedet-bar{display:flex;gap:12px;flex-wrap:wrap;align-items:stretch;}
+    .copyfy-themedet-field{position:relative;flex:1 1 320px;min-width:0;}
+    .copyfy-themedet-icon{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:#0F0F10;font-size:15px;pointer-events:none;}
+    .copyfy-themedet-input{
+        width:100% !important;background:#FFFFFF !important;color:#0F0F10 !important;
+        border:1px solid #FFFFFF !important;border-radius:12px !important;
+        padding:14px 14px 14px 34px !important;font-size:15px !important;font-family:inherit !important;
+        transition:border-color .2s ease,background .2s ease;
+    }
+    .copyfy-themedet-input::placeholder{color:#8a8a8a;}
+    .copyfy-themedet-input:hover{border-color:#d1d5db !important;}
+    .copyfy-themedet-input:focus{outline:none;background:#FFFFFF !important;color:#0F0F10 !important;border-color:#6B7280 !important;}
+    .copyfy-themedet-input:focus::placeholder{color:#8a8a8a;}
+    .copyfy-themedet-input:focus + .copyfy-themedet-icon{color:#0F0F10;}
+    .copyfy-themedet-btn{
+        display:inline-flex;align-items:center;justify-content:center;gap:8px;
+        border:none !important;border-radius:30px !important;padding:12px 24px !important;
+        font-size:14px !important;font-weight:700 !important;font-family:inherit !important;
+        cursor:pointer;text-decoration:none;transition:transform .2s ease,box-shadow .2s ease,opacity .2s ease;
+    }
+    .copyfy-themedet-btn:hover{transform:translateY(-1px);box-shadow:0 6px 16px rgba(0,0,0,.25);}
+    .copyfy-themedet-btn-secondary{background:#0A6CFB !important;color:#FFFFFF !important;}
+    .copyfy-themedet-btn[disabled]{opacity:.6;cursor:default;transform:none;box-shadow:none;}
+    .copyfy-themedet-spin{width:16px;height:16px;border:2px solid rgba(255,255,255,.35);border-top-color:#FFFFFF;border-radius:50%;animation:copyfy-themedet-rot .7s linear infinite;}
+    @keyframes copyfy-themedet-rot{to{transform:rotate(360deg);}}
+    .copyfy-themedet-results{margin-top:16px;}
+    .copyfy-themedet-hero{
+        background:#FFFFFF !important;border-radius:12px;padding:28px 24px;
+        display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px;
+    }
+    .copyfy-themedet-hero-label{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:#0F0F10;}
+    .copyfy-themedet-hero-value{font-size:34px;font-weight:800;color:#0A6CFB;line-height:1.1;margin:6px 0;word-break:break-word;}
+    .copyfy-themedet-hero-value.is-neg{color:#DC2626;}
+    .copyfy-themedet-hero-sub{font-size:13px;color:#0F0F10;word-break:break-all;}
+    .copyfy-themedet-badge{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:30px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:#FFFFFF;background:#0A6CFB;}
+    .copyfy-themedet-badge.is-neutral{background:#0F0F10;}
+    .copyfy-themedet-badge.is-neg{background:#DC2626;}
+    .copyfy-themedet-badge-dot{width:8px;height:8px;border-radius:50%;background:#FFFFFF;}
+    .copyfy-themedet-interp{background:#FFFFFF !important;border-radius:12px;padding:16px 24px;margin-top:12px;font-size:14px;color:#0F0F10;}
+    .copyfy-themedet-interp.is-neg{border-left:4px solid #DC2626;padding-left:16px;}
+    .copyfy-themedet-detail{background:#FFFFFF !important;border-radius:12px;padding:6px 24px;margin-top:12px;}
+    .copyfy-themedet-row{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:12px 0;border-bottom:1px solid #EDEEF1;}
+    .copyfy-themedet-row:last-child{border-bottom:none;}
+    .copyfy-themedet-row-k{font-size:13px;color:#6B7280;font-weight:600;flex:0 0 auto;}
+    .copyfy-themedet-row-v{font-size:14px;color:#0F0F10;font-weight:600;text-align:right;word-break:break-word;min-width:0;}
+    .copyfy-themedet-store-btn{display:flex;width:max-content;align-items:center;justify-content:center;gap:6px;background:#0A6CFB !important;color:#FFFFFF !important;font-size:13px;font-weight:700;border-radius:10px;padding:12px 18px;text-decoration:none;margin:12px auto 0;transition:transform .15s ease,box-shadow .15s ease;}
+    .copyfy-themedet-store-btn:hover{transform:translateY(-1px);box-shadow:0 4px 12px rgba(10,108,251,.3);}
+    @media (max-width:480px){.copyfy-themedet-row{flex-direction:column;gap:2px;}.copyfy-themedet-row-v{text-align:left;}}
+</style>
+
+<div class="copyfy-themedet">
+    <div class="copyfy-themedet-bar">
+        <div class="copyfy-themedet-field">
+            <input type="text" id="copyfy-themedet-url" class="copyfy-themedet-input" autocomplete="off" spellcheck="false">
+            <span class="copyfy-themedet-icon">&#128269;</span>
+        </div>
+        <button type="button" id="copyfy-themedet-run" class="copyfy-themedet-btn copyfy-themedet-btn-secondary"></button>
+    </div>
+
+    <div class="copyfy-themedet-results" id="copyfy-themedet-results" hidden>
+        <div class="copyfy-themedet-hero">
+            <div class="copyfy-themedet-hero-left">
+                <div class="copyfy-themedet-hero-label" id="copyfy-themedet-hero-label"></div>
+                <div class="copyfy-themedet-hero-value" id="copyfy-themedet-hero-value">&mdash;</div>
+                <div class="copyfy-themedet-hero-sub" id="copyfy-themedet-hero-sub"></div>
+            </div>
+            <div class="copyfy-themedet-badge" id="copyfy-themedet-badge">
+                <span class="copyfy-themedet-badge-dot"></span><span id="copyfy-themedet-badge-text"></span>
+            </div>
+        </div>
+        <div class="copyfy-themedet-interp" id="copyfy-themedet-interp" hidden><span id="copyfy-themedet-interp-text"></span></div>
+        <div id="copyfy-themedet-detail-host"></div>
+    </div>
+
+</div>
+
+<script>
+(function(){
+    'use strict';
+
+    var T = {
+            "placeholder": "voorbeeld-winkel.com",
+            "analyze": "Analyseren",
+            "loading": "Bezig met analyseren…",
+            "heroLabel": "THEMA GEDETECTEERD",
+            "badgeStore": "THEME STORE-THEMA",
+            "badgeCustom": "MAATWERKTHEMA",
+            "badgeHeadless": "HEADLESS STOREFRONT",
+            "badgeNotShopify": "GEEN SHOPIFY",
+            "badgeError": "FOUT",
+            "storeBtn": "Bekijk in de Theme Store",
+            "searchBtn": "Zoek in de Theme Store",
+            "freeLabel": "Gratis",
+            "rowCanonical": "Thema",
+            "rowAuthor": "Gemaakt door",
+            "rowPrice": "Prijs",
+            "rowMerchant": "Interne naam",
+            "rowBase": "Basisthema",
+            "rowVersion": "Versie",
+            "rowRole": "Rol",
+            "rowId": "Theme Store-ID",
+            "interpCustom": "Thema aangepast of hernoemd door de verkoper. Basisthema geïdentificeerd: {base}.",
+            "interpCustomUnknown": "Maatwerkthema: deze winkel gebruikt een op maat gemaakt thema, geen openbaar Theme Store-thema.",
+            "interpHeadless": "Headless Shopify-winkel (Hydrogen / API): er wordt geen klassiek Liquid-thema blootgesteld.",
+            "interpNotShopify": "Deze site is geen Shopify-winkel (geen signatuur gedetecteerd).",
+            "interpError": "Kan deze site niet analyseren (onbereikbaar, beveiligd of offline)."
+    };
+
+    var KEY = 'copyfy-themedet-state';
+    function $(id){ return document.getElementById(id); }
+
+    function postHeight(){
+        try { parent.postMessage({copyfyToolHeight: Math.ceil((document.querySelector('.copyfy-themedet')||document.body).getBoundingClientRect().bottom)}, '*'); } catch(e){}
+    }
+
+    function save(url, data){
+        try { localStorage.setItem(KEY, JSON.stringify({url: url, data: data})); } catch(e){}
+    }
+
+    function setBadge(kind, text){
+        var b = $('copyfy-themedet-badge');
+        b.className = 'copyfy-themedet-badge' + (kind === 'neutral' ? ' is-neutral' : kind === 'neg' ? ' is-neg' : '');
+        $('copyfy-themedet-badge-text').textContent = text;
+    }
+
+    function row(k, v){
+        if (v === null || v === undefined || v === '') return null;
+        var r = document.createElement('div');
+        r.className = 'copyfy-themedet-row';
+        var kEl = document.createElement('div');
+        kEl.className = 'copyfy-themedet-row-k';
+        kEl.textContent = k;
+        var vEl = document.createElement('div');
+        vEl.className = 'copyfy-themedet-row-v';
+        vEl.textContent = v;
+        r.appendChild(kEl); r.appendChild(vEl);
+        return r;
+    }
+
+    function themeStoreSearch(name){
+        return 'https://themes.shopify.com/themes?q=' + encodeURIComponent(name || '');
+    }
+
+    function renderDetail(data){
+        var host = $('copyfy-themedet-detail-host');
+        host.innerHTML = '';
+        var theme = data.theme || {};
+        var match = data.match || null;
+        var card = document.createElement('div');
+        card.className = 'copyfy-themedet-detail';
+
+        var rows = [];
+        if (match){
+            rows.push(row(T.rowCanonical, match.name));
+            rows.push(row(T.rowAuthor, match.author));
+            rows.push(row(T.rowPrice, match.free ? T.freeLabel : match.price));
+        }
+        rows.push(row(T.rowBase, theme.schemaName));
+        rows.push(row(T.rowMerchant, theme.name));
+        rows.push(row(T.rowVersion, theme.schemaVersion));
+        rows.push(row(T.rowRole, theme.role));
+        rows.push(row(T.rowId, theme.themeStoreId != null ? String(theme.themeStoreId) : null));
+        rows.forEach(function(r){ if (r) card.appendChild(r); });
+        host.appendChild(card);
+
+        // Store link: direct listing when matched, else a Theme Store search.
+        var href = (match && match.themeStoreUrl) ? match.themeStoreUrl : null;
+        if (href || data.isThemeStoreTheme || match){
+            var a = document.createElement('a');
+            a.className = 'copyfy-themedet-store-btn';
+            a.href = href || themeStoreSearch(theme.schemaName || theme.name);
+            a.target = '_blank'; a.rel = 'noopener nofollow';
+            var s = document.createElement('span');
+            s.textContent = href ? T.storeBtn : T.searchBtn;
+            a.appendChild(s);
+            a.insertAdjacentHTML('beforeend', '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M17 7H8M17 7v9"></path></svg>');
+            host.appendChild(a);
+        }
+    }
+
+    function showInterp(kind, text){
+        var interp = $('copyfy-themedet-interp');
+        interp.hidden = false;
+        interp.className = 'copyfy-themedet-interp' + (kind === 'neg' ? ' is-neg' : '');
+        $('copyfy-themedet-interp-text').textContent = text;
+    }
+
+    function render(data, url){
+        $('copyfy-themedet-results').hidden = false;
+        var hero = $('copyfy-themedet-hero-value');
+        $('copyfy-themedet-hero-label').textContent = T.heroLabel;
+        $('copyfy-themedet-hero-sub').textContent = url;
+        hero.classList.remove('is-neg');
+        $('copyfy-themedet-interp').hidden = true;
+        $('copyfy-themedet-detail-host').innerHTML = '';
+
+        if (data.error){
+            hero.textContent = '—'; hero.classList.add('is-neg');
+            setBadge('neg', T.badgeError);
+            showInterp('neg', T.interpError);
+            postHeight(); return;
+        }
+        if (!data.shopify){
+            hero.textContent = '—'; hero.classList.add('is-neg');
+            setBadge('neg', T.badgeNotShopify);
+            showInterp('neg', T.interpNotShopify);
+            postHeight(); return;
+        }
+        if (data.headless || !data.theme){
+            hero.textContent = 'Headless';
+            setBadge('neutral', T.badgeHeadless);
+            showInterp('', T.interpHeadless);
+            postHeight(); return;
+        }
+
+        var theme = data.theme;
+        var match = data.match;
+        // Big value: canonical name when identified, else the base (schema) name, else merchant name.
+        hero.textContent = match ? match.name : (theme.schemaName || theme.name || '—');
+
+        if (match){
+            setBadge('store', T.badgeStore);
+        } else if (data.custom){
+            setBadge('neutral', T.badgeCustom);
+            if (data.isThemeStoreTheme && theme.schemaName){
+                showInterp('', T.interpCustom.replace('{base}', theme.schemaName));
+            } else {
+                showInterp('', T.interpCustomUnknown);
+            }
+        }
+        renderDetail(data);
+        postHeight();
+    }
+
+    function run(){
+        var url = $('copyfy-themedet-url').value.trim();
+        if (!url) return;
+        var btn = $('copyfy-themedet-run');
+        btn.disabled = true;
+        btn.innerHTML = '';
+        var sp = document.createElement('span');
+        sp.className = 'copyfy-themedet-spin';
+        btn.appendChild(sp);
+        var lbl = document.createElement('span');
+        lbl.textContent = T.loading;
+        btn.appendChild(lbl);
+        fetch('/api/theme?url=' + encodeURIComponent(url))
+            .then(function(r){ return r.json(); })
+            .then(function(data){ save(url, data); render(data, url); })
+            .catch(function(){ render({error: 'fetch_failed'}, url); })
+            .then(function(){ btn.disabled = false; btn.textContent = T.analyze; });
+    }
+
+    function init(){
+        $('copyfy-themedet-url').placeholder = T.placeholder;
+        $('copyfy-themedet-run').textContent = T.analyze;
+        $('copyfy-themedet-run').addEventListener('click', run);
+        $('copyfy-themedet-url').addEventListener('keydown', function(e){ if (e.key === 'Enter') run(); });
+        postHeight();
+    }
+
+    if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', init); }
+    else { init(); }
+})();
+</script>
+
+<script>
+(function(){
+    function ph(){ try{ parent.postMessage({copyfyToolHeight: Math.ceil((document.querySelector('.copyfy-themedet')||document.body).getBoundingClientRect().bottom)}, '*'); }catch(e){} }
+    window.addEventListener('load', ph);
+    window.addEventListener('resize', ph);
+    if (window.ResizeObserver){ new ResizeObserver(ph).observe(document.documentElement); }
+    setTimeout(ph,200); setTimeout(ph,800);
+})();
+</script>

@@ -1,0 +1,1 @@
+window.CopyfyTrackingV2MarketingConfig={"token":"phc_vebWBwAuCNsZvPytK687bQYN9uOKpixXy4broiraGb3","host":"https://us.i.posthog.com","environment":"production","enabled":"true","disabled":"false","identity_enabled":true,"pageviews_enabled":true,"capture_endpoint":"https://app.copyfy.io/t"};

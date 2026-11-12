@@ -1,0 +1,172 @@
+- heading "FreeTool Settings" [level=2]
+- heading [level=2]
+- button "Duplicate Collection":
+- button "Cancel":
+  - generic: Cancel
+- button "Save Collection":
+  - generic: Save Collection
+- generic: Collection Settings
+- generic: Collection ID
+- generic: 69c8d6845eaf20274bcfe3a3
+- button "Copy Collection ID":
+- generic: Collection Name
+- button:
+- textbox "E.g. Blog Posts": FreeTools
+- generic: "Plural version:"
+- generic: FreeTools
+- generic: "Singular version:"
+- generic: FreeTool
+- generic: Collection URL
+- button:
+- text: The name of the folder that your FreeTool pages will be stored in
+- textbox "E.g. post": tools
+- generic: www.copyfy.io/tools/freetool-page
+- button "Copy Collection URL":
+- generic: A Collection Page is created for FreeTools in the Pages panel.
+- generic: Collaborators can create and edit FreeTools in the Editor.
+- generic: Collection fields
+- button:
+- button "Add group":
+  - generic: Add group
+- separator
+- heading "Basic info" [level=3]:
+  - button "Basic info" [expanded]:
+    - generic: Basic info
+- region "Basic info":
+  - generic: Hero Heading
+  - generic: (Plain text)
+  - generic: Required Field
+  - generic: Slug
+  - generic: (Plain text)
+  - generic: Required Field
+- separator
+- heading "Custom fields" [level=3]:
+  - button "Custom fields" [expanded]:
+    - generic: Custom fields
+- region "Custom fields":
+  - button "Reorder field":
+  - generic: Thumbnail image
+  - generic: (Image)
+  - button "Reorder field":
+  - generic: Hero Subheading Text
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Hero Button Label
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Hero Button Link
+  - generic: (Link)
+  - button "Reorder field":
+  - generic: Embed Link
+  - generic: (Link)
+  - generic: Required Field
+  - button "Reorder field":
+  - generic: Features Block Heading
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Features Block Subheading
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Feature CTA Button Link
+  - generic: (Link)
+  - button "Reorder field":
+  - generic: Tool Feature Section Paragraph
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Feature Tilte 1
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Feature card Rich Text 1
+  - generic: (Rich text)
+  - button "Reorder field":
+  - generic: Image Feature 1
+  - generic: (Image)
+  - button "Reorder field":
+  - generic: Feature card Rich Text 2
+  - generic: (Rich text)
+  - button "Reorder field":
+  - generic: Feature heading 2
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Image Feature 2
+  - generic: (Image)
+  - button "Reorder field":
+  - generic: Rich text area
+  - generic: (Rich text)
+  - button "Reorder field":
+  - generic: Faq
+  - generic: (Multi-reference)
+  - button "Reorder field":
+  - generic: Other tools-section tile
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Free Tool List
+  - generic: (Multi-reference)
+  - button "Reorder field":
+  - generic: Embed Height
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Meta title
+  - generic: (Plain text)
+  - button "Reorder field":
+  - generic: Meta description
+  - generic: (Plain text)
+  - button "Add Field":
+    - generic: Add Field
+- status
+- note:
+  - generic: 38/60 fields left.
+- generic: We also added Date Created, Date Edited and Date Published fields for you. You can use these to filter and sort Collection Lists in Webflow. These don't count against your field limit.
+- button "Delete Collection" [disabled]:
+  - generic: Delete Collection
+- button "View Connections":
+  - generic: View Connections
+- heading "Editor Preview" [level=2]
+- paragraph: This is the form that Collaborators will see when creating a new FreeTool
+- heading "Basic Info" [level=3]
+- generic: Hero Heading *
+- generic: This is the hero heading
+- generic: Slug *
+- generic: webflow.com/tools/example
+- heading "Custom fields" [level=3]
+- generic: Thumbnail image
+- generic: Hero Subheading Text
+- generic: Short subheading below the H1. 1-2 sentences max. Describe what the tool does and who it's for
+- generic: Hero Button Label
+- generic: The label for the main CTA button in the hero e.g. "Try it free" or "Get started"
+- generic: Hero Button Link
+- generic: The URL the hero CTA button points to. Can be an anchor link to the tool embed
+- generic: Embed Link *
+- generic: Features Block Heading
+- generic: The headline for the feature or use case section
+- generic: Features Block Subheading
+- generic: 1-2 sentences describing the feature or use case. Keep it benefit-focused
+- generic: Feature CTA Button Link
+- generic: The URL for the feature or use case CTA button
+- generic: Tool Feature Section Paragraph
+- generic: Supporting paragraph under the feature section header. 2-3 sentences max
+- generic: Feature Tilte 1
+- generic: Heading for the first alternating image and text section
+- generic: Feature card Rich Text 1
+- generic: Body text for the first alternating section. Describe the benefit in 2-3 sentences
+- generic: Image Feature 1
+- generic: Image for the first alternating section. Recommended size 600x400px. Use a screenshot or illustration
+- generic: Feature card Rich Text 2
+- generic: Body text for the first alternating section. Describe the benefit in 2-3 sentences
+- generic: Feature heading 2
+- generic: Heading for the second alternating image and text section e.g. "Works with your existing workflow"
+- generic: Image Feature 2
+- generic: Image for the second alternating section. Recommended size 600x400px. Use a screenshot or illustration
+- generic: Rich text area
+- generic: Optional longer content section. Use only if the tool needs extra explanation. Supports headings, lists and links
+- generic: Faq
+- generic: Select the FAQ items related to this tool from the FAQ collection. Add at least 4-6 questions
+- generic: Other tools-section tile
+- generic: "Title like: Discover more tools"
+- generic: Free Tool List
+- generic: Select related free tools to show in the related tools grid at the bottom of the page
+- generic: Embed Height
+- generic: The height value that the embed should have (e.g. 1080px)
+- generic: Meta title
+- generic: Meta description
+- region "Notifications Alt+T"

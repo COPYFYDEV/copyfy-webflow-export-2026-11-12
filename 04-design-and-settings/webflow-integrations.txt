@@ -1,0 +1,209 @@
+- navigation "Navigation":
+  - link "home":
+    - /url: /?r=0
+  - list:
+    - link "Dashboard":
+      - /url: /dashboard?utm_source=dashboard
+    - button "Marketplace menu dropdown":
+      - generic: Marketplace
+    - link "Learn":
+      - /url: https://university.webflow.com/?utm_source=dashboard
+    - button "Resources menu dropdown":
+      - generic: Resources
+    - button "Search":
+    - button "Notifications":
+    - button "Account":
+      - generic: Thomas Salic
+      - generic: TS
+- navigation:
+  - link "All projects":
+    - /url: /dashboard?activeTab=all-projects&workspace=thomass-workspace-395ee9
+    - generic: All projects
+  - link "General":
+    - /url: /dashboard/sites/copyfy-624656/general
+    - generic: General
+  - link "Site access":
+    - /url: /dashboard/sites/copyfy-624656/site-access
+    - generic: Site access
+  - link "Publishing":
+    - /url: /dashboard/sites/copyfy-624656/publishing
+    - generic: Publishing
+  - link "Billing":
+    - /url: /dashboard/sites/copyfy-624656/billing?sp=project integrations tab
+    - generic: Billing
+  - link "Plans":
+    - /url: /dashboard/sites/copyfy-624656/plans?ref=plans_tab
+    - generic: Plans
+  - button "Usage":
+    - text: Usage
+  - link "SEO":
+    - /url: /dashboard/sites/copyfy-624656/seo
+    - generic: SEO
+  - link "Forms":
+    - /url: /dashboard/sites/copyfy-624656/forms
+    - generic: Forms
+  - link "Fonts":
+    - /url: /dashboard/sites/copyfy-624656/fonts
+    - generic: Fonts
+  - link "Backups":
+    - /url: /dashboard/sites/copyfy-624656/backups
+    - generic: Backups
+  - link "Apps & Integrations" [active]:
+    - /url: /dashboard/sites/copyfy-624656/integrations
+    - generic: Apps & Integrations
+  - link "Custom code":
+    - /url: /dashboard/sites/copyfy-624656/custom-code
+    - generic: Custom code
+  - link "Webflow Cloud":
+    - /url: /dashboard/sites/copyfy-624656/webflow-cloud
+    - generic: Webflow Cloud
+- main:
+  - heading "Copyfy Visit website" [level=1]:
+    - text: Copyfy
+    - link "Visit website":
+      - /url: https://copyfy-624656.webflow.io
+  - button "Transfer site":
+  - button "Archive site":
+  - button "Duplicate site":
+  - button "Unpublish site" [disabled]:
+  - button "Share":
+    - generic: Share
+  - link "Open site in Webflow":
+    - /url: /external/designer/copyfy-624656
+    - generic: Open site in Webflow
+  - button "Publish":
+    - generic: Publish
+  - heading "Google tag" [level=2]
+  - button "Save":
+    - generic: Save
+  - note:
+    - generic: Connect and view site analytics in the new Google site tools for Webflow App
+    - link "Get the App":
+      - /url: https://webflow.com/apps/detail/google-site-tools-for-webflow?ref=google-site-tools-integrations-cta
+  - generic: Google tag IDs
+  - button:
+  - textbox "Display name": Default Google Tag Id
+  - textbox "Should start with a 'G-, GT-, AW-, or GTM-'": G-QLWX4WTGSF
+  - button "Remove tag ID" [disabled]:
+  - status
+  - button "Add additional tag ID":
+    - generic: Add additional tag ID
+  - text: More information about the Google tag
+  - link "here":
+    - /url: https://support.google.com/tagmanager/answer/13739349?hl=en
+  - text: Find your tag ID
+  - link "here":
+    - /url: https://support.google.com/google-ads/answer/15107467#zippy=%2Cin-google-ads%2Cin-google-analytics%2Cin-campaign-manager%2Cin-google-tag-manager
+  - heading "Google Ads" [level=2]
+  - note:
+    - generic: Track and optimize your ad performance with the Google Ads for Webflow App
+    - link "Get the App":
+      - /url: https://webflow.com/apps/detail/google-ads-for-webflow?ref=google-ads-integrations-cta
+  - heading "Google Maps" [level=2]
+  - generic: An API key is required to use Google Maps in Webflow sites.
+  - generic: Google Maps JavaScript API key
+  - textbox "Google Maps JavaScript API key":
+    - /placeholder: e.g., AIzaSyC23HnPnRbIFjiIpjkQVPHU0LKOWxRvOfq
+  - text: Create a
+  - link "Google Maps JavaScript API Key":
+    - /url: https://cloud.google.com/maps-platform
+  - text: and paste it here. Check out the
+  - link "Maps Guide":
+    - /url: https://help.webflow.com/hc/en-us/articles/33961389315987-Map
+  - text: to learn more about adding maps to your site.
+  - heading "Meta Pixel" [level=2]
+  - generic: Start tracking events on your site by adding your Meta Pixel ID. Need to be GDPR compliant? Enable "delay for cookie consent" and add a cookie consent form to your site.
+  - generic: Meta Pixel ID
+  - textbox "Meta Pixel ID":
+    - /placeholder: e.g., 492123017076692
+    - text: "614870850424815"
+  - link "Create a Meta Pixel":
+    - /url: https://www.facebook.com/business/tools/meta-pixel
+  - text: and paste it here.
+  - link "Learn more":
+    - /url: https://www.facebook.com/business/help/952192354843755
+  - generic: Delay for cookie consent
+  - switch "Delay for cookie consent"
+  - generic: "Off"
+  - generic "ip address anonymization description": Pixel will load without consent
+  - text: Delay loading the Meta Pixel until after visitors have accepted your cookie policy. You must turn this on to be GDPR-compliant. Learn how to
+  - link "create a Meta Pixel cookie consent form":
+    - /url: https://help.webflow.com/hc/en-us/articles/33961406577171-Embed-Meta-Pixel-on-your-Webflow-site
+  - text: .
+  - heading "Connected Apps" [level=2]
+  - link "Find an App":
+    - /url: https://webflow.com/apps
+    - generic: Find an App
+  - generic: Third-party Apps with access to your site data.
+  - img "Slater"
+  - generic: Slater
+  - generic: Action needed
+  - button "View details":
+    - generic: View details
+  - text: • • • • • • •
+  - img "Figma to Webflow"
+  - generic: Figma to Webflow
+  - generic: Action needed
+  - button "View details":
+    - generic: View details
+  - text: [masked app metadata]- img "Osmo SVG Import"
+  - generic: Osmo SVG Import
+  - button "View details":
+    - generic: View details
+  - img "Finsweet Extension"
+  - generic: Finsweet Extension
+  - button "View details":
+    - generic: View details
+  - img "Webflow MCP Bridge App"
+  - generic: Webflow MCP Bridge App
+  - generic: Action needed
+  - button "View details":
+    - generic: View details
+  - text: [masked app metadata]- heading "Form integrations" [level=2]
+  - button "Map new form" [disabled]:
+    - generic: Map new form
+  - text: If you want to connect your marketing automation platform to your Webflow sites, please
+  - button "contact sales"
+  - text: to learn more about our Enterprise offerings.
+  - generic: No marketing integrations have been added to this site yet.
+  - heading "Cloudflare Turnstile spam protection" [level=2]
+  - generic: Prevent spam submissions or bots from filling out forms on your site. If valid submissions get marked as spam, you can turn this off. You'll have to republish your site if you change the bot blocking setting.
+  - switch
+  - generic: "Off"
+  - text: Bots are
+  - generic: not being blocked
+  - switch [checked]
+  - generic: "On"
+  - generic: Spam is being filtered
+  - heading "reCAPTCHA validation" [level=2]
+  - button "Save" [disabled]:
+    - generic: Save
+  - text: Ensure your forms are only submitted by humans, and avoid spam.
+  - link "Learn more":
+    - /url: https://help.webflow.com/hc/en-us/articles/34277758554771-Prevent-spam-in-form-submissions
+  - generic: reCAPTCHA v2 site key
+  - textbox "reCAPTCHA v2 site key"
+  - link "Register for a new key.":
+    - /url: https://www.google.com/recaptcha/admin
+  - generic: reCAPTCHA v2 secret key
+  - textbox "reCAPTCHA v2 secret key"
+  - generic: Enable reCAPTCHA
+  - switch "Enable reCAPTCHA Off" [disabled]
+  - generic: "Off"
+  - generic: reCAPTCHA validation is disabled for all forms on this site
+  - generic: If enabled, all forms will be validated. Forms that do not contain a reCAPTCHA field will fail to submit.
+  - heading "Restrict uploaded file access" [level=2]
+  - generic: Turn this on to restrict access to files uploaded through your site's forms to people who are logged in to your site, i.e., you, your client, and collaborators. Turn it off to allow public access to files, which you might need for certain publishing formats or integrations, like Zapier.
+  - switch [checked]
+  - generic: "On"
+  - generic: Login is required
+  - generic: API access metadata omitted; no tokens exported.
+  - heading "Webhooks" [level=2]
+  - button "Add webhook":
+    - generic: Add webhook
+  - text: Manage your webhooks here or through
+  - link "our API":
+    - /url: https://developers.webflow.com/reference/list-webhooks
+  - text: .
+  - generic: No webhooks have been added to this site yet.
+- region "Notifications Alt+T"

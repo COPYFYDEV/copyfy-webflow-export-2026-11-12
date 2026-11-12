@@ -1,0 +1,716 @@
+- navigation "Navigation":
+  - link "home":
+    - /url: /?r=0
+  - list:
+    - link "Dashboard":
+      - /url: /dashboard?utm_source=dashboard
+    - button "Marketplace menu dropdown":
+      - generic: Marketplace
+    - link "Learn":
+      - /url: https://university.webflow.com/?utm_source=dashboard
+    - button "Resources menu dropdown":
+      - generic: Resources
+    - button "Search":
+    - button "Notifications":
+    - button "Account":
+      - generic: Thomas Salic
+      - generic: TS
+- navigation:
+  - link "All projects":
+    - /url: /dashboard?activeTab=all-projects&workspace=thomass-workspace-395ee9
+    - generic: All projects
+  - link "General":
+    - /url: /dashboard/sites/copyfy-624656/general
+    - generic: General
+  - link "Site access":
+    - /url: /dashboard/sites/copyfy-624656/site-access
+    - generic: Site access
+  - link "Publishing":
+    - /url: /dashboard/sites/copyfy-624656/publishing
+    - generic: Publishing
+  - link "Billing":
+    - /url: /dashboard/sites/copyfy-624656/billing?sp=project general tab
+    - generic: Billing
+  - link "Plans":
+    - /url: /dashboard/sites/copyfy-624656/plans?ref=plans_tab
+    - generic: Plans
+  - button "Usage":
+    - text: Usage
+  - link "SEO":
+    - /url: /dashboard/sites/copyfy-624656/seo
+    - generic: SEO
+  - link "Forms":
+    - /url: /dashboard/sites/copyfy-624656/forms
+    - generic: Forms
+  - link "Fonts":
+    - /url: /dashboard/sites/copyfy-624656/fonts
+    - generic: Fonts
+  - link "Backups":
+    - /url: /dashboard/sites/copyfy-624656/backups
+    - generic: Backups
+  - link "Apps & Integrations":
+    - /url: /dashboard/sites/copyfy-624656/integrations
+    - generic: Apps & Integrations
+  - link "Custom code":
+    - /url: /dashboard/sites/copyfy-624656/custom-code
+    - generic: Custom code
+  - link "Webflow Cloud":
+    - /url: /dashboard/sites/copyfy-624656/webflow-cloud
+    - generic: Webflow Cloud
+- main:
+  - heading "Copyfy Visit website" [level=1]:
+    - text: Copyfy
+    - link "Visit website":
+      - /url: https://copyfy-624656.webflow.io
+  - button "Transfer site":
+  - button "Archive site":
+  - button "Duplicate site":
+  - button "Unpublish site" [disabled]:
+  - button "Share":
+    - generic: Share
+  - link "Open site in Webflow":
+    - /url: /external/designer/copyfy-624656
+    - generic: Open site in Webflow
+  - button "Publish":
+    - generic: Publish
+  - heading "General settings" [level=2]
+  - button "Save" [disabled]:
+    - generic: Save
+  - generic: Name
+  - textbox "Name": Copyfy
+  - generic: This is the site's title within Webflow. You can update what visitors see in search results in each page's settings.
+  - generic: Folder
+  - combobox "Folder":
+    - generic: All projects
+  - heading "Icons" [level=2]
+  - img "Favicon light"
+  - generic: Light
+  - generic: Dark
+  - img "Webclip"
+  - generic: Webclip
+  - button "Upload icon":
+    - generic: Upload icon
+  - button "Remove":
+    - generic: Remove
+  - generic: Upload a square image to generate all icon sizes.
+  - separator
+  - heading "Localize" [level=2]
+  - button "Save" [disabled]:
+    - generic: Save
+  - generic: Choose the time zone from this list
+  - combobox "Choose the time zone from this list":
+    - option "[GMT-11:00] Pacific/Midway"
+    - option "[GMT-11:00] Pacific/Niue"
+    - option "[GMT-11:00] Pacific/Pago_Pago"
+    - option "[GMT-10:00] America/Adak"
+    - option "[GMT-10:00] Pacific/Honolulu"
+    - option "[GMT-10:00] Pacific/Rarotonga"
+    - option "[GMT-10:00] Pacific/Tahiti"
+    - option "[GMT-9:30] Pacific/Marquesas"
+    - option "[GMT-9:00] America/Anchorage"
+    - option "[GMT-9:00] America/Juneau"
+    - option "[GMT-9:00] America/Metlakatla"
+    - option "[GMT-9:00] America/Nome"
+    - option "[GMT-9:00] America/Sitka"
+    - option "[GMT-9:00] America/Yakutat"
+    - option "[GMT-9:00] Pacific/Gambier"
+    - option "[GMT-8:00] America/Los_Angeles"
+    - option "[GMT-8:00] America/Tijuana"
+    - option "[GMT-8:00] Pacific/Pitcairn"
+    - option "[GMT-7:00] America/Boise"
+    - option "[GMT-7:00] America/Cambridge_Bay"
+    - option "[GMT-7:00] America/Ciudad_Juarez"
+    - option "[GMT-7:00] America/Creston"
+    - option "[GMT-7:00] America/Dawson"
+    - option "[GMT-7:00] America/Dawson_Creek"
+    - option "[GMT-7:00] America/Denver"
+    - option "[GMT-7:00] America/Fort_Nelson"
+    - option "[GMT-7:00] America/Hermosillo"
+    - option "[GMT-7:00] America/Mazatlan"
+    - option "[GMT-7:00] America/Phoenix"
+    - option "[GMT-7:00] America/Vancouver"
+    - option "[GMT-7:00] America/Whitehorse"
+    - option "[GMT-6:00] America/Bahia_Banderas"
+    - option "[GMT-6:00] America/Belize"
+    - option "[GMT-6:00] America/Chicago"
+    - option "[GMT-6:00] America/Chihuahua"
+    - option "[GMT-6:00] America/Costa_Rica"
+    - option "[GMT-6:00] America/Edmonton"
+    - option "[GMT-6:00] America/El_Salvador"
+    - option "[GMT-6:00] America/Guatemala"
+    - option "[GMT-6:00] America/Indiana/Knox"
+    - option "[GMT-6:00] America/Indiana/Tell_City"
+    - option "[GMT-6:00] America/Inuvik"
+    - option "[GMT-6:00] America/Managua"
+    - option "[GMT-6:00] America/Matamoros"
+    - option "[GMT-6:00] America/Menominee"
+    - option "[GMT-6:00] America/Merida"
+    - option "[GMT-6:00] America/Mexico_City"
+    - option "[GMT-6:00] America/Monterrey"
+    - option "[GMT-6:00] America/North_Dakota/Beulah"
+    - option "[GMT-6:00] America/North_Dakota/Center"
+    - option "[GMT-6:00] America/North_Dakota/New_Salem"
+    - option "[GMT-6:00] America/Ojinaga"
+    - option "[GMT-6:00] America/Rankin_Inlet"
+    - option "[GMT-6:00] America/Regina"
+    - option "[GMT-6:00] America/Resolute"
+    - option "[GMT-6:00] America/Swift_Current"
+    - option "[GMT-6:00] America/Tegucigalpa"
+    - option "[GMT-6:00] Pacific/Galapagos"
+    - option "[GMT-5:00] America/Bogota"
+    - option "[GMT-5:00] America/Cancun"
+    - option "[GMT-5:00] America/Cayman"
+    - option "[GMT-5:00] America/Coral_Harbour"
+    - option "[GMT-5:00] America/Detroit"
+    - option "[GMT-5:00] America/Eirunepe"
+    - option "[GMT-5:00] America/Grand_Turk"
+    - option "[GMT-5:00] America/Guayaquil"
+    - option "[GMT-5:00] America/Havana"
+    - option "[GMT-5:00] America/Indiana/Marengo"
+    - option "[GMT-5:00] America/Indiana/Petersburg"
+    - option "[GMT-5:00] America/Indiana/Vevay"
+    - option "[GMT-5:00] America/Indiana/Vincennes"
+    - option "[GMT-5:00] America/Indiana/Winamac"
+    - option "[GMT-5:00] America/Indianapolis"
+    - option "[GMT-5:00] America/Iqaluit"
+    - option "[GMT-5:00] America/Jamaica"
+    - option "[GMT-5:00] America/Kentucky/Monticello"
+    - option "[GMT-5:00] America/Lima"
+    - option "[GMT-5:00] America/Louisville"
+    - option "[GMT-5:00] America/Nassau"
+    - option "[GMT-5:00] America/New_York"
+    - option "[GMT-5:00] America/Panama"
+    - option "[GMT-5:00] America/Port-au-Prince"
+    - option "[GMT-5:00] America/Rio_Branco"
+    - option "[GMT-5:00] America/Toronto"
+    - option "[GMT-5:00] America/Winnipeg"
+    - option "[GMT-5:00] Pacific/Easter"
+    - option "[GMT-4:00] America/Anguilla"
+    - option "[GMT-4:00] America/Antigua"
+    - option "[GMT-4:00] America/Aruba"
+    - option "[GMT-4:00] America/Barbados"
+    - option "[GMT-4:00] America/Blanc-Sablon"
+    - option "[GMT-4:00] America/Boa_Vista"
+    - option "[GMT-4:00] America/Campo_Grande"
+    - option "[GMT-4:00] America/Caracas"
+    - option "[GMT-4:00] America/Cuiaba"
+    - option "[GMT-4:00] America/Curacao"
+    - option "[GMT-4:00] America/Dominica"
+    - option "[GMT-4:00] America/Glace_Bay"
+    - option "[GMT-4:00] America/Goose_Bay"
+    - option "[GMT-4:00] America/Grenada"
+    - option "[GMT-4:00] America/Guadeloupe"
+    - option "[GMT-4:00] America/Guyana"
+    - option "[GMT-4:00] America/Halifax"
+    - option "[GMT-4:00] America/Kralendijk"
+    - option "[GMT-4:00] America/La_Paz"
+    - option "[GMT-4:00] America/Lower_Princes"
+    - option "[GMT-4:00] America/Manaus"
+    - option "[GMT-4:00] America/Marigot"
+    - option "[GMT-4:00] America/Martinique"
+    - option "[GMT-4:00] America/Moncton"
+    - option "[GMT-4:00] America/Montserrat"
+    - option "[GMT-4:00] America/Port_of_Spain"
+    - option "[GMT-4:00] America/Porto_Velho"
+    - option "[GMT-4:00] America/Puerto_Rico"
+    - option "[GMT-4:00] America/Santo_Domingo"
+    - option "[GMT-4:00] America/St_Barthelemy"
+    - option "[GMT-4:00] America/St_Kitts"
+    - option "[GMT-4:00] America/St_Lucia"
+    - option "[GMT-4:00] America/St_Thomas"
+    - option "[GMT-4:00] America/St_Vincent"
+    - option "[GMT-4:00] America/Thule"
+    - option "[GMT-4:00] America/Tortola"
+    - option "[GMT-4:00] Atlantic/Bermuda"
+    - option "[GMT-3:30] America/St_Johns"
+    - option "[GMT-3:00] America/Araguaina"
+    - option "[GMT-3:00] America/Argentina/La_Rioja"
+    - option "[GMT-3:00] America/Argentina/Rio_Gallegos"
+    - option "[GMT-3:00] America/Argentina/Salta"
+    - option "[GMT-3:00] America/Argentina/San_Juan"
+    - option "[GMT-3:00] America/Argentina/San_Luis"
+    - option "[GMT-3:00] America/Argentina/Tucuman"
+    - option "[GMT-3:00] America/Argentina/Ushuaia"
+    - option "[GMT-3:00] America/Asuncion"
+    - option "[GMT-3:00] America/Bahia"
+    - option "[GMT-3:00] America/Belem"
+    - option "[GMT-3:00] America/Buenos_Aires"
+    - option "[GMT-3:00] America/Catamarca"
+    - option "[GMT-3:00] America/Cayenne"
+    - option "[GMT-3:00] America/Cordoba"
+    - option "[GMT-3:00] America/Coyhaique"
+    - option "[GMT-3:00] America/Fortaleza"
+    - option "[GMT-3:00] America/Jujuy"
+    - option "[GMT-3:00] America/Maceio"
+    - option "[GMT-3:00] America/Mendoza"
+    - option "[GMT-3:00] America/Miquelon"
+    - option "[GMT-3:00] America/Montevideo"
+    - option "[GMT-3:00] America/Paramaribo"
+    - option "[GMT-3:00] America/Punta_Arenas"
+    - option "[GMT-3:00] America/Recife"
+    - option "[GMT-3:00] America/Santarem"
+    - option "[GMT-3:00] America/Santiago"
+    - option "[GMT-3:00] America/Sao_Paulo"
+    - option "[GMT-3:00] Antarctica/Palmer"
+    - option "[GMT-3:00] Antarctica/Rothera"
+    - option "[GMT-3:00] Atlantic/Stanley"
+    - option "[GMT-2:00] America/Godthab"
+    - option "[GMT-2:00] America/Noronha"
+    - option "[GMT-2:00] America/Scoresbysund"
+    - option "[GMT-2:00] Atlantic/South_Georgia"
+    - option "[GMT-1:00] Atlantic/Azores"
+    - option "[GMT-1:00] Atlantic/Cape_Verde"
+    - option "[GMT+0:00] Africa/Abidjan"
+    - option "[GMT+0:00] Africa/Accra"
+    - option "[GMT+0:00] Africa/Bamako"
+    - option "[GMT+0:00] Africa/Banjul"
+    - option "[GMT+0:00] Africa/Bissau"
+    - option "[GMT+0:00] Africa/Casablanca"
+    - option "[GMT+0:00] Africa/Conakry"
+    - option "[GMT+0:00] Africa/Dakar"
+    - option "[GMT+0:00] Africa/El_Aaiun"
+    - option "[GMT+0:00] Africa/Freetown"
+    - option "[GMT+0:00] Africa/Lome"
+    - option "[GMT+0:00] Africa/Monrovia"
+    - option "[GMT+0:00] Africa/Nouakchott"
+    - option "[GMT+0:00] Africa/Ouagadougou"
+    - option "[GMT+0:00] Africa/Sao_Tome"
+    - option "[GMT+0:00] America/Danmarkshavn"
+    - option "[GMT+0:00] Antarctica/Troll"
+    - option "[GMT+0:00] Atlantic/Canary"
+    - option "[GMT+0:00] Atlantic/Faeroe"
+    - option "[GMT+0:00] Atlantic/Madeira"
+    - option "[GMT+0:00] Atlantic/Reykjavik"
+    - option "[GMT+0:00] Atlantic/St_Helena"
+    - option "[GMT+0:00] Europe/Dublin"
+    - option "[GMT+0:00] Europe/Guernsey"
+    - option "[GMT+0:00] Europe/Isle_of_Man"
+    - option "[GMT+0:00] Europe/Jersey"
+    - option "[GMT+0:00] Europe/Lisbon"
+    - option "[GMT+0:00] Europe/London"
+    - option "[GMT+1:00] Africa/Algiers"
+    - option "[GMT+1:00] Africa/Bangui"
+    - option "[GMT+1:00] Africa/Brazzaville"
+    - option "[GMT+1:00] Africa/Ceuta"
+    - option "[GMT+1:00] Africa/Douala"
+    - option "[GMT+1:00] Africa/Kinshasa"
+    - option "[GMT+1:00] Africa/Lagos"
+    - option "[GMT+1:00] Africa/Libreville"
+    - option "[GMT+1:00] Africa/Luanda"
+    - option "[GMT+1:00] Africa/Malabo"
+    - option "[GMT+1:00] Africa/Ndjamena"
+    - option "[GMT+1:00] Africa/Niamey"
+    - option "[GMT+1:00] Africa/Porto-Novo"
+    - option "[GMT+1:00] Africa/Tunis"
+    - option "[GMT+1:00] Arctic/Longyearbyen"
+    - option "[GMT+1:00] Europe/Amsterdam"
+    - option "[GMT+1:00] Europe/Andorra"
+    - option "[GMT+1:00] Europe/Belgrade"
+    - option "[GMT+1:00] Europe/Berlin"
+    - option "[GMT+1:00] Europe/Bratislava"
+    - option "[GMT+1:00] Europe/Brussels"
+    - option "[GMT+1:00] Europe/Budapest"
+    - option "[GMT+1:00] Europe/Busingen"
+    - option "[GMT+1:00] Europe/Copenhagen"
+    - option "[GMT+1:00] Europe/Gibraltar"
+    - option "[GMT+1:00] Europe/Ljubljana"
+    - option "[GMT+1:00] Europe/Luxembourg"
+    - option "[GMT+1:00] Europe/Madrid"
+    - option "[GMT+1:00] Europe/Malta"
+    - option "[GMT+1:00] Europe/Monaco"
+    - option "[GMT+1:00] Europe/Oslo"
+    - option "[GMT+1:00] Europe/Paris" [selected]
+    - option "[GMT+1:00] Europe/Podgorica"
+    - option "[GMT+1:00] Europe/Prague"
+    - option "[GMT+1:00] Europe/Rome"
+    - option "[GMT+1:00] Europe/San_Marino"
+    - option "[GMT+1:00] Europe/Sarajevo"
+    - option "[GMT+1:00] Europe/Skopje"
+    - option "[GMT+1:00] Europe/Stockholm"
+    - option "[GMT+1:00] Europe/Tirane"
+    - option "[GMT+1:00] Europe/Vaduz"
+    - option "[GMT+1:00] Europe/Vatican"
+    - option "[GMT+1:00] Europe/Vienna"
+    - option "[GMT+1:00] Europe/Warsaw"
+    - option "[GMT+1:00] Europe/Zagreb"
+    - option "[GMT+1:00] Europe/Zurich"
+    - option "[GMT+2:00] Africa/Blantyre"
+    - option "[GMT+2:00] Africa/Bujumbura"
+    - option "[GMT+2:00] Africa/Cairo"
+    - option "[GMT+2:00] Africa/Gaborone"
+    - option "[GMT+2:00] Africa/Harare"
+    - option "[GMT+2:00] Africa/Johannesburg"
+    - option "[GMT+2:00] Africa/Juba"
+    - option "[GMT+2:00] Africa/Khartoum"
+    - option "[GMT+2:00] Africa/Kigali"
+    - option "[GMT+2:00] Africa/Lubumbashi"
+    - option "[GMT+2:00] Africa/Lusaka"
+    - option "[GMT+2:00] Africa/Maputo"
+    - option "[GMT+2:00] Africa/Maseru"
+    - option "[GMT+2:00] Africa/Mbabane"
+    - option "[GMT+2:00] Africa/Tripoli"
+    - option "[GMT+2:00] Africa/Windhoek"
+    - option "[GMT+2:00] Asia/Beirut"
+    - option "[GMT+2:00] Asia/Famagusta"
+    - option "[GMT+2:00] Asia/Gaza"
+    - option "[GMT+2:00] Asia/Hebron"
+    - option "[GMT+2:00] Asia/Jerusalem"
+    - option "[GMT+2:00] Asia/Nicosia"
+    - option "[GMT+2:00] Europe/Athens"
+    - option "[GMT+2:00] Europe/Bucharest"
+    - option "[GMT+2:00] Europe/Chisinau"
+    - option "[GMT+2:00] Europe/Helsinki"
+    - option "[GMT+2:00] Europe/Kaliningrad"
+    - option "[GMT+2:00] Europe/Kyiv"
+    - option "[GMT+2:00] Europe/Mariehamn"
+    - option "[GMT+2:00] Europe/Riga"
+    - option "[GMT+2:00] Europe/Sofia"
+    - option "[GMT+2:00] Europe/Tallinn"
+    - option "[GMT+2:00] Europe/Vilnius"
+    - option "[GMT+3:00] Africa/Addis_Ababa"
+    - option "[GMT+3:00] Africa/Asmera"
+    - option "[GMT+3:00] Africa/Dar_es_Salaam"
+    - option "[GMT+3:00] Africa/Djibouti"
+    - option "[GMT+3:00] Africa/Kampala"
+    - option "[GMT+3:00] Africa/Mogadishu"
+    - option "[GMT+3:00] Africa/Nairobi"
+    - option "[GMT+3:00] Antarctica/Syowa"
+    - option "[GMT+3:00] Asia/Aden"
+    - option "[GMT+3:00] Asia/Amman"
+    - option "[GMT+3:00] Asia/Baghdad"
+    - option "[GMT+3:00] Asia/Bahrain"
+    - option "[GMT+3:00] Asia/Damascus"
+    - option "[GMT+3:00] Asia/Kuwait"
+    - option "[GMT+3:00] Asia/Qatar"
+    - option "[GMT+3:00] Asia/Riyadh"
+    - option "[GMT+3:00] Europe/Istanbul"
+    - option "[GMT+3:00] Europe/Kirov"
+    - option "[GMT+3:00] Europe/Minsk"
+    - option "[GMT+3:00] Europe/Moscow"
+    - option "[GMT+3:00] Europe/Simferopol"
+    - option "[GMT+3:00] Europe/Volgograd"
+    - option "[GMT+3:00] Indian/Antananarivo"
+    - option "[GMT+3:00] Indian/Comoro"
+    - option "[GMT+3:00] Indian/Mayotte"
+    - option "[GMT+3:30] Asia/Tehran"
+    - option "[GMT+4:00] Asia/Baku"
+    - option "[GMT+4:00] Asia/Dubai"
+    - option "[GMT+4:00] Asia/Muscat"
+    - option "[GMT+4:00] Asia/Tbilisi"
+    - option "[GMT+4:00] Asia/Yerevan"
+    - option "[GMT+4:00] Europe/Astrakhan"
+    - option "[GMT+4:00] Europe/Samara"
+    - option "[GMT+4:00] Europe/Saratov"
+    - option "[GMT+4:00] Europe/Ulyanovsk"
+    - option "[GMT+4:00] Indian/Mahe"
+    - option "[GMT+4:00] Indian/Mauritius"
+    - option "[GMT+4:00] Indian/Reunion"
+    - option "[GMT+4:30] Asia/Kabul"
+    - option "[GMT+5:00] Antarctica/Mawson"
+    - option "[GMT+5:00] Antarctica/Vostok"
+    - option "[GMT+5:00] Asia/Almaty"
+    - option "[GMT+5:00] Asia/Aqtau"
+    - option "[GMT+5:00] Asia/Aqtobe"
+    - option "[GMT+5:00] Asia/Ashgabat"
+    - option "[GMT+5:00] Asia/Atyrau"
+    - option "[GMT+5:00] Asia/Dushanbe"
+    - option "[GMT+5:00] Asia/Karachi"
+    - option "[GMT+5:00] Asia/Oral"
+    - option "[GMT+5:00] Asia/Qostanay"
+    - option "[GMT+5:00] Asia/Qyzylorda"
+    - option "[GMT+5:00] Asia/Samarkand"
+    - option "[GMT+5:00] Asia/Tashkent"
+    - option "[GMT+5:00] Asia/Yekaterinburg"
+    - option "[GMT+5:00] Indian/Kerguelen"
+    - option "[GMT+5:00] Indian/Maldives"
+    - option "[GMT+5:30] Asia/Calcutta"
+    - option "[GMT+5:30] Asia/Colombo"
+    - option "[GMT+5:45] Asia/Katmandu"
+    - option "[GMT+6:00] Asia/Bishkek"
+    - option "[GMT+6:00] Asia/Dhaka"
+    - option "[GMT+6:00] Asia/Omsk"
+    - option "[GMT+6:00] Asia/Thimphu"
+    - option "[GMT+6:00] Asia/Urumqi"
+    - option "[GMT+6:00] Indian/Chagos"
+    - option "[GMT+6:30] Asia/Rangoon"
+    - option "[GMT+6:30] Indian/Cocos"
+    - option "[GMT+7:00] Antarctica/Davis"
+    - option "[GMT+7:00] Asia/Bangkok"
+    - option "[GMT+7:00] Asia/Barnaul"
+    - option "[GMT+7:00] Asia/Hovd"
+    - option "[GMT+7:00] Asia/Jakarta"
+    - option "[GMT+7:00] Asia/Krasnoyarsk"
+    - option "[GMT+7:00] Asia/Novokuznetsk"
+    - option "[GMT+7:00] Asia/Novosibirsk"
+    - option "[GMT+7:00] Asia/Phnom_Penh"
+    - option "[GMT+7:00] Asia/Pontianak"
+    - option "[GMT+7:00] Asia/Saigon"
+    - option "[GMT+7:00] Asia/Tomsk"
+    - option "[GMT+7:00] Asia/Vientiane"
+    - option "[GMT+7:00] Indian/Christmas"
+    - option "[GMT+8:00] Antarctica/Casey"
+    - option "[GMT+8:00] Asia/Brunei"
+    - option "[GMT+8:00] Asia/Hong_Kong"
+    - option "[GMT+8:00] Asia/Irkutsk"
+    - option "[GMT+8:00] Asia/Kuala_Lumpur"
+    - option "[GMT+8:00] Asia/Kuching"
+    - option "[GMT+8:00] Asia/Macau"
+    - option "[GMT+8:00] Asia/Makassar"
+    - option "[GMT+8:00] Asia/Manila"
+    - option "[GMT+8:00] Asia/Shanghai"
+    - option "[GMT+8:00] Asia/Singapore"
+    - option "[GMT+8:00] Asia/Taipei"
+    - option "[GMT+8:00] Asia/Ulaanbaatar"
+    - option "[GMT+8:00] Australia/Perth"
+    - option "[GMT+8:45] Australia/Eucla"
+    - option "[GMT+9:00] Asia/Chita"
+    - option "[GMT+9:00] Asia/Dili"
+    - option "[GMT+9:00] Asia/Jayapura"
+    - option "[GMT+9:00] Asia/Khandyga"
+    - option "[GMT+9:00] Asia/Pyongyang"
+    - option "[GMT+9:00] Asia/Seoul"
+    - option "[GMT+9:00] Asia/Tokyo"
+    - option "[GMT+9:00] Asia/Yakutsk"
+    - option "[GMT+9:00] Pacific/Palau"
+    - option "[GMT+9:30] Australia/Darwin"
+    - option "[GMT+10:00] Antarctica/DumontDUrville"
+    - option "[GMT+10:00] Asia/Ust-Nera"
+    - option "[GMT+10:00] Asia/Vladivostok"
+    - option "[GMT+10:00] Australia/Brisbane"
+    - option "[GMT+10:00] Australia/Lindeman"
+    - option "[GMT+10:00] Pacific/Guam"
+    - option "[GMT+10:00] Pacific/Port_Moresby"
+    - option "[GMT+10:00] Pacific/Saipan"
+    - option "[GMT+10:00] Pacific/Truk"
+    - option "[GMT+10:30] Australia/Adelaide"
+    - option "[GMT+10:30] Australia/Broken_Hill"
+    - option "[GMT+11:00] Antarctica/Macquarie"
+    - option "[GMT+11:00] Asia/Magadan"
+    - option "[GMT+11:00] Asia/Sakhalin"
+    - option "[GMT+11:00] Asia/Srednekolymsk"
+    - option "[GMT+11:00] Australia/Hobart"
+    - option "[GMT+11:00] Australia/Lord_Howe"
+    - option "[GMT+11:00] Australia/Melbourne"
+    - option "[GMT+11:00] Australia/Sydney"
+    - option "[GMT+11:00] Pacific/Bougainville"
+    - option "[GMT+11:00] Pacific/Efate"
+    - option "[GMT+11:00] Pacific/Guadalcanal"
+    - option "[GMT+11:00] Pacific/Kosrae"
+    - option "[GMT+11:00] Pacific/Noumea"
+    - option "[GMT+11:00] Pacific/Ponape"
+    - option "[GMT+12:00] Asia/Anadyr"
+    - option "[GMT+12:00] Asia/Kamchatka"
+    - option "[GMT+12:00] Pacific/Fiji"
+    - option "[GMT+12:00] Pacific/Funafuti"
+    - option "[GMT+12:00] Pacific/Kwajalein"
+    - option "[GMT+12:00] Pacific/Majuro"
+    - option "[GMT+12:00] Pacific/Nauru"
+    - option "[GMT+12:00] Pacific/Norfolk"
+    - option "[GMT+12:00] Pacific/Tarawa"
+    - option "[GMT+12:00] Pacific/Wake"
+    - option "[GMT+12:00] Pacific/Wallis"
+    - option "[GMT+13:00] Antarctica/McMurdo"
+    - option "[GMT+13:00] Pacific/Apia"
+    - option "[GMT+13:00] Pacific/Auckland"
+    - option "[GMT+13:00] Pacific/Enderbury"
+    - option "[GMT+13:00] Pacific/Fakaofo"
+    - option "[GMT+13:00] Pacific/Tongatapu"
+    - option "[GMT+13:45] Pacific/Chatham"
+    - option "[GMT+14:00] Pacific/Kiritimati"
+  - button "Detect my time zone":
+    - generic: Detect my time zone
+  - generic: Time zone defaults to UTC, so setting it to your local time zone will improve any date/time-related features of your dynamic content, including relative date filtering. It will also update any date/time-related elements of your existing dynamic content.
+  - generic: Language code
+  - textbox "Language code" [disabled]:
+    - /placeholder: e.g. en
+  - text: To set a language code, add a primary locale in your site’s
+  - link "Localize settings":
+    - /url: /external/designer/copyfy-624656?openPanel=localization-locales
+  - text: .
+  - separator
+  - heading "Website password" [level=2]
+  - generic: Protect your published site with a password.
+  - switch "Protect your published site with a password."
+  - generic: "Off"
+  - generic: Password protection
+  - separator
+  - heading "Showcase site" [level=2]
+  - button "Save" [disabled]:
+    - generic: Save
+  - text: Showcased sites will appear on your public profile, and in the
+  - link "Marketplace":
+    - /url: https://webflow.com/made-in-webflow
+  - text: under Made in Webflow.
+  - switch "Showcased sites will appear on your public profile, and in the Marketplace under Made in Webflow."
+  - generic: "Off"
+  - generic: Showcase site
+  - generic: Creator credits
+  - log
+  - generic: Type a profile handle (@name)
+  - combobox "Creator credits"
+  - paragraph: You can select up to 3 profile handles. Please ensure the site owner approves of showcasing this site before tagging a creator.
+  - text: Add the profile handles of creators who have worked on this site. Creators tagged here will be able to display this site on their Webflow profile.
+  - link "Learn more":
+    - /url: https://help.webflow.com/hc/en-us/articles/33961418679059
+  - separator
+  - heading "Shared Workspace template" [level=2]
+  - text: This site belongs to
+  - link "Thomas's Workspace":
+    - /url: /dashboard/workspace/thomass-workspace-395ee9
+  - text: .
+  - button "Make template":
+    - generic: Make template
+  - generic: Templates help make it easy for others to build off this site.
+  - separator
+  - heading "Webflow branding" [level=2]
+  - button "Save" [disabled]:
+    - generic: Save
+  - switch
+  - generic: "Off"
+  - generic: Display "Made in Webflow" badge
+  - switch
+  - generic: "Off"
+  - generic: Display Webflow branding in HTML
+  - separator
+  - heading "Overview" [level=2]
+  - table:
+    - rowgroup:
+      - row "Site ID 66bf717325c1db31e2aded00":
+        - rowheader "Site ID":
+          - generic: Site ID
+        - cell "66bf717325c1db31e2aded00":
+          - generic: 66bf717325c1db31e2aded00
+      - row "Total asset size 11.798 GiB (Files, fonts, and backups)":
+        - rowheader "Total asset size":
+          - generic: Total asset size
+        - cell "11.798 GiB (Files, fonts, and backups)":
+          - generic: 11.798 GiB (Files, fonts, and backups)
+      - row "Last published 6 days ago, on November 7th 2026, 4:53:52 am":
+        - rowheader "Last published":
+          - generic: Last published
+        - cell "6 days ago, on November 7th 2026, 4:53:52 am":
+          - generic: 6 days ago, on November 7th 2026, 4:53:52 am
+      - row "Last updated 25 minutes ago, on November 12th 2026, 5:19:31 pm":
+        - rowheader "Last updated":
+          - generic: Last updated
+        - cell "25 minutes ago, on November 12th 2026, 5:19:31 pm":
+          - generic: 25 minutes ago, on November 12th 2026, 5:19:31 pm
+      - row "Created August 16th 2024, 5:34:11 pm":
+        - rowheader "Created":
+          - generic: Created
+        - cell "August 16th 2024, 5:34:11 pm":
+          - generic: August 16th 2024, 5:34:11 pm
+      - row "Pages 55":
+        - rowheader "Pages":
+          - generic: Pages
+        - cell "55":
+          - generic: "55"
+      - row "Pages created 33/300":
+        - rowheader "Pages created":
+          - generic: Pages created
+        - cell "33/300":
+          - generic: 33/300
+      - row "Form submissions 478":
+        - rowheader "Form submissions":
+          - generic: Form submissions
+        - cell "478":
+          - generic: "478"
+      - row "Collection items 2367":
+        - rowheader "Collection items":
+          - generic: Collection items
+        - cell "2367":
+          - generic: "2367"
+  - heading "Site activity" [level=2]
+  - table:
+    - rowgroup:
+      - row "Date Event User":
+        - columnheader "Date":
+          - generic: Date
+        - columnheader "Event":
+          - generic: Event
+        - columnheader "User":
+          - generic: User
+    - rowgroup:
+      - row "6 days ago Nov 7, 2026 at 4:53am Site published to staging and production Thomas Salic":
+        - cell "6 days ago Nov 7, 2026 at 4:53am":
+          - generic: 6 days ago
+          - generic: Nov 7, 2026 at 4:53am
+        - cell "Site published to staging and production":
+          - generic: Site published to staging and production
+        - cell "Thomas Salic":
+          - generic: Thomas Salic
+      - row "6 days ago Nov 7, 2026 at 4:51am Site published to staging and production Thomas Salic":
+        - cell "6 days ago Nov 7, 2026 at 4:51am":
+          - generic: 6 days ago
+          - generic: Nov 7, 2026 at 4:51am
+        - cell "Site published to staging and production":
+          - generic: Site published to staging and production
+        - cell "Thomas Salic":
+          - generic: Thomas Salic
+      - row "10 days ago Nov 2, 2026 at 4:48pm Site published to staging and production Thomas Salic":
+        - cell "10 days ago Nov 2, 2026 at 4:48pm":
+          - generic: 10 days ago
+          - generic: Nov 2, 2026 at 4:48pm
+        - cell "Site published to staging and production":
+          - generic: Site published to staging and production
+        - cell "Thomas Salic":
+          - generic: Thomas Salic
+      - 'row "10 days ago Nov 2, 2026 at 4:46pm Redirect added: /recherche-produits/marcuus → https://app.copyfy.io/login?utm_source=marcuus-kos&utm_medium=influence&utm_campaign=marcuus&utm_content=challenge-shops&ref=marcuus&callbackUrl=https%3A%2F%2Fapp.copyfy.io%2Fdashboard%2Fproducts%3Futm_source%3Dmarcuus-kos%26utm_medium%3Dinfluence%26utm_campaign%3Dmarcuus%26utm_content%3Dchallenge-shops%26ref%3Dmarcuus Thomas Salic"':
+        - cell "10 days ago Nov 2, 2026 at 4:46pm":
+          - generic: 10 days ago
+          - generic: Nov 2, 2026 at 4:46pm
+        - 'cell "Redirect added: /recherche-produits/marcuus → https://app.copyfy.io/login?utm_source=marcuus-kos&utm_medium=influence&utm_campaign=marcuus&utm_content=challenge-shops&ref=marcuus&callbackUrl=https%3A%2F%2Fapp.copyfy.io%2Fdashboard%2Fproducts%3Futm_source%3Dmarcuus-kos%26utm_medium%3Dinfluence%26utm_campaign%3Dmarcuus%26utm_content%3Dchallenge-shops%26ref%3Dmarcuus"':
+          - generic: "Redirect added: /recherche-produits/marcuus → https://app.copyfy.io/login?utm_source=marcuus-kos&utm_medium=influence&utm_campaign=marcuus&utm_content=challenge-shops&ref=marcuus&callbackUrl=https%3A%2F%2Fapp.copyfy.io%2Fdashboard%2Fproducts%3Futm_source%3Dmarcuus-kos%26utm_medium%3Dinfluence%26utm_campaign%3Dmarcuus%26utm_content%3Dchallenge-shops%26ref%3Dmarcuus"
+        - cell "Thomas Salic":
+          - generic: Thomas Salic
+      - row "10 days ago Nov 2, 2026 at 4:46pm Redirect removed Thomas Salic":
+        - cell "10 days ago Nov 2, 2026 at 4:46pm":
+          - generic: 10 days ago
+          - generic: Nov 2, 2026 at 4:46pm
+        - cell "Redirect removed":
+          - generic: Redirect removed
+        - cell "Thomas Salic":
+          - generic: Thomas Salic
+      - row "11 days ago Nov 1, 2026 at 9:43pm Generated API token Thomas Salic":
+        - cell "11 days ago Nov 1, 2026 at 9:43pm":
+          - generic: 11 days ago
+          - generic: Nov 1, 2026 at 9:43pm
+        - cell "Generated API token":
+          - generic: Generated API token
+        - cell "Thomas Salic":
+          - generic: Thomas Salic
+      - row "11 days ago Nov 1, 2026 at 9:34pm Site published to production Thomas Salic":
+        - cell "11 days ago Nov 1, 2026 at 9:34pm":
+          - generic: 11 days ago
+          - generic: Nov 1, 2026 at 9:34pm
+        - cell "Site published to production":
+          - generic: Site published to production
+        - cell "Thomas Salic":
+          - generic: Thomas Salic
+      - row "12 days ago Oct 31, 2026 at 2:14pm Site published to production Thomas Salic":
+        - cell "12 days ago Oct 31, 2026 at 2:14pm":
+          - generic: 12 days ago
+          - generic: Oct 31, 2026 at 2:14pm
+        - cell "Site published to production":
+          - generic: Site published to production
+        - cell "Thomas Salic":
+          - generic: Thomas Salic
+      - 'row "12 days ago Oct 31, 2026 at 2:14pm Redirect added: /produits/marcuus → https://app.copyfy.io/en/login?utm_source=marcuus-kos&utm_medium=influence&utm_campaign=marcuus&utm_content=challenge-shops&ref=marcuus&callbackUrl=https%3A%2F%2Fapp.copyfy.io%2Fdashboard%2Fproducts%3Futm_source%3Dmarcuus-kos%26utm_medium%3Dinfluence%26utm_campaign%3Dmarcuus%26utm_content%3Dchallenge-shops%26ref%3Dmarcuus Thomas Salic"':
+        - cell "12 days ago Oct 31, 2026 at 2:14pm":
+          - generic: 12 days ago
+          - generic: Oct 31, 2026 at 2:14pm
+        - 'cell "Redirect added: /produits/marcuus → https://app.copyfy.io/en/login?utm_source=marcuus-kos&utm_medium=influence&utm_campaign=marcuus&utm_content=challenge-shops&ref=marcuus&callbackUrl=https%3A%2F%2Fapp.copyfy.io%2Fdashboard%2Fproducts%3Futm_source%3Dmarcuus-kos%26utm_medium%3Dinfluence%26utm_campaign%3Dmarcuus%26utm_content%3Dchallenge-shops%26ref%3Dmarcuus"':
+          - generic: "Redirect added: /produits/marcuus → https://app.copyfy.io/en/login?utm_source=marcuus-kos&utm_medium=influence&utm_campaign=marcuus&utm_content=challenge-shops&ref=marcuus&callbackUrl=https%3A%2F%2Fapp.copyfy.io%2Fdashboard%2Fproducts%3Futm_source%3Dmarcuus-kos%26utm_medium%3Dinfluence%26utm_campaign%3Dmarcuus%26utm_content%3Dchallenge-shops%26ref%3Dmarcuus"
+        - cell "Thomas Salic":
+          - generic: Thomas Salic
+      - row "12 days ago Oct 31, 2026 at 2:14pm Redirect removed Thomas Salic":
+        - cell "12 days ago Oct 31, 2026 at 2:14pm":
+          - generic: 12 days ago
+          - generic: Oct 31, 2026 at 2:14pm
+        - cell "Redirect removed":
+          - generic: Redirect removed
+        - cell "Thomas Salic":
+          - generic: Thomas Salic
+  - button "Show more":
+    - generic: Show more
+- region "Notifications Alt+T"

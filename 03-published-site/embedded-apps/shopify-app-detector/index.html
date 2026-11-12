@@ -1,0 +1,292 @@
+<style>
+    html,body{margin:0 !important;padding:0 !important;}
+    .copyfy-appdet *{box-sizing:border-box !important;margin:0;padding:0;}
+    .copyfy-appdet{
+        font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
+        color:#FFFFFF !important;background:transparent !important;
+        padding:0 !important;padding-bottom:100px !important;max-width:none !important;width:100% !important;margin:0 auto !important;
+        overflow:hidden !important;line-height:1.5;
+    }
+    .copyfy-appdet-bar{display:flex;gap:12px;flex-wrap:wrap;align-items:stretch;}
+    .copyfy-appdet-field{position:relative;flex:1 1 320px;min-width:0;}
+    .copyfy-appdet-icon{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:#0F0F10;font-size:15px;pointer-events:none;}
+    .copyfy-appdet-input{
+        width:100% !important;background:#FFFFFF !important;color:#0F0F10 !important;
+        border:1px solid #FFFFFF !important;border-radius:12px !important;
+        padding:14px 14px 14px 34px !important;font-size:15px !important;font-family:inherit !important;
+        transition:border-color .2s ease,background .2s ease;
+    }
+    .copyfy-appdet-input::placeholder{color:#8a8a8a;}
+    .copyfy-appdet-input:hover{border-color:#d1d5db !important;}
+    .copyfy-appdet-input:focus{outline:none;background:#FFFFFF !important;color:#0F0F10 !important;border-color:#6B7280 !important;}
+    .copyfy-appdet-input:focus::placeholder{color:#8a8a8a;}
+    .copyfy-appdet-input:focus + .copyfy-appdet-icon{color:#0F0F10;}
+    .copyfy-appdet-btn{
+        display:inline-flex;align-items:center;justify-content:center;gap:8px;
+        border:none !important;border-radius:30px !important;padding:12px 24px !important;
+        font-size:14px !important;font-weight:700 !important;font-family:inherit !important;
+        cursor:pointer;text-decoration:none;transition:transform .2s ease,box-shadow .2s ease,opacity .2s ease;
+    }
+    .copyfy-appdet-btn:hover{transform:translateY(-1px);box-shadow:0 6px 16px rgba(0,0,0,.25);}
+    .copyfy-appdet-btn-primary{background:#FFFFFF !important;color:#0F0F10 !important;}
+    .copyfy-appdet-btn-secondary{background:#0A6CFB !important;color:#FFFFFF !important;}
+    .copyfy-appdet-btn[disabled]{opacity:.6;cursor:default;transform:none;box-shadow:none;}
+    .copyfy-appdet-status{margin-top:14px;font-size:14px;color:#FFFFFF;display:flex;align-items:center;gap:10px;}
+    .copyfy-appdet-spin{width:16px;height:16px;border:2px solid rgba(255,255,255,.35);border-top-color:#FFFFFF;border-radius:50%;animation:copyfy-appdet-rot .7s linear infinite;}
+    @keyframes copyfy-appdet-rot{to{transform:rotate(360deg);}}
+    .copyfy-appdet-results{margin-top:16px;}
+    .copyfy-appdet-hero{
+        background:#FFFFFF !important;border-radius:12px;padding:28px 24px;
+        display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px;
+    }
+    .copyfy-appdet-hero-label{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:#0F0F10;}
+    .copyfy-appdet-hero-value{font-size:44px;font-weight:800;color:#0A6CFB;line-height:1;margin:6px 0;}
+    .copyfy-appdet-hero-value.is-neg{color:#DC2626;}
+    .copyfy-appdet-hero-sub{font-size:13px;color:#0F0F10;word-break:break-all;}
+    .copyfy-appdet-badge{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:30px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:#FFFFFF;background:#0A6CFB;}
+    .copyfy-appdet-badge.is-neutral{background:#0F0F10;}
+    .copyfy-appdet-badge.is-neg{background:#DC2626;}
+    .copyfy-appdet-badge-dot{width:8px;height:8px;border-radius:50%;background:#FFFFFF;}
+    .copyfy-appdet-interp{background:#FFFFFF !important;border-radius:12px;padding:16px 24px;margin-top:12px;font-size:14px;color:#0F0F10;}
+    .copyfy-appdet-interp.is-neg{border-left:4px solid #DC2626;padding-left:16px;}
+    .copyfy-appdet-cat{margin-top:18px;}
+    .copyfy-appdet-cat-label{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:#FFFFFF;padding:0 4px 8px;}
+    .copyfy-appdet-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+    .copyfy-appdet-card{background:#FFFFFF !important;border-radius:12px;padding:14px;min-width:0;display:flex;flex-direction:column;gap:10px;text-decoration:none;color:inherit;cursor:pointer;transition:transform .15s ease,box-shadow .15s ease;}
+    .copyfy-appdet-card:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(15,15,16,.12);}
+    .copyfy-appdet-card:focus-visible{outline:2px solid #0A6CFB;outline-offset:2px;}
+    .copyfy-appdet-card-head{display:flex;align-items:center;gap:10px;min-width:0;}
+    .copyfy-appdet-logo{width:38px;height:38px;border-radius:9px;flex:0 0 38px;object-fit:contain;background:#F4F5F7;}
+    .copyfy-appdet-logo-ph{display:flex;align-items:center;justify-content:center;background:#0A6CFB;color:#FFFFFF;font-weight:800;font-size:16px;}
+    .copyfy-appdet-card-text{min-width:0;}
+    .copyfy-appdet-card-name{font-size:15px;font-weight:700;color:#0F0F10;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+    .copyfy-appdet-card-cat{font-size:12px;color:#0A6CFB;font-weight:600;margin-top:2px;}
+    .copyfy-appdet-store-btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;background:#0A6CFB !important;color:#FFFFFF !important;font-size:12px;font-weight:700;border-radius:8px;padding:9px 12px;text-decoration:none;transition:transform .15s ease,box-shadow .15s ease;}
+    .copyfy-appdet-card:hover .copyfy-appdet-store-btn{transform:translateY(-1px);box-shadow:0 4px 12px rgba(10,108,251,.3);}
+    .copyfy-appdet-bottombar{display:flex;flex-direction:row;justify-content:center;align-items:center;gap:12px;flex-wrap:wrap;margin-top:22px;}
+    @media (max-width:1024px){.copyfy-appdet-grid{grid-template-columns:repeat(2,1fr);}}
+    @media (max-width:640px){.copyfy-appdet-grid{grid-template-columns:1fr;}}
+    @media (max-width:480px){.copyfy-appdet-bottombar{flex-direction:column;align-items:stretch;}.copyfy-appdet-btn{width:100% !important;}}
+</style>
+
+<div class="copyfy-appdet">
+    <div class="copyfy-appdet-bar">
+        <div class="copyfy-appdet-field">
+            <input type="text" id="copyfy-appdet-url" class="copyfy-appdet-input" autocomplete="off" spellcheck="false">
+            <span class="copyfy-appdet-icon">&#128269;</span>
+        </div>
+        <button type="button" id="copyfy-appdet-run" class="copyfy-appdet-btn copyfy-appdet-btn-secondary"></button>
+    </div>
+
+    <div class="copyfy-appdet-results" id="copyfy-appdet-results" hidden>
+        <div class="copyfy-appdet-hero">
+            <div class="copyfy-appdet-hero-left">
+                <div class="copyfy-appdet-hero-label" id="copyfy-appdet-hero-label"></div>
+                <div class="copyfy-appdet-hero-value" id="copyfy-appdet-hero-value">&mdash;</div>
+                <div class="copyfy-appdet-hero-sub" id="copyfy-appdet-hero-sub"></div>
+            </div>
+            <div class="copyfy-appdet-badge" id="copyfy-appdet-badge">
+                <span class="copyfy-appdet-badge-dot"></span><span id="copyfy-appdet-badge-text"></span>
+            </div>
+        </div>
+        <div class="copyfy-appdet-interp" id="copyfy-appdet-interp"><span id="copyfy-appdet-interp-text"></span></div>
+        <div id="copyfy-appdet-cats"></div>
+    </div>
+
+</div>
+
+<script>
+(function(){
+    'use strict';
+
+    var T = {
+        lang: 'fr',
+        placeholder: 'exemple-boutique.com',
+        analyze: 'Analyser',
+        loading: 'Analyse en cours…',
+        heroLabel: 'APPS DÉTECTÉES',
+        badgeApps: 'STACK DÉTECTÉE',
+        badgeEmpty: 'AUCUNE APP VISIBLE',
+        badgeNotShopify: 'PAS DU SHOPIFY',
+        badgeError: 'ERREUR',
+        cta: 'Essayer Copyfy gratuitement',
+        reset: 'Réinitialiser',
+        interpApps: '{count} apps détectées sur {cats} catégories. Analyse : {scope}.',
+        scopeFull: 'home + fiche produit',
+        scopeHome: 'home',
+        interpEmpty: 'Boutique Shopify détectée, mais aucune app à empreinte visible sur la home ou la fiche produit.',
+        interpNotShopify: 'Ce site n’est pas une boutique Shopify (aucune signature détectée).',
+        interpError: 'Impossible d’analyser ce site (inaccessible, protégé ou hors-ligne).',
+        storeBtn: 'Voir sur l’App Store',
+        cat: {
+            reviews: 'Avis clients', upsell: 'Upsell & cross-sell', email: 'Email & SMS',
+            pagebuilder: 'Page builder', currency: 'Convertisseur de devise', loyalty: 'Fidélité',
+            subscriptions: 'Abonnements', popups: 'Popups & opt-in', search: 'Recherche & filtres',
+            bundles: 'Bundles & packs',
+            support: 'Support & chat', analytics: 'Analytics', marketing: 'Marketing & SEO', options: 'Options produit', shipping: 'Livraison & suivi', other: 'Autres'
+        }
+    };
+
+    var KEY = 'copyfy-appdet-state';
+    function $(id){ return document.getElementById(id); }
+
+    function postHeight(){
+        try { parent.postMessage({copyfyToolHeight: Math.ceil((document.querySelector('.copyfy-appdet')||document.body).getBoundingClientRect().bottom)}, '*'); } catch(e){}
+    }
+
+    function save(url, data){
+        try { localStorage.setItem(KEY, JSON.stringify({url: url, data: data})); } catch(e){}
+    }
+
+    function setBadge(kind, text){
+        var b = $('copyfy-appdet-badge');
+        b.className = 'copyfy-appdet-badge' + (kind === 'neutral' ? ' is-neutral' : kind === 'neg' ? ' is-neg' : '');
+        $('copyfy-appdet-badge-text').textContent = text;
+    }
+
+    function renderCats(apps){
+        var host = $('copyfy-appdet-cats');
+        host.innerHTML = '';
+        var groups = {};
+        apps.forEach(function(a){ (groups[a.category] = groups[a.category] || []).push(a); });
+        Object.keys(groups).forEach(function(catKey){
+            var wrap = document.createElement('div');
+            wrap.className = 'copyfy-appdet-cat';
+            var label = document.createElement('div');
+            label.className = 'copyfy-appdet-cat-label';
+            label.textContent = T.cat[catKey] || catKey;
+            wrap.appendChild(label);
+            var grid = document.createElement('div');
+            grid.className = 'copyfy-appdet-grid';
+            groups[catKey].forEach(function(a){
+                var card = document.createElement('a');
+                card.className = 'copyfy-appdet-card';
+                card.href = a.appstore || ('https://apps.shopify.com/search?q=' + encodeURIComponent(a.name));
+                card.target = '_blank'; card.rel = 'noopener nofollow';
+                var head = document.createElement('div');
+                head.className = 'copyfy-appdet-card-head';
+                if (a.site){
+                    var logo = document.createElement('img');
+                    logo.className = 'copyfy-appdet-logo';
+                    logo.loading = 'lazy'; logo.alt = '';
+                    logo.src = 'https://www.google.com/s2/favicons?domain=' + encodeURIComponent(a.site) + '&sz=64';
+                    head.appendChild(logo);
+                } else {
+                    var ph = document.createElement('div');
+                    ph.className = 'copyfy-appdet-logo copyfy-appdet-logo-ph';
+                    ph.textContent = (a.name || '?').charAt(0).toUpperCase();
+                    head.appendChild(ph);
+                }
+                var txt = document.createElement('div');
+                txt.className = 'copyfy-appdet-card-text';
+                var name = document.createElement('div');
+                name.className = 'copyfy-appdet-card-name';
+                name.textContent = a.name;
+                var cat = document.createElement('div');
+                cat.className = 'copyfy-appdet-card-cat';
+                cat.textContent = T.cat[a.category] || a.category;
+                txt.appendChild(name); txt.appendChild(cat);
+                head.appendChild(txt);
+                card.appendChild(head);
+                var store = document.createElement('span');
+                store.className = 'copyfy-appdet-store-btn';
+                var stxt = document.createElement('span');
+                stxt.textContent = T.storeBtn;
+                store.appendChild(stxt);
+                store.insertAdjacentHTML('beforeend', '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M17 7H8M17 7v9"></path></svg>');
+                card.appendChild(store);
+                grid.appendChild(card);
+            });
+            wrap.appendChild(grid);
+            host.appendChild(wrap);
+        });
+    }
+
+    function render(data, url){
+        $('copyfy-appdet-results').hidden = false;
+        var hero = $('copyfy-appdet-hero-value');
+        var interp = $('copyfy-appdet-interp');
+        var interpText = $('copyfy-appdet-interp-text');
+        $('copyfy-appdet-hero-label').textContent = T.heroLabel;
+        $('copyfy-appdet-hero-sub').textContent = url;
+        hero.classList.remove('is-neg');
+        interp.classList.remove('is-neg');
+        interp.hidden = false;
+
+        if (data.error){
+            hero.textContent = '—';
+            setBadge('neg', T.badgeError);
+            interp.classList.add('is-neg');
+            interpText.textContent = T.interpError;
+            $('copyfy-appdet-cats').innerHTML = '';
+            postHeight(); return;
+        }
+        if (!data.shopify){
+            hero.textContent = '—';
+            hero.classList.add('is-neg');
+            setBadge('neg', T.badgeNotShopify);
+            interp.classList.add('is-neg');
+            interpText.textContent = T.interpNotShopify;
+            $('copyfy-appdet-cats').innerHTML = '';
+            postHeight(); return;
+        }
+        var apps = Array.isArray(data.apps) ? data.apps : [];
+        var count = (typeof data.count === 'number') ? data.count : apps.length;
+        hero.textContent = String(count);
+        if (count === 0){
+            setBadge('neutral', T.badgeEmpty);
+            interpText.textContent = T.interpEmpty;
+            $('copyfy-appdet-cats').innerHTML = '';
+            postHeight(); return;
+        }
+        setBadge('apps', T.badgeApps);
+        interp.hidden = true;
+        renderCats(apps);
+        postHeight();
+    }
+
+    function run(){
+        var url = $('copyfy-appdet-url').value.trim();
+        if (!url) return;
+        var btn = $('copyfy-appdet-run');
+        btn.disabled = true;
+        btn.innerHTML = '';
+        var sp = document.createElement('span');
+        sp.className = 'copyfy-appdet-spin';
+        btn.appendChild(sp);
+        var lbl = document.createElement('span');
+        lbl.textContent = T.loading;
+        btn.appendChild(lbl);
+        fetch('/api/detect?url=' + encodeURIComponent(url))
+            .then(function(r){ return r.json(); })
+            .then(function(data){ save(url, data); render(data, url); })
+            .catch(function(){ render({error: 'fetch_failed'}, url); })
+            .then(function(){ btn.disabled = false; btn.textContent = T.analyze; });
+    }
+
+    function init(){
+        $('copyfy-appdet-url').placeholder = T.placeholder;
+        $('copyfy-appdet-run').textContent = T.analyze;
+        $('copyfy-appdet-run').addEventListener('click', run);
+        $('copyfy-appdet-url').addEventListener('keydown', function(e){ if (e.key === 'Enter') run(); });
+        try {
+            var saved = JSON.parse(localStorage.getItem(KEY) || 'null');
+            if (saved && saved.url){ $('copyfy-appdet-url').value = saved.url; if (saved.data) render(saved.data, saved.url); }
+        } catch(e){}
+        postHeight();
+    }
+
+    if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', init); }
+    else { init(); }
+})();
+</script>
+
+<script>
+(function(){
+    function ph(){ try{ parent.postMessage({copyfyToolHeight: Math.ceil((document.querySelector('.copyfy-appdet')||document.body).getBoundingClientRect().bottom)}, '*'); }catch(e){} }
+    window.addEventListener('load', ph);
+    window.addEventListener('resize', ph);
+    if (window.ResizeObserver){ new ResizeObserver(ph).observe(document.documentElement); }
+    setTimeout(ph,200); setTimeout(ph,800);
+})();
+</script>

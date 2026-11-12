@@ -1,0 +1,414 @@
+- navigation "Navigation":
+  - link "home":
+    - /url: /?r=0
+  - list:
+    - link "Dashboard":
+      - /url: /dashboard?utm_source=dashboard
+    - button "Marketplace menu dropdown":
+      - generic: Marketplace
+    - link "Learn":
+      - /url: https://university.webflow.com/?utm_source=dashboard
+    - button "Resources menu dropdown":
+      - generic: Resources
+    - button "Search":
+    - button "Notifications":
+    - button "Account":
+      - generic: Thomas Salic
+      - generic: TS
+- navigation:
+  - link "All projects":
+    - /url: /dashboard?activeTab=all-projects&workspace=thomass-workspace-395ee9
+    - generic: All projects
+  - link "General":
+    - /url: /dashboard/sites/copyfy-624656/general
+    - generic: General
+  - link "Site access":
+    - /url: /dashboard/sites/copyfy-624656/site-access
+    - generic: Site access
+  - link "Publishing":
+    - /url: /dashboard/sites/copyfy-624656/publishing
+    - generic: Publishing
+  - link "Billing":
+    - /url: /dashboard/sites/copyfy-624656/billing?sp=project custom-code tab
+    - generic: Billing
+  - link "Plans":
+    - /url: /dashboard/sites/copyfy-624656/plans?ref=plans_tab
+    - generic: Plans
+  - button "Usage":
+    - text: Usage
+  - link "SEO":
+    - /url: /dashboard/sites/copyfy-624656/seo
+    - generic: SEO
+  - link "Forms":
+    - /url: /dashboard/sites/copyfy-624656/forms
+    - generic: Forms
+  - link "Fonts":
+    - /url: /dashboard/sites/copyfy-624656/fonts
+    - generic: Fonts
+  - link "Backups":
+    - /url: /dashboard/sites/copyfy-624656/backups
+    - generic: Backups
+  - link "Apps & Integrations":
+    - /url: /dashboard/sites/copyfy-624656/integrations
+    - generic: Apps & Integrations
+  - link "Custom code":
+    - /url: /dashboard/sites/copyfy-624656/custom-code
+    - generic: Custom code
+  - link "Webflow Cloud":
+    - /url: /dashboard/sites/copyfy-624656/webflow-cloud
+    - generic: Webflow Cloud
+- main:
+  - heading "Copyfy Visit website" [level=1]:
+    - text: Copyfy
+    - link "Visit website":
+      - /url: https://copyfy-624656.webflow.io
+  - button "Transfer site":
+  - button "Archive site":
+  - button "Duplicate site":
+  - button "Unpublish site" [disabled]:
+  - button "Share":
+    - generic: Share
+  - link "Open site in Webflow":
+    - /url: /external/designer/copyfy-624656
+    - generic: Open site in Webflow
+  - button "Publish":
+    - generic: Publish
+  - heading "Run custom code in Preview" [level=2]
+  - generic: Custom code added to your site can run in Preview and Commenting modes.
+  - switch
+  - generic: "Off"
+  - generic: The effects of all the custom code on your site will be shown in Preview and Commenting modes by default.
+  - note:
+    - generic: Every collaborator can determine if they want to run all custom code when they open Preview. That won't affect this global setting.
+  - heading "Custom code" [level=2]
+  - button "Save" [disabled]:
+    - generic: Save
+  - generic: Paste custom code to embed on your site.
+  - note:
+    - generic: Custom code is not validated and may cause issues when published.
+  - heading "Head code" [level=4]
+  - generic: Add code at the end of the <head> tag
+  - button "Search":
+  - button "Expand editor":
+  - generic: "24"
+  - generic: "25"
+  - generic: "26"
+  - generic: "27"
+  - generic: "28"
+  - generic: "29"
+  - generic: "30"
+  - generic: "31"
+  - generic: "32"
+  - generic: "33"
+  - generic: "34"
+  - generic: "35"
+  - generic: "36"
+  - generic: "37"
+  - generic: "38"
+  - generic: "39"
+  - generic: "40"
+  - generic: "41"
+  - generic: "42"
+  - generic: "43"
+  - generic: "44"
+  - generic: "45"
+  - generic: "46"
+  - generic: "47"
+  - generic: "48"
+  - generic: "49"
+  - generic: "50"
+  - generic: "51"
+  - generic: "52"
+  - generic: "53"
+  - generic: "54"
+  - generic: "55"
+  - generic: "56"
+  - generic: "57"
+  - generic: "58"
+  - generic: "59"
+  - generic: "60"
+  - generic: "61"
+  - generic: "62"
+  - generic: "63"
+  - generic: "64"
+  - generic: "65"
+  - generic: "66"
+  - generic: "67"
+  - generic: "68"
+  - generic: "69"
+  - generic: "70"
+  - generic: "71"
+  - generic: "72"
+  - generic: "73"
+  - generic: "74"
+  - generic: "75"
+  - generic: "76"
+  - generic: "77"
+  - generic: "78"
+  - generic: "79"
+  - generic: "80"
+  - generic: "81"
+  - generic: "82"
+  - generic: "83"
+  - generic: "84"
+  - generic: "85"
+  - generic: "86"
+  - generic: "87"
+  - generic: "88"
+  - generic: "89"
+  - generic: "90"
+  - generic: "91"
+  - generic: "92"
+  - generic: "93"
+  - generic: "94"
+  - generic: "95"
+  - generic: "96"
+  - generic: "97"
+  - generic: "98"
+  - generic: "99"
+  - generic: "100"
+  - generic: "101"
+  - generic: "102"
+  - generic: "103"
+  - generic: "104"
+  - generic: "105"
+  - generic: "106"
+  - textbox:
+    - generic: <!-- Copyfy Tracking V2 marketing -->
+    - generic: "w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=[\"page\",\"track\",\"identify\",\"instances\",\"debug\",\"on\",\"off\",\"once\",\"ready\",\"alias\",\"group\",\"enableCookie\",\"disableCookie\",\"holdConsent\",\"revokeConsent\",\"grantConsent\"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for("
+    - generic: "var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r=\"https://analytics.tiktok.com/i18n/pixel/events.js\",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement(\"script\")"
+    - generic: ";n.type=\"text/javascript\",n.async=!0,n.src=r+\"?sdkid=\"+e+\"&lib=\"+t;e=document.getElementsByTagName(\"script\")[0];e.parentNode.insertBefore(n,e)};"
+    - generic: ttq.load('D93TNH3C77UDPAPRGK50');
+    - generic: ttq.page();
+    - generic: "}(window, document, 'ttq');"
+    - generic: </script>
+    - generic: <!-- TikTok Pixel Code End -->
+    - generic: <!-- Google tag (gtag.js) -->
+    - generic: <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11148156071">
+    - generic: </script>
+    - generic: <script>
+    - generic: window.dataLayer = window.dataLayer || [];
+    - generic: "function gtag(){dataLayer.push(arguments);}"
+    - generic: gtag('js', new Date());
+    - generic: gtag('config', 'AW-11148156071');
+    - generic: </script>
+    - generic: <!-- Umami analytics -->
+    - generic: <script
+    - generic: defer
+    - generic: data-website-id="66fc0be2d0c4b3d2be859ec9"
+    - generic: data-domain="copyfy.io"
+    - generic: src="https://datafa.st/js/script.js">
+    - generic: </script>
+    - generic: <!-- Snap Pixel Code -->
+    - generic: <script type='text/javascript'>
+    - generic: "(function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()"
+    - generic: "{a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};"
+    - generic: a.queue=[];var s='script';r=t.createElement(s);r.async=!0;
+    - generic: r.src=n;var u=t.getElementsByTagName(s)[0];
+    - generic: "u.parentNode.insertBefore(r,u);})(window,document,"
+    - generic: "'https://sc-static.net/scevent.min.js');"
+    - generic: "snaptr('init', 'ebade44a-c2f9-46d0-99b8-32d7125f11ab', {});"
+    - generic: snaptr('track', 'PAGE_VIEW');
+    - generic: </script>
+    - generic: <!-- End Snap Pixel Code -->
+    - generic: <!-- Ahrefs analytics -->
+    - generic: <script src="https://analytics.ahrefs.com/analytics.js" data-key="Up3Xp1R1FHXug1MGwMeLkw" async></script>
+    - generic: <!-- Microsoft Clarity -->
+    - generic: <script type="text/javascript">
+    - generic: "(function(c,l,a,r,i,t,y){"
+    - generic: "c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};"
+    - generic: t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    - generic: y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    - generic: "})(window, document, \"clarity\", \"script\", \"rbbfg9wipp\");"
+    - generic: </script>
+    - generic: <!-- Google Tag Manager -->
+    - generic: "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':"
+    - generic: "new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],"
+    - generic: j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    - generic: "'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);"
+    - generic: "})(window,document,'script','dataLayer','GTM-NHDCSRP4');</script>"
+    - generic: <!-- End Google Tag Manager -->
+    - generic: <!-- FirstPromoter -->
+    - generic: "<script>(function(w){w.fpr=w.fpr||function(){w.fpr.q = w.fpr.q||[];w.fpr.q[arguments[0]=='set'?'unshift':'push'](arguments);};})(window);"
+    - generic: "fpr(\"init\", {cid:\"gwanqtap\"});"
+    - generic: fpr("click");
+    - generic: </script>
+    - generic: <script src="https://cdn.firstpromoter.com/fpr.js" async></script>
+    - generic: <!-- Warm the connection to the first-party Mixpanel proxy before the loader runs -->
+    - generic: <link rel="preconnect" href="https://app.copyfy.io" crossorigin>
+    - generic: <!-- Mixpanel — EU Cluster, proxied via app.copyfy.io (cross-subdomain) -->
+    - generic: <script>
+    - generic: "(function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(e,f,c){function g(a,d){var"
+    - generic: "b=d.split(\".\");2==b.length&&(a=a[b[0]],d=b[1]);a[d]=function(){a.push([d].concat(Array.prototype.slice.call(arguments,0)))}}var a=b;\"undefined\"!==typeof"
+    - generic: "c?a=b[c]=[]:c=\"mixpanel\";a.people=a.people||[];a.toString=function(a){var d=\"mixpanel\";\"mixpanel\"!==c&&(d+=\".\"+c);a||(d+=\" (stub)\");return d};a.people.toString=function(){return a.toString(1)+\".people(stub)\"};i=\"disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove\".split(\" \");for(h=0;h<i.length;h++)g(a,i[h]);var j=\"set set_once union unset remove delete\".split(\" \");a.get_group=function(){function b(c){d[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));a.push([e,call2])}}for(var"
+    - generic: </script>
+  - button "Prettify":
+    - generic: Prettify
+  - checkbox "Line wrapping" [checked]
+  - generic: Line wrapping
+  - heading "Footer code" [level=4]
+  - generic: Add code at the end of the <body> tag
+  - button "Search":
+  - button "Expand editor":
+  - generic: "219"
+  - generic: "220"
+  - generic: "221"
+  - generic: "222"
+  - generic: "223"
+  - generic: "224"
+  - generic: "225"
+  - generic: "226"
+  - generic: "227"
+  - generic: "228"
+  - generic: "229"
+  - generic: "230"
+  - generic: "231"
+  - generic: "232"
+  - generic: "233"
+  - generic: "234"
+  - generic: "235"
+  - generic: "236"
+  - generic: "237"
+  - generic: "238"
+  - generic: "239"
+  - generic: "240"
+  - generic: "241"
+  - generic: "242"
+  - generic: "243"
+  - generic: "244"
+  - generic: "245"
+  - generic: "246"
+  - generic: "247"
+  - generic: "248"
+  - generic: "249"
+  - generic: "250"
+  - generic: "251"
+  - generic: "252"
+  - generic: "253"
+  - generic: "254"
+  - generic: "255"
+  - generic: "256"
+  - generic: "257"
+  - generic: "258"
+  - generic: "259"
+  - generic: "260"
+  - generic: "261"
+  - generic: "262"
+  - generic: "263"
+  - generic: "264"
+  - generic: "265"
+  - generic: "266"
+  - generic: "267"
+  - generic: "268"
+  - generic: "269"
+  - generic: "270"
+  - generic: "271"
+  - generic: "272"
+  - generic: "273"
+  - generic: "274"
+  - generic: "275"
+  - generic: "276"
+  - generic: "277"
+  - generic: "278"
+  - generic: "279"
+  - generic: "280"
+  - generic: "281"
+  - generic: "282"
+  - generic: "283"
+  - generic: "284"
+  - generic: "285"
+  - generic: "286"
+  - generic: "287"
+  - generic: "288"
+  - generic: "289"
+  - textbox [active]:
+    - generic: <!-- Google Tag Manager (noscript) -->
+    - generic: var description = meta('meta[name="description"]') || meta('meta[property="og:description"]');
+    - generic: var image = meta('meta[property="og:image"]');
+    - generic: var language = document.documentElement.lang || locale;
+    - generic: var logo = 'https://cdn.prod.website-files.com/66bf717325c1db31e2aded00/68c30b4a9127a29885405a96_logo_white_in_blue_box.svg';
+    - generic: "var organization = {"
+    - generic: "'@type': 'Organization',"
+    - generic: "'@id': 'https://www.copyfy.io/#organization',"
+    - generic: "name: 'Copyfy',"
+    - generic: "url: 'https://www.copyfy.io/',"
+    - generic: "logo: { '@type': 'ImageObject', url: logo }"
+    - generic: "};"
+    - generic: var editorialMatch = route.match(/^\/(blog|alternatives|copyfy-vs)\/([^/]+)$/);
+    - generic: "if (editorialMatch) {"
+    - generic: "var dates = (window.__copyfyEditorialDates || {})[locale + '/' + editorialMatch[1] + '/' + editorialMatch[2]] || [];"
+    - generic: "var article = {"
+    - generic: "'@context': 'https://schema.org',"
+    - generic: "'@type': editorialMatch[1] === 'blog' ? 'BlogPosting' : 'Article',"
+    - generic: "'@id': canonical + '#article',"
+    - generic: "headline: pageTitle,"
+    - generic: "mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },"
+    - generic: "inLanguage: language,"
+    - generic: "author: {"
+    - generic: "'@type': 'Person',"
+    - generic: "'@id': 'https://www.buildwiththomas.com/#person',"
+    - generic: "name: 'Thomas Salic',"
+    - generic: "url: 'https://www.buildwiththomas.com/',"
+    - generic: "image: 'https://cdn.prod.website-files.com/67dd3c04f88f95cc9ef2f392/69d948e43e08631317fa5453_546512664_18280967017277839_908400875743488148_n.jpg',"
+    - generic: "jobTitle: 'Co-founder of Copyfy',"
+    - generic: "worksFor: { '@id': 'https://www.copyfy.io/#organization' },"
+    - generic: "sameAs: ["
+    - generic: "'https://www.linkedin.com/in/thomas-salic/',"
+    - generic: "'https://x.com/tom_builders',"
+    - generic: "'https://www.youtube.com/@thomas.builders'"
+    - generic: "]"
+    - generic: "},"
+    - generic: "publisher: organization"
+    - generic: "};"
+    - generic: if (description) article.description = description;
+    - generic: if (image) article.image = [image];
+    - generic: if (dates[0]) article.datePublished = dates[0];
+    - generic: if (dates[1]) article.dateModified = dates[1];
+    - generic: addSchema('copyfy-jsonld-editorial', article);
+    - generic: "}"
+    - generic: var toolMatch = route.match(/^\/(tools|free-tools)\/([^/]+)$/);
+    - generic: "if (toolMatch && !alreadyHasSpecificApplication(canonical)) {"
+    - generic: "var tool = {"
+    - generic: "'@context': 'https://schema.org',"
+    - generic: "'@type': ['SoftwareApplication', 'WebApplication'],"
+    - generic: "'@id': canonical + '#software',"
+    - generic: "name: pageTitle,"
+    - generic: "url: canonical,"
+    - generic: "operatingSystem: 'Web',"
+    - generic: "applicationCategory: 'UtilitiesApplication',"
+    - generic: "isAccessibleForFree: true,"
+    - generic: "offers: {"
+    - generic: "'@type': 'Offer',"
+    - generic: "price: '0',"
+    - generic: "priceCurrency: 'EUR',"
+    - generic: "availability: 'https://schema.org/InStock'"
+    - generic: "},"
+    - generic: "publisher: organization"
+    - generic: "};"
+    - generic: if (description) tool.description = description;
+    - generic: if (image) tool.image = image;
+    - generic: addSchema('copyfy-jsonld-tool', tool);
+    - generic: "}"
+    - generic: var isHub = /^(\/blog|\/alternatives|\/copyfy-vs|\/tools)$/.test(route);
+    - generic: var isCategory = /^\/category\/[^/]+$/.test(route);
+  - button "Prettify":
+    - generic: Prettify
+  - checkbox "Line wrapping" [checked]
+  - generic: Line wrapping
+  - heading "Advanced settings" [level=2]
+  - button "Save" [disabled]:
+    - generic: Save
+  - generic: "Base tag: (href=)"
+  - 'textbox "Base tag: (href=)"':
+    - /placeholder: http://example.com
+  - text: The HTML base tag (<base>) specifies the base URL to use for all relative URLs contained within a document.
+  - text: "Note: This is an advanced feature that can cause site issues if you're doing something unsupported by Webflow’s hosting. Use at your own risk."
+  - link "Learn more":
+    - /url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  - generic: Href prefix
+  - textbox "Href prefix":
+    - /placeholder: /blog
+  - text: Set a prefix for internal page links. This won’t affect external, mail or phone links, or links that get their value from the link, email, or phone fields.
+  - link "Learn more":
+    - /url: https://help.webflow.com/hc/en-us/articles/33961409744019-Href-prefix
+- region "Notifications Alt+T"

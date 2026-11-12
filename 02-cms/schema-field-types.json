@@ -1,0 +1,927 @@
+{
+  "Alternatives": {
+    "fields": [
+      {
+        "name": "Name",
+        "webflow_type": "Plain text",
+        "required": true
+      },
+      {
+        "name": "Slug",
+        "webflow_type": "Plain text",
+        "required": true
+      },
+      {
+        "name": "H1",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Main image",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Introduction",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Article",
+        "webflow_type": "Rich text"
+      },
+      {
+        "name": "Meta Title",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Meta Description",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Author",
+        "webflow_type": "Reference"
+      }
+    ],
+    "collection_id": "680fabf6920f2e7fd3e42706",
+    "raw_ui_schema": "02-cms/schemas/Alternatives.txt"
+  },
+  "FAQs": {
+    "fields": [
+      {
+        "name": "Question",
+        "webflow_type": "Plain text",
+        "required": true
+      },
+      {
+        "name": "Slug",
+        "webflow_type": "Plain text",
+        "required": true
+      },
+      {
+        "name": "Réponse",
+        "webflow_type": "Rich text"
+      },
+      {
+        "name": "\"Apparait sur la feature :\"",
+        "webflow_type": "Multi-reference"
+      },
+      {
+        "name": "Apparait dans page Pricing ?",
+        "webflow_type": "Switch"
+      },
+      {
+        "name": "LP1",
+        "webflow_type": "Switch"
+      },
+      {
+        "name": "LP2",
+        "webflow_type": "Switch"
+      }
+    ],
+    "collection_id": "6900b2cac151cdb75c5371a2",
+    "raw_ui_schema": "02-cms/schemas/FAQs.txt"
+  },
+  "Features": {
+    "fields": [
+      {
+        "name": "Name",
+        "webflow_type": "Plain text",
+        "required": true
+      },
+      {
+        "name": "Slug",
+        "webflow_type": "Plain text",
+        "required": true
+      },
+      {
+        "name": "Hero - Label",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Hero - Title",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Hero - Description",
+        "webflow_type": "Rich text"
+      },
+      {
+        "name": "Hero - Button Text",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Hero - Image",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Use case - Title",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Use case - Description",
+        "webflow_type": "Rich text"
+      },
+      {
+        "name": "Card 1 - Title - Use Case",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 1 - Description - Use Case",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 1 - Image - Use Case",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Card 2 - Title - Use Case",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 2 - Description - Use Case",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 2 - Image - Use Case",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Card 3 - Title - Use Case",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 3 - Description - Use Case",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 3 - Image - Use Case",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Card 4 - Title - Use Case",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 4 - Description - Use Case",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 4 - Image - Use Case",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Card 5 - Title - Use Case",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 5 - Description - Use Case",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 5 - Image - Use Case",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Card 6 - Title - Use Case",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 6 - Description - Use Case",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 6 - Image - Use Case",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Feature - Title",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Feature - Description",
+        "webflow_type": "Rich text"
+      },
+      {
+        "name": "Card 1 - Title - Feature",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 1 - Description - Feature",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 1 - Image - Feature",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Card 2 - Title - Feature",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 2 - Description - Feature",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 2 - Image - Feature",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Card 3 - Title - Feature",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 3 - Description - Feature",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 3 - Image - Feature",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Card 4 - Title - Feature",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 4 - Description - Feature",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 4 - Image - Feature",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Card 5 - Title - Feature",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 5 - Description - Feature",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 5 - Image - Feature",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Card 6 - Title - Feature",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 6 - Description - Feature",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 6 - Image - Feature",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Meta Description",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Meta Title",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Link icon",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Link description",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Tracking & Creation",
+        "webflow_type": "Switch"
+      }
+    ],
+    "collection_id": "6900c734482afef468f5b0cd",
+    "raw_ui_schema": "02-cms/schemas/Features.txt"
+  },
+  "Demo shops": {
+    "fields": [
+      {
+        "name": "Name",
+        "webflow_type": "Plain text",
+        "required": true
+      },
+      {
+        "name": "Slug",
+        "webflow_type": "Plain text",
+        "required": true
+      },
+      {
+        "name": "Image",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Lien",
+        "webflow_type": "Link"
+      }
+    ],
+    "collection_id": "69024923173d4ce1bb6a79f7",
+    "raw_ui_schema": "02-cms/schemas/Demo shops.txt"
+  },
+  "Features Copies": {
+    "fields": [
+      {
+        "name": "Name",
+        "webflow_type": "Plain text",
+        "required": true
+      },
+      {
+        "name": "Slug",
+        "webflow_type": "Plain text",
+        "required": true
+      },
+      {
+        "name": "Hero - Label",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Hero - Title",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Hero - Description",
+        "webflow_type": "Rich text"
+      },
+      {
+        "name": "Hero - Button Text",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Hero - Image",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Use case - Title",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Use case - Description",
+        "webflow_type": "Rich text"
+      },
+      {
+        "name": "Card 1 - Title - Use Case",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 1 - Description - Use Case",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 1 - Image - Use Case",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Card 2 - Title - Use Case",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 2 - Description - Use Case",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 2 - Image - Use Case",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Card 3 - Title - Use Case",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 3 - Description - Use Case",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 3 - Image - Use Case",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Card 4 - Title - Use Case",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 4 - Description - Use Case",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 4 - Image - Use Case",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Card 5 - Title - Use Case",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 5 - Description - Use Case",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 5 - Image - Use Case",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Card 6 - Title - Use Case",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 6 - Description - Use Case",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 6 - Image - Use Case",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Feature - Title",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Feature - Description",
+        "webflow_type": "Rich text"
+      },
+      {
+        "name": "Card 1 - Title - Feature",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 1 - Description - Feature",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 1 - Image - Feature",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Card 2 - Title - Feature",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 2 - Description - Feature",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 2 - Image - Feature",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Card 3 - Title - Feature",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 3 - Description - Feature",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 3 - Image - Feature",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Card 4 - Title - Feature",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 4 - Description - Feature",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 4 - Image - Feature",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Card 5 - Title - Feature",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 5 - Description - Feature",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 5 - Image - Feature",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Card 6 - Title - Feature",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 6 - Description - Feature",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Card 6 - Image - Feature",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Meta Description",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Meta Title",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Link icon",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Link description",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Tracking & Creation",
+        "webflow_type": "Switch"
+      },
+      {
+        "name": "FAQs",
+        "webflow_type": "Multi-reference"
+      }
+    ],
+    "collection_id": "6a27b03c569e1d04fcab0a68",
+    "raw_ui_schema": "02-cms/schemas/Features Copies.txt"
+  },
+  "Copyfy Vs": {
+    "fields": [
+      {
+        "name": "Name",
+        "webflow_type": "Plain text",
+        "required": true
+      },
+      {
+        "name": "Slug",
+        "webflow_type": "Plain text",
+        "required": true
+      },
+      {
+        "name": "H1",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Main image",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Introduction",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Article",
+        "webflow_type": "Rich text"
+      },
+      {
+        "name": "Meta Title",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Meta Description",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Author",
+        "webflow_type": "Reference"
+      }
+    ],
+    "collection_id": "689f9f1d6a662595cf5d989c",
+    "raw_ui_schema": "02-cms/schemas/Copyfy Vs.txt"
+  },
+  "Careers": {
+    "fields": [
+      {
+        "name": "Job Title",
+        "webflow_type": "Plain text",
+        "required": true
+      },
+      {
+        "name": "Slug",
+        "webflow_type": "Plain text",
+        "required": true
+      },
+      {
+        "name": "Employment Type",
+        "webflow_type": "Option"
+      },
+      {
+        "name": "Work Mode",
+        "webflow_type": "Option"
+      },
+      {
+        "name": "Job Description",
+        "webflow_type": "Rich text"
+      },
+      {
+        "name": "Link Apply Now",
+        "webflow_type": "Link"
+      }
+    ],
+    "collection_id": "6915e91ae03933aaa9d7a46c",
+    "raw_ui_schema": "02-cms/schemas/Careers.txt"
+  },
+  "Free Tool Lists": {
+    "fields": [
+      {
+        "name": "Free Tool Title",
+        "webflow_type": "Plain text",
+        "required": true
+      },
+      {
+        "name": "Slug",
+        "webflow_type": "Plain text",
+        "required": true
+      },
+      {
+        "name": "Free tool text",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Free tool Image",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Free tool link",
+        "webflow_type": "Link"
+      }
+    ],
+    "collection_id": "69c8da4fc730e056251f36e4",
+    "raw_ui_schema": "02-cms/schemas/Free Tool Lists.txt"
+  },
+  "Categories": {
+    "fields": [
+      {
+        "name": "Name",
+        "webflow_type": "Plain text",
+        "required": true
+      },
+      {
+        "name": "Slug",
+        "webflow_type": "Plain text",
+        "required": true
+      },
+      {
+        "name": "H1",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Description",
+        "webflow_type": "Rich text"
+      },
+      {
+        "name": "Image",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Rich Text",
+        "webflow_type": "Rich text"
+      },
+      {
+        "name": "Meta Title",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Meta Description",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Author",
+        "webflow_type": "Reference"
+      }
+    ],
+    "collection_id": "680769a324a79394e4afd7fd",
+    "raw_ui_schema": "02-cms/schemas/Categories.txt"
+  },
+  "Blogs": {
+    "fields": [
+      {
+        "name": "Name",
+        "webflow_type": "Plain text",
+        "required": true
+      },
+      {
+        "name": "Slug",
+        "webflow_type": "Plain text",
+        "required": true
+      },
+      {
+        "name": "Main image",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Featured Image (ratio = 1.19:1)",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Category",
+        "webflow_type": "Reference"
+      },
+      {
+        "name": "Time to read",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Introduction",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Article",
+        "webflow_type": "Rich text"
+      },
+      {
+        "name": "Meta Title",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Meta Description",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Tags",
+        "webflow_type": "Multi-reference"
+      },
+      {
+        "name": "Authors",
+        "webflow_type": "Reference"
+      },
+      {
+        "name": "Featured",
+        "webflow_type": "Switch"
+      },
+      {
+        "name": "Contenu mis à jour le",
+        "webflow_type": "Date/Time"
+      },
+      {
+        "name": "TLDR",
+        "webflow_type": "Rich text"
+      }
+    ],
+    "collection_id": "68076bcbd6012564f093c5a6",
+    "raw_ui_schema": "02-cms/schemas/Blogs.txt"
+  },
+  "Authors": {
+    "fields": [
+      {
+        "name": "Name",
+        "webflow_type": "Plain text",
+        "required": true
+      },
+      {
+        "name": "Slug",
+        "webflow_type": "Plain text",
+        "required": true
+      },
+      {
+        "name": "Picture",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Role",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Description",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Twitter Profile Link",
+        "webflow_type": "Link"
+      },
+      {
+        "name": "Website",
+        "webflow_type": "Link"
+      },
+      {
+        "name": "Telegram",
+        "webflow_type": "Link"
+      },
+      {
+        "name": "Youtube",
+        "webflow_type": "Link"
+      },
+      {
+        "name": "Linkedin",
+        "webflow_type": "Link"
+      }
+    ],
+    "collection_id": "68eecd77c62d5aa47ba8ecb1",
+    "raw_ui_schema": "02-cms/schemas/Authors.txt"
+  },
+  "Tags": {
+    "fields": [
+      {
+        "name": "Name",
+        "webflow_type": "Plain text",
+        "required": true
+      },
+      {
+        "name": "Slug",
+        "webflow_type": "Plain text",
+        "required": true
+      }
+    ],
+    "collection_id": "68eed2109d590febd2cab360",
+    "raw_ui_schema": "02-cms/schemas/Tags.txt"
+  },
+  "FreeTools": {
+    "fields": [
+      {
+        "name": "Hero Heading",
+        "webflow_type": "Plain text",
+        "required": true
+      },
+      {
+        "name": "Slug",
+        "webflow_type": "Plain text",
+        "required": true
+      },
+      {
+        "name": "Thumbnail image",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Hero Subheading Text",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Hero Button Label",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Hero Button Link",
+        "webflow_type": "Link"
+      },
+      {
+        "name": "Embed Link",
+        "webflow_type": "Link",
+        "required": true
+      },
+      {
+        "name": "Features Block Heading",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Features Block Subheading",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Feature CTA Button Link",
+        "webflow_type": "Link"
+      },
+      {
+        "name": "Tool Feature Section Paragraph",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Feature Tilte 1",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Feature card Rich Text 1",
+        "webflow_type": "Rich text"
+      },
+      {
+        "name": "Image Feature 1",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Feature card Rich Text 2",
+        "webflow_type": "Rich text"
+      },
+      {
+        "name": "Feature heading 2",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Image Feature 2",
+        "webflow_type": "Image"
+      },
+      {
+        "name": "Rich text area",
+        "webflow_type": "Rich text"
+      },
+      {
+        "name": "Faq",
+        "webflow_type": "Multi-reference"
+      },
+      {
+        "name": "Other tools-section tile",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Free Tool List",
+        "webflow_type": "Multi-reference"
+      },
+      {
+        "name": "Embed Height",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Meta title",
+        "webflow_type": "Plain text"
+      },
+      {
+        "name": "Meta description",
+        "webflow_type": "Plain text"
+      }
+    ],
+    "collection_id": "69c8d6845eaf20274bcfe3a3",
+    "raw_ui_schema": "02-cms/schemas/FreeTools.txt"
+  }
+}
